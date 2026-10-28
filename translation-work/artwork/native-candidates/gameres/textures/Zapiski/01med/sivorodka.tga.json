@@ -1,0 +1,25 @@
+{
+  "accepted_for_build": true,
+  "artwork_reviewed": true,
+  "candidate": "translation-work/artwork/candidates/sivorodka-v1.png",
+  "candidate_sha256": "c027edd123e7bc5e05aac03e8df097d9ef8538eade6993d3e5bda3d4d09d8d3e",
+  "native_verification": {
+    "alpha": "byte-identical",
+    "height": 512,
+    "type": 2,
+    "width": 512
+  },
+  "output": "translation-work/artwork/native-candidates/gameres/textures/Zapiski/01med/sivorodka.tga",
+  "output_sha256": "9bbf6bf93e8af27f1629c20475c2bae445f3aa7ba2713f1f7d78b9ffaa2aebad",
+  "remaining": "Toolkit integration and user runtime test pending; native artwork has been visually reviewed.",
+  "schema": 1,
+  "source_file": "gameres/textures/Zapiski/01med/sivorodka.tga",
+  "source_sha256": "10b6afc652e48621dbfdd9a8e887e73313b68339f784f83c6e151b1366535789",
+  "review": {
+    "method": "Visual comparison of native-size output to original and canonical Portuguese text",
+    "text": "All words, diacritics, names and punctuation checked",
+    "style": "Thin or heavy handwriting matched to each original; paper, folds and stains visually retained",
+    "native": "Original dimensions, alpha bytes, header and footer verified",
+    "runtime": "pending user test"
+  }
+}

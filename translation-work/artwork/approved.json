@@ -1,0 +1,155 @@
+{
+  "assets": {
+    "gameres/textures/Zapiski/01med/masha.tga": {
+      "file": "translation-work/artwork/approved/gameres/textures/Zapiski/01med/masha.tga",
+      "review": {
+        "geometry": "Dimensions, original alpha, header and footer verified by native codec",
+        "method": "Visual inspection of native-size image against original and canonical Portuguese text",
+        "runtime": "pending user test",
+        "style": "Handwriting, paper texture, stains and folds visually consistent",
+        "text": "Exact wording and accents checked"
+      },
+      "sha256": "0175930cb62f44257a8a01c16c607bceaee9fb0492105b9db2bb20c17c195fd7",
+      "source_sha256": "a6bd3fb2e265133c2a1733c7e5c8559ce9c0f8013ddf3347ca0e844c785a11aa",
+      "translations": {
+        "gameres/textures/Zapiski/01med/masha.tga#letter": "af13f616611b5cdcb32fdb00253724e3226dacb022fd21018ed1fbd50ce3b78d"
+      }
+    },
+    "gameres/textures/Zapiski/01med/mashina.tga": {
+      "file": "translation-work/artwork/approved/gameres/textures/Zapiski/01med/mashina.tga",
+      "review": {
+        "geometry": "Dimensions, original alpha, header and footer verified by native codec",
+        "method": "Visual inspection of native-size image against original and canonical Portuguese text",
+        "runtime": "pending user test",
+        "style": "Handwriting, paper texture, stains and folds visually consistent",
+        "text": "Exact wording and accents checked"
+      },
+      "sha256": "75ec6ff7b1d8c85aa6fc72e68a87d2ed20eb5e99e324fbf3c5d4294267c65ca8",
+      "source_sha256": "73b3342131967e43dab75677976cea64f9886af4ff62666c9bc044df8c6dcc5f",
+      "translations": {
+        "gameres/textures/Zapiski/01med/mashina.tga#letter": "24a2bc72ccc68771860c1d02fec1cbfcb77dd0fd18b7d25a894fefbfc4b4d9f3"
+      }
+    },
+    "gameres/textures/Zapiski/01med/sivorodka.tga": {
+      "file": "translation-work/artwork/approved/gameres/textures/Zapiski/01med/sivorodka.tga",
+      "review": {
+        "method": "Visual comparison of native-size output to original and canonical Portuguese text",
+        "native": "Original dimensions, alpha bytes, header and footer verified",
+        "runtime": "pending user test",
+        "style": "Thin or heavy handwriting matched to each original; paper, folds and stains visually retained",
+        "text": "All words, diacritics, names and punctuation checked"
+      },
+      "sha256": "9bbf6bf93e8af27f1629c20475c2bae445f3aa7ba2713f1f7d78b9ffaa2aebad",
+      "source_sha256": "10b6afc652e48621dbfdd9a8e887e73313b68339f784f83c6e151b1366535789",
+      "translations": {
+        "gameres/textures/Zapiski/01med/sivorodka.tga#letter": "97632c939410b3ca640ace07603a749554bc493c3d9e52b45dcd9bd4762f248e"
+      }
+    },
+    "gameres/textures/Zapiski/02kolhoz/gorod.tga": {
+      "file": "translation-work/artwork/approved/gameres/textures/Zapiski/02kolhoz/gorod.tga",
+      "review": {
+        "method": "Manual visual inspection at native dimensions against original and reviewed Portuguese text",
+        "native": "Original dimensions, alpha bytes, TGA header and footer verified",
+        "runtime": "pending user test",
+        "style": "Original handwriting and paper/stains/folds visually retained",
+        "text": "All wording, accents and punctuation checked"
+      },
+      "sha256": "111f0b038df2c6b13680e50c1eccb595ef2aa1ce55e25e60945ce5dcd5f26cbc",
+      "source_sha256": "f47927780537b18b5f5816e7d2ba8ac3f8e91767997b9d5de7700782e71c6e15",
+      "translations": {
+        "gameres/textures/Zapiski/02kolhoz/gorod.tga#letter": "19e3a75dc9d530f13ce4b8df9549d1cfcd27f47835623198ae655fcd5fbca3a5"
+      }
+    },
+    "gameres/textures/Zapiski/02kolhoz/kuriWarn.tga": {
+      "file": "translation-work/artwork/approved/gameres/textures/Zapiski/02kolhoz/kuriWarn.tga",
+      "review": {
+        "method": "Manual visual inspection at native dimensions against original and reviewed Portuguese text",
+        "native": "Original dimensions, alpha bytes, TGA header and footer verified",
+        "runtime": "pending user test",
+        "style": "Original handwriting and paper/stains/folds visually retained",
+        "text": "All wording, accents and punctuation checked"
+      },
+      "sha256": "0f75a39679bf35397a92f7140cd4e683895d00fb154ff9d0a965fd0ad210a119",
+      "source_sha256": "84a7aa0be131f0f7cf9cae0e956505a1eab94d4d2dd45e45ed886e9a1cb16440",
+      "translations": {
+        "gameres/textures/Zapiski/02kolhoz/kuriWarn.tga#letter": "3f3f53e9e42da604e993693d5997e904d0e37cf14865b16f4b94e02630819d94"
+      }
+    },
+    "gameres/textures/Zapiski/03MEAT/eshelon.tga": {
+      "file": "translation-work/artwork/approved/gameres/textures/Zapiski/03MEAT/eshelon.tga",
+      "review": {
+        "method": "Manual visual inspection at native dimensions against original and reviewed Portuguese text",
+        "native": "Original dimensions, alpha bytes, TGA header and footer verified",
+        "runtime": "pending user test",
+        "style": "Original handwriting and paper/stains/folds visually retained",
+        "text": "All wording, accents and punctuation checked"
+      },
+      "sha256": "f67e4fd8470e8ca49e5245e7179b84cec3800326a7ca58aa629fd5cd4630b10d",
+      "source_sha256": "28023296c8a24cc6475578d53abc247c6fd64cd49bcbe3fbc22f79900582e389",
+      "translations": {
+        "gameres/textures/Zapiski/03MEAT/eshelon.tga#letter": "02035760c3e7458822d5bf407c18213d177a0b38d39fcaf7a351d054492083b5"
+      }
+    },
+    "gameres/textures/Zapiski/03MEAT/probi.tga": {
+      "file": "translation-work/artwork/approved/gameres/textures/Zapiski/03MEAT/probi.tga",
+      "review": {
+        "method": "Visual comparison of native-size output to original and canonical Portuguese text",
+        "native": "Original dimensions, alpha bytes, header and footer verified",
+        "runtime": "pending user test",
+        "style": "Thin or heavy handwriting matched to each original; paper, folds and stains visually retained",
+        "text": "All words, diacritics, names and punctuation checked"
+      },
+      "sha256": "750f8a9ea504df3a7e01e6d200dc829c7dc57a9b6ed31ff80caffab5bab99e98",
+      "source_sha256": "42d2a7f203e52164c2c67860be108c7d696785e2fccf73d5188f30dd4011c46e",
+      "translations": {
+        "gameres/textures/Zapiski/03MEAT/probi.tga#letter": "d3bc5a95140538d0dd5e6a1c0a24c4b0563cb1df57fd49c54a6d252055faf3a8"
+      }
+    },
+    "gameres/textures/Zapiski/03MEAT/vladimir.tga": {
+      "file": "translation-work/artwork/approved/gameres/textures/Zapiski/03MEAT/vladimir.tga",
+      "review": {
+        "method": "Visual comparison of native-size output to original and canonical Portuguese text",
+        "native": "Original dimensions, alpha bytes, header and footer verified",
+        "runtime": "pending user test",
+        "style": "Thin or heavy handwriting matched to each original; paper, folds and stains visually retained",
+        "text": "All words, diacritics, names and punctuation checked"
+      },
+      "sha256": "3f5daf48434fb3c634f547db41ff345fbf779c5ca7ad1f477d4ba6338bf03be2",
+      "source_sha256": "7778daf255affb9e4ec686c65be0ed2169ea5d370ab8dc819fc9081863f3fcfe",
+      "translations": {
+        "gameres/textures/Zapiski/03MEAT/vladimir.tga#letter": "616472229cec5c3234b7d79d50cf59f1e62b124ad60632e66d1c7e3e90a45c5e"
+      }
+    },
+    "gameres/textures/Zapiski/08POH/dvornik.tga": {
+      "file": "translation-work/artwork/approved/gameres/textures/Zapiski/08POH/dvornik.tga",
+      "review": {
+        "geometry": "Dimensions, original alpha, header and footer verified by native codec",
+        "method": "Visual inspection of native-size image against original and canonical Portuguese text",
+        "runtime": "pending user test",
+        "style": "Handwriting, paper texture, stains and folds visually consistent",
+        "text": "Exact wording and accents checked"
+      },
+      "sha256": "9742f9ef394a9a04fe5573fba4d4176f2e9c7c6a07ebd678b49716ecf36ec2bf",
+      "source_sha256": "41cc57f21465339c5545514423eb224866e77b3eaf67364b96cd6a41ccb59a30",
+      "translations": {
+        "gameres/textures/Zapiski/08POH/dvornik.tga#letter": "0b4b553e72b36db0011da098071346bfcb0486d12dfc5ad7f311c742a064c4f0"
+      }
+    },
+    "gameres/textures/Zapiski/09Kinostreet/kinoKey.tga": {
+      "file": "translation-work/artwork/approved/gameres/textures/Zapiski/09Kinostreet/kinoKey.tga",
+      "review": {
+        "geometry": "Dimensions, original alpha, header and footer verified by native codec",
+        "method": "Visual inspection of native-size image against original and canonical Portuguese text",
+        "runtime": "pending user test",
+        "style": "Handwriting, paper texture, stains and folds visually consistent",
+        "text": "Exact wording and accents checked"
+      },
+      "sha256": "cde812b946ab81d58d60bdf9213e3c2df9595e0ba4995c37b6c17a55ac3a7332",
+      "source_sha256": "b3e947f44730780d7af52ae90344b841efa648c0eb5a6611e1f248bbf520aecd",
+      "translations": {
+        "gameres/textures/Zapiski/09Kinostreet/kinoKey.tga#letter": "9758cdebc3372d8e70a8fd830f584eb4c992b3ad986a86ae9d0aa97af31a440a"
+      }
+    }
+  },
+  "schema": 1
+}

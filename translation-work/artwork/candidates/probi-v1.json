@@ -1,0 +1,9 @@
+{
+  "schema": 1,
+  "candidate": "translation-work/artwork/candidates/probi-v1.png",
+  "tool": "built-in image generation editor",
+  "prompt": "Use case: text-localization. Edit only the English writing on this original game note. The exact Brazilian Portuguese replacement is:\nEstá tudo de pernas para o ar por aqui\npor causa da encomenda do governo para\nconstruir uma instalação secreta.\nRecebemos novos materiais capazes de\nsuportar altas temperaturas e radiação.\nNunca havíamos trabalhado com eles,\ne os métodos de processamento não foram testados.\nO controle de qualidade é muito rigoroso.\nOs produtos prontos são imediatamente\nembalados em contêineres e transportados\nda fábrica sob escolta.\nPreserve the original heavy, thick, bold handwritten lettering, paper background, ruled lines if present, stains, folds, torn edges, alpha transparency and full flat framing. Fit every word, adjust line wrapping only, retain readable letters at native 512x512. Do not invent, paraphrase, omit or duplicate words. Keep the original text block placement and original paper color. No perspective, added frame, shadow, or new artwork. Exact native target: 512x512 RGBA.",
+  "status": "exported-to-native-and-visually-reviewed; PNG itself is not deployable",
+  "accepted_for_build": false,
+  "native_approved_file": "translation-work/artwork/approved/gameres/textures/Zapiski/03MEAT/probi.tga"
+}

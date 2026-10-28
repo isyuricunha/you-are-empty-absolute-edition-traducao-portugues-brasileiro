@@ -1,0 +1,25 @@
+{
+  "accepted_for_build": true,
+  "artwork_reviewed": true,
+  "candidate": "translation-work/artwork/candidates/eshelon-v1.png",
+  "candidate_sha256": "759e5b0a36b4787e9e13f2bd1ce57f9c9d77c0911b951d3d49a8c445f3ff167a",
+  "native_verification": {
+    "alpha": "byte-identical",
+    "height": 512,
+    "type": 2,
+    "width": 512
+  },
+  "output": "translation-work/artwork/native-candidates/gameres/textures/Zapiski/03MEAT/eshelon.tga",
+  "output_sha256": "f67e4fd8470e8ca49e5245e7179b84cec3800326a7ca58aa629fd5cd4630b10d",
+  "remaining": "Toolkit integration and user runtime test pending; native artwork has been visually reviewed.",
+  "schema": 1,
+  "source_file": "gameres/textures/Zapiski/03MEAT/eshelon.tga",
+  "source_sha256": "28023296c8a24cc6475578d53abc247c6fd64cd49bcbe3fbc22f79900582e389",
+  "review": {
+    "method": "Manual visual inspection at native dimensions against original and reviewed Portuguese text",
+    "text": "All wording, accents and punctuation checked",
+    "style": "Original handwriting and paper/stains/folds visually retained",
+    "native": "Original dimensions, alpha bytes, TGA header and footer verified",
+    "runtime": "pending user test"
+  }
+}

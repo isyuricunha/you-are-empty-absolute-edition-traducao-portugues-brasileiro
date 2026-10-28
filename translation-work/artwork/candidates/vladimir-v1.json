@@ -1,0 +1,9 @@
+{
+  "schema": 1,
+  "candidate": "translation-work/artwork/candidates/vladimir-v1.png",
+  "tool": "built-in image generation editor",
+  "prompt": "Use case: text-localization. Edit only the English writing on this original game note. The exact Brazilian Portuguese replacement is:\nVladimir ligou muito agitado\ne começou a dizer que eu devia\nlargar tudo e ir imediatamente\npara a cidade.\n\nNão entendi nada e pedi que explicasse.\nFoi então que a ligação caiu.\nPreserve the original thin black handwritten lettering, paper background, ruled lines if present, stains, folds, torn edges, alpha transparency and full flat framing. Fit every word, adjust line wrapping only, retain readable letters at native 512x512. Do not invent, paraphrase, omit or duplicate words. Keep the original text block placement and original paper color. No perspective, added frame, shadow, or new artwork. Exact native target: 512x512 RGBA.",
+  "status": "exported-to-native-and-visually-reviewed; PNG itself is not deployable",
+  "accepted_for_build": false,
+  "native_approved_file": "translation-work/artwork/approved/gameres/textures/Zapiski/03MEAT/vladimir.tga"
+}

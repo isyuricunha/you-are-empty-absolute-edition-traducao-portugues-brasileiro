@@ -1,0 +1,25 @@
+{
+  "accepted_for_build": true,
+  "artwork_reviewed": true,
+  "candidate": "translation-work/artwork/candidates/kinoKey-v1.png",
+  "candidate_sha256": "0d8e50b4e10f10ccc7f5e96a5e2c07133560ef90adbbb70c7d77742c5184c09e",
+  "native_verification": {
+    "alpha": "byte-identical",
+    "height": 512,
+    "type": 2,
+    "width": 512
+  },
+  "output": "translation-work/artwork/native-candidates/gameres/textures/Zapiski/09Kinostreet/kinoKey.tga",
+  "output_sha256": "cde812b946ab81d58d60bdf9213e3c2df9595e0ba4995c37b6c17a55ac3a7332",
+  "remaining": "Toolkit integration and user runtime test pending; native artwork has been visually reviewed.",
+  "review": {
+    "geometry": "Dimensions, original alpha, header and footer verified by native codec",
+    "method": "Visual inspection of native-size image against original and canonical Portuguese text",
+    "runtime": "pending user test",
+    "style": "Handwriting, paper texture, stains and folds visually consistent",
+    "text": "Exact wording and accents checked"
+  },
+  "schema": 1,
+  "source_file": "gameres/textures/Zapiski/09Kinostreet/kinoKey.tga",
+  "source_sha256": "b3e947f44730780d7af52ae90344b841efa648c0eb5a6611e1f248bbf520aecd"
+}

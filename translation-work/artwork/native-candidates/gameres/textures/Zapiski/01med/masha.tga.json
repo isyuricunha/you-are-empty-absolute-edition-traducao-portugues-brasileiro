@@ -1,0 +1,25 @@
+{
+  "accepted_for_build": true,
+  "artwork_reviewed": true,
+  "candidate": "translation-work/artwork/candidates/masha-v1.png",
+  "candidate_sha256": "c830411a389c32b1b96879453cc9eaee5eed5a421ebb306f3d86a13b25d2680d",
+  "native_verification": {
+    "alpha": "byte-identical",
+    "height": 512,
+    "type": 2,
+    "width": 512
+  },
+  "output": "translation-work/artwork/native-candidates/gameres/textures/Zapiski/01med/masha.tga",
+  "output_sha256": "0175930cb62f44257a8a01c16c607bceaee9fb0492105b9db2bb20c17c195fd7",
+  "remaining": "Toolkit integration and user runtime test pending; native artwork has been visually reviewed.",
+  "review": {
+    "geometry": "Dimensions, original alpha, header and footer verified by native codec",
+    "method": "Visual inspection of native-size image against original and canonical Portuguese text",
+    "runtime": "pending user test",
+    "style": "Handwriting, paper texture, stains and folds visually consistent",
+    "text": "Exact wording and accents checked"
+  },
+  "schema": 1,
+  "source_file": "gameres/textures/Zapiski/01med/masha.tga",
+  "source_sha256": "a6bd3fb2e265133c2a1733c7e5c8559ce9c0f8013ddf3347ca0e844c785a11aa"
+}

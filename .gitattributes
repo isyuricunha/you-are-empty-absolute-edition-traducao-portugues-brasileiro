@@ -8,6 +8,7 @@ EN/** -text
 PTBR/** -text
 translation-work/accepted-sources/** -text
 translation-work/reference/native/** -text
+translation-work/reference/native-assets/** -text
 *.tga -text
 *.png -text
 *.zip -text

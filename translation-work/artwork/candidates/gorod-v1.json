@@ -1,0 +1,9 @@
+{
+  "schema": 1,
+  "candidate": "translation-work/artwork/candidates/gorod-v1.png",
+  "tool": "built-in image generation editor",
+  "prompt": "Use case: text-localization. Edit target is this original 512x512 game note texture. Preserve its original paper background, stains, folds, torn-edge geometry, orientation and transparency. Change only the existing English text to this exact Portuguese wording:\nA cidade está esperando outra remessa\nde grãos...\nO trem carregado precisa partir\ndepois de amanhã. Temos que fazer\nhora extra. E esta já é a terceira\nremessa extra! Todo mundo está tão\ncansado que mal consegue ficar de pé.\n...não faço ideia de por que a cidade\nestá estocando tanta coisa. Parece\nque estão se preparando para uma guerra...\nRetain the same handwriting style (thin cursive or upright handwritten, as appropriate to the original), dark ink, original framing, and similar text block placement. Fit all words with sensible wrapping; do not omit, paraphrase, duplicate or add any words. Keep the full paper shape and existing non-text details unchanged. Flat texture, no perspective or shadow, no new border. Output target 512x512 RGBA. Do not alter paper colors or move stains.",
+  "status": "exported-to-native-and-visually-reviewed; PNG itself is not deployable",
+  "accepted_for_build": false,
+  "native_approved_file": "translation-work/artwork/approved/gameres/textures/Zapiski/02kolhoz/gorod.tga"
+}

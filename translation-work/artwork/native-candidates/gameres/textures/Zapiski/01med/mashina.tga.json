@@ -1,0 +1,25 @@
+{
+  "accepted_for_build": true,
+  "artwork_reviewed": true,
+  "candidate": "translation-work/artwork/candidates/mashina-v1.png",
+  "candidate_sha256": "f53fc729d8af3c50478d005b9aa7df6a2c11f67e90ea6aea804de497f1101495",
+  "native_verification": {
+    "alpha": "byte-identical",
+    "height": 512,
+    "type": 2,
+    "width": 512
+  },
+  "output": "translation-work/artwork/native-candidates/gameres/textures/Zapiski/01med/mashina.tga",
+  "output_sha256": "75ec6ff7b1d8c85aa6fc72e68a87d2ed20eb5e99e324fbf3c5d4294267c65ca8",
+  "remaining": "Toolkit integration and user runtime test pending; native artwork has been visually reviewed.",
+  "review": {
+    "geometry": "Dimensions, original alpha, header and footer verified by native codec",
+    "method": "Visual inspection of native-size image against original and canonical Portuguese text",
+    "runtime": "pending user test",
+    "style": "Handwriting, paper texture, stains and folds visually consistent",
+    "text": "Exact wording and accents checked"
+  },
+  "schema": 1,
+  "source_file": "gameres/textures/Zapiski/01med/mashina.tga",
+  "source_sha256": "73b3342131967e43dab75677976cea64f9886af4ff62666c9bc044df8c6dcc5f"
+}

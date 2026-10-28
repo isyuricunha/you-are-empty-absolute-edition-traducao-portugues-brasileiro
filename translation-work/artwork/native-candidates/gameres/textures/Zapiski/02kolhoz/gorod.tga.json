@@ -1,0 +1,25 @@
+{
+  "accepted_for_build": true,
+  "artwork_reviewed": true,
+  "candidate": "translation-work/artwork/candidates/gorod-v1.png",
+  "candidate_sha256": "6b745e98dac4dd51012621a517da6a848839660983446a20ceae0d72d8d4378c",
+  "native_verification": {
+    "alpha": "byte-identical",
+    "height": 512,
+    "type": 2,
+    "width": 512
+  },
+  "output": "translation-work/artwork/native-candidates/gameres/textures/Zapiski/02kolhoz/gorod.tga",
+  "output_sha256": "111f0b038df2c6b13680e50c1eccb595ef2aa1ce55e25e60945ce5dcd5f26cbc",
+  "remaining": "Toolkit integration and user runtime test pending; native artwork has been visually reviewed.",
+  "schema": 1,
+  "source_file": "gameres/textures/Zapiski/02kolhoz/gorod.tga",
+  "source_sha256": "f47927780537b18b5f5816e7d2ba8ac3f8e91767997b9d5de7700782e71c6e15",
+  "review": {
+    "method": "Manual visual inspection at native dimensions against original and reviewed Portuguese text",
+    "text": "All wording, accents and punctuation checked",
+    "style": "Original handwriting and paper/stains/folds visually retained",
+    "native": "Original dimensions, alpha bytes, TGA header and footer verified",
+    "runtime": "pending user test"
+  }
+}

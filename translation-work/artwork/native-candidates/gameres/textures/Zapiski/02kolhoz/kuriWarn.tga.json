@@ -1,0 +1,25 @@
+{
+  "accepted_for_build": true,
+  "artwork_reviewed": true,
+  "candidate": "translation-work/artwork/candidates/kuriWarn-v1.png",
+  "candidate_sha256": "4e23a813d4969635fec34245b0beeff61500496919e46d2417f67e0522b67e60",
+  "native_verification": {
+    "alpha": "byte-identical",
+    "height": 512,
+    "type": 2,
+    "width": 512
+  },
+  "output": "translation-work/artwork/native-candidates/gameres/textures/Zapiski/02kolhoz/kuriWarn.tga",
+  "output_sha256": "0f75a39679bf35397a92f7140cd4e683895d00fb154ff9d0a965fd0ad210a119",
+  "remaining": "Toolkit integration and user runtime test pending; native artwork has been visually reviewed.",
+  "schema": 1,
+  "source_file": "gameres/textures/Zapiski/02kolhoz/kuriWarn.tga",
+  "source_sha256": "84a7aa0be131f0f7cf9cae0e956505a1eab94d4d2dd45e45ed886e9a1cb16440",
+  "review": {
+    "method": "Manual visual inspection at native dimensions against original and reviewed Portuguese text",
+    "text": "All wording, accents and punctuation checked",
+    "style": "Original handwriting and paper/stains/folds visually retained",
+    "native": "Original dimensions, alpha bytes, TGA header and footer verified",
+    "runtime": "pending user test"
+  }
+}

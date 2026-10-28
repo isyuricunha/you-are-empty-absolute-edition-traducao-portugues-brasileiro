@@ -1,0 +1,19 @@
+{
+  "schema": 1,
+  "goal_status": "active; not complete",
+  "discovered_resources": 7412,
+  "image_candidates_not_coverage": 2633,
+  "preserved_original_candidates": 69,
+  "English_map_labels_translated_not_integrated": 24,
+  "notes_transcribed_and_translated": 8,
+  "notes_still_to_transcribe": 21,
+  "artwork_candidates_not_approved": 1,
+  "installation_candidate_and_binary_hashes_unchanged": true,
+  "tests": [
+    "audit fixture passed",
+    "doctor passed",
+    "existing output still verifies",
+    "git diff --check passed"
+  ],
+  "remaining": "See docs/expansao-conteudo.md; full original goal is preserved."
+}

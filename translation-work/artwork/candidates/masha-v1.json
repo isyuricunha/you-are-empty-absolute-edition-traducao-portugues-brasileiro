@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "id": "gameres/textures/Zapiski/01med/masha.tga#letter",
+  "source_sha256": "a6bd3fb2e265133c2a1733c7e5c8559ce9c0f8013ddf3347ca0e844c785a11aa",
+  "candidate": "translation-work/artwork/candidates/masha-v1.png",
+  "candidate_sha256": "c830411a389c32b1b96879453cc9eaee5eed5a421ebb306f3d86a13b25d2680d",
+  "tool": "built-in image generation editor",
+  "prompt": "Use case: text-localization, precise production game texture edit. Edit target: the attached 512x512 RGBA original game note texture. Replace ONLY the English handwritten message by the exact Brazilian Portuguese below, preserving the same thin dark handwritten style, paper shape, stains, age, edge geometry, white/beige paper color, signature and name. Exact output text, line breaks:\nMasha,\n\nAs chaves da porta\nestão lá embaixo.\nFale com o zelador.\n\nVilen\nKeep Masha and Vilen handwritten exactly as names. No extra words. Keep the source background and worn green stains in the same places. Preserve the source's edge transparency and canvas dimensions 512x512, full flat texture, no perspective, no added border, no shadow or mockup. Output must be a usable same-framing game texture.",
+  "status": "exported-to-native-and-visually-reviewed; PNG itself is not deployable",
+  "accepted_for_build": false,
+  "native_approved_file": "translation-work/artwork/approved/gameres/textures/Zapiski/01med/masha.tga"
+}

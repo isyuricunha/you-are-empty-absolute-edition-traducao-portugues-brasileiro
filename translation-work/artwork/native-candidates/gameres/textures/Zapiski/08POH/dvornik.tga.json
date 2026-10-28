@@ -1,0 +1,25 @@
+{
+  "accepted_for_build": true,
+  "artwork_reviewed": true,
+  "candidate": "translation-work/artwork/candidates/dvornik-v1.png",
+  "candidate_sha256": "c684a66f8ec51f1d415de3f246f2c3c5a0301991fe6b05d19a4ff5fe68b0804a",
+  "native_verification": {
+    "alpha": "byte-identical",
+    "height": 512,
+    "type": 2,
+    "width": 512
+  },
+  "output": "translation-work/artwork/native-candidates/gameres/textures/Zapiski/08POH/dvornik.tga",
+  "output_sha256": "9742f9ef394a9a04fe5573fba4d4176f2e9c7c6a07ebd678b49716ecf36ec2bf",
+  "remaining": "Toolkit integration and user runtime test pending; native artwork has been visually reviewed.",
+  "review": {
+    "geometry": "Dimensions, original alpha, header and footer verified by native codec",
+    "method": "Visual inspection of native-size image against original and canonical Portuguese text",
+    "runtime": "pending user test",
+    "style": "Handwriting, paper texture, stains and folds visually consistent",
+    "text": "Exact wording and accents checked"
+  },
+  "schema": 1,
+  "source_file": "gameres/textures/Zapiski/08POH/dvornik.tga",
+  "source_sha256": "41cc57f21465339c5545514423eb224866e77b3eaf67364b96cd6a41ccb59a30"
+}

@@ -1,0 +1,9 @@
+{
+  "schema": 1,
+  "candidate": "translation-work/artwork/candidates/dvornik-v1.png",
+  "tool": "built-in image generation editor",
+  "prompt": "Use case: text-localization. Edit the original game note texture, preserving the original aged paper background, shape, torn or folded edges, stains, orientation, handwriting style, alpha transparency, and all non-text visual detail. Replace only the English handwriting with this exact Brazilian Portuguese text:\nFui ao\npátio de baixo.\n\nVolto em\numa hora.\n\nZelador\nUse the same thin dark handwriting style and a balanced layout matching the source. Retain any names/signature exactly. Flat usable game texture, no perspective or new border, no extra text. Keep full original canvas framing and preserve paper edge geometry. Target native 512x512 pixels; prioritize pixel-aligned same-paper layout. Do not redraw or move stains or folds. No duplicated text.",
+  "status": "exported-to-native-and-visually-reviewed; PNG itself is not deployable",
+  "accepted_for_build": false,
+  "native_approved_file": "translation-work/artwork/approved/gameres/textures/Zapiski/08POH/dvornik.tga"
+}

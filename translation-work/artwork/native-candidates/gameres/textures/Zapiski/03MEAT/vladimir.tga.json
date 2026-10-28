@@ -1,0 +1,25 @@
+{
+  "accepted_for_build": true,
+  "artwork_reviewed": true,
+  "candidate": "translation-work/artwork/candidates/vladimir-v1.png",
+  "candidate_sha256": "e1a04f301be202f48919b8d715cea203583d52bc06b56d422faf8aaf4ab4f5b3",
+  "native_verification": {
+    "alpha": "byte-identical",
+    "height": 512,
+    "type": 2,
+    "width": 512
+  },
+  "output": "translation-work/artwork/native-candidates/gameres/textures/Zapiski/03MEAT/vladimir.tga",
+  "output_sha256": "3f5daf48434fb3c634f547db41ff345fbf779c5ca7ad1f477d4ba6338bf03be2",
+  "remaining": "Toolkit integration and user runtime test pending; native artwork has been visually reviewed.",
+  "schema": 1,
+  "source_file": "gameres/textures/Zapiski/03MEAT/vladimir.tga",
+  "source_sha256": "7778daf255affb9e4ec686c65be0ed2169ea5d370ab8dc819fc9081863f3fcfe",
+  "review": {
+    "method": "Visual comparison of native-size output to original and canonical Portuguese text",
+    "text": "All words, diacritics, names and punctuation checked",
+    "style": "Thin or heavy handwriting matched to each original; paper, folds and stains visually retained",
+    "native": "Original dimensions, alpha bytes, header and footer verified",
+    "runtime": "pending user test"
+  }
+}

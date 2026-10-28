@@ -1,0 +1,25 @@
+{
+  "accepted_for_build": true,
+  "artwork_reviewed": true,
+  "candidate": "translation-work/artwork/candidates/probi-v1.png",
+  "candidate_sha256": "d75e46c77fbe19b372449373ca029de1aed7d757c56e21126423c908f033861c",
+  "native_verification": {
+    "alpha": "byte-identical",
+    "height": 512,
+    "type": 2,
+    "width": 512
+  },
+  "output": "translation-work/artwork/native-candidates/gameres/textures/Zapiski/03MEAT/probi.tga",
+  "output_sha256": "750f8a9ea504df3a7e01e6d200dc829c7dc57a9b6ed31ff80caffab5bab99e98",
+  "remaining": "Toolkit integration and user runtime test pending; native artwork has been visually reviewed.",
+  "schema": 1,
+  "source_file": "gameres/textures/Zapiski/03MEAT/probi.tga",
+  "source_sha256": "42d2a7f203e52164c2c67860be108c7d696785e2fccf73d5188f30dd4011c46e",
+  "review": {
+    "method": "Visual comparison of native-size output to original and canonical Portuguese text",
+    "text": "All words, diacritics, names and punctuation checked",
+    "style": "Thin or heavy handwriting matched to each original; paper, folds and stains visually retained",
+    "native": "Original dimensions, alpha bytes, header and footer verified",
+    "runtime": "pending user test"
+  }
+}
