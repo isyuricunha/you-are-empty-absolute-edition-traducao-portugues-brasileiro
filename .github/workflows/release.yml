@@ -1,0 +1,29 @@
+name: Publicar tradução completa
+on:
+  push:
+    branches: [main]
+    paths: ['PTBR/**']
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: ptbr-release
+  cancel-in-progress: false
+jobs:
+  release:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7.0.1
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+      - uses: actions/setup-python@v7.1.0
+        with:
+          python-version: '3.12'
+      - name: Verificar o build completo sem reconstruir recursos
+        run: python translation-work/toolkit.py verify-output
+      - name: Versionar, empacotar e publicar PTBR.zip
+        run: python translation-work/release.py
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

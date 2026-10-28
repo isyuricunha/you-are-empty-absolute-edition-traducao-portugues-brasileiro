@@ -1,0 +1,7 @@
+{
+  "dependencies": [],
+  "platform_contract": "Windows implementation; Ubuntu Server 24.04 LTS ARM64 execution pending first doctor",
+  "python": ">=3.10",
+  "schema": 1,
+  "toolchain_sha256": "183c4700c663c7a67c2cadba76621f5262ce321c014af573ff1fc9a601d22cf8"
+}

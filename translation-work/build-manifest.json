@@ -1,0 +1,22 @@
+{
+  "completed": 165,
+  "generation": "52afd3d198d6e1ca7c6a7b71b33265a23a23cd85c17a468ec1c686005d487ee2",
+  "native_validation": "parse-rebuild-parse-all-records",
+  "outputs": {
+    "gameres/scripts/you_are_empty/ui/ui_strings.txt": "8d319b33b15106a79ea1814b3d8f1993e0b8c0282bd175806ccc867e27b679e5",
+    "gameres/textures/fonts/RodchenkoCTT.size": "ed4df872c37426f29d0b2c6f5aac798e1914540a5e2ebfc4ce4b49ecc013b0be",
+    "gameres/textures/fonts/RodchenkoCTT.tga": "be110d7ea25d19af2a356d6fab03bc4872dc51303d08a524d034a940edeb6f9b"
+  },
+  "pending": 0,
+  "producer": "yae-toolkit-build-v1",
+  "receipt_hash": "d0446ac41c6125a2306ceb2d8ae275cdda17611833d2db080ad158b8c1f0bf98",
+  "records": 165,
+  "schema": 1,
+  "sources": {
+    "gameres/scripts/you_are_empty/ui/ui_strings.txt": "aa021ca0f96e466aa583088036f27acb8c641d16a406acf69eaf9b056d0483d1",
+    "gameres/textures/fonts/RodchenkoCTT.size": "f95c26808ae1883e5c109a5e095fdec59944c529311e9127fe4fdbd0edf96d50",
+    "gameres/textures/fonts/RodchenkoCTT.tga": "c0b14dab16146d3cc0ac33c4ad96a51cbeeb619467d5e05abdf225279ddb4ae8"
+  },
+  "tooling": "79a6944ceb99245dec027a772c8602fec7590595ee41a13d217966dcf971c114",
+  "translation_fingerprint": "4afe4587d7c4257a18ea85a81bdb6c3557b81dcd6497881fad20ee5d564b29f6"
+}

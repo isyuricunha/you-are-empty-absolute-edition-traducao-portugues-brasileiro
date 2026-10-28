@@ -1,0 +1,553 @@
+[
+  {
+    "id": "kino_opyat",
+    "texture_reference": "opiat",
+    "dimensions": [
+      350,
+      512
+    ],
+    "audio_reference": "Opyat'_ty_Opazdyvaesh",
+    "matches": [
+      {
+        "path": "gameres/textures/Zapiski/09Kinostreet/opiat.tga",
+        "sha256": "d1eb1b6edf24a1da5852a4acce6189e0753daf6da87f0e34fe8e63421e44f1fd"
+      }
+    ],
+    "status": "raster-text-not-extracted",
+    "speaker": null,
+    "gender": "unknown",
+    "evidence": "hud.lua HUD_NOTE; IDs and audio names alone do not prove who speaks"
+  },
+  {
+    "id": "kino_podval_key",
+    "texture_reference": "kinoKey",
+    "dimensions": [
+      350,
+      512
+    ],
+    "audio_reference": "Klyu4OtPodvala_U_kinomehanika",
+    "matches": [
+      {
+        "path": "gameres/textures/Zapiski/09Kinostreet/kinoKey.tga",
+        "sha256": "b3e947f44730780d7af52ae90344b841efa648c0eb5a6611e1f248bbf520aecd"
+      }
+    ],
+    "status": "raster-text-not-extracted",
+    "speaker": null,
+    "gender": "unknown",
+    "evidence": "hud.lua HUD_NOTE; IDs and audio names alone do not prove who speaks"
+  },
+  {
+    "id": "dvorZakrivaetsia",
+    "texture_reference": "jilci",
+    "dimensions": [
+      350,
+      512
+    ],
+    "audio_reference": "VorotaZakryvayutsya1",
+    "matches": [
+      {
+        "path": "gameres/textures/Zapiski/08POH/jilci.tga",
+        "sha256": "3a8937c58bce398acd04a157e7078b77d6f8d039e26cf8062730c923ca8fefef"
+      }
+    ],
+    "status": "raster-text-not-extracted",
+    "speaker": null,
+    "gender": "unknown",
+    "evidence": "hud.lua HUD_NOTE; IDs and audio names alone do not prove who speaks"
+  },
+  {
+    "id": "dvornik",
+    "texture_reference": "dvornik",
+    "dimensions": [
+      350,
+      512
+    ],
+    "audio_reference": "Ushel_na_dvor",
+    "matches": [
+      {
+        "path": "gameres/textures/Zapiski/08POH/dvornik.tga",
+        "sha256": "41cc57f21465339c5545514423eb224866e77b3eaf67364b96cd6a41ccb59a30"
+      }
+    ],
+    "status": "raster-text-not-extracted",
+    "speaker": null,
+    "gender": "unknown",
+    "evidence": "hud.lua HUD_NOTE; IDs and audio names alone do not prove who speaks"
+  },
+  {
+    "id": "eskalator",
+    "texture_reference": "Eskalator",
+    "dimensions": [
+      350,
+      512
+    ],
+    "audio_reference": "Rabotnikam_stantcii",
+    "matches": [
+      {
+        "path": "gameres/textures/Zapiski/10Metro/Eskalator.tga",
+        "sha256": "723162b4c392718f41314bf341a79bd73743355624a0201fe3dd05339244bac3"
+      }
+    ],
+    "status": "raster-text-not-extracted",
+    "speaker": null,
+    "gender": "unknown",
+    "evidence": "hud.lua HUD_NOTE; IDs and audio names alone do not prove who speaks"
+  },
+  {
+    "id": "masha",
+    "texture_reference": "masha",
+    "dimensions": [
+      350,
+      512
+    ],
+    "audio_reference": "MashaKlyu4iVpodvale",
+    "matches": [
+      {
+        "path": "gameres/textures/Zapiski/01med/masha.tga",
+        "sha256": "a6bd3fb2e265133c2a1733c7e5c8559ce9c0f8013ddf3347ca0e844c785a11aa"
+      }
+    ],
+    "status": "raster-text-not-extracted",
+    "speaker": null,
+    "gender": "unknown",
+    "evidence": "hud.lua HUD_NOTE; IDs and audio names alone do not prove who speaks"
+  },
+  {
+    "id": "mashina_key",
+    "texture_reference": "mashina",
+    "dimensions": [
+      350,
+      512
+    ],
+    "audio_reference": "MashinaUglavnogoVhoda",
+    "matches": [
+      {
+        "path": "gameres/textures/Zapiski/01med/mashina.tga",
+        "sha256": "73b3342131967e43dab75677976cea64f9886af4ff62666c9bc044df8c6dcc5f"
+      }
+    ],
+    "status": "raster-text-not-extracted",
+    "speaker": null,
+    "gender": "unknown",
+    "evidence": "hud.lua HUD_NOTE; IDs and audio names alone do not prove who speaks"
+  },
+  {
+    "id": "yama",
+    "texture_reference": "yama",
+    "dimensions": [
+      350,
+      512
+    ],
+    "audio_reference": "yama",
+    "matches": [
+      {
+        "path": "gameres/textures/Zapiski/14parall/yama.tga",
+        "sha256": "4b505e3b642a6b3297f095d791e7813214861543d0ed7cf267a31f87029a817d"
+      }
+    ],
+    "status": "raster-text-not-extracted",
+    "speaker": null,
+    "gender": "unknown",
+    "evidence": "hud.lua HUD_NOTE; IDs and audio names alone do not prove who speaks"
+  },
+  {
+    "id": "medSivorodka",
+    "texture_reference": "sivorodka",
+    "dimensions": [
+      350,
+      512
+    ],
+    "audio_reference": "vakcina",
+    "matches": [
+      {
+        "path": "gameres/textures/Zapiski/01med/sivorodka.tga",
+        "sha256": "10b6afc652e48621dbfdd9a8e887e73313b68339f784f83c6e151b1366535789"
+      }
+    ],
+    "status": "raster-text-not-extracted",
+    "speaker": null,
+    "gender": "unknown",
+    "evidence": "hud.lua HUD_NOTE; IDs and audio names alone do not prove who speaks"
+  },
+  {
+    "id": "gosZakaz",
+    "texture_reference": "gorod",
+    "dimensions": [
+      350,
+      512
+    ],
+    "audio_reference": "Gorod_jdyot_Zerna",
+    "matches": [
+      {
+        "path": "gameres/textures/Zapiski/02kolhoz/gorod.tga",
+        "sha256": "f47927780537b18b5f5816e7d2ba8ac3f8e91767997b9d5de7700782e71c6e15"
+      }
+    ],
+    "status": "raster-text-not-extracted",
+    "speaker": null,
+    "gender": "unknown",
+    "evidence": "hud.lua HUD_NOTE; IDs and audio names alone do not prove who speaks"
+  },
+  {
+    "id": "kuriWarn",
+    "texture_reference": "kuriWarn",
+    "dimensions": [
+      350,
+      512
+    ],
+    "audio_reference": "S_Kuritcami_4to_to_ne_to",
+    "matches": [
+      {
+        "path": "gameres/textures/Zapiski/02kolhoz/kuriWarn.tga",
+        "sha256": "84a7aa0be131f0f7cf9cae0e956505a1eab94d4d2dd45e45ed886e9a1cb16440"
+      }
+    ],
+    "status": "raster-text-not-extracted",
+    "speaker": null,
+    "gender": "unknown",
+    "evidence": "hud.lua HUD_NOTE; IDs and audio names alone do not prove who speaks"
+  },
+  {
+    "id": "meatEshelon",
+    "texture_reference": "eshelon",
+    "dimensions": [
+      350,
+      512
+    ],
+    "audio_reference": "zavod_zavoz",
+    "matches": [
+      {
+        "path": "gameres/textures/Zapiski/03MEAT/eshelon.tga",
+        "sha256": "28023296c8a24cc6475578d53abc247c6fd64cd49bcbe3fbc22f79900582e389"
+      }
+    ],
+    "status": "raster-text-not-extracted",
+    "speaker": null,
+    "gender": "unknown",
+    "evidence": "hud.lua HUD_NOTE; IDs and audio names alone do not prove who speaks"
+  },
+  {
+    "id": "meatProbi",
+    "texture_reference": "probi",
+    "dimensions": [
+      350,
+      512
+    ],
+    "audio_reference": "zavod_radiacia",
+    "matches": [
+      {
+        "path": "gameres/textures/Zapiski/03MEAT/probi.tga",
+        "sha256": "42d2a7f203e52164c2c67860be108c7d696785e2fccf73d5188f30dd4011c46e"
+      }
+    ],
+    "status": "raster-text-not-extracted",
+    "speaker": null,
+    "gender": "unknown",
+    "evidence": "hud.lua HUD_NOTE; IDs and audio names alone do not prove who speaks"
+  },
+  {
+    "id": "medVladimir",
+    "texture_reference": "vladimir",
+    "dimensions": [
+      350,
+      512
+    ],
+    "audio_reference": "vladimirZvon",
+    "matches": [
+      {
+        "path": "gameres/textures/Zapiski/03MEAT/vladimir.tga",
+        "sha256": "7778daf255affb9e4ec686c65be0ed2169ea5d370ab8dc819fc9081863f3fcfe"
+      }
+    ],
+    "status": "raster-text-not-extracted",
+    "speaker": null,
+    "gender": "unknown",
+    "evidence": "hud.lua HUD_NOTE; IDs and audio names alone do not prove who speaks"
+  },
+  {
+    "id": "liuda",
+    "texture_reference": "liuda",
+    "dimensions": [
+      350,
+      512
+    ],
+    "audio_reference": "liuda",
+    "matches": [
+      {
+        "path": "gameres/textures/Zapiski/04wall/liuda.tga",
+        "sha256": "f509fad1b8975ebdc99c05153d0eb852cd64a7ce017720619ce85c2e4587ad24"
+      }
+    ],
+    "status": "raster-text-not-extracted",
+    "speaker": null,
+    "gender": "unknown",
+    "evidence": "hud.lua HUD_NOTE; IDs and audio names alone do not prove who speaks"
+  },
+  {
+    "id": "SunActiv",
+    "texture_reference": "ActivSun",
+    "dimensions": [
+      350,
+      512
+    ],
+    "audio_reference": "ActivSUN",
+    "matches": [
+      {
+        "path": "gameres/textures/Zapiski/04wall/ActivSun.tga",
+        "sha256": "4f4391b9d6a1dfe28ce1271091af7af64d9267f8c78a4445a0d715b628cb05e7"
+      }
+    ],
+    "status": "raster-text-not-extracted",
+    "speaker": null,
+    "gender": "unknown",
+    "evidence": "hud.lua HUD_NOTE; IDs and audio names alone do not prove who speaks"
+  },
+  {
+    "id": "gorOW",
+    "texture_reference": "gorOW",
+    "dimensions": [
+      350,
+      512
+    ],
+    "audio_reference": "ORW",
+    "matches": [
+      {
+        "path": "gameres/textures/Zapiski/05gor/gorOW.tga",
+        "sha256": "6683cd1191f977b990097afd272b69c022fb07d9286c86205d92f4580cf3d3aa"
+      }
+    ],
+    "status": "raster-text-not-extracted",
+    "speaker": null,
+    "gender": "unknown",
+    "evidence": "hud.lua HUD_NOTE; IDs and audio names alone do not prove who speaks"
+  },
+  {
+    "id": "gorvoda",
+    "texture_reference": "gorVoda",
+    "dimensions": [
+      350,
+      512
+    ],
+    "audio_reference": "voda",
+    "matches": [
+      {
+        "path": "gameres/textures/Zapiski/05gor/gorVoda.tga",
+        "sha256": "3bf590cb547c857bd9d76b3dd9507ddfe259deb7a4e15e94c38d707595edbe19"
+      }
+    ],
+    "status": "raster-text-not-extracted",
+    "speaker": null,
+    "gender": "unknown",
+    "evidence": "hud.lua HUD_NOTE; IDs and audio names alone do not prove who speaks"
+  },
+  {
+    "id": "inst_bezopasnosti",
+    "texture_reference": "gotovnost",
+    "dimensions": [
+      350,
+      512
+    ],
+    "audio_reference": "gotovnost",
+    "matches": [
+      {
+        "path": "gameres/textures/Zapiski/05gor/gotovnost.tga",
+        "sha256": "d3fdc08185857881e2f55dbfa7c442dc41b5e7f44ce016620d0ab014eac03205"
+      }
+    ],
+    "status": "raster-text-not-extracted",
+    "speaker": null,
+    "gender": "unknown",
+    "evidence": "hud.lua HUD_NOTE; IDs and audio names alone do not prove who speaks"
+  },
+  {
+    "id": "dliaBabini",
+    "texture_reference": "dliababini",
+    "dimensions": [
+      512,
+      350
+    ],
+    "audio_reference": "dliaBabini",
+    "matches": [
+      {
+        "path": "gameres/textures/Zapiski/06GRSVT/dliababini.tga",
+        "sha256": "c29afde038f7665b83568411989eee3fc14a373dfed53dd2eed302d700044118"
+      }
+    ],
+    "status": "raster-text-not-extracted",
+    "speaker": null,
+    "gender": "unknown",
+    "evidence": "hud.lua HUD_NOTE; IDs and audio names alone do not prove who speaks"
+  },
+  {
+    "id": "detali",
+    "texture_reference": "detali",
+    "dimensions": [
+      350,
+      512
+    ],
+    "audio_reference": "CreatDetal",
+    "matches": [
+      {
+        "path": "gameres/textures/Zapiski/07GorKonec/detali.tga",
+        "sha256": "b5008334a9b4047fd3f0b1db405abc3425e5c05359756743898fab99fb0fcb60"
+      }
+    ],
+    "status": "raster-text-not-extracted",
+    "speaker": null,
+    "gender": "unknown",
+    "evidence": "hud.lua HUD_NOTE; IDs and audio names alone do not prove who speaks"
+  },
+  {
+    "id": "podgovSunActiv",
+    "texture_reference": "podgovSunActiv",
+    "dimensions": [
+      350,
+      512
+    ],
+    "audio_reference": "dezinform",
+    "matches": [
+      {
+        "path": "gameres/textures/Zapiski/07GorKonec/podgovSunActiv.tga",
+        "sha256": "b743cc236c497d244de8d62480e96491a555e637374c7c9743dad36f6c5149b4"
+      }
+    ],
+    "status": "raster-text-not-extracted",
+    "speaker": null,
+    "gender": "unknown",
+    "evidence": "hud.lua HUD_NOTE; IDs and audio names alone do not prove who speaks"
+  },
+  {
+    "id": "tramvai",
+    "texture_reference": "tramvai",
+    "dimensions": [
+      350,
+      512
+    ],
+    "audio_reference": "tramvai",
+    "matches": [
+      {
+        "path": "gameres/textures/Zapiski/07GorKonec/tramvai.tga",
+        "sha256": "a7e64922d16a0146684546e5a090b9a97bc0fbdd590de232340f06f03c6155c7"
+      }
+    ],
+    "status": "raster-text-not-extracted",
+    "speaker": null,
+    "gender": "unknown",
+    "evidence": "hud.lua HUD_NOTE; IDs and audio names alone do not prove who speaks"
+  },
+  {
+    "id": "proKino",
+    "texture_reference": "lolita",
+    "dimensions": [
+      350,
+      512
+    ],
+    "audio_reference": "devochka",
+    "matches": [
+      {
+        "path": "gameres/textures/Zapiski/08POH/lolita.tga",
+        "sha256": "f66efd740e0965f4c3af9216223c80cba501a9120079e8344aae820c5ea7b4c7"
+      }
+    ],
+    "status": "raster-text-not-extracted",
+    "speaker": null,
+    "gender": "unknown",
+    "evidence": "hud.lua HUD_NOTE; IDs and audio names alone do not prove who speaks"
+  },
+  {
+    "id": "krisiWarn",
+    "texture_reference": "KrisiWarn",
+    "dimensions": [
+      350,
+      512
+    ],
+    "audio_reference": "krisiWarning",
+    "matches": [
+      {
+        "path": "gameres/textures/Zapiski/09Kinostreet/KrisiWarn.tga",
+        "sha256": "47fde903cc3b3c08efda2f62d014712d2e3213b40c28feb64560a65836e1e0c0"
+      }
+    ],
+    "status": "raster-text-not-extracted",
+    "speaker": null,
+    "gender": "unknown",
+    "evidence": "hud.lua HUD_NOTE; IDs and audio names alone do not prove who speaks"
+  },
+  {
+    "id": "warnVagon",
+    "texture_reference": "WarnVagon",
+    "dimensions": [
+      350,
+      512
+    ],
+    "audio_reference": "tarasenko",
+    "matches": [
+      {
+        "path": "gameres/textures/Zapiski/10Metro/WarnVagon.tga",
+        "sha256": "429ba0a65b30c6b9b4e181fa4b7a08c7ff1aa3adfc4fd2ddf6749076543eb380"
+      }
+    ],
+    "status": "raster-text-not-extracted",
+    "speaker": null,
+    "gender": "unknown",
+    "evidence": "hud.lua HUD_NOTE; IDs and audio names alone do not prove who speaks"
+  },
+  {
+    "id": "revizia",
+    "texture_reference": "revizia",
+    "dimensions": [
+      350,
+      512
+    ],
+    "audio_reference": "revizor",
+    "matches": [
+      {
+        "path": "gameres/textures/Zapiski/11met6/revizia.tga",
+        "sha256": "77f547a02f35c97f52e98981a4e0dd335911704aaca653ceef244e5cb43914bd"
+      }
+    ],
+    "status": "raster-text-not-extracted",
+    "speaker": null,
+    "gender": "unknown",
+    "evidence": "hud.lua HUD_NOTE; IDs and audio names alone do not prove who speaks"
+  },
+  {
+    "id": "radioHead",
+    "texture_reference": "radioLiubitel",
+    "dimensions": [
+      350,
+      512
+    ],
+    "audio_reference": "radioHead",
+    "matches": [
+      {
+        "path": "gameres/textures/Zapiski/13krovli/radioLiubitel.tga",
+        "sha256": "7388e95506f7150a35e79a8590e4674bed98a6732299a86a3c49fb1367422ea5"
+      }
+    ],
+    "status": "raster-text-not-extracted",
+    "speaker": null,
+    "gender": "unknown",
+    "evidence": "hud.lua HUD_NOTE; IDs and audio names alone do not prove who speaks"
+  },
+  {
+    "id": "ilusion",
+    "texture_reference": "eliuzia",
+    "dimensions": [
+      350,
+      512
+    ],
+    "audio_reference": "iliusion",
+    "matches": [
+      {
+        "path": "gameres/textures/Zapiski/12opera/eliuzia.tga",
+        "sha256": "5c705416d865f0c54d9878fbd57a9ba54e35a49f31e5b519c6dff37ed585f73f"
+      }
+    ],
+    "status": "raster-text-not-extracted",
+    "speaker": null,
+    "gender": "unknown",
+    "evidence": "hud.lua HUD_NOTE; IDs and audio names alone do not prove who speaks"
+  }
+]

@@ -1,0 +1,20 @@
+{
+  "encoding": "cp1252",
+  "font": {
+    "bits": 32,
+    "grid": [
+      16,
+      16
+    ],
+    "height": 1024,
+    "type": 2,
+    "width": 1024
+  },
+  "native": "DS2 loose UI",
+  "paths": [
+    "gameres/scripts/you_are_empty/ui/ui_strings.txt",
+    "gameres/textures/fonts/RodchenkoCTT.tga",
+    "gameres/textures/fonts/RodchenkoCTT.size"
+  ],
+  "schema": 1
+}

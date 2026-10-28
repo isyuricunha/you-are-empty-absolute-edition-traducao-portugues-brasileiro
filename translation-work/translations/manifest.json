@@ -1,0 +1,19 @@
+{
+  "batch_size": 500,
+  "batches": [
+    "batch-0001.jsonl"
+  ],
+  "deployment": "EN/<path> -> PTBR/<path>",
+  "game": "You Are Empty: Absolute Edition",
+  "generation": "52afd3d198d6e1ca7c6a7b71b33265a23a23cd85c17a468ec1c686005d487ee2",
+  "native": "DS2-loose-UI-cp1252",
+  "profile": "single-English-baseline",
+  "provenance": "Explicit verified original resource catalog",
+  "records": 165,
+  "schema": 1,
+  "sources": {
+    "gameres/scripts/you_are_empty/ui/ui_strings.txt": "aa021ca0f96e466aa583088036f27acb8c641d16a406acf69eaf9b056d0483d1",
+    "gameres/textures/fonts/RodchenkoCTT.size": "f95c26808ae1883e5c109a5e095fdec59944c529311e9127fe4fdbd0edf96d50",
+    "gameres/textures/fonts/RodchenkoCTT.tga": "c0b14dab16146d3cc0ac33c4ad96a51cbeeb619467d5e05abdf225279ddb4ae8"
+  }
+}

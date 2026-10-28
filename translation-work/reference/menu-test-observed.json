@@ -1,0 +1,11 @@
+{
+  "purpose": "Historical user-authorized experiment, not reviewed localization",
+  "entries": {
+    "STR_MAIN_MENU_NEW_GAME": "NOVO JOGO",
+    "STR_MAIN_MENU_LOAD_GAME": "CARREGAR JOGO",
+    "STR_MAIN_MENU_OPTIONS": "OPÇÕES",
+    "STR_MAIN_MENU_CREDITS": "CRÉDITOS",
+    "STR_MAIN_MENU_EXIT": "SAIR"
+  },
+  "user_confirmed": "Menu loads and fits; original font displays Cyrillic for CP1252 accents. Patched font not runtime-tested."
+}

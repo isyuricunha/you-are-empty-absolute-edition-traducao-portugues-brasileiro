@@ -1,0 +1,16 @@
+name: Consentimento de contribuição
+on:
+  pull_request:
+    types: [opened, edited, synchronize, reopened]
+permissions:
+  contents: read
+jobs:
+  consent:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7.0.1
+        with:
+          ref: ${{ github.event.pull_request.base.sha }}
+          persist-credentials: false
+      - name: Conferir declaração afirmativa do PR
+        run: python3 translation-work/consent.py

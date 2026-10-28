@@ -1,0 +1,14 @@
+{
+  "appid": "4760480",
+  "buildid": "26256132",
+  "provenance": "Steam English installation; UI restored into repository from verified pre-test backup AA021CA0F96E466AA583088036F27ACB8C641D16A406ACF69EAF9B056D0483D1; installation remains unmodified.",
+  "rejected": [
+    "5e4718fe4865213d2a61e77259a15a2e46911d27dc199e0ad655d5335f9b068d"
+  ],
+  "schema": 1,
+  "scope": "interface-only",
+  "trusted": [
+    "52afd3d198d6e1ca7c6a7b71b33265a23a23cd85c17a468ec1c686005d487ee2"
+  ],
+  "unmanaged": "29 raster notes, audio/video and environmental artwork are not translated."
+}

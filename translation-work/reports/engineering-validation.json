@@ -1,0 +1,45 @@
+{
+  "batches": 1,
+  "checks": {
+    "Git_normalization": "real temporary Git index tested with CRLF JSON and native binary preservation",
+    "build_gate": "165 pending: refused, PTBR absent",
+    "doctor": "Windows AMD64, Python 3.14.8, standard library only; passed",
+    "font": "all nonaccent pixels, header/footer preserved; CP1252 accent widths follow base glyphs; no runtime test",
+    "game_managed_hashes_unchanged": {
+      "gameres/scripts/you_are_empty/ui/ui_strings.txt": "8ac2e86b720bb0a29fb880e575ec6ab4dc1005148f428679050eca6528d4d622",
+      "gameres/textures/fonts/RodchenkoCTT.size": "f95c26808ae1883e5c109a5e095fdec59944c529311e9127fe4fdbd0edf96d50",
+      "gameres/textures/fonts/RodchenkoCTT.tga": "c0b14dab16146d3cc0ac33c4ad96a51cbeeb619467d5e05abdf225279ddb4ae8"
+    },
+    "native_UI_roundtrip": "165 entries byte-identical",
+    "readme": "official art and 6 other public URLs returned HTTP 200; GitHub Markdown rendering API returned 200; HTML structure inspected; browser visual preview blocked by local file URL policy",
+    "release": "real publishing HTTP client exercised with offline mocks; no live publication",
+    "sync": "unchanged, no rewrites"
+  },
+  "date": "2026-10-27",
+  "git": "No commit, push or live Release performed.",
+  "pending": 165,
+  "profile": "Steam AppID 4760480; reference build 26256132; DS2 loose interface",
+  "records": 165,
+  "schema": 1,
+  "scope": "interface-only",
+  "sources": {
+    "gameres/scripts/you_are_empty/ui/ui_strings.txt": "aa021ca0f96e466aa583088036f27acb8c641d16a406acf69eaf9b056d0483d1",
+    "gameres/textures/fonts/RodchenkoCTT.size": "f95c26808ae1883e5c109a5e095fdec59944c529311e9127fe4fdbd0edf96d50",
+    "gameres/textures/fonts/RodchenkoCTT.tga": "c0b14dab16146d3cc0ac33c4ad96a51cbeeb619467d5e05abdf225279ddb4ae8"
+  },
+  "tests": {
+    "command": "python -m unittest discover -s translation-work/tests -v",
+    "elapsed_seconds": 456.554,
+    "focused_final_importer_regression": "2 tests passed after accepted-generation idempotence fix",
+    "passed": 17,
+    "storage_fixture": "120 sparse batches; 500 successive single-batch updates; unchanged sampled batch bytes/mtime; every retained receipt targets only one modified batch; at most 10 completed snapshots and under 10 MiB asserted"
+  },
+  "unverified_or_pending": [
+    "Ubuntu Server 24.04 ARM64 first doctor",
+    "Patched font in-game rendering",
+    "29 raster notes: transcriptions and localized artwork not implemented",
+    "Audio, videos, environmental text and full-game translation outside current adapter",
+    "Live GitHub Actions/Release execution",
+    "Canonical permission template source repository unavailable; adapted existing maintainer project template instead"
+  ]
+}

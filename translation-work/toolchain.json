@@ -1,0 +1,21 @@
+{
+  "files": {
+    ".gitattributes": "2689281b89436923b87864ff6217f38d720564cea945da06fd2e2d34315e66c2",
+    ".github/workflows/contributions.yml": "34f1a96e33a5239f44b64a9c6816c0e37217a4169bb70406f200d634242bd354",
+    ".github/workflows/release.yml": "4f0cdbec8fc1eb7f026daeb444ee7ccc727c4e8df1b14a2eeea5e147ae33cc35",
+    "translation-work/consent.py": "eccb872ef16884c5ce0aacedf2ead08d4db9b0bb7b0bcd5168b595432bd29f44",
+    "translation-work/doctor.py": "68e74db8c3f92bcecb67dab4139ccfe1ff53f3b2f7312f969f9011c148362cb4",
+    "translation-work/engine-shapes.json": "880f0c1d887316af6fbd49fd4149fcdfaff4f59d68fda5506276fb3690515920",
+    "translation-work/native.py": "4a4edc515e4f19d7537d387cc59d42bf834343e9c49b19231c5e8cced2de509d",
+    "translation-work/reference/native/ds2base.cfg": "ff273a62cb2c95529f1b24800eedcb79ae29d3eaf0ca4c1ef3947a3112a0a6db",
+    "translation-work/reference/native/gameres/scripts/you_are_empty/hud/hud.lua": "114de3d83d362ad5fa5bcc8943f2cb36d8562cbb5cdb0fdbc06be270bdb703f8",
+    "translation-work/reference/native/gameres/scripts/you_are_empty/ui/fonts.lua": "3eb7ea98822aa9003dd23159cf728144a9600b3cfd58da5814c182ef05ee83ec",
+    "translation-work/reference/native/gameres/scripts/you_are_empty/ui/ui_ini.lua": "afa4c367c09e928bde33415a3a93ee84a1228ccb766f1b2a05cd117833bdbc05",
+    "translation-work/reference/native/gameres/scripts/you_are_empty/ui/ui_keyboard_bindings.lua": "f0eb0f300b7df90d3ca4ad74d105da48eb2647727c27b190f34c47e073dc8741",
+    "translation-work/refresh-integrity.py": "5e2619cf5cd20974314a77b71052b38cc236cb7dcb58dfb1b48f960282eaac36",
+    "translation-work/release.py": "7a3ee62819c54af29aa6a4199114ade4822c209a56c89affdcf7f5d1ebd08d93",
+    "translation-work/source-policy.json": "d77213249acf4eed4818eb3b9d7bf761a46dc8ef6e377516c67f6ef34d02f93a",
+    "translation-work/toolkit.py": "94f662bea5f8735f121bda2fe7bb0f91b469c23643ff0975e382b9fd2ed9d3a0"
+  },
+  "schema": 1
+}
