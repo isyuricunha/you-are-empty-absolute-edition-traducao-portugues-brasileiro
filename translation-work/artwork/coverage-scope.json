@@ -2,17 +2,16 @@
   "schema": 1,
   "user_refinement": "2026-10-28: Esses pequenos ai não precis não. Só coisa relevante.",
   "include": [
-    "menus and actionable interface messages",
-    "readable notes, letters and gameplay instructions",
-    "controller diagrams",
-    "other readable text relevant to gameplay or story"
+    "readable notes and letters",
+    "current interface text and gameplay instructions",
+    "dialogue/subtitle text when a native textual track exists",
+    "controller diagrams already completed"
   ],
   "exclude": [
-    "tiny incidental object labels and serial markings",
-    "decorative equipment dials",
-    "miniature newspaper scraps in rubbish or prop atlases",
-    "background decorative microtext",
-    "loading screens and loading prompts: explicitly excluded by user 2026-10-28"
+    "loading screens and prompts",
+    "tiny incidental prop/vehicle labels and decorative dials",
+    "decorative posters and microtext",
+    "legacy texture-button artwork without current-gameplay use evidence"
   ],
   "preserve": [
     "proper game title and URLs",
@@ -21,6 +20,7 @@
   "policy": "Do not spend adaptation work on incidental microtext. Full-size readable gameplay/story documents remain in scope. Existing triage evidence is preserved; unresolved usage is not proof of irrelevance.",
   "user_refinements": [
     "2026-10-28: tiny incidental labels/decorative microtext excluded",
-    "2026-10-28: esquece de carregamento cara"
+    "2026-10-28: esquece de carregamento cara",
+    "2026-10-28: Só notas, textos e dialogos. Essas coisinhas idiotas pequenininhas nao."
   ]
 }

@@ -1,0 +1,216 @@
+{
+  "schema": 1,
+  "scope": "Read-only ASCII identifier search in root EXE/DLL and Lua scripts; matches are evidence, absence alone is not impossibility proof.",
+  "files_scanned": 522,
+  "hits": [
+    {
+      "file": "avcodec-63.dll",
+      "sha256": "4d5ec3096269aece65b0e4c16d568878d0cc92fce579988be9f7fd8d4157cbfd",
+      "token": "subtitle",
+      "count": 53,
+      "contexts": [
+        "........................ssa.ASS (Advanced SubStation Alpha) subtitle............ass..................... (!)........\"*#+0819....$,%-2:3;&.'/4<5=6>7?......................................................................7.",
+        "...........................................real_time...emit subtitle events as they are decoded for real-time display..............real_time_latency_msec..........minimum elapsed time between emitting real-time subtitle ",
+        "ec..........minimum elapsed time between emitting real-time subtitle events.............data_field......select data field.......pick first one that appears.........first...second..Closed Captions Decoder.....cc_dec..Clos",
+        "....apple_apac......Apple Positional Audio Codec........dvd_subtitle....DVD subtitles...dvb_subtitle....DVB subtitles...text....raw UTF-8 text......xsub....XSUB....SSA (SubStation Alpha) subtitle.........mov_text....MOV ",
+        "....Apple Positional Audio Codec........dvd_subtitle....DVD subtitles...dvb_subtitle....DVB subtitles...text....raw UTF-8 text......xsub....XSUB....SSA (SubStation Alpha) subtitle.........mov_text....MOV text....hdmv_pgs",
+        "onal Audio Codec........dvd_subtitle....DVD subtitles...dvb_subtitle....DVB subtitles...text....raw UTF-8 text......xsub....XSUB....SSA (SubStation Alpha) subtitle.........mov_text....MOV text....hdmv_pgs_subtitle.......",
+        "........dvd_subtitle....DVD subtitles...dvb_subtitle....DVB subtitles...text....raw UTF-8 text......xsub....XSUB....SSA (SubStation Alpha) subtitle.........mov_text....MOV text....hdmv_pgs_subtitle.......HDMV Presentatio",
+        ".raw UTF-8 text......xsub....XSUB....SSA (SubStation Alpha) subtitle.........mov_text....MOV text....hdmv_pgs_subtitle.......HDMV Presentation Graphic Stream subtitles..........dvb_teletext....DVB teletext....srt.SubRip "
+      ]
+    },
+    {
+      "file": "avcodec-63.dll",
+      "sha256": "4d5ec3096269aece65b0e4c16d568878d0cc92fce579988be9f7fd8d4157cbfd",
+      "token": "dialogue",
+      "count": 1,
+      "contexts": [
+        "....vi..Visually Impaired.......hi..Hearing Impaired....di..Dialogue....co..Commentary......em..Emergency...vo..Voice Over......ka..Karaoke.....request_sample_fmt......sample format audio decoders should prefer.........."
+      ]
+    },
+    {
+      "file": "avcodec-63.dll",
+      "sha256": "4d5ec3096269aece65b0e4c16d568878d0cc92fce579988be9f7fd8d4157cbfd",
+      "token": "caption",
+      "count": 9,
+      "contexts": [
+        " (%d) is bigger than the maximum supported (%d), truncating captions packet.........................................`...........................evc_frame_merge.....Can't read NAL unit length..........libavcodec/bsf/evc_f",
+        ".pick first one that appears.........first...second..Closed Captions Decoder.....cc_dec..Closed Captions (EIA-608 / CEA-708).........Monospace...Data ignored due to columns exceeding screen width..............{\\an7}{\\pos",
+        ".first...second..Closed Captions Decoder.....cc_dec..Closed Captions (EIA-608 / CEA-708).........Monospace...Data ignored due to columns exceeding screen width..............{\\an7}{\\pos(%d,%d)}.....{\\i0}...{\\u0}...{\\u0}{\\",
+        "rodvd....MicroDVD subtitle.......eia_608.....EIA-608 closed captions.....jacosub.....JACOsub subtitle....sami....SAMI subtitle...realtext....RealText subtitle.......stl.Spruce subtitle format......subviewer1......SubView",
+        " subtitle......ttml....Timed Text Markup Language......arib_caption....ARIB STD-B24 caption........ivtv_vbi....ivtv VBI captions.......ttf.TrueType font...scte_35.....SCTE 35 Message Queue.......epg.Electronic Program Gu",
+        "imed Text Markup Language......arib_caption....ARIB STD-B24 caption........ivtv_vbi....ivtv VBI captions.......ttf.TrueType font...scte_35.....SCTE 35 Message Queue.......epg.Electronic Program Guide........otf.OpenType ",
+        "caption....ARIB STD-B24 caption........ivtv_vbi....ivtv VBI captions.......ttf.TrueType font...scte_35.....SCTE 35 Message Queue.......epg.Electronic Program Guide........otf.OpenType font...klv.SMPTE 336M Key-Length-Val",
+        "......................cc_format...extract a specific Closed Captions format...........pick first seen CC substream........a53.pick A/53 Part 4 CC substream.......scte20..pick SCTE-20 CC substream.......dvd.pick DVD CC su"
+      ]
+    },
+    {
+      "file": "avfilter-12.dll",
+      "sha256": "c966abbe40777cd72c0799871d2cadb2524ad4fc2535032b93b3b03137364a1a",
+      "token": "dialogue",
+      "count": 4,
+      "contexts": [
+        "....Effects.....Visually Impaired.......Hearing Impaired....Dialogue....Commentary......Emergency...Voice Over......Karaoke.....iamf mix gain parameters: ......iamf demixing parameters: ......iamf recon gain parameters: ",
+        "original....set original center factor......enhance.....set dialogue enhance factor.........voice...set voice detection factor......dialoguenhance......Audio Dialogue Enhancement.....................<........0.H...I.....",
+        "ance factor.........voice...set voice detection factor......dialoguenhance......Audio Dialogue Enhancement.....................<........0.H...I................@{..G.z.?......$@............................................",
+        "..set voice detection factor......dialoguenhance......Audio Dialogue Enhancement.....................<........0.H...I................@{..G.z.?......$@........................................................`.I.p.4...I.d."
+      ]
+    },
+    {
+      "file": "avfilter-12.dll",
+      "sha256": "c966abbe40777cd72c0799871d2cadb2524ad4fc2535032b93b3b03137364a1a",
+      "token": "caption",
+      "count": 3,
+      "contexts": [
+        "...................................cc_fifo cannot transcode captions fps=%d/%d....................?.......?.......?...............?...............?...............................?...............................?.......?.",
+        "..........................ccrepack....Repack CEA-708 closed caption metadata..........Failure to setup CC FIFO queue..........chromakey.........G.............`.......P.....G.....................0.....K.$.M..........OM...",
+        "o processing........readeia608..........Read EIA-608 Closed Caption codes from input video and write them to frame metadata.....................Last line to scan too large, clipping...........Invalid range.......%d:. %03"
+      ]
+    },
+    {
+      "file": "avformat-63.dll",
+      "sha256": "3f5ae0e82d1d75026b2bd8fbd483d0091664f5aca7081ee7b8f33dc514633a0b",
+      "token": "subtitle",
+      "count": 58,
+      "contexts": [
+        "set the movie frame rate........aqtdec..aqtitle.....AQTitle subtitles.......aqt.....-->> %d.....-->> %lld............t*..t*.........................4................................................t*..t*.................",
+        "ginalFilename.....filename....WM/PartOfSet....disc....WM/SetSubTitle......disc_subtitle...WM/Publisher....publisher...WM/Tool.....WM/TrackNumber......track...WM/MediaStationCallSign.....service_provider....WM/MediaStatio",
+        "ilename....WM/PartOfSet....disc....WM/SetSubTitle......disc_subtitle...WM/Publisher....publisher...WM/Tool.....WM/TrackNumber......track...WM/MediaStationCallSign.....service_provider....WM/MediaStationName.....service_n",
+        ".........b:......................ass.SSA (SubStation Alpha) subtitle.........[Script Info]...Dialogue: %*[^,],%d:%d:%d%*c%d,%d:%d:%d%*c%d,%n.............%u,%d,%s..........*...*................................?...........",
+        "size_est:%0.1fGiB, master_index_max_size:%d.................Subtitle streams other than DivX XSUB...........%dx%d dimensions are too big........%s rawvideo cannot be written to avi, output file will be unreadable........",
+        "upported codec type '%s' found in the input.................Subtitle - %s-xx;02.....vprp....movi....OpenDML index duration for audio packets with partial frames................pb->seekable & (1 << 0).........avi->riff_id",
+        "ayable (hardware dependent); use s16le......................Subtitle codec '%s' for stream %d is not compatible with FLV................Codec type '%s' for stream %d is not compatible with FLV................FLV.FLV no s",
+        "e HTTP Live Streaming.......BANDWIDTH=......AUDIO=..VIDEO=..SUBTITLES=......METHOD=.....URI=....IV=.BYTERANGE=......AUDIO...VIDEO...SUBTITLES...CLOSED-CAPTIONS.....Can't support the type: %s..........The URI tag is REQUI"
+      ]
+    },
+    {
+      "file": "avformat-63.dll",
+      "sha256": "3f5ae0e82d1d75026b2bd8fbd483d0091664f5aca7081ee7b8f33dc514633a0b",
+      "token": "closedcaption",
+      "count": 1,
+      "contexts": [
+        "....vide....VideoHandler....soun....SoundHandler....clcp....ClosedCaptionHandler........sbtl....subp....subt....SubtitleHandler.....hint....HintHandler.....TimeCodeHandler.....meta....GoPro MET...Unknown hdlr_type for %s"
+      ]
+    },
+    {
+      "file": "avformat-63.dll",
+      "sha256": "3f5ae0e82d1d75026b2bd8fbd483d0091664f5aca7081ee7b8f33dc514633a0b",
+      "token": "dialogue",
+      "count": 4,
+      "contexts": [
+        "ass.SSA (SubStation Alpha) subtitle.........[Script Info]...Dialogue: %*[^,],%d:%d:%d%*c%d,%d:%d:%d%*c%d,%n.............%u,%d,%s..........*...*................................?............................................",
+        ", MarginL, MarginR, MarginV, Effect, Text...................Dialogue: ......ReadOrder gap found between %d and %d...........wrote %d ASS lines, cached dialogues: %d, waiting for event id %d...............Unexpected ReadO",
+        "ound between %d and %d...........wrote %d ASS lines, cached dialogues: %d, waiting for event id %d...............Unexpected ReadOrder %d.........Marked=.....%s%ld,%d:%02d:%02d.%02d,%d:%02d:%02d.%02d,%.*s.................",
+        "....effects.....visually impaired.......hearing impaired....dialogue....commentary......emergency...voice over......karaoke.....bitrate max/min/avg: %lld/%lld/%lld buffer size: %lld ..............vbv_delay: N/A......vbv_"
+      ]
+    },
+    {
+      "file": "avformat-63.dll",
+      "sha256": "3f5ae0e82d1d75026b2bd8fbd483d0091664f5aca7081ee7b8f33dc514633a0b",
+      "token": "caption",
+      "count": 28,
+      "contexts": [
+        "n effects).... (attached pic)..... (timed thumbnails)..... (captions)..... (descriptions)..... (metadata)..... (dependent).... (still image)...... (non-diegetic)..... (multilayer)...  ..      ..    ....dump_separator....",
+        "inance....filesize....true....false...%.f.onTextData......onCaption...onCaptionInfo...onMetaData......onCuePoint......|RtmpSampleAccess.......Unknown type %s.....Read FLV header error, input file is not a standard flv fo",
+        "lesize....true....false...%.f.onTextData......onCaption...onCaptionInfo...onMetaData......onCuePoint......|RtmpSampleAccess.......Unknown type %s.....Read FLV header error, input file is not a standard flv format, first ",
+        "=....IV=.BYTERANGE=......AUDIO...VIDEO...SUBTITLES...CLOSED-CAPTIONS.....Can't support the type: %s..........The URI tag is REQUIRED for subtitle............Truncated rendition language: %s........YES.public.accessibilit",
+        ".....Variant stream map string.......cc_stream_map...Closed captions stream map string.......master_pl_name......Create HLS master playlist with this name...........master_pl_publish_rate......Publish master play list ev",
+        "ster play list file '%s'...........#EXT-X-MEDIA:TYPE=CLOSED-CAPTIONS.......,GROUP-ID=\"%s\"......,NAME=\"%s\"......,LANGUAGE=\"%s\"......,INSTREAM-ID=\"%s\".......Unable to find relative URL.........Media stream not found......m",
+        "%dx%d.......,CODECS=\"%s\"....,AUDIO=\"group_%s\".......,CLOSED-CAPTIONS=\"%s\".......,SUBTITLES=\"%s\"......%s.....#EXT-X-ALLOW-CACHE:%s.......#EXT-X-TARGETDURATION:%d........#EXT-X-MEDIA-SEQUENCE:%lld..........EXT-X-MEDIA-SEQU",
+        "............................................................caption.....dub.forced-subtitle.....urn:mpeg:dash:role:2011.....und.MPEG-4 description: tag=0x%02x len=%d...........esds object type id 0x%02x..........Specific"
+      ]
+    },
+    {
+      "file": "avutil-61.dll",
+      "sha256": "8ac245ae1d2f708763584e9b124673a4008953f017474070f127a97d1ad8ef15",
+      "token": "subtitle",
+      "count": 1,
+      "contexts": [
+        "32_c...........>...............A....video...audio...data....subtitle....attachment....... -_....%c..[%d]....0123456789abcdef....urn:uuid:...FFmpeg version N-125474-g79adb692a2.........N-125474-g79adb692a2............--to"
+      ]
+    },
+    {
+      "file": "avutil-61.dll",
+      "sha256": "8ac245ae1d2f708763584e9b124673a4008953f017474070f127a97d1ad8ef15",
+      "token": "caption",
+      "count": 1,
+      "contexts": [
+        ".........................AVPanScan...ATSC A53 Part 4 Closed Captions.........Stereo 3D...AVMatrixEncoding....Metadata relevant to a downmix procedure............AVReplayGain....3x3 displaymatrix.......Active format descr"
+      ]
+    },
+    {
+      "file": "ds2GameUI_YAE.dll",
+      "sha256": "49bb3498ee729d0a529c9d09633e7fc2d5d007deddc453e7c22bb3284892f9f5",
+      "token": "caption",
+      "count": 4,
+      "contexts": [
+        ".4G...G..loading progress bar....%3u%%...STR_LOADING_WINDOW_CAPTION.....B...Oui_image.....1..hF..bF...1..`0..\\F..VF..PF..JF..DF..>F..8F..2F..,F..&F.. F...F...F..(G...F...F...F...F...F...F...F...F...E...E...F...F...F...E.",
+        ".F..zF...E...E...E...E...E..~E..xE..rE..lE..fE..`E..ZE..DI..Caption.0...hF..bF...I...I..\\F..VF..PF..JF..DF..>F..8F..2F..,F..&F.. F...F...I...I...F...F...F...F...F...F...F...F...E...E...F...F...F...E...I...E...E...F...E..",
+        ".Q.?set_uniform_margins@CWindowVisual@ds2ui@@QAEXH@Z...?set_caption_alignment@CDialog@ds2ui@@QAEXW4EAlignment@2@@Z...?set_caption_h@CDialog@ds2ui@@QAEXH@Z...?set_buttons_horizontal@CDialog@ds2ui@@QAEX_N@Z...?send_event@C",
+        "ption_alignment@CDialog@ds2ui@@QAEXW4EAlignment@2@@Z...?set_caption_h@CDialog@ds2ui@@QAEXH@Z...?set_buttons_horizontal@CDialog@ds2ui@@QAEX_N@Z...?send_event@CWindow@ds2ui@@QAEXPAV12@W4EEventType@2@W4EDispatchType@CWndEve"
+      ]
+    },
+    {
+      "file": "ds2ui.dll",
+      "sha256": "0a1dc563fb4b60687d6589a47b06810e867f19449a205ea839c631391caac0da",
+      "token": "caption",
+      "count": 5,
+      "contexts": [
+        "rc\\ui_console.cpp...ds2ui::CConsole::on_event_key_down() ...caption.buttons_interval....button_h....button_w....buttons_horizontal..caption_h...caption_alignment..._p_button...e:\\dimas\\build\\project_src\\ds2engine\\ds2ui\\s",
+        "ons_interval....button_h....button_w....buttons_horizontal..caption_h...caption_alignment..._p_button...e:\\dimas\\build\\project_src\\ds2engine\\ds2ui\\src\\ui_dialog.cpp....ds2ui::CDialog::set_default_button() ...ds2ui::CDial",
+        "....button_h....button_w....buttons_horizontal..caption_h...caption_alignment..._p_button...e:\\dimas\\build\\project_src\\ds2engine\\ds2ui\\src\\ui_dialog.cpp....ds2ui::CDialog::set_default_button() ...ds2ui::CDialog::on_event",
+        "s2ui@@QAEX_N@Z.?set_can_resize@CWindow@ds2ui@@QAEX_N@Z.?set_caption_alignment@CDialog@ds2ui@@QAEXW4EAlignment@2@@Z.?set_caption_h@CDialog@ds2ui@@QAEXH@Z.?set_caret_char@CText@ds2ui@@QAEXH@Z.?set_caret_line@CText@ds2ui@@Q",
+        "caption_alignment@CDialog@ds2ui@@QAEXW4EAlignment@2@@Z.?set_caption_h@CDialog@ds2ui@@QAEXH@Z.?set_caret_char@CText@ds2ui@@QAEXH@Z.?set_caret_line@CText@ds2ui@@QAEXH@Z.?set_checked@CWindowVisual@ds2ui@@QAEX_N@Z.?set_check"
+      ]
+    },
+    {
+      "file": "OpenAL32.dll",
+      "sha256": "606cf8b4c22c7ae00813585279ac045115907bc66d1483eb26355907021ea4b0",
+      "token": "dialogue",
+      "count": 1,
+      "contexts": [
+        "L_EFFECT_DEDICATED_LOW_FREQUENCY_EFFECT.AL_EFFECT_DEDICATED_DIALOGUE.AL_EFFECTSLOT_EFFECT.AL_EFFECTSLOT_GAIN...AL_EFFECTSLOT_AUXILIARY_SEND_AUTO.AL_EFFECTSLOT_NULL.AL_EAXREVERB_DENSITY.AL_EAXREVERB_DIFFUSION.AL_EAXREVERB"
+      ]
+    },
+    {
+      "file": "gameres/scripts/you_are_empty/params_view/params_view.lua",
+      "sha256": "40a3d5f0e6051c74c9f3439ebbde315ae634a43d20c9f875847002711edd6206",
+      "token": "caption",
+      "count": 2,
+      "contexts": [
+        "...........function export_group(group_prefix, headers_tbl, caption)...local res = \"\"...local row_headers...local except = {\"&nbsp;\"}...local prefix_len = string.len(group_prefix)......res = res .. \"<h2>\"..caption..\"</h2",
+        "ix_len = string.len(group_prefix)......res = res .. \"<h2>\"..caption..\"</h2>\\n\"...-- .............. .. .................... ...... .......................... ................ ...............for i, v in pairs(headers_tbl) "
+      ]
+    },
+    {
+      "file": "gameres/scripts/you_are_empty/ui/ui_ini.lua",
+      "sha256": "afa4c367c09e928bde33415a3a93ee84a1228ccb766f1b2a05cd117833bdbc05",
+      "token": "caption",
+      "count": 54,
+      "contexts": [
+        "l = 8, .....can_drag = false, .....can_resize = false, .....caption = \"\", .....caption_alignment = \"ALIGNMENT_LEFT\", .....caption_h = 24, .....class_name = \"DifficultyMenu\", .....fade_in = 100, .....fade_out = 100, .....",
+        "g = false, .....can_resize = false, .....caption = \"\", .....caption_alignment = \"ALIGNMENT_LEFT\", .....caption_h = 24, .....class_name = \"DifficultyMenu\", .....fade_in = 100, .....fade_out = 100, .....is_modal = false, .",
+        "ption = \"\", .....caption_alignment = \"ALIGNMENT_LEFT\", .....caption_h = 24, .....class_name = \"DifficultyMenu\", .....fade_in = 100, .....fade_out = 100, .....is_modal = false, .....left_margin = 0, .....name = \"difficult",
+        "l = 8, .....can_drag = false, .....can_resize = false, .....caption = \"\", .....caption_alignment = \"ALIGNMENT_LEFT\", .....caption_h = 24, .....class_name = \"SaveMenu\", .....fade_in = 100, .....fade_out = 100, .....is_mod",
+        "g = false, .....can_resize = false, .....caption = \"\", .....caption_alignment = \"ALIGNMENT_LEFT\", .....caption_h = 24, .....class_name = \"SaveMenu\", .....fade_in = 100, .....fade_out = 100, .....is_modal = true, .....lef",
+        "ption = \"\", .....caption_alignment = \"ALIGNMENT_LEFT\", .....caption_h = 24, .....class_name = \"SaveMenu\", .....fade_in = 100, .....fade_out = 100, .....is_modal = true, .....left_margin = 0, .....name = \"save_menu\", ....",
+        ".....is_modal = false, ......left_margin = 0, ......name = \"Caption\", ......right_margin = 0, ......text = \"STR_SAVE_MENU_CAPTION\", ......top_margin = 3, ......visual_delta_bottom = 0, ......visual_delta_left = 0, ......",
+        "ption\", ......right_margin = 0, ......text = \"STR_SAVE_MENU_CAPTION\", ......top_margin = 3, ......visual_delta_bottom = 0, ......visual_delta_left = 0, ......visual_delta_right = 0, ......visual_delta_top = 0, ......font"
+      ]
+    },
+    {
+      "file": "gameres/scripts/you_are_empty/ui/ui_ini_base.lua",
+      "sha256": "9e771146adc6d08d5c99919c947a1891084d1dd8549172863d553584273cc973",
+      "token": "caption",
+      "count": 6,
+      "contexts": [
+        "terval = 8, ....can_drag = true, ....can_resize = true, ....caption = \"STR_CONSOLE\", ....caption_alignment = \"ALIGNMENT_LEFT\", ....caption_h = 20, ....class_name = \"Console\", ....fade_in = 100, ....fade_out = 100, ....is",
+        "ue, ....can_resize = true, ....caption = \"STR_CONSOLE\", ....caption_alignment = \"ALIGNMENT_LEFT\", ....caption_h = 20, ....class_name = \"Console\", ....fade_in = 100, ....fade_out = 100, ....is_modal = false, ....left_marg",
+        "STR_CONSOLE\", ....caption_alignment = \"ALIGNMENT_LEFT\", ....caption_h = 20, ....class_name = \"Console\", ....fade_in = 100, ....fade_out = 100, ....is_modal = false, ....left_margin = 4, ....name = \"console\", ....right_ma",
+        " 10, ......can_drag = false, ......can_resize = true, ......caption = \"\", ......caption_alignment = \"ALIGNMENT_CENTER\", ......caption_h = 24, ......class_name = \"MessageBox\", ......fade_in = 150, ......fade_out = 150, ..",
+        "= false, ......can_resize = true, ......caption = \"\", ......caption_alignment = \"ALIGNMENT_CENTER\", ......caption_h = 24, ......class_name = \"MessageBox\", ......fade_in = 150, ......fade_out = 150, ......is_modal = true,",
+        "n = \"\", ......caption_alignment = \"ALIGNMENT_CENTER\", ......caption_h = 24, ......class_name = \"MessageBox\", ......fade_in = 150, ......fade_out = 150, ......is_modal = true, ......left_margin = 0, ......message_text = \""
+      ]
+    }
+  ]
+}

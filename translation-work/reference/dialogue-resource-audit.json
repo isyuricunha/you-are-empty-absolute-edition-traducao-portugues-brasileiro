@@ -1,0 +1,702 @@
+{
+  "schema": 1,
+  "scope": "Native dialogue-text discovery; audio was inventoried, not transcribed or dubbed. No language inferred from paths.",
+  "subtitle_sidecar_files": [],
+  "avi_streams": [
+    {
+      "source_file": "gameres/textures/videos/video1.avi",
+      "sha256": "88216fd4c5344708a7bc0e50cad7979e479bb3b1737af00ad2d27ef699ac3262",
+      "stream_types": [
+        "vids"
+      ],
+      "contains_native_text_stream": false,
+      "container": "RIFF AVI",
+      "inspection_complete": true
+    },
+    {
+      "source_file": "gameres/textures/videos/video2.avi",
+      "sha256": "251373fa098998e6c7b9cb6893f16468e5c21b541beff1ebe948b383f6031749",
+      "stream_types": [
+        "vids"
+      ],
+      "contains_native_text_stream": false,
+      "container": "RIFF AVI",
+      "inspection_complete": true
+    },
+    {
+      "source_file": "gameres/textures/videos/zastavki/credits.avi",
+      "sha256": "31b1970c56fef53136c26633f42c646452058c3f6a510f862439fc438caaff5c",
+      "stream_types": [],
+      "contains_native_text_stream": false,
+      "container": "WebM/EBML despite .avi extension",
+      "tracks": [
+        {
+          "codec": "V_VP9",
+          "type": 1
+        }
+      ],
+      "inspection_complete": true
+    },
+    {
+      "source_file": "gameres/textures/videos/zastavki/detstvo1-1.avi",
+      "sha256": "da2b87354e63b0a2ecf42b26310f7e89bf7a0d3075ddbfd18cd453bb6b2db3dc",
+      "stream_types": [
+        "vids"
+      ],
+      "contains_native_text_stream": false,
+      "container": "RIFF AVI",
+      "inspection_complete": true
+    },
+    {
+      "source_file": "gameres/textures/videos/zastavki/institut_final_22-1.avi",
+      "sha256": "8bfccd98eaf5ce361a3abde6eb893c5765c18a2b43669a122140a6186f226ed9",
+      "stream_types": [
+        "vids"
+      ],
+      "contains_native_text_stream": false,
+      "container": "RIFF AVI",
+      "inspection_complete": true
+    },
+    {
+      "source_file": "gameres/textures/videos/zastavki/intro.avi",
+      "sha256": "1ce6fc3cc5361b3cb37b29b791c92dd734d487ce3b2a581bd26fc243b2a19876",
+      "stream_types": [
+        "vids"
+      ],
+      "contains_native_text_stream": false,
+      "container": "RIFF AVI",
+      "inspection_complete": true
+    },
+    {
+      "source_file": "gameres/textures/videos/zastavki/logo.avi",
+      "sha256": "e20c03a763d774fb0bd4921f0719a9bf1db9e295b9e68e980a95528b67425465",
+      "stream_types": [],
+      "contains_native_text_stream": false,
+      "container": "WebM/EBML despite .avi extension",
+      "tracks": [
+        {
+          "codec": "V_VP9",
+          "type": 1
+        }
+      ],
+      "inspection_complete": true
+    },
+    {
+      "source_file": "gameres/textures/videos/zastavki/outro.avi",
+      "sha256": "7b5daefb5676825b782c8683a2fc16f08d7a2012a2015333f6e2a4ad631c139b",
+      "stream_types": [],
+      "contains_native_text_stream": false,
+      "container": "WebM/EBML despite .avi extension",
+      "tracks": [
+        {
+          "codec": "V_VP9",
+          "type": 1
+        }
+      ],
+      "inspection_complete": true
+    },
+    {
+      "source_file": "gameres/textures/videos/zastavki/skola25.02-1.avi",
+      "sha256": "07a674ff58d85468076a9bb2243e0343d703c1082a74449dc5e28ea057fafe2e",
+      "stream_types": [
+        "vids"
+      ],
+      "contains_native_text_stream": false,
+      "container": "RIFF AVI",
+      "inspection_complete": true
+    },
+    {
+      "source_file": "gameres/textures/videos/zastavki/vstrecha5-1.avi",
+      "sha256": "e9d91b805e66bb3b182ed311eb8d253b4c7856b5b1a9743cd7e88d49c6b1f997",
+      "stream_types": [
+        "vids"
+      ],
+      "contains_native_text_stream": false,
+      "container": "RIFF AVI",
+      "inspection_complete": true
+    },
+    {
+      "source_file": "gameres/textures/videos/zastavki/ZAVOD_FINAL2-1.avi",
+      "sha256": "880e77aad14211cc0df9b57ab1384d559b835a7a25012ea7d34613be4211264c",
+      "stream_types": [
+        "vids"
+      ],
+      "contains_native_text_stream": false,
+      "container": "RIFF AVI",
+      "inspection_complete": true
+    },
+    {
+      "source_file": "gameres/textures/Menu/SuperNew/arrow.avi",
+      "sha256": "05f1c69004198dbe6a1e8fb69953cab4f0efd262466f73ce5579a32e9774dc8d",
+      "stream_types": [
+        "vids",
+        "auds"
+      ],
+      "contains_native_text_stream": false,
+      "container": "RIFF AVI",
+      "inspection_complete": true
+    },
+    {
+      "source_file": "gameres/textures/Menu/SuperNew/butterfly.avi",
+      "sha256": "ffb0beafc7bfa27718c5a7516cf4b36510ebf389f1a437fc3b1fc8091e169494",
+      "stream_types": [
+        "vids",
+        "auds"
+      ],
+      "contains_native_text_stream": false,
+      "container": "RIFF AVI",
+      "inspection_complete": true
+    },
+    {
+      "source_file": "gameres/textures/Menu/SuperNew/final01.avi",
+      "sha256": "c960a430149ec61eb4382d2062b0d0fc2d4b8bcad5c6b7f82ec9f9bb493e970e",
+      "stream_types": [
+        "vids"
+      ],
+      "contains_native_text_stream": false,
+      "container": "RIFF AVI",
+      "inspection_complete": true
+    },
+    {
+      "source_file": "gameres/textures/Menu/SuperNew/fog01.avi",
+      "sha256": "2f4848e02e5fcc9d89bfe3d28af69f09229e76ae25bb6693fc7b8944e9d5b184",
+      "stream_types": [
+        "vids",
+        "auds"
+      ],
+      "contains_native_text_stream": false,
+      "container": "RIFF AVI",
+      "inspection_complete": true
+    },
+    {
+      "source_file": "gameres/textures/Menu/SuperNew/kap01.avi",
+      "sha256": "9d072190b23aef8d9a98691cc469524466c64ea412850a6aa555acfe458d17e2",
+      "stream_types": [
+        "vids",
+        "auds"
+      ],
+      "contains_native_text_stream": false,
+      "container": "RIFF AVI",
+      "inspection_complete": true
+    },
+    {
+      "source_file": "gameres/textures/Menu/SuperNew/mech.avi",
+      "sha256": "ff5f61f3acffd2734511eeb2a6aa5deb2167fd8c72eaf826abdc51bee94d5287",
+      "stream_types": [
+        "vids",
+        "auds"
+      ],
+      "contains_native_text_stream": false,
+      "container": "RIFF AVI",
+      "inspection_complete": true
+    }
+  ],
+  "potential_voice_audio": [
+    {
+      "source_file": "gameres/sounds/loc/BalerunSTEALTH_1.ogg",
+      "sha256": "89aaf41458e1677cf977ddaa1764c79cc17f13e3cf190cc2a62df53c44ae0015",
+      "bytes": 44762,
+      "language": "not inferred from filename",
+      "subtitle_text_resource": null
+    },
+    {
+      "source_file": "gameres/sounds/loc/BalerunSTEALTH_2.ogg",
+      "sha256": "666626a0b5926621e5b65040c8381af510d259345790072a7a1e99dba20e59dd",
+      "bytes": 108409,
+      "language": "not inferred from filename",
+      "subtitle_text_resource": null
+    },
+    {
+      "source_file": "gameres/sounds/loc/Balerun_Progon.ogg",
+      "sha256": "9400270a75ae6834344ed79df42df2d45d17552be31a89b6f075dfc30dace1db",
+      "bytes": 203845,
+      "language": "not inferred from filename",
+      "subtitle_text_resource": null
+    },
+    {
+      "source_file": "gameres/sounds/loc/Kulib_Progon1.ogg",
+      "sha256": "231b50d39feef766bb86012ffcdda184c6f7b862ebf81a606094cbfc338a14f5",
+      "bytes": 467314,
+      "language": "not inferred from filename",
+      "subtitle_text_resource": null
+    },
+    {
+      "source_file": "gameres/sounds/loc/ne_strelay1.ogg",
+      "sha256": "ce5d4af7b1fe02b4543dcbb1d5fdb2ba5e5107f942ab00dd585675528fbea2c2",
+      "bytes": 21043,
+      "language": "not inferred from filename",
+      "subtitle_text_resource": null
+    },
+    {
+      "source_file": "gameres/sounds/loc/ne_strelay2.ogg",
+      "sha256": "5662af431ddbc68cdccec5e91e9b1fa57ada39d6097bd1ea2a3f7b53b0bc6c6f",
+      "bytes": 15890,
+      "language": "not inferred from filename",
+      "subtitle_text_resource": null
+    },
+    {
+      "source_file": "gameres/sounds/loc/Operatciya GenSek2.ogg",
+      "sha256": "7e70632aee122f5268a1d234ff2bf4138f8aaa924dcd766a3005162eb71b26da",
+      "bytes": 1269874,
+      "language": "not inferred from filename",
+      "subtitle_text_resource": null
+    },
+    {
+      "source_file": "gameres/sounds/loc/operatciya_balerun_progon.ogg",
+      "sha256": "9400270a75ae6834344ed79df42df2d45d17552be31a89b6f075dfc30dace1db",
+      "bytes": 203845,
+      "language": "not inferred from filename",
+      "subtitle_text_resource": null
+    },
+    {
+      "source_file": "gameres/sounds/loc/Plohish.ogg",
+      "sha256": "71dcdf2a552c57b71e637147669fb19a1cab3918d262dcd17661aa101a5542d7",
+      "bytes": 2062410,
+      "language": "not inferred from filename",
+      "subtitle_text_resource": null
+    },
+    {
+      "source_file": "gameres/sounds/loc/Tovaris4i_my_soobs4aem.ogg",
+      "sha256": "baa9962e7168f6f2c525bff017c906b118a6b0a49e0d3598ca52cc19e2972026",
+      "bytes": 1014834,
+      "language": "not inferred from filename",
+      "subtitle_text_resource": null
+    },
+    {
+      "source_file": "gameres/sounds/loc/vystupleniedynamic1.ogg",
+      "sha256": "1647a6f88d66bdea19e6ba3eb45262b002f60fd6137fdaf1532e02ba561c6a70",
+      "bytes": 1316689,
+      "language": "not inferred from filename",
+      "subtitle_text_resource": null
+    },
+    {
+      "source_file": "gameres/sounds/loc/zahodi1.ogg",
+      "sha256": "6c107b78504e58c0716f02d17cdf551b61d7fb1d4d0d4f3fe2026e5df1775240",
+      "bytes": 11612,
+      "language": "not inferred from filename",
+      "subtitle_text_resource": null
+    },
+    {
+      "source_file": "gameres/sounds/loc/zahodi2.ogg",
+      "sha256": "ebaefca30b202e7d71ccd7d10822a720d8e558099766275fd2658b1f0adf5ac3",
+      "bytes": 13572,
+      "language": "not inferred from filename",
+      "subtitle_text_resource": null
+    },
+    {
+      "source_file": "gameres/sounds/loc/zahodi3.ogg",
+      "sha256": "21d2f279bd52a03b27d500574b1c419d38bef0d4a38b9037b42718843465e536",
+      "bytes": 15025,
+      "language": "not inferred from filename",
+      "subtitle_text_resource": null
+    },
+    {
+      "source_file": "gameres/sounds/loc/zahodi4.ogg",
+      "sha256": "067b2765ab3590d22c8c491fc57b5782ab8c5a588327759935cfdef6b1bc6770",
+      "bytes": 17269,
+      "language": "not inferred from filename",
+      "subtitle_text_resource": null
+    },
+    {
+      "source_file": "gameres/sounds/loc/zahodi5.ogg",
+      "sha256": "c198f00d4e7ab5821a5443d7b2bffd5d092e9a0875048e7e261ae3a91a20b70f",
+      "bytes": 17479,
+      "language": "not inferred from filename",
+      "subtitle_text_resource": null
+    },
+    {
+      "source_file": "gameres/sounds/loc/zahodi6.ogg",
+      "sha256": "bf9ffd85faf4362426abb476521bd1a3ebdbc254d688565700e11c355c1d2efc",
+      "bytes": 29157,
+      "language": "not inferred from filename",
+      "subtitle_text_resource": null
+    },
+    {
+      "source_file": "gameres/sounds/scenes/krik.wav",
+      "sha256": "1bd4577226642427ebd59b869a10fac0eef5f0189f35cd4ab9ecc7eba7291080",
+      "bytes": 89460,
+      "language": "not inferred from filename",
+      "subtitle_text_resource": null,
+      "duration_seconds": 2.026
+    },
+    {
+      "source_file": "gameres/sounds/scenes/krik1.ogg",
+      "sha256": "066790e5e6b7be188d13cc43916ade13ef2a9ac189a0b7ce01925c69f70177f4",
+      "bytes": 66961,
+      "language": "not inferred from filename",
+      "subtitle_text_resource": null
+    },
+    {
+      "source_file": "gameres/sounds/scenes/krik2.wav",
+      "sha256": "a36ad5ff880bc80ebc60c88fb0579d63956491b026bb7a9eb0505cbf516e23e1",
+      "bytes": 55468,
+      "language": "not inferred from filename",
+      "subtitle_text_resource": null,
+      "duration_seconds": 1.257
+    },
+    {
+      "source_file": "gameres/sounds/scenes/krik3.ogg",
+      "sha256": "f675df9dc0c46d1d18444fee2aafbce84de9d01305fee247a86aa3826051ce5e",
+      "bytes": 84724,
+      "language": "not inferred from filename",
+      "subtitle_text_resource": null
+    },
+    {
+      "source_file": "gameres/sounds/scenes/medsestra_open_door_and_away.ogg",
+      "sha256": "1989c7627c13dc7c185a107dcf9c1729a0c9234662a551a50d0bcbda4c774427",
+      "bytes": 91822,
+      "language": "not inferred from filename",
+      "subtitle_text_resource": null
+    },
+    {
+      "source_file": "gameres/sounds/scenes/operatciya!!!!_poezd.ogg",
+      "sha256": "c0c9c485e18027cfe2092a4243c764d30edabc5daee4e064a1c1395496fb9ce8",
+      "bytes": 404568,
+      "language": "not inferred from filename",
+      "subtitle_text_resource": null
+    },
+    {
+      "source_file": "gameres/sounds/scenes/operatciyashpriz.ogg",
+      "sha256": "0b799d610ee4069d2313829fd26ed7e6890a1823879218a6312d62bf195d56c0",
+      "bytes": 154595,
+      "language": "not inferred from filename",
+      "subtitle_text_resource": null
+    },
+    {
+      "source_file": "gameres/sounds/scenes/operatciyatraintoindustrialzone.ogg",
+      "sha256": "0dff8ab9a72a08288189a8220315fda9849d365978d7a2097a4b268a422e8fd2",
+      "bytes": 394048,
+      "language": "not inferred from filename",
+      "subtitle_text_resource": null
+    },
+    {
+      "source_file": "gameres/sounds/scenes/operatciya_ final.ogg",
+      "sha256": "d39e5ece1c42943a7f25008da1a44ebb52c514373fd8bd4bcf08c038e98df735",
+      "bytes": 499154,
+      "language": "not inferred from filename",
+      "subtitle_text_resource": null
+    },
+    {
+      "source_file": "gameres/sounds/scenes/operatciya_bridgemeat_opustit'most.ogg",
+      "sha256": "c7409965fdf90b7478ab7377ad44ae2b73a24e6aa248a0b6a6474adbc6e59f0d",
+      "bytes": 84708,
+      "language": "not inferred from filename",
+      "subtitle_text_resource": null
+    },
+    {
+      "source_file": "gameres/sounds/scenes/operatciya_bridgemeat_podnyatmost.ogg",
+      "sha256": "9fe0964c065e7a35003f4858ef174fa0fa3f2deb764be364c3dad4bef77d307b",
+      "bytes": 86156,
+      "language": "not inferred from filename",
+      "subtitle_text_resource": null
+    },
+    {
+      "source_file": "gameres/sounds/scenes/operatciya_krematoriy.ogg",
+      "sha256": "dd233670b799a6a19c172cc0880d44f11cadc6f091e191a383e9e5edee93614c",
+      "bytes": 293455,
+      "language": "not inferred from filename",
+      "subtitle_text_resource": null
+    },
+    {
+      "source_file": "gameres/sounds/scenes/operatciya_obval_mono.ogg",
+      "sha256": "348b7942ed5756d6edd8aeb421fb784ba4c9e74a67b2ec2f58ddee8467f33a41",
+      "bytes": 93552,
+      "language": "not inferred from filename",
+      "subtitle_text_resource": null
+    },
+    {
+      "source_file": "gameres/sounds/scenes/operatciya_poezd.wav",
+      "sha256": "ca32b5761c2b706cd246e53dbf9a6c0fe87033572932bfe425153d88c70bd53c",
+      "bytes": 2588724,
+      "language": "not inferred from filename",
+      "subtitle_text_resource": null,
+      "duration_seconds": 14.675
+    },
+    {
+      "source_file": "gameres/sounds/scenes/operatciya_psihi_i_protivogaz.ogg",
+      "sha256": "059823ffb4502365a68080fb05b14679eecc50846b88e5fdee67e4a2f12f7c11",
+      "bytes": 149209,
+      "language": "not inferred from filename",
+      "subtitle_text_resource": null
+    },
+    {
+      "source_file": "gameres/sounds/scenes/operatciya_psih_i_kluch.ogg",
+      "sha256": "8b5e76e3a8abbecb0f9d0322590624ae61b1da1dcf14c4d862dae5d6caa19b4b",
+      "bytes": 141642,
+      "language": "not inferred from filename",
+      "subtitle_text_resource": null
+    },
+    {
+      "source_file": "gameres/sounds/scenes/operatciya_shpritc.ogg",
+      "sha256": "57ffb6a38a1d2f5907be9a8d108e1bd6ce5400652cb24be911b997815d1e25ba",
+      "bytes": 154603,
+      "language": "not inferred from filename",
+      "subtitle_text_resource": null
+    },
+    {
+      "source_file": "gameres/sounds/scenes/operatrciya_sister_tyanet_psiha.ogg",
+      "sha256": "955a671a51ed1339970ec7f9b2e26c623959bcb06abcb1c727bb13a0130f3b3a",
+      "bytes": 85309,
+      "language": "not inferred from filename",
+      "subtitle_text_resource": null
+    },
+    {
+      "source_file": "gameres/sounds/scenes/psihvoznya.ogg",
+      "sha256": "42ee5e1be4c845b42e08dc919e902f84d794192e693128c81a6bcacb6a417f7d",
+      "bytes": 183780,
+      "language": "not inferred from filename",
+      "subtitle_text_resource": null
+    },
+    {
+      "source_file": "gameres/sounds/scenes/train_kolhoz_away.ogg",
+      "sha256": "29c58fe9354850eb69a47d5f06e5d7b428d8184d18ad1159de468e904f71473c",
+      "bytes": 519635,
+      "language": "not inferred from filename",
+      "subtitle_text_resource": null
+    },
+    {
+      "source_file": "gameres/sounds/scenes/voicechilgen.ogg",
+      "sha256": "e76f54c221d92dcaf3d37054e325fce11d5863d387a756fc0a96b78b6cb275a1",
+      "bytes": 158839,
+      "language": "not inferred from filename",
+      "subtitle_text_resource": null
+    },
+    {
+      "source_file": "gameres/sounds/scenes/gazroom/gaz2_start2.ogg",
+      "sha256": "7617417ceb93cf0e9e65a6ea7aa3922f11509f207f3de14c9a2922ee72e299f1",
+      "bytes": 253282,
+      "language": "not inferred from filename",
+      "subtitle_text_resource": null
+    },
+    {
+      "source_file": "gameres/sounds/scenes/gazroom/gaz_music.ogg",
+      "sha256": "772d7b175b2f0b08daf845b2c14a8d3ec61ac8f23b08bf560543ac177eaaef0d",
+      "bytes": 226935,
+      "language": "not inferred from filename",
+      "subtitle_text_resource": null
+    },
+    {
+      "source_file": "gameres/sounds/scenes/gazroom/gaz_music2.ogg",
+      "sha256": "22f3ae120c0e38d20674276198b10b393be400308984874f7e7fffbbbba6b132",
+      "bytes": 218901,
+      "language": "not inferred from filename",
+      "subtitle_text_resource": null
+    },
+    {
+      "source_file": "gameres/sounds/scenes/gazroom/gaz_shock_scream.ogg",
+      "sha256": "439bac0369f44c306e97240bbac76cb410eda28f2bf656aab14dc8f4a3d4bee5",
+      "bytes": 102877,
+      "language": "not inferred from filename",
+      "subtitle_text_resource": null
+    },
+    {
+      "source_file": "gameres/sounds/scenes/gazroom/gaz_start1.ogg",
+      "sha256": "947dd5e94954bb012fce2931c4e323dc0e54e30d74d2e5453ca30d15aaab1bb8",
+      "bytes": 273047,
+      "language": "not inferred from filename",
+      "subtitle_text_resource": null
+    },
+    {
+      "source_file": "gameres/sounds/scenes/gazroom/gaz_start2.ogg",
+      "sha256": "bdd97d1fdf688dd52044cd72540dab89f1e107d9b93cb788231fc6030cd72365",
+      "bytes": 246214,
+      "language": "not inferred from filename",
+      "subtitle_text_resource": null
+    },
+    {
+      "source_file": "gameres/sounds/scenes/kinoproektor/digit.ogg",
+      "sha256": "46c39f6144760db4237844826ff77869a61afc747dccdc97d64da8d0abb41598",
+      "bytes": 12964,
+      "language": "not inferred from filename",
+      "subtitle_text_resource": null
+    },
+    {
+      "source_file": "gameres/sounds/scenes/kinoproektor/kinoproektor_loading.wav",
+      "sha256": "2588c254cbc529ae740956370bee328f7db3f90ef059d5877aba6a1975c4361b",
+      "bytes": 104180,
+      "language": "not inferred from filename",
+      "subtitle_text_resource": null,
+      "duration_seconds": 1.18
+    },
+    {
+      "source_file": "gameres/sounds/scenes/kinoproektor/kinoproektor_loop.wav",
+      "sha256": "a8139899b8b580df02c0f7c96dde0296141d415aae60e4d4716439ec6ee6c975",
+      "bytes": 205034,
+      "language": "not inferred from filename",
+      "subtitle_text_resource": null,
+      "duration_seconds": 2.323
+    },
+    {
+      "source_file": "gameres/sounds/scenes/kinoproektor/kinoproektor_open.wav",
+      "sha256": "8b91bf1cad38d8e6c6a03a1eb9504decd5007838b29b0dbba8b999c0ea6dc46e",
+      "bytes": 98548,
+      "language": "not inferred from filename",
+      "subtitle_text_resource": null,
+      "duration_seconds": 1.116
+    },
+    {
+      "source_file": "gameres/sounds/scenes/kinoproektor/kinoproektor_start.wav",
+      "sha256": "ffa1a4cd22e5e508640a8b356fe6e623c09c74c5a9c4fc95e83f7708d6a832a7",
+      "bytes": 75708,
+      "language": "not inferred from filename",
+      "subtitle_text_resource": null,
+      "duration_seconds": 0.857
+    },
+    {
+      "source_file": "gameres/sounds/scenes/kinoproektor/kinoproektor_stop.wav",
+      "sha256": "85adc858a8ef28f97c6ede34a13410898884996f8481fdc40745f8fb814db3bc",
+      "bytes": 331396,
+      "language": "not inferred from filename",
+      "subtitle_text_resource": null,
+      "duration_seconds": 3.756
+    },
+    {
+      "source_file": "gameres/sounds/scenes/kinoproektor/projector_stop_gromkogovoritel.wav",
+      "sha256": "3bce8fb8074176bcc2eddc79f973e3de94c75ca20f67f9aae01a1595ab5123af",
+      "bytes": 22830,
+      "language": "not inferred from filename",
+      "subtitle_text_resource": null,
+      "duration_seconds": 1.033
+    },
+    {
+      "source_file": "gameres/sounds/scenes/truck_grsvt/truck_crash.wav",
+      "sha256": "32f94407db1c7b1c9a5f4a3ed318392fcf9c7bd2837e0914aa6b31aa98d2827b",
+      "bytes": 321590,
+      "language": "not inferred from filename",
+      "subtitle_text_resource": null,
+      "duration_seconds": 3.646
+    },
+    {
+      "source_file": "gameres/sounds/scenes/truck_grsvt/truck_move.ogg",
+      "sha256": "0ecf654a3e11ad5299d3327f28a75628812816579492c2f3a021e791465134e3",
+      "bytes": 76581,
+      "language": "not inferred from filename",
+      "subtitle_text_resource": null
+    },
+    {
+      "source_file": "gameres/sounds/scenes/truck_grsvt/truck_start_engine.ogg",
+      "sha256": "ad85ae4b2b9bfd15efe616d2a7d8b3972ae6ec3de45c469da72befaa23a3642e",
+      "bytes": 44900,
+      "language": "not inferred from filename",
+      "subtitle_text_resource": null
+    },
+    {
+      "source_file": "gameres/sounds/radio/cilina.ogg",
+      "sha256": "f4003a51b680fb1ed19f8dbc3ba882fff61926eac7892cda66c18c08f69b99f4",
+      "bytes": 3192635,
+      "language": "not inferred from filename",
+      "subtitle_text_resource": null
+    },
+    {
+      "source_file": "gameres/sounds/radio/cilina2.ogg",
+      "sha256": "fbd2715cdb5716a10d480e4ba2deec897991e2e2eeab55e01e0d98c994cc1c04",
+      "bytes": 1441519,
+      "language": "not inferred from filename",
+      "subtitle_text_resource": null
+    },
+    {
+      "source_file": "gameres/sounds/radio/radio.ogg",
+      "sha256": "65766f0f416628c87e078adf9509ab44724cd115dfaac417f90c2fb25de0d65a",
+      "bytes": 910032,
+      "language": "not inferred from filename",
+      "subtitle_text_resource": null
+    },
+    {
+      "source_file": "gameres/sounds/radio/radiopromin.ogg",
+      "sha256": "bf0345eed439043f4a29d713f6abf30a7a7b5650a7bacb33fc14ad19e5f29a9c",
+      "bytes": 239588,
+      "language": "not inferred from filename",
+      "subtitle_text_resource": null
+    },
+    {
+      "source_file": "gameres/sounds/radio/radio_silence.wav",
+      "sha256": "13980533f232f227236ec61ab77e17d5ff8062ecf37795d3b3dea2f5ed278412",
+      "bytes": 237612,
+      "language": "not inferred from filename",
+      "subtitle_text_resource": null,
+      "duration_seconds": 5.387
+    },
+    {
+      "source_file": "gameres/sounds/videozast/credits.ogg",
+      "sha256": "58d05542421ef3beac760a3ddfb891658f0948a985d699f92174ef2e53a01df0",
+      "bytes": 5587805,
+      "language": "not inferred from filename",
+      "subtitle_text_resource": null
+    },
+    {
+      "source_file": "gameres/sounds/videozast/detstvo.wav",
+      "sha256": "c1b9aeb1957ac7130ce773aceb43993edc1f5cf5b8a64cd69eb87c3f642b3d23",
+      "bytes": 14938158,
+      "language": "not inferred from filename",
+      "subtitle_text_resource": null,
+      "duration_seconds": 84.68
+    },
+    {
+      "source_file": "gameres/sounds/videozast/institut.wav",
+      "sha256": "66d0d28b9345682df543037d1ad87557441a5579289c8e9bd38581ff85631256",
+      "bytes": 21824252,
+      "language": "not inferred from filename",
+      "subtitle_text_resource": null,
+      "duration_seconds": 123.72
+    },
+    {
+      "source_file": "gameres/sounds/videozast/intro.wav",
+      "sha256": "006415736f460355f1764555172fc404f6d89a2df2a918776db1149ee07d42a0",
+      "bytes": 24675056,
+      "language": "not inferred from filename",
+      "subtitle_text_resource": null,
+      "duration_seconds": 139.88
+    },
+    {
+      "source_file": "gameres/sounds/videozast/logo.ogg",
+      "sha256": "0b3c58310f5966d01fa0897d6104ea19646edbf682d710c32b3c1fa286f6ebd7",
+      "bytes": 257436,
+      "language": "not inferred from filename",
+      "subtitle_text_resource": null
+    },
+    {
+      "source_file": "gameres/sounds/videozast/outro_credits.ogg",
+      "sha256": "301ecdd66f8346fef20c94e4554a6ea3c27dc901cc053a10f4df0d91937b9009",
+      "bytes": 4234833,
+      "language": "not inferred from filename",
+      "subtitle_text_resource": null
+    },
+    {
+      "source_file": "gameres/sounds/videozast/outro_cutscene.ogg",
+      "sha256": "50aa30ba530ec200b10ab901f36661b3f2ee54a5be25182950e4d16fa57ce030",
+      "bytes": 6137064,
+      "language": "not inferred from filename",
+      "subtitle_text_resource": null
+    },
+    {
+      "source_file": "gameres/sounds/videozast/skola2.wav",
+      "sha256": "0bb6a84e66766fb6b941b5435e51d4cad0209aeb399c746201fc847684b313a2",
+      "bytes": 22452236,
+      "language": "not inferred from filename",
+      "subtitle_text_resource": null,
+      "duration_seconds": 127.28
+    },
+    {
+      "source_file": "gameres/sounds/videozast/vstrecha5.wav",
+      "sha256": "9e5fdcbf2d35d60d1ca9d8772e85b92999ef0a6210dd96b7340fee44007abb6a",
+      "bytes": 31709930,
+      "language": "not inferred from filename",
+      "subtitle_text_resource": null,
+      "duration_seconds": 179.76
+    },
+    {
+      "source_file": "gameres/sounds/videozast/zavod.wav",
+      "sha256": "66c85a41b95ea3857122fdf34d02510fa2257ee7cd92dbc47e007cfe0fc5a1ee",
+      "bytes": 30411536,
+      "language": "not inferred from filename",
+      "subtitle_text_resource": null,
+      "duration_seconds": 172.4
+    }
+  ],
+  "limitations": [
+    "Audio waveforms and video pixels are not a textual dialogue track.",
+    "No native subtitle sidecars were found in this installation.",
+    "AVI stream inspection proves only stream structure, not absence of burned-in text.",
+    "Static subtitle API search is recorded separately; no new subtitle engine or audio dubbing is implemented."
+  ]
+}
