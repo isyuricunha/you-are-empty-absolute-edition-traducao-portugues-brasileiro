@@ -1,5 +1,7 @@
 # Validação de engenharia — 27/10/2026
 
+Snapshot da preparação anterior à tradução. O resultado posterior está em `translation-review.json`.
+
 Perfil: You Are Empty: Absolute Edition Steam, AppID 4760480, referência build 26256132. Adaptador DS2 para interface solta, Windows-1252 e atlas TGA.
 
 - 165 registros, um lote, nenhum PTBR preenchido automaticamente.

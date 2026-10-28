@@ -2,7 +2,7 @@
 
 ## Estado e escopo
 
-Perfil Steam inglês, AppID 4760480, build de referência **26256132**. São **165 unidades em um lote**, todas inicialmente pendentes. O perfil implementado cobre a interface e sua fonte. As **29 notas em texturas**, áudio, vídeos e textos ambientais não foram extraídos linguisticamente e não integram o pacote. Um build completo deste perfil **não significa tradução integral do jogo**. Consulte [o inventário](reference/notes-inventory.json) e [o briefing](docs/briefing-do-jogo.md).
+Perfil Steam inglês, AppID 4760480, build de referência **26256132**. São **165 unidades em um lote**, traduzidas e revisadas em 27/10/2026, sem pendências neste perfil. O build e o pacote local foram validados; teste visual em jogo continua pendente. O perfil implementado cobre a interface e sua fonte. As **29 notas em texturas**, áudio, vídeos e textos ambientais não foram extraídos linguisticamente e não integram o pacote. Um build completo deste perfil **não significa tradução integral do jogo**. Consulte [o inventário](reference/notes-inventory.json) e [o briefing](docs/briefing-do-jogo.md).
 
 Os cinco textos do ensaio anterior estão em `reference/menu-test-observed.json`, fora do lote oficial; não foram tratados como tradução aprovada. O teste anterior confirmou carregamento e encaixe do menu, mas revelou glifos cirílicos nos acentos. A nova fonte ainda exige confirmação visual em jogo.
 

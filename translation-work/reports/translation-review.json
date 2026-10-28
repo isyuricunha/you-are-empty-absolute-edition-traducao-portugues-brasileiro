@@ -1,0 +1,35 @@
+{
+  "authorization": "Maintainer explicitly authorized translation using the toolkit.",
+  "build": "complete and verify-output passed",
+  "date": "2026-10-27",
+  "excluded": [
+    "29 raster notes",
+    "audio",
+    "video",
+    "environmental artwork"
+  ],
+  "package": {
+    "bytes": 45417,
+    "file": "PTBR.zip",
+    "sha256": "e37c3aa335b99b8e26b394f4e43c848bd621a04dcf6dd642a5833d77277414b1"
+  },
+  "pending": 0,
+  "publication": "No commit, push or live GitHub Release performed.",
+  "records": 165,
+  "review": [
+    "Each original read and Portuguese wording authored explicitly",
+    "Consistency and spelling reviewed across all entries",
+    "Attack2 checked against native key binding and manual context",
+    "Two-line molotov label reviewed as one phrase",
+    "All native keys, color tags, escapes and source fingerprints preserved",
+    "CP1252 text matches canonical PTBR for all 165 native entries",
+    "Native English reconstruction is byte-identical",
+    "ZIP has exactly three unique native resource paths, no PTBR wrapper, each member hash matches output",
+    "Managed installed-game hashes unchanged"
+  ],
+  "reviewed": 165,
+  "runtime_test": "pending; no claim of verified glyph rendering or text fit",
+  "schema": 1,
+  "scope": "interface-only",
+  "translated": 165
+}
