@@ -1,0 +1,18 @@
+{
+  "accepted_for_build": false,
+  "artwork_reviewed": false,
+  "candidate": "translation-work/artwork/candidates/gorOW-v1.png",
+  "candidate_sha256": "d899a7d0a91d0089adac9e8a18fbc9eeb97f11426dd21eef17535cec698c1225",
+  "native_verification": {
+    "alpha": "byte-identical",
+    "height": 512,
+    "type": 2,
+    "width": 512
+  },
+  "output": "translation-work/artwork/native-candidates/gameres/textures/Zapiski/05gor/gorOW.tga",
+  "output_sha256": "bca4a7bd8f7564e339c8c46adcd1f5fa3549056e4ff2ffe0aa851c08dd5e9cf8",
+  "remaining": "Inspect lettering, spelling, background, stains, framing and layout at native size before explicit approval.",
+  "schema": 1,
+  "source_file": "gameres/textures/Zapiski/05gor/gorOW.tga",
+  "source_sha256": "6683cd1191f977b990097afd272b69c022fb07d9286c86205d92f4580cf3d3aa"
+}

@@ -1,0 +1,26 @@
+{
+  "schema": 1,
+  "user_refinement": "2026-10-28: Esses pequenos ai não precis não. Só coisa relevante.",
+  "include": [
+    "menus and actionable interface messages",
+    "readable notes, letters and gameplay instructions",
+    "controller diagrams",
+    "other readable text relevant to gameplay or story"
+  ],
+  "exclude": [
+    "tiny incidental object labels and serial markings",
+    "decorative equipment dials",
+    "miniature newspaper scraps in rubbish or prop atlases",
+    "background decorative microtext",
+    "loading screens and loading prompts: explicitly excluded by user 2026-10-28"
+  ],
+  "preserve": [
+    "proper game title and URLs",
+    "technical binding identifiers"
+  ],
+  "policy": "Do not spend adaptation work on incidental microtext. Full-size readable gameplay/story documents remain in scope. Existing triage evidence is preserved; unresolved usage is not proof of irrelevance.",
+  "user_refinements": [
+    "2026-10-28: tiny incidental labels/decorative microtext excluded",
+    "2026-10-28: esquece de carregamento cara"
+  ]
+}

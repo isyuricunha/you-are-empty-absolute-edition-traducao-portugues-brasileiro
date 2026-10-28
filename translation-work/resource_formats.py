@@ -89,9 +89,54 @@ def tga_encode_like(original, rgba):
 
 
 def verify_native_art(original, translated):
+    if original.startswith(b'DDS '):
+        return verify_native_dds(original,translated)
     before,after=tga_decode(original),tga_decode(translated)
     require(before['header']==after['header'],'Native image header/shape/origin changed')
     require(before['footer']==after['footer'],'Native image footer changed')
     require(before['rgba'][3::4]==after['rgba'][3::4],'Native transparency/edge geometry changed')
     require(before['rgba']!=after['rgba'],'Artwork is still byte-equivalent to English image')
     return {'width':before['width'],'height':before['height'],'type':before['kind'],'alpha':'byte-identical'}
+
+
+def dds_layout(data):
+    """Strict legacy 2D DXT5 layout, including every padded mip level.
+
+    Reference: Microsoft DDS_HEADER/DDS_PIXELFORMAT and BC3 documentation.
+    Other compression, cubemaps, volumes and appended payloads fail closed.
+    """
+    require(len(data)>=128 and data[:4]==b'DDS ','Invalid DDS signature/header')
+    require(struct.unpack_from('<I',data,4)[0]==124,'Invalid DDS header size')
+    height,width,linear,depth,mips=struct.unpack_from('<IIIII',data,12)
+    require(width>0 and height>0 and depth in (0,1),'Unsupported DDS dimensions/volume')
+    require(struct.unpack_from('<I',data,76)[0]==32,'Invalid DDS pixel-format size')
+    require(struct.unpack_from('<I',data,80)[0]&4 and data[84:88]==b'DXT5','Only native DXT5 is supported')
+    require(struct.unpack_from('<I',data,112)[0]==0,'DDS cubemap/volume surfaces unsupported')
+    count=max(1,mips)
+    require(count<=max(width,height).bit_length(),'Invalid DDS mip count')
+    levels=[]; offset=128
+    for level in range(count):
+        w,h=max(1,width>>level),max(1,height>>level)
+        size=max(1,(w+3)//4)*max(1,(h+3)//4)*16
+        require(offset+size<=len(data),'Truncated DDS mip chain')
+        levels.append(dict(width=w,height=h,offset=offset,size=size))
+        offset+=size
+    require(offset==len(data),'Unexpected DDS trailing surfaces/payload')
+    return dict(width=width,height=height,format='DXT5',header=data[:128],levels=levels)
+
+
+def verify_native_dds(original,translated):
+    before,after=dds_layout(original),dds_layout(translated)
+    require(before['header']==after['header'],'Native DDS header/dimensions/mips changed')
+    require(len(original)==len(translated),'Native DDS payload size changed')
+    # BC3/DXT5: each 16-byte block starts with 8 alpha bytes (endpoints
+    # and interpolation indices). Exact bytes preserve alpha at every mip.
+    for mip in before['levels']:
+        for offset in range(mip['offset'],mip['offset']+mip['size'],16):
+            require(original[offset:offset+8]==translated[offset:offset+8],
+                    'Native DDS transparency changed')
+    top=before['levels'][0]
+    require(original[128:128+top['size']]!=translated[128:128+top['size']],
+            'DDS top-level artwork still equals English image')
+    return dict(width=before['width'],height=before['height'],type='DXT5',
+                mip_levels=len(before['levels']),alpha='compressed alpha blocks byte-identical at every mip')

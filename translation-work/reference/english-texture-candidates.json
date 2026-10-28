@@ -1,0 +1,132 @@
+{
+  "schema": 1,
+  "scope": "Confirmed English from visual triage so far; audit incomplete",
+  "resources": [
+    {
+      "source_file": "gameres/textures/dds/a01_scrapyard_plaque.dds",
+      "source_sha256": "cb975fe5b1016e094fb0e6ed29963f705d502a0583de1e5274d84b2e260c4429",
+      "preview": "translation-work/preview/extra-textures/gameres/textures/dds/a01_scrapyard_plaque.png",
+      "status": "source-preserved; detailed-transcription-pending"
+    },
+    {
+      "source_file": "gameres/textures/dds/accept_0.dds",
+      "source_sha256": "e4bf54ac578ae0123a1390df1894062badfa527cb1907e8f40f728e72873678e",
+      "preview": "translation-work/preview/extra-textures/gameres/textures/dds/accept_0.png",
+      "status": "source-preserved; detailed-transcription-pending"
+    },
+    {
+      "source_file": "gameres/textures/dds/accept_1.dds",
+      "source_sha256": "98b36e1f67a85f4bf74f9217ab70e56e6a98e874801e51f2e7e8fcfa9f8fe481",
+      "preview": "translation-work/preview/extra-textures/gameres/textures/dds/accept_1.png",
+      "status": "source-preserved; detailed-transcription-pending"
+    },
+    {
+      "source_file": "gameres/textures/dds/back_0.dds",
+      "source_sha256": "f7f84af709af8f63d9f95b8126373b77c54a572273434f831066b9a40fdcfd42",
+      "preview": "translation-work/preview/extra-textures/gameres/textures/dds/back_0.png",
+      "status": "source-preserved; detailed-transcription-pending"
+    },
+    {
+      "source_file": "gameres/textures/dds/back_1.dds",
+      "source_sha256": "ca30537715b755d23b2f4d6b1223e6deaa77caf40a7919843df929e62223eebe",
+      "preview": "translation-work/preview/extra-textures/gameres/textures/dds/back_1.png",
+      "status": "source-preserved; detailed-transcription-pending"
+    },
+    {
+      "source_file": "gameres/textures/dds/bukvigoriat.dds",
+      "source_sha256": "6203d0f28d32a915f6dd710a71c58e0593d17b1f135bb78d475be38ae3747d26",
+      "preview": "translation-work/preview/extra-textures/gameres/textures/dds/bukvigoriat.png",
+      "status": "source-preserved; detailed-transcription-pending"
+    },
+    {
+      "source_file": "gameres/textures/dds/create_0.dds",
+      "source_sha256": "acae39569eaef3d703e0d68c0754596559a8e08dc2b79936c6d203de6b4deb60",
+      "preview": "translation-work/preview/extra-textures/gameres/textures/dds/create_0.png",
+      "status": "source-preserved; detailed-transcription-pending"
+    },
+    {
+      "source_file": "gameres/textures/dds/create_1.dds",
+      "source_sha256": "64624ccdc9ed3a4a185784ae78d0a2a800a33b754d24d068f14a26b8f4f4139c",
+      "preview": "translation-work/preview/extra-textures/gameres/textures/dds/create_1.png",
+      "status": "source-preserved; detailed-transcription-pending"
+    },
+    {
+      "source_file": "gameres/textures/dds/delete_0.dds",
+      "source_sha256": "086487ef37c2eae406c66d6f1a03675eafd88f03c8ae66b9a69bc8b7821ff6cd",
+      "preview": "translation-work/preview/extra-textures/gameres/textures/dds/delete_0.png",
+      "status": "source-preserved; detailed-transcription-pending"
+    },
+    {
+      "source_file": "gameres/textures/dds/delete_1.dds",
+      "source_sha256": "5a14784caae964397796489e5fd3cd1c4cab24c4cf6b335e962e9ed592cbad90",
+      "preview": "translation-work/preview/extra-textures/gameres/textures/dds/delete_1.png",
+      "status": "source-preserved; detailed-transcription-pending"
+    },
+    {
+      "source_file": "gameres/textures/dds/fabrika2_ico.dds",
+      "source_sha256": "1261999966c47c932d2af33494909ff2993deeb966ba5f8d9aa21e22b5f0284f",
+      "preview": "translation-work/preview/extra-textures/gameres/textures/dds/fabrika2_ico.png",
+      "status": "source-preserved; detailed-transcription-pending"
+    },
+    {
+      "source_file": "gameres/textures/dds/fabrika_plaque.dds",
+      "source_sha256": "d6d0a573c578f78b26f9fbfce00e2b5cb6263336af1cb52ef8698a6a16115dd2",
+      "preview": "translation-work/preview/extra-textures/gameres/textures/dds/fabrika_plaque.png",
+      "status": "source-preserved; detailed-transcription-pending"
+    },
+    {
+      "source_file": "gameres/textures/dds/fight_0.dds",
+      "source_sha256": "3c6edb6c1fe9ae3e65929b6c93e891d3db5cc6e24796100036b68678bc172707",
+      "preview": "translation-work/preview/extra-textures/gameres/textures/dds/fight_0.png",
+      "status": "source-preserved; detailed-transcription-pending"
+    },
+    {
+      "source_file": "gameres/textures/dds/fight_1.dds",
+      "source_sha256": "f0ab4ece4f03625074616f3a0238ba8e8859b9fea17f1b7785091b96831fb07f",
+      "preview": "translation-work/preview/extra-textures/gameres/textures/dds/fight_1.png",
+      "status": "source-preserved; detailed-transcription-pending"
+    },
+    {
+      "source_file": "gameres/textures/dds/fight_2.dds",
+      "source_sha256": "e699f49bc86a59ea1449d72196b7e4f9d3b6b513b7b864248e8bacb73f84b4c9",
+      "preview": "translation-work/preview/extra-textures/gameres/textures/dds/fight_2.png",
+      "status": "source-preserved; detailed-transcription-pending"
+    },
+    {
+      "source_file": "gameres/textures/dds/fon.dds",
+      "source_sha256": "c52f6fc76a5170d4aafd3e8f5a4ed119cd4ac91d4612e0c2674e465296a7ea84",
+      "preview": "translation-work/preview/extra-textures/gameres/textures/dds/fon.png",
+      "status": "source-preserved; detailed-transcription-pending"
+    },
+    {
+      "source_file": "gameres/textures/dds/frodofabrika.dds",
+      "source_sha256": "90f6bd0a8cf36f728742ed59635b0b65ea0297aeec786dac07baffadd9e52df8",
+      "preview": "translation-work/preview/extra-textures/gameres/textures/dds/frodofabrika.png",
+      "status": "source-preserved; detailed-transcription-pending"
+    },
+    {
+      "source_file": "gameres/textures/dds/fuckmephistofel.dds",
+      "source_sha256": "3479d9234364f2ea610e4928874f7561ddaeaf5b8285269ab8271b59dcbc32f8",
+      "preview": "translation-work/preview/extra-textures/gameres/textures/dds/fuckmephistofel.png",
+      "status": "source-preserved; detailed-transcription-pending"
+    },
+    {
+      "source_file": "gameres/textures/dds/funi_plaque.dds",
+      "source_sha256": "f92c397648b6fcb97574b0ef937117039678dcfd9d502255fccf1d921641f4a8",
+      "preview": "translation-work/preview/extra-textures/gameres/textures/dds/funi_plaque.png",
+      "status": "source-preserved; detailed-transcription-pending"
+    },
+    {
+      "source_file": "gameres/textures/dds/int_karma.dds",
+      "source_sha256": "4ad1ceef30b55d8d66b43e61432d090ed3b1a16426fcb31a1ac41c9c7a7010bc",
+      "preview": "translation-work/preview/extra-textures/gameres/textures/dds/int_karma.png",
+      "status": "source-preserved; detailed-transcription-pending"
+    },
+    {
+      "source_file": "gameres/textures/dds/int_man.dds",
+      "source_sha256": "feb7073e53a5d111edc671f97c55cc3b17b5e5760e97c2322bd4e6236860ca05",
+      "preview": "translation-work/preview/extra-textures/gameres/textures/dds/int_man.png",
+      "status": "source-preserved; detailed-transcription-pending"
+    }
+  ]
+}

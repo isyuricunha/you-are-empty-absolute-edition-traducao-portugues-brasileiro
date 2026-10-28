@@ -1,0 +1,18 @@
+{
+  "accepted_for_build": false,
+  "artwork_reviewed": false,
+  "candidate": "translation-work/artwork/candidates/eliuzia-v1.png",
+  "candidate_sha256": "42af3d0b6d888dc25a35fc7bf487c30c8abc456c98cc8159b63ff0a11ae66d6f",
+  "native_verification": {
+    "alpha": "byte-identical",
+    "height": 512,
+    "type": 2,
+    "width": 512
+  },
+  "output": "translation-work/artwork/native-candidates/gameres/textures/Zapiski/12opera/eliuzia.tga",
+  "output_sha256": "adb41f0eff71f1b48867a73f2cc08d17746f09338d720dbff894b0412f8900e4",
+  "remaining": "Inspect lettering, spelling, background, stains, framing and layout at native size before explicit approval.",
+  "schema": 1,
+  "source_file": "gameres/textures/Zapiski/12opera/eliuzia.tga",
+  "source_sha256": "5c705416d865f0c54d9878fbd57a9ba54e35a49f31e5b519c6dff37ed585f73f"
+}

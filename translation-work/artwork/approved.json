@@ -120,6 +120,177 @@
         "gameres/textures/Zapiski/03MEAT/vladimir.tga#letter": "616472229cec5c3234b7d79d50cf59f1e62b124ad60632e66d1c7e3e90a45c5e"
       }
     },
+    "gameres/textures/Zapiski/04wall/ActivSun.tga": {
+      "file": "translation-work/artwork/approved/gameres/textures/Zapiski/04wall/ActivSun.tga",
+      "review": {
+        "native": {
+          "alpha": "byte-identical",
+          "height": 512,
+          "type": 2,
+          "width": 512
+        },
+        "runtime": "pending user test",
+        "style": "Background, lettering, layout and readability reviewed before approval",
+        "text": "Explicit native-size visual review declared"
+      },
+      "sha256": "fbcbbccc5e6f36b53ff7a9230efbc69226942e1102d5ecd2915825bc0a8dbcc2",
+      "source_sha256": "4f4391b9d6a1dfe28ce1271091af7af64d9267f8c78a4445a0d715b628cb05e7",
+      "translations": {
+        "gameres/textures/Zapiski/04wall/ActivSun.tga#letter": "cd8df4b3b465153f0ee1ae7267f55260844117dc2ce1ccb0bce7fab031b40fb4"
+      }
+    },
+    "gameres/textures/Zapiski/04wall/liuda.tga": {
+      "file": "translation-work/artwork/approved/gameres/textures/Zapiski/04wall/liuda.tga",
+      "review": {
+        "native": {
+          "alpha": "byte-identical",
+          "height": 512,
+          "type": 2,
+          "width": 512
+        },
+        "runtime": "pending user test",
+        "style": "Background, lettering, layout and readability reviewed before approval",
+        "text": "Explicit native-size visual review declared"
+      },
+      "sha256": "7d583ca742ee0daa0b0cbfea3f81cc320dec701a54af91f4712789c420130ad9",
+      "source_sha256": "f509fad1b8975ebdc99c05153d0eb852cd64a7ce017720619ce85c2e4587ad24",
+      "translations": {
+        "gameres/textures/Zapiski/04wall/liuda.tga#letter": "5ef824187f5ab786dd119562bfd3c6821e94ccc52369e21dc8d1341c1e725f1d"
+      }
+    },
+    "gameres/textures/Zapiski/05gor/gorOW.tga": {
+      "file": "translation-work/artwork/approved/gameres/textures/Zapiski/05gor/gorOW.tga",
+      "review": {
+        "native": {
+          "alpha": "byte-identical",
+          "height": 512,
+          "type": 2,
+          "width": 512
+        },
+        "runtime": "pending user test",
+        "style": "Background, lettering, layout and readability reviewed before approval",
+        "text": "Explicit native-size visual review declared"
+      },
+      "sha256": "bca4a7bd8f7564e339c8c46adcd1f5fa3549056e4ff2ffe0aa851c08dd5e9cf8",
+      "source_sha256": "6683cd1191f977b990097afd272b69c022fb07d9286c86205d92f4580cf3d3aa",
+      "translations": {
+        "gameres/textures/Zapiski/05gor/gorOW.tga#letter": "0939cfd41672e4f73a9a3002b70aaeef1df5af1243dacb497149ffdb66441610"
+      }
+    },
+    "gameres/textures/Zapiski/05gor/gorVoda.tga": {
+      "file": "translation-work/artwork/approved/gameres/textures/Zapiski/05gor/gorVoda.tga",
+      "review": {
+        "native": {
+          "alpha": "byte-identical",
+          "height": 512,
+          "type": 2,
+          "width": 512
+        },
+        "runtime": "pending user test",
+        "style": "Background, lettering, layout and readability reviewed before approval",
+        "text": "Explicit native-size visual review declared"
+      },
+      "sha256": "b8eab608edb16099df6447702c666c999bdd39d4e3be22480ef6e4dea6482ea5",
+      "source_sha256": "3bf590cb547c857bd9d76b3dd9507ddfe259deb7a4e15e94c38d707595edbe19",
+      "translations": {
+        "gameres/textures/Zapiski/05gor/gorVoda.tga#letter": "097a7295a05fb1f0f5ab5f0f9cadc0ef1869c42bac099ffa381b43721a29d31a"
+      }
+    },
+    "gameres/textures/Zapiski/05gor/gotovnost.tga": {
+      "file": "translation-work/artwork/approved/gameres/textures/Zapiski/05gor/gotovnost.tga",
+      "review": {
+        "native": {
+          "alpha": "byte-identical",
+          "height": 512,
+          "type": 2,
+          "width": 512
+        },
+        "runtime": "pending user test",
+        "style": "Background, lettering, layout and readability reviewed before approval",
+        "text": "Explicit native-size visual review declared"
+      },
+      "sha256": "f230aae5b7ff2437c7a24412d86162ef81e798f2375927df9622fc8500ab7058",
+      "source_sha256": "d3fdc08185857881e2f55dbfa7c442dc41b5e7f44ce016620d0ab014eac03205",
+      "translations": {
+        "gameres/textures/Zapiski/05gor/gotovnost.tga#letter": "ecf9a7614f6fb9833b85e58cf5d4afaccae6b76d2955f31233ffb0653bacd8a3"
+      }
+    },
+    "gameres/textures/Zapiski/06GRSVT/dliababini.tga": {
+      "file": "translation-work/artwork/approved/gameres/textures/Zapiski/06GRSVT/dliababini.tga",
+      "review": {
+        "native": {
+          "alpha": "byte-identical",
+          "height": 512,
+          "type": 2,
+          "width": 512
+        },
+        "runtime": "pending user test",
+        "style": "Background, lettering, layout and readability reviewed before approval",
+        "text": "Explicit native-size visual review declared"
+      },
+      "sha256": "1ced6f990ccb166a30a97857a2387c54cb99a3f47c8cf938c84d77659052e97a",
+      "source_sha256": "c29afde038f7665b83568411989eee3fc14a373dfed53dd2eed302d700044118",
+      "translations": {
+        "gameres/textures/Zapiski/06GRSVT/dliababini.tga#letter": "7fa53ff658453f8b2e307b82d900b148c52175b1b68a863c34ea58d0c9ed290e"
+      }
+    },
+    "gameres/textures/Zapiski/07GorKonec/detali.tga": {
+      "file": "translation-work/artwork/approved/gameres/textures/Zapiski/07GorKonec/detali.tga",
+      "review": {
+        "native": {
+          "alpha": "byte-identical",
+          "height": 512,
+          "type": 2,
+          "width": 512
+        },
+        "runtime": "pending user test",
+        "style": "Background, lettering, layout and readability reviewed before approval",
+        "text": "Explicit native-size visual review declared"
+      },
+      "sha256": "6b58921144ac9ccfd4e53fdfaa901cf8f99866ef7c3a9629431ba702667a7663",
+      "source_sha256": "b5008334a9b4047fd3f0b1db405abc3425e5c05359756743898fab99fb0fcb60",
+      "translations": {
+        "gameres/textures/Zapiski/07GorKonec/detali.tga#letter": "1b80d03bc8a5d84277554ac037ba7d9d7fee8aeebfb7f68e5b65927fc328743a"
+      }
+    },
+    "gameres/textures/Zapiski/07GorKonec/podgovSunActiv.tga": {
+      "file": "translation-work/artwork/approved/gameres/textures/Zapiski/07GorKonec/podgovSunActiv.tga",
+      "review": {
+        "native": {
+          "alpha": "byte-identical",
+          "height": 512,
+          "type": 2,
+          "width": 512
+        },
+        "runtime": "pending user test",
+        "style": "Background, lettering, layout and readability reviewed before approval",
+        "text": "Explicit native-size visual review declared"
+      },
+      "sha256": "a0c2ad8a6d484d51bec7137a16d6503d903421f0086cd1783eaa1267a23a52d4",
+      "source_sha256": "b743cc236c497d244de8d62480e96491a555e637374c7c9743dad36f6c5149b4",
+      "translations": {
+        "gameres/textures/Zapiski/07GorKonec/podgovSunActiv.tga#letter": "8d4d332a73db6abb1164f29de43a54bd8251d3ee2451d908167dd03ac2b1cbb0"
+      }
+    },
+    "gameres/textures/Zapiski/07GorKonec/tramvai.tga": {
+      "file": "translation-work/artwork/approved/gameres/textures/Zapiski/07GorKonec/tramvai.tga",
+      "review": {
+        "native": {
+          "alpha": "byte-identical",
+          "height": 512,
+          "type": 2,
+          "width": 512
+        },
+        "runtime": "pending user test",
+        "style": "Background, lettering, layout and readability reviewed before approval",
+        "text": "Explicit native-size visual review declared"
+      },
+      "sha256": "8c6ae5f3130b7dfdb17b99e1b8ce47307ee329387f279e6041c2cb0d5601e6af",
+      "source_sha256": "a7e64922d16a0146684546e5a090b9a97bc0fbdd590de232340f06f03c6155c7",
+      "translations": {
+        "gameres/textures/Zapiski/07GorKonec/tramvai.tga#letter": "ddea6fad55cd73248c250b057d9deb6d22aa4e7810faa772e3f0774900f28c3e"
+      }
+    },
     "gameres/textures/Zapiski/08POH/dvornik.tga": {
       "file": "translation-work/artwork/approved/gameres/textures/Zapiski/08POH/dvornik.tga",
       "review": {
@@ -135,6 +306,63 @@
         "gameres/textures/Zapiski/08POH/dvornik.tga#letter": "0b4b553e72b36db0011da098071346bfcb0486d12dfc5ad7f311c742a064c4f0"
       }
     },
+    "gameres/textures/Zapiski/08POH/jilci.tga": {
+      "file": "translation-work/artwork/approved/gameres/textures/Zapiski/08POH/jilci.tga",
+      "review": {
+        "native": {
+          "alpha": "byte-identical",
+          "height": 512,
+          "type": 2,
+          "width": 512
+        },
+        "runtime": "pending user test",
+        "style": "Background, lettering, layout and readability reviewed before approval",
+        "text": "Explicit native-size visual review declared"
+      },
+      "sha256": "9eea99298a7c764ee692dac62d5918bdefc54e6749e412ea338b7ef55bbd11c3",
+      "source_sha256": "3a8937c58bce398acd04a157e7078b77d6f8d039e26cf8062730c923ca8fefef",
+      "translations": {
+        "gameres/textures/Zapiski/08POH/jilci.tga#letter": "cbf2e5fce36f97a1fb121a8556718c60179519a0c67c5dec7d03732353031533"
+      }
+    },
+    "gameres/textures/Zapiski/08POH/lolita.tga": {
+      "file": "translation-work/artwork/approved/gameres/textures/Zapiski/08POH/lolita.tga",
+      "review": {
+        "native": {
+          "alpha": "byte-identical",
+          "height": 512,
+          "type": 2,
+          "width": 512
+        },
+        "runtime": "pending user test",
+        "style": "Background, lettering, layout and readability reviewed before approval",
+        "text": "Explicit native-size visual review declared"
+      },
+      "sha256": "37be96a2ffccbd64fcd2ec5fa68ccb4fcab01d37175bc148f0579d53c51f7f29",
+      "source_sha256": "f66efd740e0965f4c3af9216223c80cba501a9120079e8344aae820c5ea7b4c7",
+      "translations": {
+        "gameres/textures/Zapiski/08POH/lolita.tga#letter": "bcb1e4302d34d3aba2b21ecec9a028d9f0d9f6e1a3d2a329a74ba61ecd0e026c"
+      }
+    },
+    "gameres/textures/Zapiski/09Kinostreet/KrisiWarn.tga": {
+      "file": "translation-work/artwork/approved/gameres/textures/Zapiski/09Kinostreet/KrisiWarn.tga",
+      "review": {
+        "native": {
+          "alpha": "byte-identical",
+          "height": 512,
+          "type": 2,
+          "width": 512
+        },
+        "runtime": "pending user test",
+        "style": "Background, lettering, layout and readability reviewed before approval",
+        "text": "Explicit native-size visual review declared"
+      },
+      "sha256": "1955eb14e586aa3436c9a8a82532416260d5ec85b1b837aa80a114292aab3c63",
+      "source_sha256": "47fde903cc3b3c08efda2f62d014712d2e3213b40c28feb64560a65836e1e0c0",
+      "translations": {
+        "gameres/textures/Zapiski/09Kinostreet/KrisiWarn.tga#letter": "e26a78fca3d79a83eda74914f1fa2fd097052414711d5f26d35e282668e5c488"
+      }
+    },
     "gameres/textures/Zapiski/09Kinostreet/kinoKey.tga": {
       "file": "translation-work/artwork/approved/gameres/textures/Zapiski/09Kinostreet/kinoKey.tga",
       "review": {
@@ -148,6 +376,160 @@
       "source_sha256": "b3e947f44730780d7af52ae90344b841efa648c0eb5a6611e1f248bbf520aecd",
       "translations": {
         "gameres/textures/Zapiski/09Kinostreet/kinoKey.tga#letter": "9758cdebc3372d8e70a8fd830f584eb4c992b3ad986a86ae9d0aa97af31a440a"
+      }
+    },
+    "gameres/textures/Zapiski/09Kinostreet/opiat.tga": {
+      "file": "translation-work/artwork/approved/gameres/textures/Zapiski/09Kinostreet/opiat.tga",
+      "review": {
+        "native": {
+          "alpha": "byte-identical",
+          "height": 512,
+          "type": 2,
+          "width": 512
+        },
+        "runtime": "pending user test",
+        "style": "Background, lettering, layout and readability reviewed before approval",
+        "text": "Explicit native-size visual review declared"
+      },
+      "sha256": "654b009e4f78bae7a1c88570a4ffbd77ce360f3c3d750147c0bb044ab414def1",
+      "source_sha256": "d1eb1b6edf24a1da5852a4acce6189e0753daf6da87f0e34fe8e63421e44f1fd",
+      "translations": {
+        "gameres/textures/Zapiski/09Kinostreet/opiat.tga#letter": "e168ff3ed4e33ea49a2959a6f665e80bd6ab753736033cd13648eae6a00b0e1e"
+      }
+    },
+    "gameres/textures/Zapiski/10Metro/Eskalator.tga": {
+      "file": "translation-work/artwork/approved/gameres/textures/Zapiski/10Metro/Eskalator.tga",
+      "review": {
+        "native": {
+          "alpha": "byte-identical",
+          "height": 512,
+          "type": 2,
+          "width": 512
+        },
+        "runtime": "pending user test",
+        "style": "Background, lettering, layout and readability reviewed before approval",
+        "text": "Explicit native-size visual review declared"
+      },
+      "sha256": "f90350cd5a4411a5b55c64c812cd097e7898c39c2790ceeb04ff0f233a5adbdf",
+      "source_sha256": "723162b4c392718f41314bf341a79bd73743355624a0201fe3dd05339244bac3",
+      "translations": {
+        "gameres/textures/Zapiski/10Metro/Eskalator.tga#letter": "c9f66154d262d9472fd14349fb24358c706f63d752e49d6c79805fecfdd3631e"
+      }
+    },
+    "gameres/textures/Zapiski/10Metro/WarnVagon.tga": {
+      "file": "translation-work/artwork/approved/gameres/textures/Zapiski/10Metro/WarnVagon.tga",
+      "review": {
+        "native": {
+          "alpha": "byte-identical",
+          "height": 512,
+          "type": 2,
+          "width": 512
+        },
+        "runtime": "pending user test",
+        "style": "Background, lettering, layout and readability reviewed before approval",
+        "text": "Explicit native-size visual review declared"
+      },
+      "sha256": "6d0dd0624372b8172e0ff4f66939e213f2fef4ded6b1aa953fb329daba5fe4c3",
+      "source_sha256": "429ba0a65b30c6b9b4e181fa4b7a08c7ff1aa3adfc4fd2ddf6749076543eb380",
+      "translations": {
+        "gameres/textures/Zapiski/10Metro/WarnVagon.tga#letter": "c950575e573f662db0ac35d59235a57adbb435e2d1ce7033ac7a6e14a285167b"
+      }
+    },
+    "gameres/textures/Zapiski/11met6/revizia.tga": {
+      "file": "translation-work/artwork/approved/gameres/textures/Zapiski/11met6/revizia.tga",
+      "review": {
+        "native": {
+          "alpha": "byte-identical",
+          "height": 512,
+          "type": 2,
+          "width": 512
+        },
+        "runtime": "pending user test",
+        "style": "Background, lettering, layout and readability reviewed before approval",
+        "text": "Explicit native-size visual review declared"
+      },
+      "sha256": "e21ee201464ed457efeb101f3d6a46210ae9cf38622d76b90878e984bf32b28a",
+      "source_sha256": "77f547a02f35c97f52e98981a4e0dd335911704aaca653ceef244e5cb43914bd",
+      "translations": {
+        "gameres/textures/Zapiski/11met6/revizia.tga#letter": "cd27dd6a6cf40fba3198e06483f531f951ddae0a6ceb3e3b47bd0f9c67df6c5c"
+      }
+    },
+    "gameres/textures/Zapiski/12opera/eliuzia.tga": {
+      "file": "translation-work/artwork/approved/gameres/textures/Zapiski/12opera/eliuzia.tga",
+      "review": {
+        "native": {
+          "alpha": "byte-identical",
+          "height": 512,
+          "type": 2,
+          "width": 512
+        },
+        "runtime": "pending user test",
+        "style": "Background, lettering, layout and readability reviewed before approval",
+        "text": "Explicit native-size visual review declared"
+      },
+      "sha256": "adb41f0eff71f1b48867a73f2cc08d17746f09338d720dbff894b0412f8900e4",
+      "source_sha256": "5c705416d865f0c54d9878fbd57a9ba54e35a49f31e5b519c6dff37ed585f73f",
+      "translations": {
+        "gameres/textures/Zapiski/12opera/eliuzia.tga#letter": "e4b56ec48f90dd9cfb847b0b982b511d62280325d9fa6c670b67e5e4a43bae92"
+      }
+    },
+    "gameres/textures/Zapiski/13krovli/radioLiubitel.tga": {
+      "file": "translation-work/artwork/approved/gameres/textures/Zapiski/13krovli/radioLiubitel.tga",
+      "review": {
+        "native": {
+          "alpha": "byte-identical",
+          "height": 512,
+          "type": 2,
+          "width": 512
+        },
+        "runtime": "pending user test",
+        "style": "Background, lettering, layout and readability reviewed before approval",
+        "text": "Explicit native-size visual review declared"
+      },
+      "sha256": "25f6ff496ae8ed7a2d70eda73547cce1ab4424104a780fb97104287a90c0e850",
+      "source_sha256": "7388e95506f7150a35e79a8590e4674bed98a6732299a86a3c49fb1367422ea5",
+      "translations": {
+        "gameres/textures/Zapiski/13krovli/radioLiubitel.tga#letter": "026a72ee6cd7c29b063d96442d7e812935b39f63f53731097b65e27fc55d96a4"
+      }
+    },
+    "gameres/textures/Zapiski/14parall/yama.tga": {
+      "file": "translation-work/artwork/approved/gameres/textures/Zapiski/14parall/yama.tga",
+      "review": {
+        "native": {
+          "alpha": "byte-identical",
+          "height": 512,
+          "type": 2,
+          "width": 512
+        },
+        "runtime": "pending user test",
+        "style": "Background, lettering, layout and readability reviewed before approval",
+        "text": "Explicit native-size visual review declared"
+      },
+      "sha256": "08bb32fcc44c899282eb501f3e2b8a13f41f9f8d21d89e2637a2b3f1647e8390",
+      "source_sha256": "4b505e3b642a6b3297f095d791e7813214861543d0ed7cf267a31f87029a817d",
+      "translations": {
+        "gameres/textures/Zapiski/14parall/yama.tga#letter": "e310e1928a0ebff53db8043b040c36e3d7718e6ec6e4b9dc18564a839656e01b"
+      }
+    },
+    "gameres/textures/dds/controller_icon.tga": {
+      "file": "translation-work/artwork/approved/gameres/textures/dds/controller_icon.tga",
+      "review": {
+        "native": {
+          "alpha": "byte-identical",
+          "height": 2048,
+          "type": 10,
+          "width": 512
+        },
+        "runtime": "pending user test",
+        "style": "Background, lettering, layout and readability reviewed before approval",
+        "text": "Explicit native-size visual review declared"
+      },
+      "sha256": "39a181e3a6709bec70731b01b058ad11dddece713d7aedbdc1d506c19c3e7183",
+      "source_sha256": "cf01d09afad6f569f886169271ad2dda257befe6dea4b1d9bd4cffb05a957cdc",
+      "translations": {
+        "gameres/textures/dds/controller_icon.tga#preset-1": "034cd5a9c7c55d1728dc7d99014d9c17c913bdb04c9def906b72e1be3fb5238e",
+        "gameres/textures/dds/controller_icon.tga#preset-2": "0932f77c0b42747f99f59c943898470471b7be35e0b0a0c75698471fd240e251",
+        "gameres/textures/dds/controller_icon.tga#preset-3": "357a6653bdb191389d29e79c970ee7eb3bc0daa518d6286f1105ec43d9def86c"
       }
     }
   },

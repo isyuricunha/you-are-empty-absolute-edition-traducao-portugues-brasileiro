@@ -1,0 +1,18 @@
+{
+  "accepted_for_build": false,
+  "artwork_reviewed": false,
+  "candidate": "translation-work/artwork/candidates/radioLiubitel-v1.png",
+  "candidate_sha256": "8c8d633721505f5d292ed838b1b01c282ee412bf87c4e1cef760bfa540079144",
+  "native_verification": {
+    "alpha": "byte-identical",
+    "height": 512,
+    "type": 2,
+    "width": 512
+  },
+  "output": "translation-work/artwork/native-candidates/gameres/textures/Zapiski/13krovli/radioLiubitel.tga",
+  "output_sha256": "25f6ff496ae8ed7a2d70eda73547cce1ab4424104a780fb97104287a90c0e850",
+  "remaining": "Inspect lettering, spelling, background, stains, framing and layout at native size before explicit approval.",
+  "schema": 1,
+  "source_file": "gameres/textures/Zapiski/13krovli/radioLiubitel.tga",
+  "source_sha256": "7388e95506f7150a35e79a8590e4674bed98a6732299a86a3c49fb1367422ea5"
+}

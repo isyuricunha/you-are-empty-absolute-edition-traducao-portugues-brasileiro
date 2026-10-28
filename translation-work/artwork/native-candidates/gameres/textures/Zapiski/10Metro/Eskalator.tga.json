@@ -1,0 +1,18 @@
+{
+  "accepted_for_build": false,
+  "artwork_reviewed": false,
+  "candidate": "translation-work/artwork/candidates/Eskalator-v1.png",
+  "candidate_sha256": "2cf80070fde5070ed3190dfb2d4f6a08935644a2a4282cd03841001153102263",
+  "native_verification": {
+    "alpha": "byte-identical",
+    "height": 512,
+    "type": 2,
+    "width": 512
+  },
+  "output": "translation-work/artwork/native-candidates/gameres/textures/Zapiski/10Metro/Eskalator.tga",
+  "output_sha256": "f90350cd5a4411a5b55c64c812cd097e7898c39c2790ceeb04ff0f233a5adbdf",
+  "remaining": "Inspect lettering, spelling, background, stains, framing and layout at native size before explicit approval.",
+  "schema": 1,
+  "source_file": "gameres/textures/Zapiski/10Metro/Eskalator.tga",
+  "source_sha256": "723162b4c392718f41314bf341a79bd73743355624a0201fe3dd05339244bac3"
+}

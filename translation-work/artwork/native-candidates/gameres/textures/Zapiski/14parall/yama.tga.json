@@ -1,0 +1,18 @@
+{
+  "accepted_for_build": false,
+  "artwork_reviewed": false,
+  "candidate": "translation-work/artwork/candidates/yama-v1.png",
+  "candidate_sha256": "20b45a25e977fb179b81a2c952acb991d3dc1befefde4c45cc2ff4fd360ba0cc",
+  "native_verification": {
+    "alpha": "byte-identical",
+    "height": 512,
+    "type": 2,
+    "width": 512
+  },
+  "output": "translation-work/artwork/native-candidates/gameres/textures/Zapiski/14parall/yama.tga",
+  "output_sha256": "08bb32fcc44c899282eb501f3e2b8a13f41f9f8d21d89e2637a2b3f1647e8390",
+  "remaining": "Inspect lettering, spelling, background, stains, framing and layout at native size before explicit approval.",
+  "schema": 1,
+  "source_file": "gameres/textures/Zapiski/14parall/yama.tga",
+  "source_sha256": "4b505e3b642a6b3297f095d791e7813214861543d0ed7cf267a31f87029a817d"
+}

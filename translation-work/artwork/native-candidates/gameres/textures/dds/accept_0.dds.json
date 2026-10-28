@@ -1,0 +1,28 @@
+{
+  "accepted_for_build": false,
+  "artwork_reviewed": false,
+  "candidate": "translation-work/preview/native-art/codec-region-fixture.png",
+  "candidate_sha256": "421438ce2dddd38ec1aee7978743492f7f8306a142aa0323f3baf54650419193",
+  "edit_regions": [
+    [
+      32,
+      16,
+      48,
+      24
+    ]
+  ],
+  "native_verification": {
+    "alpha": "compressed alpha blocks byte-identical at every mip",
+    "height": 64,
+    "mip_levels": 8,
+    "type": "DXT5",
+    "width": 128
+  },
+  "output": "translation-work/artwork/native-candidates/gameres/textures/dds/accept_0.dds",
+  "output_sha256": "14667e60fcf458d9ce7f398974871d7d59c39140f44d90cbadf43a603098e780",
+  "outside_regions": "Original compressed blocks retained at every mip except blocks intersecting the scaled edit regions.",
+  "remaining": "Inspect lettering, spelling, background, stains, framing and layout at native size before explicit approval.",
+  "schema": 1,
+  "source_file": "gameres/textures/dds/accept_0.dds",
+  "source_sha256": "e4bf54ac578ae0123a1390df1894062badfa527cb1907e8f40f728e72873678e"
+}

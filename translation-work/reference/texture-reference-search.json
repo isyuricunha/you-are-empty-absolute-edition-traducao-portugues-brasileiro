@@ -1,0 +1,1730 @@
+{
+  "schema": 1,
+  "method": "Read-only bounded ASCII byte-token references in installed non-image/non-audio/non-video files, including root binaries. Dynamic names, UTF-16 and compressed data may be missed.",
+  "scanned_files": 2610,
+  "scanned_bytes": 2420216937,
+  "missing_reference_is_not_proof_of_unused": true,
+  "references": {
+    "a01_scrapyard_plaque": [
+      {
+        "file": "updatefiles.exe",
+        "sha256": "e6cf01f00c2e0216ba450368b9c287a92c7023fa8bcd0fba0a4fccd24921326a",
+        "count": 1,
+        "offsets": [
+          348925
+        ],
+        "contexts": [
+          "extures/dds/800x600vid.dds.gameres/textures/dds/a01_scrapyard_plaque.dds...gameres/textures/dds/accept_0.dds...gameres/textures/dds/accept_1.dds...g"
+        ]
+      }
+    ],
+    "accept_0": [
+      {
+        "file": "updatefiles.exe",
+        "sha256": "e6cf01f00c2e0216ba450368b9c287a92c7023fa8bcd0fba0a4fccd24921326a",
+        "count": 1,
+        "offsets": [
+          348973
+        ],
+        "contexts": [
+          "a01_scrapyard_plaque.dds...gameres/textures/dds/accept_0.dds...gameres/textures/dds/accept_1.dds...gameres/textures/dds/acid.dds...gamer"
+        ]
+      }
+    ],
+    "accept_1": [
+      {
+        "file": "updatefiles.exe",
+        "sha256": "e6cf01f00c2e0216ba450368b9c287a92c7023fa8bcd0fba0a4fccd24921326a",
+        "count": 1,
+        "offsets": [
+          349009
+        ],
+        "contexts": [
+          "extures/dds/accept_0.dds...gameres/textures/dds/accept_1.dds...gameres/textures/dds/acid.dds...gameres/textures/dds/act_meat.dds...gamer"
+        ]
+      }
+    ],
+    "back_0": [
+      {
+        "file": "updatefiles.exe",
+        "sha256": "e6cf01f00c2e0216ba450368b9c287a92c7023fa8bcd0fba0a4fccd24921326a",
+        "count": 1,
+        "offsets": [
+          351013
+        ],
+        "contexts": [
+          "extures/dds/backtile.dds...gameres/textures/dds/back_0.dds.gameres/textures/dds/back_1.dds.gameres/textures/dds/back_fake01.dds....gam"
+        ]
+      }
+    ],
+    "back_1": [
+      {
+        "file": "updatefiles.exe",
+        "sha256": "e6cf01f00c2e0216ba450368b9c287a92c7023fa8bcd0fba0a4fccd24921326a",
+        "count": 1,
+        "offsets": [
+          351045
+        ],
+        "contexts": [
+          "es/textures/dds/back_0.dds.gameres/textures/dds/back_1.dds.gameres/textures/dds/back_fake01.dds....gameres/textures/dds/bal.dds....gam"
+        ]
+      }
+    ],
+    "bukvigoriat": [
+      {
+        "file": "updatefiles.exe",
+        "sha256": "e6cf01f00c2e0216ba450368b9c287a92c7023fa8bcd0fba0a4fccd24921326a",
+        "count": 1,
+        "offsets": [
+          354217
+        ],
+        "contexts": [
+          "extures/dds/budilnik02.dds.gameres/textures/dds/bukvigoriat.dds....gameres/textures/dds/bumazki.dds....gameres/textures/dds/bumpkamepol.dds"
+        ]
+      }
+    ],
+    "controller_icon": [
+      {
+        "file": "updatefiles.exe",
+        "sha256": "e6cf01f00c2e0216ba450368b9c287a92c7023fa8bcd0fba0a4fccd24921326a",
+        "count": 1,
+        "offsets": [
+          357333
+        ],
+        "contexts": [
+          "constr_perekritie2b.dds....gameres/textures/dds/controller_icon.tga....gameres/textures/dds/copy of rubbish_pack_01.dds....gameres/textures/dds"
+        ]
+      },
+      {
+        "file": "gameres/scripts/you_are_empty/ui/ui_ini.lua",
+        "sha256": "afa4c367c09e928bde33415a3a93ee84a1228ccb766f1b2a05cd117833bdbc05",
+        "count": 2,
+        "offsets": [
+          165620,
+          165883
+        ],
+        "contexts": [
+          ", ........400, .......},.......{........name = \"controller_icon\",........class_name = \"HudImages\", ........fade_in = 100, ........fade_out = 10",
+          "_TILED = .........{..........diffuse_texture = \"controller_icon\", ..........material_template = \"ui_image\", .........}, .........}, ........pos"
+        ]
+      }
+    ],
+    "create_0": [
+      {
+        "file": "updatefiles.exe",
+        "sha256": "e6cf01f00c2e0216ba450368b9c287a92c7023fa8bcd0fba0a4fccd24921326a",
+        "count": 1,
+        "offsets": [
+          357729
+        ],
+        "contexts": [
+          "extures/dds/courier.dds....gameres/textures/dds/create_0.dds...gameres/textures/dds/create_1.dds...gameres/textures/dds/crete_schiffer1."
+        ]
+      }
+    ],
+    "create_1": [
+      {
+        "file": "updatefiles.exe",
+        "sha256": "e6cf01f00c2e0216ba450368b9c287a92c7023fa8bcd0fba0a4fccd24921326a",
+        "count": 1,
+        "offsets": [
+          357765
+        ],
+        "contexts": [
+          "extures/dds/create_0.dds...gameres/textures/dds/create_1.dds...gameres/textures/dds/crete_schiffer1.dds....gameres/textures/dds/crete_sc"
+        ]
+      }
+    ],
+    "delete_0": [
+      {
+        "file": "updatefiles.exe",
+        "sha256": "e6cf01f00c2e0216ba450368b9c287a92c7023fa8bcd0fba0a4fccd24921326a",
+        "count": 1,
+        "offsets": [
+          367469
+        ],
+        "contexts": [
+          "extures/dds/dekverttem.dds.gameres/textures/dds/delete_0.dds...gameres/textures/dds/delete_1.dds...gameres/textures/dds/derarmat.dds...g"
+        ]
+      }
+    ],
+    "delete_1": [
+      {
+        "file": "updatefiles.exe",
+        "sha256": "e6cf01f00c2e0216ba450368b9c287a92c7023fa8bcd0fba0a4fccd24921326a",
+        "count": 1,
+        "offsets": [
+          367505
+        ],
+        "contexts": [
+          "extures/dds/delete_0.dds...gameres/textures/dds/delete_1.dds...gameres/textures/dds/derarmat.dds...gameres/textures/dds/derevoknsten.dds"
+        ]
+      }
+    ],
+    "fabrika_plaque": [
+      {
+        "file": "updatefiles.exe",
+        "sha256": "e6cf01f00c2e0216ba450368b9c287a92c7023fa8bcd0fba0a4fccd24921326a",
+        "count": 1,
+        "offsets": [
+          372185
+        ],
+        "contexts": [
+          "res/dds/fabrika2_ico.dds...gameres/textures/dds/fabrika_plaque.dds.gameres/textures/dds/fanera.dds.gameres/textures/dds/faneradir.dds..gameres"
+        ]
+      }
+    ],
+    "fight_0": [
+      {
+        "file": "updatefiles.exe",
+        "sha256": "e6cf01f00c2e0216ba450368b9c287a92c7023fa8bcd0fba0a4fccd24921326a",
+        "count": 1,
+        "offsets": [
+          372501
+        ],
+        "contexts": [
+          "extures/dds/fasad_kol.dds..gameres/textures/dds/fight_0.dds....gameres/textures/dds/fight_1.dds....gameres/textures/dds/fight_2.dds...."
+        ]
+      }
+    ],
+    "fight_1": [
+      {
+        "file": "updatefiles.exe",
+        "sha256": "e6cf01f00c2e0216ba450368b9c287a92c7023fa8bcd0fba0a4fccd24921326a",
+        "count": 1,
+        "offsets": [
+          372537
+        ],
+        "contexts": [
+          "extures/dds/fight_0.dds....gameres/textures/dds/fight_1.dds....gameres/textures/dds/fight_2.dds....gameres/textures/dds/firebox.dds...."
+        ]
+      }
+    ],
+    "fight_2": [
+      {
+        "file": "updatefiles.exe",
+        "sha256": "e6cf01f00c2e0216ba450368b9c287a92c7023fa8bcd0fba0a4fccd24921326a",
+        "count": 1,
+        "offsets": [
+          372573
+        ],
+        "contexts": [
+          "extures/dds/fight_1.dds....gameres/textures/dds/fight_2.dds....gameres/textures/dds/firebox.dds....gameres/textures/dds/firestuff_01.dd"
+        ]
+      }
+    ],
+    "fon": [
+      {
+        "file": "avformat-63.dll",
+        "sha256": "3f5ae0e82d1d75026b2bd8fbd483d0091664f5aca7081ee7b8f33dc514633a0b",
+        "count": 1,
+        "offsets": [
+          2803290
+        ],
+        "contexts": [
+          "ewo...fan...fao.&.fat...fij.%.fil...fin.$.fiu...fon...fre...frm...fro...frr...frs...fry.(.ful.#.fur...gaa...gay...gba...gem...geo.."
+        ]
+      },
+      {
+        "file": "Manual (English).pdf",
+        "sha256": "283e377caec5aa15e80ba4e21d72ba4415afc474b5d850f4bfb1bd64a05c6feb",
+        "count": 20,
+        "offsets": [
+          4430865,
+          6119575,
+          10387468,
+          13141311,
+          17897943,
+          18941764,
+          20648035,
+          26010645,
+          27304924,
+          29402686,
+          31512046,
+          31730870,
+          33781440,
+          34991164,
+          38744190,
+          39452207,
+          39624396,
+          41577987,
+          42693053,
+          44171432
+        ],
+        "contexts": [
+          "S..9g.`$....$....E8..sT.y.1..A.......9j....;..A.FON).\\....u......z......o..>..l..p.&*...\"s......i...).j6.a.bs....[..7OAI{N..W...z..",
+          "i......G.QZ./.7.~.j.@....M....e...[L.L..A...e.i.foN.:.S.M=..?.QE,q.4..Q.;0..2I=........co............$...:.x.P6.N0|...r9.q^y.a}....",
+          "..q....{....w~.....O.....~....y.xZ.l-.P.YYs,.G..FOn..=..<..R.....>;/........L..*.u%N>........W[./...O............|O........`..|.$.O"
+        ]
+      },
+      {
+        "file": "updatefiles.exe",
+        "sha256": "e6cf01f00c2e0216ba450368b9c287a92c7023fa8bcd0fba0a4fccd24921326a",
+        "count": 1,
+        "offsets": [
+          376233
+        ],
+        "contexts": [
+          "res/dds/flowerbox_01.dds...gameres/textures/dds/fon.dds....gameres/textures/dds/fon01.dds..gameres/textures/dds/fona.dds...gameres/"
+        ]
+      },
+      {
+        "file": "Licenses/FFmpeg/FFmpeg-79adb692a2720647e9dbe57de33fd50b41db295c.zip",
+        "sha256": "7878a061b6370bf8659af8ceb0bcf865a7dd195006023bfce7ba3cb6c3c41d2a",
+        "count": 4,
+        "offsets": [
+          4694769,
+          6424999,
+          10724118,
+          13480492
+        ],
+        "contexts": [
+          "....~..DV]...... E......1..h.5#.K..N76...C).z..-foN!....sW...'V_Z0.Km.C.(.....;s.j.b...<b.......@...P..+.@^.V7&..ei.......2...y./.!",
+          ".o....).L.....N.....K...O9...;....v..6...o..J=.=fOn.x...;..Y.....5...{qt~..Y...>_.......MO...(8]c..=..Rl.?.K..../.f....5j.o..g....c",
+          "5^.......bG.....x..j..E....`{.^.K.x.N..y...>....fON..*.|+.L3G..1......w.K.q..}....{U....p..\\%.kU..08...)X..i...nPk...y....O...J...."
+        ]
+      },
+      {
+        "file": "gameres/models/actors/gomnoed.ds2md",
+        "sha256": "2bd4501951b8e1b4faed8eeedc936c50d544f36280cef2aaa4f6641eb8c2fe72",
+        "count": 1,
+        "offsets": [
+          7102925
+        ],
+        "contexts": [
+          "..@3li...|5...?...?...?fff?.AE\".M....4..^.~....@fON.tc.6...?...?...?33s?...?...C..4..^.~....@B.:4.......?...?...?...?.\"......1.4..^"
+        ]
+      },
+      {
+        "file": "gameres/models/actors/protivogaz2.ds2md",
+        "sha256": "4bf2739c3c82aebe19cc15bc5d796dea684934d4562ff072f1b15482022e7acc",
+        "count": 1,
+        "offsets": [
+          831301
+        ],
+        "contexts": [
+          ".0e@3C.....B...?...?...?..Y?....Bip01 Spine.....fon=.u.<N.{=..~....Aux..u..>...?...?...?......4.=.$.<f_.=p.~.8..A;...C.m>...?...?.."
+        ]
+      },
+      {
+        "file": "gameres/models/actors/protivogaztest.ds2md",
+        "sha256": "a6d69c01ba0f740f39baddc2256eec5d13728b294cb251376a82ed706cdb13ae",
+        "count": 1,
+        "offsets": [
+          1052610
+        ],
+        "contexts": [
+          "]/b@.......B...?...?...?..]?....Bip01 Spine$....fon=.u.<N.{=..~. ..A&x..x..>...?...?...?......2z=...<S..=..~....AS......>...?...?.."
+        ]
+      },
+      {
+        "file": "gameres/maps/map00/futur.ds2",
+        "sha256": "3979a464723254f388e6ac80d0d9f33a1498bd7b211d40cd3f497e5e85536c1b",
+        "count": 2,
+        "offsets": [
+          159706,
+          451757
+        ],
+        "contexts": [
+          "F...E..n..\".F...E**W....F%d.E..K..!.F.w.E..b....Fon.E.jn.. .F.Z.E.........................0...0.......f..........................de",
+          "e...Et..FB8.....E...F...C...E...F\\....E.D.x.E.0.FoN.....AX..C>.sD]U.?F..<...=...=.~P?.F.....=X.....O.,..E.U!F..?CI..E...F)..C...E.."
+        ]
+      },
+      {
+        "file": "gameres/maps/map00/futur.ds2cm",
+        "sha256": "b5416dc1ed7d315b4e17f4ba4691f212b7ddc61220007462cc6a59395930bb6b",
+        "count": 5,
+        "offsets": [
+          3057759,
+          3059775,
+          4546311,
+          16834044,
+          20379154
+        ],
+        "contexts": [
+          "F...E...F...F.^.Ee..F...F<..EM..F...F.J.E...F/..Fon.E...F/..F.L.E...F;x.Fsp.E...F;x.F.@.E*..F.x.F(d.E&..F.x.F.T.E...F...FUx.E...F..",
+          "F...E...FTB F.^.Ee..F,..F<..EM..F,..F.J.E...F...Fon.E...F...F.L.E...F...Fsp.E...F...F.@.E*..F...F(d.E&..F...F.T.E...F...FUx.E...F..",
+          "F\\..>..p.U......F...>@.p..lj:. .F...>..p.F.8.?..Fon.>..q...W:.4.F...>=.p.....' .F...>.\"q..Z.:$F.FV..>..q..h...,.F......e...@._2.E!."
+        ]
+      },
+      {
+        "file": "gameres/maps/map00/futur.ds2cm2",
+        "sha256": "c71e0d24640c846e06b475d2142301377491fa9c1b26dae4d63934a3e59b1c2f",
+        "count": 4,
+        "offsets": [
+          3308927,
+          3324947,
+          3382507,
+          10884004
+        ],
+        "contexts": [
+          "FWo.EB..Fj..FMp.E...F]..F...E...F...F<..EM..F...Fon.E...F/..Fsp.E...F;x.F(d.E&..F.x.F'd.E'..F...FUx.E...F...Fqy.E...F...F(d.E&..F..",
+          "FWo.EB..F.d FMp.E...F.C F...E...FTB F<..EM..F,..Fon.E...F...Fsp.E...F...F(d.E&..F...F'd.E'..F3..FUx.E...F...Fqy.E...F.; F(d.E&..FE=",
+          "F...C...D...Fgv.C...D$..F.`.C...D...FO..C@..D<..FOn.C...D...F.Z.C3..Dw..F...C...D.v.F...C}r.D.|.F?..C...D.|.Fg..C...Dbg.F...C._.D1m"
+        ]
+      },
+      {
+        "file": "gameres/maps/map01/gor.ds2",
+        "sha256": "80c8ab8e76dc566c106c1fd9afeb0efcd0d37b93d6be8239f35a6fbc644d4035",
+        "count": 27,
+        "offsets": [
+          754497,
+          1126756,
+          8778530,
+          8779202,
+          8783006,
+          8783030,
+          8783630,
+          8783654,
+          42503193,
+          42503589,
+          42505785,
+          42519729,
+          42548265,
+          42548877,
+          42549261,
+          42586353,
+          42587733,
+          42588129,
+          42603213,
+          42622713
+        ],
+        "contexts": [
+          "E...D..K....E...D.1.. U.E.$.Dc...H..E...D../....FoN.D.L..b7.F'..D|I...t.FK..DJt..@%.F...D.................$...C...l...l............",
+          "...O....DBJ.F%m.....D.7.F.......D.7.F.......DLJ.FOn.. ..D.F.F.......D.3.F.a.....D.3.F.b.....D.F.F+....................@... ........",
+          "......5?..5.......5?..5.....y.4?3.5?.u...)3?T.6?FON.y.4?3.5?.u....5?).5?......5?..5.......5?..5.......5?..5.......5?..5............"
+        ]
+      },
+      {
+        "file": "gameres/maps/map01/gor.ds2cm",
+        "sha256": "379170c3d9e319b7b1c4da2aa66f6718c2fa8d674fa20e280cc8aeac1923f70d",
+        "count": 1,
+        "offsets": [
+          12241760
+        ],
+        "contexts": [
+          "'Tb..=.E...?./S?.8_..\".EJ..?aoV..0H.W.oED..?}UK.foN.$s.E...>...?+B:...tE.r.>T.@?3'...?>Ew..>..C.H...>m&E...>......4._.cE..[.\"..>r ."
+        ]
+      },
+      {
+        "file": "gameres/maps/map02/gorkonec.ds2",
+        "sha256": "c71edc871b28c805626e3d819e57f59317ee1e369018723117302acacbab3c07",
+        "count": 74,
+        "offsets": [
+          26036572,
+          26036596,
+          26036764,
+          26036788,
+          26802760,
+          26803096,
+          34102643,
+          34103039,
+          34105235,
+          34119179,
+          34147331,
+          34147943,
+          34148327,
+          34184903,
+          34185515,
+          34185899,
+          34222475,
+          34223087,
+          34223471,
+          34260047
+        ],
+        "contexts": [
+          "......5?..5.......5?..5.......5?..5......)3?T.6?FON..I1?..8?.L...)3?T.6?FON...5?..5?......5?..5.......5?..5.......5?..5.......5?..5",
+          "......5?..5......)3?T.6?FON..I1?..8?.L...)3?T.6?FON...5?..5?......5?..5.......5?..5.......5?..5.......5?..5.......5?..5.......5?..5",
+          "......5?..5?......5?..5?......5?..5?.....)3?T.6?FON..I1?..8?.L...)3?T.6?FON...5?..5?......5...5.......5...5.......5...5.......5...5"
+        ]
+      },
+      {
+        "file": "gameres/maps/map02/gorkonec.ds2cm",
+        "sha256": "68c5e0241fbc269cb29b2b2dc87aa43c19991388c468d517389d36bda14a769a",
+        "count": 2,
+        "offsets": [
+          5594788,
+          7126904
+        ],
+        "contexts": [
+          "VN9...$>. .E....P..?y.C?f.t.LK..S..?.U:?.....+c.fon?.5....,.U...lIC.w......C..>../p?t.....*.....}qE......7.C..u.~.R....?...C}>M=..o",
+          "'Tb..=.E...?./S?.8_..\".EJ..?aoV..0H.X.oED..?}UK.foN.$s.E...>...?+B:...tE.r.>T.@?3'...?>Ew..>..C.H...?m&E...>......4.`.cE..[.\"..>r ."
+        ]
+      },
+      {
+        "file": "gameres/maps/map03/grsvt.ds2",
+        "sha256": "204a05259c890e5129f443d73e78c8938ed399bf74cef8c17d7823aed05cf85d",
+        "count": 63,
+        "offsets": [
+          8003922,
+          8003934,
+          8003946,
+          24341145,
+          24341541,
+          24343737,
+          24357681,
+          24379905,
+          24380517,
+          24380901,
+          24417477,
+          24418089,
+          24418473,
+          24455049,
+          24455661,
+          24456045,
+          24492621,
+          24493233,
+          24493617,
+          24530193
+        ],
+        "contexts": [
+          "x.1?.UC..0..twP?.....0..twP?.....L...@L?J.*..}..FON?w.N..}..FON?w.N..}..FON?w.N.F.+.......\"./.2..+...|\"./.2..+...|\"..h....3?.....h.",
+          "twP?.....0..twP?.....L...@L?J.*..}..FON?w.N..}..FON?w.N..}..FON?w.N.F.+.......\"./.2..+...|\"./.2..+...|\"..h....3?.....h....3?.....h.",
+          "twP?.....L...@L?J.*..}..FON?w.N..}..FON?w.N..}..FON?w.N.F.+.......\"./.2..+...|\"./.2..+...|\"..h....3?.....h....3?.....h....3?......K"
+        ]
+      },
+      {
+        "file": "gameres/maps/map03/grsvt.ds2cm",
+        "sha256": "e6111990df3d0f3acb413fa76c5d4b1d0ac9f3f552cca12ddc530bb7dc003159",
+        "count": 1,
+        "offsets": [
+          3728868
+        ],
+        "contexts": [
+          "...?......H...G.&&.?.u`..C/.$.....\\?h.w...i..}..FON?w.N.a.H.}06?w.3?........;.3?.06......i]Dy06.{.3.....$CoCr.3..06?......n.V0 ?..E"
+        ]
+      },
+      {
+        "file": "gameres/maps/map04/kinostreet.ds2",
+        "sha256": "911de4910b57334c5a46e2d96c7c3f52beb282c4fd24fee7fd51c39d6c1405c0",
+        "count": 21,
+        "offsets": [
+          35270011,
+          35271391,
+          35271787,
+          35286595,
+          35324599,
+          35325811,
+          35326207,
+          35351227,
+          35351419,
+          35352439,
+          35367763,
+          35467387,
+          35468767,
+          35469163,
+          35483971,
+          35701507,
+          35702719,
+          35703115,
+          35739295,
+          35740507
+        ],
+        "contexts": [
+          "F..#......>.F*FD.F...E..F.....s..V..F*FD.F...E..FON;..E..l..F=....H..m$.F........5..F........5..F!W>......W.F........5..F....`.... ",
+          "F<$PD.n.....F!W>D.....W.F.rTD....E..F*FDDF..CE..FON;D.E.Cl..F..1D....tp.F.moD.n.BkG.F..tD....kG.F*FDDF...E..Fu.6D.....W.F.I&D....p!",
+          "F.moD.n.BkG.F..#D...C...F*FDDF..CE..F...D.s.C E.FON;D.E.Cl..F=..D...C.V.F.>.DY..C5..F!W>D...C.W.FX..C&..C...F...D`..D. .FF..C...C.."
+        ]
+      },
+      {
+        "file": "gameres/maps/map04/kinostreet.ds2cm2",
+        "sha256": "f52a442018cd00a95a3f408b42c46fd7ab3b7893dd2a65d1cf3ed08840b92ae0",
+        "count": 2,
+        "offsets": [
+          16520770,
+          17975058
+        ],
+        "contexts": [
+          "D..>>..{?.......F..>>Y.{?.......F.n{?..@........Fon{...@>.........m{...@>....h....t.....<........D...o..;.....P=....;.M ....?.{.C..",
+          "E..s?.......>.|.F..}?....$......F..}?........\\^.FoN.=t4{?...>.r.D..Y..3]?.#.?..8A..{?.v9>^......FA.0?I.+?.,.>.8.E..O?.S.......k.E6."
+        ]
+      },
+      {
+        "file": "gameres/maps/map05/kolhoz.ds2",
+        "sha256": "7a8fdd280e4da0b94114b2a9ff17dc9b32ebc8e9115a200d970edd4baa1b12ac",
+        "count": 59,
+        "offsets": [
+          1102971,
+          1116704,
+          1119937,
+          2137055,
+          21594225,
+          21595617,
+          21600117,
+          21600165,
+          21600249,
+          21600477,
+          21600573,
+          25546181,
+          25546301,
+          25546721,
+          25546805,
+          26589977,
+          26590013,
+          26590037,
+          26590049,
+          26590085
+        ],
+        "contexts": [
+          "F.B`C.f.E...F.;QC]..E#..F..QC...E.%.F..`C...E...FOn..kk.ES..F.......Ek..F....b..E.2.F?....................%...E...o...o............",
+          "otexture..notexture..notexture..notexture.Z.C/P.Fon.E...D.?.F.q.E..<DZG.Flb.E...C3.<D.H.F.o.E...C..MA.C.B..v?.v.>(....v....v?......",
+          "otexture..notexture..notexture..notexture.$.C.Y.Fon.E...D.4.F.p.E.=<D.R.F.o.E...Ca.<D.G.F.o.E...C...@.T.Bh.v?Lr.>m\"k9Lr..i.v?.oH..."
+        ]
+      },
+      {
+        "file": "gameres/maps/map05/kolhoz.ds2cm",
+        "sha256": "20a65bbb4e51058955bcc8e4faee01a22dac7d46e9aae59588f6c063e9f0e7e4",
+        "count": 112,
+        "offsets": [
+          973439,
+          2304779,
+          2304791,
+          2304815,
+          2304887,
+          2304899,
+          2304911,
+          2305079,
+          2305127,
+          2305187,
+          2305199,
+          2305235,
+          2305247,
+          2311835,
+          2313983,
+          2637743,
+          3257267,
+          4158035,
+          4682783,
+          5076227
+        ],
+        "contexts": [
+          "F..~...W....F.z{...O....F*.z...\\....FnT....].i..Fon..%.V./..F.\"..V.M.C..F..|..fI....Fm.{.o]..X|.F.....#..C..F....C.|.m..F./....s...",
+          "FKo.E.Q.D...F$.\"E...D.#.F$.\"EJ-.C...F.q.E...DR..Fon.E...DR..Fon.EJ-.C...Fpn.E|S.D...Fon.E|S.D...F\"p.E.&4DjO.Fpn.E.&4DjO.Fpn.EH.CD.q",
+          "F$.\"E...D.#.F$.\"EJ-.C...F.q.E...DR..Fon.E...DR..Fon.EJ-.C...Fpn.E|S.D...Fon.E|S.D...F\"p.E.&4DjO.Fpn.E.&4DjO.Fpn.EH.CD.q.Fpn.EH.CD.q"
+        ]
+      },
+      {
+        "file": "gameres/maps/map05/kolhoz.ds2cm2",
+        "sha256": "88ba18eb18bc5ce97a70d712debcf2b21968c907ef030f9b66c688a07d39ad23",
+        "count": 18,
+        "offsets": [
+          2434038,
+          2434050,
+          2434086,
+          2434098,
+          2434122,
+          2434194,
+          2434422,
+          2434434,
+          2434470,
+          2434482,
+          2434494,
+          2434578,
+          2441334,
+          2443398,
+          2695578,
+          2734134,
+          12436007,
+          12601334
+        ],
+        "contexts": [
+          "Fqn.E0P.D...Fpn.E.s.D.T.Fpn.El.-D.v.Fpn.Ey.sD...Fon.E..dDv..Fon.E../D.E.Fpn.E2) D.#.Fpn.E|cbD...Fon.E..qD...Fon.El.-D.v.Fpn.Ez.sD..",
+          "Fpn.E.s.D.T.Fpn.El.-D.v.Fpn.Ey.sD...Fon.E..dDv..Fon.E../D.E.Fpn.E2) D.#.Fpn.E|cbD...Fon.E..qD...Fon.El.-D.v.Fpn.Ez.sD...Fon.E../D.E",
+          "Fon.E..dDv..Fon.E../D.E.Fpn.E2) D.#.Fpn.E|cbD...Fon.E..qD...Fon.El.-D.v.Fpn.Ez.sD...Fon.E../D.E.FJo.E..qD...FIo.E.s.D.T.F.o.E..dDv."
+        ]
+      },
+      {
+        "file": "gameres/maps/map06/krovli.ds2",
+        "sha256": "a95c8daa31234b32fee0a7a2cf54e0356a497f95b59e4240da24add9becc10c1",
+        "count": 1,
+        "offsets": [
+          966407
+        ],
+        "contexts": [
+          "F!..D.`...b#F5^.D`....b#Fk..Dj...:b#F...D.y...b#FON.D...j.R..<.)y?........................ZC.........................default_lightm"
+        ]
+      },
+      {
+        "file": "gameres/maps/map06/krovli.ds2cm",
+        "sha256": "0edf74f46c382c9eb68a22af0160406d3313bd2f8ef7428f5d022641df26aaca",
+        "count": 7,
+        "offsets": [
+          4053491,
+          4272335,
+          5434603,
+          7276379,
+          27721866,
+          32625875,
+          34405569
+        ],
+        "contexts": [
+          "F...D43...!.F.C.D./...!.F_..D5...L..F...D.......FOn.D.%.....F.%.D.......F.c.DFm.....F...D.s.....F...Dy......FiO.D.d.....F...Dk...).",
+          "F.?#D.....P^F.>\"DX....}^FNA#D....3.^F.x\"D9...$.^FoN\"D......^FZF\"D#.....]F..!D......^F..$D....O.^Fn\"$D......^Fy.#D\".....^F..#D....<.",
+          "..bu.X..>l.t...z.Z.h....>..t.2.{.%K..c.K.....^[.FON....K..6...E.F...>H.K....>..iF...>-/K..T.>..iF...?2D.>..E?!g.Ck..?e..>..E?...C.."
+        ]
+      },
+      {
+        "file": "gameres/maps/map06/krovli.ds2cm2",
+        "sha256": "a8dd021d54a77ad98f4eee6608038b63104445084df28bab885d0bc96515c34d",
+        "count": 4,
+        "offsets": [
+          927426,
+          927810,
+          3327606,
+          14054954
+        ],
+        "contexts": [
+          "F._0D0...m{.F._0D.o..m{.F._0D....m{.F._0D{;....|FON-D....i..FKN-D0...m{.FIN-D....m{.FIN-D{;..i..FJN-D......|FPN-DM+..m{.FHN-D.o..m{",
+          "F._0DR...b..F._0D.o.....F._0D.......F._0Dpd....|FON-D....;..FKN-DR...b..FIN-D.......FIN-D.b..;..FJN-D......|FPN-D+?..b..FHN-D.o....",
+          "F3..D.....5.F3..D.....5.F3..D.....5.F3..D.......FOn.D.......Fdn.D\\....4.F.E.D.....0.F*..D.....1.F...D.....0.F...D..../9.F.E.Dc...,7"
+        ]
+      },
+      {
+        "file": "gameres/maps/map07/lastlevel.ds2",
+        "sha256": "db20e2a61862b6263af37eac9b59d5e6eaedc93aa0d6c61ec074ea07f2694d9b",
+        "count": 6,
+        "offsets": [
+          196860,
+          1368612,
+          11722354,
+          11724130,
+          11821438,
+          11830330
+        ],
+        "contexts": [
+          "...5?.....}x?K.X>.WNE.o.Eh..E...E=..F..OE.D.D.w.FON.D[..C...E...E.CIE-..F.D.E...Eu..F1.XEu..D.K.F..;Dy.ZC...F.W\"E..................",
+          "F15.EWP.D..~F[0.E~..DF.VF...D...DF.yF..)....D...FOn.E...E..}F...E<..D..TFJ=.D...D..xF.3...Y.E.....................W................",
+          "Fp..F.8.E.*.F#..F...E...F.w.F\"*.EB,.F.`.F...E...FON.F.W.E.&.F...F.%.E...F.+.F...E}..F...F.A.E...F`..F.e.E{..Fj..F...E...F...F...E.."
+        ]
+      },
+      {
+        "file": "gameres/maps/map07/lastlevel.ds2cm",
+        "sha256": "ec79fd21b9c994b4957a5877c950d75bf14d3794bd54fc121dccb397f8ef2145",
+        "count": 6,
+        "offsets": [
+          115763,
+          124583,
+          3957127,
+          14072735,
+          16977221,
+          18360327
+        ],
+        "contexts": [
+          "Fp..F.=.F...F...F.Z.FV..F.w.F...F]..F.w.FpS.F...FON.Fd..F...FUN.FU..Fu'.Fj..F...F3..F...F.h.F;0.F...Fe..Fn..Fj..F...F...F...F.\".F.@",
+          "F...F...E...F.w.F...E...F.w.F^..E...FUN.F...E...FON.F|E.E...Fj..F...E.v.F...F...E...F...F.e.E{..Fj..F...Ecf.F...F.=.E\\..F...F...E.m",
+          "F..p.4......=?.NF..p.'......=K.NF.n....c.L..=...FOn..7.c....=...F..9...$...}>..zF..9...$.%.}>..zF..k.D.d.V..>.K.F..k.T.d....>&K.F.."
+        ]
+      },
+      {
+        "file": "gameres/maps/map07/lastlevel.ds2cm2",
+        "sha256": "b229cf79c0310182e0bf4de7ea29f39159830f54071c3fd744b2c0e210683102",
+        "count": 4,
+        "offsets": [
+          802112,
+          3983404,
+          3983996,
+          4392812
+        ],
+        "contexts": [
+          "FP.....8EW.+F......6E.3+FFj...m3E..*F<...E;9E..*FOn....6E.\\(F......(E..)F?a....-E..*F......AE.!)F.G....EE@G*F....=OGE.b*F.4...FIE..",
+          ".O\\.=(A`?....M...[\\.=SA`?....h...VN..{.......65&FON..V........B&F.M..........d<&FXb...J`.J..>.u.F.a...I`.c......F.b...I`.c......F.J",
+          "..lC?.\\%?....jd..FP%.#wC?.....w..VN..{.......D6&FON..V........C&F.M..........s=&FXb...J`.%..>.v.F....J.Y....?>m.F....a.Y.z..?Mm.F.a"
+        ]
+      },
+      {
+        "file": "gameres/maps/map09/meat.ds2",
+        "sha256": "a0562e128f085ae2273fa3da6aa77bd4d1d2a85f32d9d308634106589b0e6ff1",
+        "count": 1,
+        "offsets": [
+          73821843
+        ],
+        "contexts": [
+          "S j.q..>.Kp=....A.O....<-.s.o..>/I........O...F.FOn....>/.D.5....\\O......bd....>S)m.Y....FO.1....._.0..>.b.;C.s./..?...........?..A"
+        ]
+      },
+      {
+        "file": "gameres/maps/map09/meat.ds2cm",
+        "sha256": "575aed319c81be947464dfe709989254499356e6c9431b92c1eacddb3dbc00e7",
+        "count": 24,
+        "offsets": [
+          8199667,
+          8199691,
+          9211507,
+          9211579,
+          9211735,
+          9211783,
+          9215671,
+          9215707,
+          9216079,
+          9216103,
+          13517792,
+          45199753,
+          45199871,
+          45199924,
+          46027970,
+          47163263,
+          47163381,
+          47164149,
+          47164531,
+          47164986
+        ],
+        "contexts": [
+          "F.T?E^..Bqa.F@K?E...B.x.F.A?E^..B...FYi?E..;B3..Fon?E.w?B...F.l?E..;B3..Fon?EU.IBi7.F}.?E..PB.8.F..?E70>B8-.F..?E..;BJ..F..?E..;B..",
+          "F.A?E^..B...FYi?E..;B3..Fon?E.w?B...F.l?E..;B3..Fon?EU.IBi7.F}.?E..PB.8.F..?E70>B8-.F..?E..;BJ..F..?E..;B...F..?E...Bh7.F..?E...B:;",
+          "E.(.E...C.!.E.r.E...C.!.E>..E^..C.9.F.. Ej.!D.9.FoN.Ej.!D*..F.. E.\"!D^M.F...Ej.!Dop.F.<.Ej.!D*..F...Ej.!D*..F.. E...D.9.FoN.E.r.D.9"
+        ]
+      },
+      {
+        "file": "gameres/maps/map09/meat.ds2cm2",
+        "sha256": "925476a6c5510dd0f610412631626845e94a24c93916caa41bfa2412d336905d",
+        "count": 2,
+        "offsets": [
+          4725708,
+          5864856
+        ],
+        "contexts": [
+          "F.N.DffB....F..dDgfF..q.F..dD..E.<..F.i.DffB.G..FON`D..E.V..F*).D33C.b..F.._DgfF.V..F*).D33C.b..F.._DgfF....F&..D33C....F..dDgfF..~",
+          "F...C....}..F...C=0.....F...C.....4.Fez.C|1..hl.Fon.Ca......F.f.C?......F)k.C....}~.FBM4D.....~.F.S4D3...1..F..4D.......F.o4D.....~"
+        ]
+      },
+      {
+        "file": "gameres/maps/map10/med1.ds2",
+        "sha256": "b5daf95a6606725af54b9c3598fd15bfdad97725038cc5e7f245931f9c11d529",
+        "count": 1,
+        "offsets": [
+          21201457
+        ],
+        "contexts": [
+          "L)p..yx?..@>...>.Ly?...>...>6*T? ..>a.9?m..?1...fon....>YE.=..<...,?q..>%.....b?.g.>F)..<.u?M..>..u>..b?...?...?[.-?...?..9?+..>..."
+        ]
+      },
+      {
+        "file": "gameres/maps/map10/med1.ds2cm",
+        "sha256": "5ddb7d62b19541fb88376d92abc0ea73fcef646110800b298f2cfed3bbe7c6d5",
+        "count": 3,
+        "offsets": [
+          12234455,
+          16082608,
+          16092528
+        ],
+        "contexts": [
+          ".$Fs....... ......U/.y.z?.>..x.....z?.. >....{V.FOn/>..v.U.O>jJ.D..x.?...krK>........J`D?t..>.km....>J`D.t....kmE.].>N7]. U..p..E..",
+          "...>..V..i.?B.0.O....r..e..?Y.3.....,......?....fON.9~..|-.?M..<>.J.Xm...V!?.+..*.,../....0?EA....&.....G..?.....gI?.......?......L",
+          "5..>..,ETi..W.0?0......D....`.3?H...(..D........fON..g.Dv-..#...C.J..q.E.V!.w,.>..,....D..0..@.>..&..1.EG........gI?s..E....y..<..L"
+        ]
+      },
+      {
+        "file": "gameres/maps/map11/met6.ds2",
+        "sha256": "64228992a6c7bcbde0020da129a5a98ac6e8b539c5c74d70da1041efe8e1ea42",
+        "count": 1,
+        "offsets": [
+          18345769
+        ],
+        "contexts": [
+          "/.F?gS.?...>.wN?...?.Zk=b.Q?<..?......Q?B..?+J..fON?&?.?..d..rF?.B.?f.Y...@..tu?.5#.Myl.2.u?....2...j.u?....o....5u?.+~<.+..y.t?M.J"
+        ]
+      },
+      {
+        "file": "gameres/maps/map12/metro.ds2cm",
+        "sha256": "23479762460e3ebd8012eba6aa0726409a16c68b18bb6301b7069e9bf03cec88",
+        "count": 5,
+        "offsets": [
+          5967572,
+          9386567,
+          9531239,
+          31152826,
+          39527685
+        ],
+        "contexts": [
+          ".AN..@b.k .>$..<.@N..?b.. .>.$.<.?N.!7b....>a..=FON.D7b....>j..=yON..Z^....>....W)A...`....>8t.=..N.i.a....>...=T.O.J.e....>.....h[",
+          "F,..?-..>.v6?SF.F.Y.?.|.>L.5?...F.\".?W\".>i.3.?y.FoN.?.r.>z.3....F...?...>7.5?.H.F\"..?_..>..5?...F..2=.......?.W!C..2=.......? ?!C.o",
+          "F..l?...>..4.3.iFf.4?.q5?.{.<.&RF...>.Xl??uZ=.2.Fon...C.?...=.!.E.j...C.?V..=.!.E.....Qk?...=..[..05...3?[F.=3.....l....>.3.=g....."
+        ]
+      },
+      {
+        "file": "gameres/maps/map12/metro.ds2cm2",
+        "sha256": "c8738d62de632a61e0f093132aff7f8984e9158b1791e6f199a767413f24c4a3",
+        "count": 1,
+        "offsets": [
+          18153309
+        ],
+        "contexts": [
+          ".st.\\.~>..%>.M#...q..7.>./.=.+9...i.P..>.....Nb.foN.1~.>.....^p.ume....>.%.<..j..)i....>...=..[...d.;0.>.B.;Y.m..|l....>:..:.~W...k"
+        ]
+      },
+      {
+        "file": "gameres/maps/map13/parall.ds2",
+        "sha256": "4ec8171c649437612e5775ab167d6c7bfc5aa7f4b35f59e55346eaa38051457c",
+        "count": 3,
+        "offsets": [
+          5784500,
+          5784508,
+          5784516
+        ],
+        "contexts": [
+          "..j?..J?..j?..L?..s?..J?iTx?8.I?8gx?..L?M.v?..K?fOn?..L?fOn?..L?fOn?8.I?M.v?8.I?..r?..n>..s?fff>..q?..e>..q?..u>..s?..u>..P?..&?..T",
+          "..j?..L?..s?..J?iTx?8.I?8gx?..L?M.v?..K?fOn?..L?fOn?..L?fOn?8.I?M.v?8.I?..r?..n>..s?fff>..q?..e>..q?..u>..s?..u>..P?..&?..T?..&?..T",
+          "..s?..J?iTx?8.I?8gx?..L?M.v?..K?fOn?..L?fOn?..L?fOn?8.I?M.v?8.I?..r?..n>..s?fff>..q?..e>..q?..u>..s?..u>..P?..&?..T?..&?..T?...?..P"
+        ]
+      },
+      {
+        "file": "gameres/maps/map13/parall.ds2cm2",
+        "sha256": "44f5cf55a7983a6ca8261a02c4cd47fd22e77673d7d54ed0ef803f616cf00c26",
+        "count": 3,
+        "offsets": [
+          25463384,
+          25938092,
+          26089004
+        ],
+        "contexts": [
+          ".<N....>...>...C..h.%*b>.....Nq.o{h..Nc>2.....m.foN....>J..>.@.C.c.>~.e....>h....].>..p.L0>>1C(...'>..e....>.G'..#.>.LR....>.d..<E.",
+          "z..>.....F%.Z.e....>!!....$......PN.p....s......FON..2...u.......DN...}.........`.M.L.~..,........O.6y.?I.....-.*.O.H..?.g...B..FeO",
+          "z..>k.........e....>Y!...........PN.H....\"m.g...FON..2...!m......DN.K.}.N.o.....`.M.`.~.*~o.;.....O..x.?|.k...-.w.O.c..?.Pk.}=...dO"
+        ]
+      },
+      {
+        "file": "gameres/maps/map14/poh.ds2",
+        "sha256": "fe02e5a30efb1b53fb6d10b7450249f400a9c4a2f2668f57a604ad2a58222ecc",
+        "count": 4,
+        "offsets": [
+          8009720,
+          8009804,
+          8024144,
+          8024252
+        ],
+        "contexts": [
+          "..>....>.3Y?.....@...5Y?..>....>.3Y?+*.>'.....e?fon>......e?.....@...5Y?...>y!.>..e?Uz.>Du.>l.e?e....\".>{4Y?R...g7...5Y?e....\".>{4Y",
+          "Uz.>Du.>l.e?e....\".>{4Y?R...g7...5Y?e....\".>{4Y?fon>......e?-1.>b...P.e?R...g7...5Y?fH.>\\.m>].e?...>y!.>..e?g7..R..>.5Y?.\"..e...{4Y",
+          ".W.>..j.....u.C>.Iw..y2>..1>j.N....?.^.?-.H.{#..fon>......e?.W.>..j.....+*.>'.....e?Fs.>..h.7.2>..1>j.N....?..*?^.+..~.>...?w.I.~@."
+        ]
+      },
+      {
+        "file": "gameres/maps/map14/poh.ds2cm",
+        "sha256": "4544caaf254e91135c51b1687b60891d2cab5331d41e0823d98c703d3184bde5",
+        "count": 10,
+        "offsets": [
+          4601211,
+          6140443,
+          6450132,
+          6455092,
+          6482804,
+          6487764,
+          6492724,
+          6497684,
+          6525492,
+          6530452
+        ],
+        "contexts": [
+          "...~?.k.=.....L0F.w.?|BQ?..)...!F...?..Q?.....<!Fon.?..O?'j..lV\"F...?..Q?...../!F......v?...;...D.*....v?..+<...DYP....v?....G..D..",
+          "E.i...hU.YY.>.....d...jU.Bi.>....EL:?.c,?.P.>2..FON:?,a,?.Y.>...FTv...5w...s>Hr....n?>..>.{s>.=.F.....@^..^.;.Q...U..Q._..#.:.[....",
+          "...>.0.B..0?.j.?.......E..3?^..?.....e.E.......?fON...RE.....-.?2.J.FhUE...>.V!?].,....E.A.>_.0?..&....E.......?.gI?(.=E...<[..?..L"
+        ]
+      },
+      {
+        "file": "gameres/maps/map14/poh.ds2cm2",
+        "sha256": "2fee0fde03ae7e0df1059585753b195be04ed01d9d90642d3034396f49b70192",
+        "count": 1,
+        "offsets": [
+          15790026
+        ],
+        "contexts": [
+          "x......F,.Z?.........l.E..Z?.a......rl.E.d.?....foN.^..E........4.}.........9P5.4.}.....(.......^.Z..{..........^.Z.]{..5pN......c."
+        ]
+      },
+      {
+        "file": "gameres/maps/map15/theatre.ds2cm2",
+        "sha256": "31ce0ff8b83aa2e626b1131bec290e83951584541706bf30ef7d37fe20e8d3b6",
+        "count": 5,
+        "offsets": [
+          3512315,
+          3512327,
+          3524603,
+          19853135,
+          20466195
+        ],
+        "contexts": [
+          ".#...............j..0....\"n..........\"n.......4.Fon._.......Fon._.....4...n.0.....4.W.m..~....4.W.m..~........n.0.........n.'......",
+          ".....j..0....\"n..........\"n.......4.Fon._.......Fon._.....4...n.0.....4.W.m..~....4.W.m..~........n.0.........n.'.......~_m.......4",
+          "v.i.^...t...@.h..|..t....\"n......6..3Vn.r....6..Fon._....6..W.m..~...6..i.m..L...6....n.0....6...bn./....6..~_m......6....n.'....6."
+        ]
+      },
+      {
+        "file": "gameres/maps/map16/wall.ds2",
+        "sha256": "a000026a3df3b629aca72808c7ba0ee7274cba761ca1eeb541b5e01d9f5018a5",
+        "count": 3,
+        "offsets": [
+          14754394,
+          14754410,
+          19347786
+        ],
+        "contexts": [
+          "e.1A...?...>.a.?...>...?@..>.W.?@..>..'>..c...%>fOn....>..c....>fOn....?iS5....?..+../.?.j-../.?o-#.w..>.z;>Sz.>.z;>...>.0Z>...>.0Z",
+          "...>...?@..>.W.?@..>..'>..c...%>fOn....>..c....>fOn....?iS5....?..+../.?.j-../.?o-#.w..>.z;>Sz.>.z;>...>.0Z>...>.0Z>...>.0Z>...>.0Z",
+          "T.l....?LoK....@LoK....@!.B....?!.B....?|.j....?fOn....?..c..3.?..c.~R.?R.Z....?..~../.?..z.<-.?.....).?$a.....?..O....?*7A.tE.@@K;"
+        ]
+      }
+    ],
+    "fuckmephistofel": [
+      {
+        "file": "updatefiles.exe",
+        "sha256": "e6cf01f00c2e0216ba450368b9c287a92c7023fa8bcd0fba0a4fccd24921326a",
+        "count": 1,
+        "offsets": [
+          376909
+        ],
+        "contexts": [
+          "es/textures/dds/frukti.dds.gameres/textures/dds/fuckmephistofel.dds....gameres/textures/dds/funi_plaque.dds....gameres/textures/dds/fx_barrier."
+        ]
+      }
+    ],
+    "funi_plaque": [
+      {
+        "file": "updatefiles.exe",
+        "sha256": "e6cf01f00c2e0216ba450368b9c287a92c7023fa8bcd0fba0a4fccd24921326a",
+        "count": 1,
+        "offsets": [
+          376953
+        ],
+        "contexts": [
+          "dds/fuckmephistofel.dds....gameres/textures/dds/funi_plaque.dds....gameres/textures/dds/fx_barrier.dds.gameres/textures/dds/fx_base.dds...."
+        ]
+      }
+    ],
+    "int_karma": [
+      {
+        "file": "updatefiles.exe",
+        "sha256": "e6cf01f00c2e0216ba450368b9c287a92c7023fa8bcd0fba0a4fccd24921326a",
+        "count": 1,
+        "offsets": [
+          381341
+        ],
+        "contexts": [
+          "res/dds/int_decor07.dds....gameres/textures/dds/int_karma.dds..gameres/textures/dds/int_man.dds....gameres/textures/dds/inventori_icons.d"
+        ]
+      },
+      {
+        "file": "gameres/materials/ds2_system.mat",
+        "sha256": "0923fb83f4a86ee11de60eeaaf0872438622878de5b79df6bba48103519353a8",
+        "count": 1,
+        "offsets": [
+          806
+        ],
+        "contexts": [
+          "..material vertlight_base.....diffuse_texture.{ int_karma nomipmaps nocompress }.....self_illumination true.....depth_write.disable....}."
+        ]
+      }
+    ],
+    "int_man": [
+      {
+        "file": "updatefiles.exe",
+        "sha256": "e6cf01f00c2e0216ba450368b9c287a92c7023fa8bcd0fba0a4fccd24921326a",
+        "count": 1,
+        "offsets": [
+          381377
+        ],
+        "contexts": [
+          "extures/dds/int_karma.dds..gameres/textures/dds/int_man.dds....gameres/textures/dds/inventori_icons.dds....gameres/textures/dds/irongat"
+        ]
+      }
+    ],
+    "load_0": [
+      {
+        "file": "updatefiles.exe",
+        "sha256": "e6cf01f00c2e0216ba450368b9c287a92c7023fa8bcd0fba0a4fccd24921326a",
+        "count": 1,
+        "offsets": [
+          389085
+        ],
+        "contexts": [
+          "extures/dds/loader02.dds...gameres/textures/dds/load_0.dds.gameres/textures/dds/load_1.dds.gameres/textures/dds/luchok.dds.gameres/tex"
+        ]
+      }
+    ],
+    "load_1": [
+      {
+        "file": "updatefiles.exe",
+        "sha256": "e6cf01f00c2e0216ba450368b9c287a92c7023fa8bcd0fba0a4fccd24921326a",
+        "count": 1,
+        "offsets": [
+          389117
+        ],
+        "contexts": [
+          "es/textures/dds/load_0.dds.gameres/textures/dds/load_1.dds.gameres/textures/dds/luchok.dds.gameres/textures/dds/luki_01.dds....gameres"
+        ]
+      }
+    ],
+    "mainknop": [
+      {
+        "file": "updatefiles.exe",
+        "sha256": "e6cf01f00c2e0216ba450368b9c287a92c7023fa8bcd0fba0a4fccd24921326a",
+        "count": 1,
+        "offsets": [
+          389893
+        ],
+        "contexts": [
+          "res/dds/mainbutnaveden.dds.gameres/textures/dds/mainknop.dds...gameres/textures/dds/maks_glass.dds.gameres/textures/dds/mak_nx.dds.gamer"
+        ]
+      }
+    ],
+    "model_0": [
+      {
+        "file": "updatefiles.exe",
+        "sha256": "e6cf01f00c2e0216ba450368b9c287a92c7023fa8bcd0fba0a4fccd24921326a",
+        "count": 1,
+        "offsets": [
+          392433
+        ],
+        "contexts": [
+          "res/dds/mklep_low_sat.dds..gameres/textures/dds/model_0.dds....gameres/textures/dds/model_1.dds....gameres/textures/dds/molod.dds..game"
+        ]
+      }
+    ],
+    "model_1": [
+      {
+        "file": "updatefiles.exe",
+        "sha256": "e6cf01f00c2e0216ba450368b9c287a92c7023fa8bcd0fba0a4fccd24921326a",
+        "count": 1,
+        "offsets": [
+          392469
+        ],
+        "contexts": [
+          "extures/dds/model_0.dds....gameres/textures/dds/model_1.dds....gameres/textures/dds/molod.dds..gameres/textures/dds/molotovcoctail.dds."
+        ]
+      }
+    ],
+    "next_0": [
+      {
+        "file": "updatefiles.exe",
+        "sha256": "e6cf01f00c2e0216ba450368b9c287a92c7023fa8bcd0fba0a4fccd24921326a",
+        "count": 1,
+        "offsets": [
+          395005
+        ],
+        "contexts": [
+          "es/textures/dds/net.dds....gameres/textures/dds/next_0.dds.gameres/textures/dds/next_1.dds.gameres/textures/dds/nine_32b.dds...gameres"
+        ]
+      }
+    ],
+    "next_1": [
+      {
+        "file": "updatefiles.exe",
+        "sha256": "e6cf01f00c2e0216ba450368b9c287a92c7023fa8bcd0fba0a4fccd24921326a",
+        "count": 1,
+        "offsets": [
+          395037
+        ],
+        "contexts": [
+          "es/textures/dds/next_0.dds.gameres/textures/dds/next_1.dds.gameres/textures/dds/nine_32b.dds...gameres/textures/dds/nishka.dds.gameres"
+        ]
+      }
+    ],
+    "plakat_21": [
+      {
+        "file": "updatefiles.exe",
+        "sha256": "e6cf01f00c2e0216ba450368b9c287a92c7023fa8bcd0fba0a4fccd24921326a",
+        "count": 1,
+        "offsets": [
+          401377
+        ],
+        "contexts": [
+          "plafon_halfsphere_off.dds..gameres/textures/dds/plakat_21.dds..gameres/textures/dds/plan.dds...gameres/textures/dds/planrab.dds....gamere"
+        ]
+      }
+    ],
+    "play_0": [
+      {
+        "file": "updatefiles.exe",
+        "sha256": "e6cf01f00c2e0216ba450368b9c287a92c7023fa8bcd0fba0a4fccd24921326a",
+        "count": 1,
+        "offsets": [
+          402809
+        ],
+        "contexts": [
+          "player_models_ports.dds....gameres/textures/dds/play_0.dds.gameres/textures/dds/play_1.dds.gameres/textures/dds/plintus.dds....gameres"
+        ]
+      }
+    ],
+    "play_1": [
+      {
+        "file": "updatefiles.exe",
+        "sha256": "e6cf01f00c2e0216ba450368b9c287a92c7023fa8bcd0fba0a4fccd24921326a",
+        "count": 1,
+        "offsets": [
+          402841
+        ],
+        "contexts": [
+          "es/textures/dds/play_0.dds.gameres/textures/dds/play_1.dds.gameres/textures/dds/plintus.dds....gameres/textures/dds/plintus2.dds...gam"
+        ]
+      }
+    ],
+    "refresh_0": [
+      {
+        "file": "updatefiles.exe",
+        "sha256": "e6cf01f00c2e0216ba450368b9c287a92c7023fa8bcd0fba0a4fccd24921326a",
+        "count": 1,
+        "offsets": [
+          408181
+        ],
+        "contexts": [
+          "res/dds/refltubes_01a.dds..gameres/textures/dds/refresh_0.dds..gameres/textures/dds/refresh_1.dds..gameres/textures/dds/relsib.dds.gamere"
+        ]
+      }
+    ],
+    "refresh_1": [
+      {
+        "file": "updatefiles.exe",
+        "sha256": "e6cf01f00c2e0216ba450368b9c287a92c7023fa8bcd0fba0a4fccd24921326a",
+        "count": 1,
+        "offsets": [
+          408217
+        ],
+        "contexts": [
+          "extures/dds/refresh_0.dds..gameres/textures/dds/refresh_1.dds..gameres/textures/dds/relsib.dds.gameres/textures/dds/relsib2.dds....gamere"
+        ]
+      }
+    ],
+    "replay_0": [
+      {
+        "file": "updatefiles.exe",
+        "sha256": "e6cf01f00c2e0216ba450368b9c287a92c7023fa8bcd0fba0a4fccd24921326a",
+        "count": 1,
+        "offsets": [
+          408321
+        ],
+        "contexts": [
+          "extures/dds/relsib2.dds....gameres/textures/dds/replay_0.dds...gameres/textures/dds/replay_1.dds...gameres/textures/dds/reset_0.dds....g"
+        ]
+      }
+    ],
+    "replay_1": [
+      {
+        "file": "updatefiles.exe",
+        "sha256": "e6cf01f00c2e0216ba450368b9c287a92c7023fa8bcd0fba0a4fccd24921326a",
+        "count": 1,
+        "offsets": [
+          408357
+        ],
+        "contexts": [
+          "extures/dds/replay_0.dds...gameres/textures/dds/replay_1.dds...gameres/textures/dds/reset_0.dds....gameres/textures/dds/reset_1.dds....g"
+        ]
+      }
+    ],
+    "reset_0": [
+      {
+        "file": "updatefiles.exe",
+        "sha256": "e6cf01f00c2e0216ba450368b9c287a92c7023fa8bcd0fba0a4fccd24921326a",
+        "count": 1,
+        "offsets": [
+          408393
+        ],
+        "contexts": [
+          "extures/dds/replay_1.dds...gameres/textures/dds/reset_0.dds....gameres/textures/dds/reset_1.dds....gameres/textures/dds/reshochka.dds.."
+        ]
+      }
+    ],
+    "reset_1": [
+      {
+        "file": "updatefiles.exe",
+        "sha256": "e6cf01f00c2e0216ba450368b9c287a92c7023fa8bcd0fba0a4fccd24921326a",
+        "count": 1,
+        "offsets": [
+          408429
+        ],
+        "contexts": [
+          "extures/dds/reset_0.dds....gameres/textures/dds/reset_1.dds....gameres/textures/dds/reshochka.dds..gameres/textures/dds/reshomolot.dds."
+        ]
+      }
+    ],
+    "sample": [
+      {
+        "file": "avcodec-63.dll",
+        "sha256": "4d5ec3096269aece65b0e4c16d568878d0cc92fce579988be9f7fd8d4157cbfd",
+        "count": 83,
+        "offsets": [
+          8920784,
+          8920852,
+          8923254,
+          8959324,
+          9038300,
+          9038728,
+          9052678,
+          9052900,
+          9053035,
+          9053060,
+          9056128,
+          9056512,
+          9061608,
+          9062037,
+          9130982,
+          9131412,
+          9192152,
+          9225467,
+          9225527,
+          9225576
+        ],
+        "contexts": [
+          "................libavcodec/aac/aacdec.c.....0...Sample rate index (%d) in program config element does not match the sample rate index ",
+          "d) in program config element does not match the sample rate index (%d) configured by the container..............................decode",
+          "..........Cannot output a frame without a valid sample rate...............Error decoding AAC frame header.........AAC USAC fixed-point"
+        ]
+      },
+      {
+        "file": "avfilter-12.dll",
+        "sha256": "c966abbe40777cd72c0799871d2cadb2524ad4fc2535032b93b3b03137364a1a",
+        "count": 48,
+        "offsets": [
+          4710208,
+          4716624,
+          4735748,
+          4741592,
+          4741616,
+          4749832,
+          4749896,
+          4782587,
+          4897518,
+          4898239,
+          4899509,
+          4899591,
+          4899698,
+          4907078,
+          4941972,
+          4960064,
+          5003818,
+          5003853,
+          5003946,
+          5004102
+        ],
+        "contexts": [
+          "quested frame...........sample_rate.....set the sample rate.....44100...duration....set audio duration......d...channel_layout......se",
+          "DC..aa..set anti-aliasing.......samples.....set sample reduction........lfo.enable LFO......lforange....set LFO depth...lforate.....se",
+          "fade-out....start_sample....set number of first sample to start fading..........ss..set number of samples for fade duration.........ns"
+        ]
+      },
+      {
+        "file": "avformat-63.dll",
+        "sha256": "3f5ae0e82d1d75026b2bd8fbd483d0091664f5aca7081ee7b8f33dc514633a0b",
+        "count": 91,
+        "offsets": [
+          2762440,
+          2763555,
+          2764064,
+          2764508,
+          2766287,
+          2769820,
+          2769892,
+          2769920,
+          2771126,
+          2778468,
+          2778598,
+          2780017,
+          2780200,
+          2787793,
+          2787856,
+          2792897,
+          2792956,
+          2797096,
+          2850140,
+          2853480
+        ],
+        "contexts": [
+          "................act.ACT Voice file format.......Sample rate %d is not supported.........P7*.T7*.....X7*...............................",
+          "AOT %d is not allowed in ADTS............Escape sample rate index illegal in ADTS............channelConfiguration > 7 is not supported",
+          "invalid number of channels %d...........Invalid sample rate %d......Unsupported format: %d.......=*..=*......=*......................."
+        ]
+      },
+      {
+        "file": "avutil-61.dll",
+        "sha256": "8ac245ae1d2f708763584e9b124673a4008953f017474070f127a97d1ad8ef15",
+        "count": 3,
+        "offsets": [
+          1413286,
+          1416192,
+          1416584
+        ],
+        "contexts": [
+          "..................If you want to help, upload a sample of this file to https://streams.videolan.org/upload/ and contact the ffmpeg-dev",
+          " range [%d - %d]................pixel format....sample format...:...=...Unable to parse \"%s\" option value \"%s\" as duration............",
+          "e value %dx%d for size '%s'.............pixel...sample..libavutil/opt.c.....size >= 25......INT64_MAX...INT64_MIN...%lld:%02d:%02d.%06"
+        ]
+      },
+      {
+        "file": "cg.dll",
+        "sha256": "a48308703bb8b5e6fc8b3515a8f4a8c93a268b88b7a903417366610f82dd10d3",
+        "count": 1,
+        "offsets": [
+          1095036
+        ],
+        "contexts": [
+          ".....................o..............u...........SAMPLE..ATTRIB..%s%s<n>.....MaxInstructions=....%s%s<1 or 2>....MaxAddressRegs=.%s%s<1"
+        ]
+      },
+      {
+        "file": "ds2kernel.dll",
+        "sha256": "d628c7bdd99cf5e62c14866f67b62f4dc31a2ff2c9c695730b32f368763117e7",
+        "count": 6,
+        "offsets": [
+          429927,
+          430027,
+          430128,
+          430197,
+          430255,
+          430313
+        ],
+        "contexts": [
+          "t....pr_hide_cl..pr_hide_tl..Can't get profiler sample with bad name: %s.Profiler samples stack are empty....list<T> too long....Can't",
+          "empty....list<T> too long....Can't get profiler sample with bad id: %i...profiler....engine_update...o..:....SProfilerSample::begin_fr",
+          "o..:....SProfilerSample::begin_frame() profiler sample with name %s not stopped.Forbidden SProfilerSample::end() for sample %s..SProfi"
+        ]
+      },
+      {
+        "file": "ds2soundsystem.dll",
+        "sha256": "f79dd4bcee42a37803c82b4340f175228497e52591abeea0994f310706e26057",
+        "count": 1,
+        "offsets": [
+          259680
+        ],
+        "contexts": [
+          "size iz zero....Missing 'data' chunk!...Unknown sample format!..Error reading 'fmt ' chunk..Missing 'fmt ' chunk!...Missing 'WAVE' chu"
+        ]
+      },
+      {
+        "file": "FreeImage.dll",
+        "sha256": "7943f2e4631baeef1437681be98c26d7e96b1bb080543d0b82b3f88417079ffa",
+        "count": 7,
+        "offsets": [
+          678636,
+          679652,
+          680057,
+          681616,
+          682428,
+          686357,
+          687089
+        ],
+        "contexts": [
+          " array of rationals.Cannot handle different per-sample values for field \"%s\"....Cannot read TIFF_ANY type %d for field \"%s\".to fetch s",
+          "ripped image....File not open for reading...%u: Sample out of range, max %u.Sorry, can not handle YCbCr images with %s=%d...Sorry, Log",
+          " contiguous data with %s=%d, and %s=%d and Bits/Sample=%d..Samples/pixel...Sorry, can not handle RGB image with %s=%d..Color channels."
+        ]
+      },
+      {
+        "file": "OpenAL32.dll",
+        "sha256": "606cf8b4c22c7ae00813585279ac045115907bc66d1483eb26355907021ea4b0",
+        "count": 11,
+        "offsets": [
+          2785400,
+          2954919,
+          2954988,
+          3064392,
+          3080493,
+          3080526,
+          3139991,
+          3140755,
+          3140776,
+          3151344,
+          3151673
+        ],
+        "contexts": [
+          "string::append.Negative storage size {}.Invalid sample rate {}.Invalid format {:#04x}...Modifying storage for in-use buffer {}..Invali",
+          "ributes for loopback device.period_size.periods.sample-type.int8.uint8.int16.uint16.int32.uint32.float32.Unsupported sample-type: {}.c",
+          "8.int16.uint16.int32.uint32.float32.Unsupported sample-type: {}.channels.surround3d71.mono.stereo.quad.surround51.surround61.surround7"
+        ]
+      },
+      {
+        "file": "SDL3.dll",
+        "sha256": "7f85f7c0fb1189050405acd39bd1e36a8f94fff5952c513497a9dcafcb86a9b0",
+        "count": 19,
+        "offsets": [
+          1684130,
+          1685954,
+          1774078,
+          1775978,
+          1776106,
+          1776775,
+          1776971,
+          1777440,
+          1777452,
+          1777565,
+          2030968,
+          2032136,
+          2033304,
+          2043262,
+          2044662,
+          2046102,
+          2047502,
+          2048942,
+          2050430
+        ],
+        "contexts": [
+          "not multisample!\".!\"Resolve texture must have a sample count of 1!\"...!\"Resolve texture must have the same format as its corresponding",
+          " non-NULL\"....!\"Blit source texture must have a sample count of 1\"....!\"Blit source texture must be created with the SAMPLER usage fla",
+          "..Frequency ratio is too high.Can't add partial sample frames.buf.len.channel_buffers.num_samples.Not enough data in queue....Not enou"
+        ]
+      },
+      {
+        "file": "swresample-7.dll",
+        "sha256": "a3b3c680fac824abb66e3057f6bc54e2f1e2deb8d1f3169ca91a26764cb248cb",
+        "count": 12,
+        "offsets": [
+          619186,
+          619239,
+          619290,
+          619339,
+          619397,
+          622473,
+          623556,
+          623952,
+          624009,
+          624064,
+          624117,
+          624258
+        ],
+        "contexts": [
+          "..................................isr.set input sample rate.......in_sample_rate......osr.set output sample rate......out_sample_rate.",
+          "e rate.......in_sample_rate......osr.set output sample rate......out_sample_rate.....isf.set input sample format.....in_sample_fmt...o",
+          "ple rate......out_sample_rate.....isf.set input sample format.....in_sample_fmt...osf.set output sample format........out_sample_fmt.."
+        ]
+      },
+      {
+        "file": "updatefiles.exe",
+        "sha256": "e6cf01f00c2e0216ba450368b9c287a92c7023fa8bcd0fba0a4fccd24921326a",
+        "count": 1,
+        "offsets": [
+          409977
+        ],
+        "contexts": [
+          "es/textures/dds/saliut.dds.gameres/textures/dds/sample.dds.gameres/textures/dds/save_0.dds.gameres/textures/dds/save_1.dds.gameres/tex"
+        ]
+      },
+      {
+        "file": "Licenses/FFmpeg/COPYING.LGPLv2.1",
+        "sha256": "246041b6ecf9bc32d718a62c57877c78b5eb397b6467e74ed7ae2626ab189c30",
+        "count": 1,
+        "offsets": [
+          26249
+        ],
+        "contexts": [
+          "imer\" for the library, if.necessary.  Here is a sample; alter the names:..  Yoyodyne, Inc., hereby disclaims all copyright interest in"
+        ]
+      },
+      {
+        "file": "gameres/programs/HDR/hdr_sample_lum.fp",
+        "sha256": "d3f4a83a8db36ab459e6da0568e33f4989318f101fef118d18c9ebcd2422ba23",
+        "count": 2,
+        "offsets": [
+          76,
+          135
+        ],
+        "contexts": [
+          "//////////////////////////////////////////..//..Sample the luminance of the source image using a kernal of sample..//      points, and",
+          "luminance of the source image using a kernal of sample..//      points, and return a scaled image containing the log() of averages..//"
+        ]
+      },
+      {
+        "file": "gameres/programs/ScreenFilters/scr_edge_detection.fp",
+        "sha256": "7e7d6a6b3d25f7f0d2353599b9a90caaa79ee06a021d9f444663cdea3bb525f8",
+        "count": 2,
+        "offsets": [
+          752,
+          807
+        ],
+        "contexts": [
+          "ords = TEX0 + sampleOffsets[i] * kernel; // add sample offsets stored in c10-c17 (inclusive)...// take sample...texSamples[i] = texREC",
+          "offsets stored in c10-c17 (inclusive)...// take sample...texSamples[i] = texRECT( scr0, texCoords);...// convert to b&w...texSamples[i"
+        ]
+      },
+      {
+        "file": "gameres/programs/ScreenFilters/scr_sepia.fp",
+        "sha256": "fe2511fa1cbe56141983f19bc9a22fb6bc427f4eafeedab5c5dd94e71e78d64f",
+        "count": 1,
+        "offsets": [
+          880
+        ],
+        "contexts": [
+          "645599191817149, 0,........0,0,0,0 };....// get sample..currFrameSample = texRECT( scr0, TEX0);....// convert to YIQ space....currFram"
+        ]
+      },
+      {
+        "file": "gameres/programs/ScreenFilters/scr_sepia_filtered.fp",
+        "sha256": "5c53d8bb6fb3f55b891e96f525f7174336b546fba4898b0f01c97567339f5510",
+        "count": 1,
+        "offsets": [
+          973
+        ],
+        "contexts": [
+          "645599191817149, 0,........0,0,0,0 };....// get sample..currFrameSample = texRECT( scr0, TEX0);....// convert to YIQ space....currFram"
+        ]
+      },
+      {
+        "file": "gameres/programs/ScreenFilters/scr_sepia_karma.fp",
+        "sha256": "60c6707945385205d6446d2d715584c09d12adc7d2d48529dc1df5d1d6833dbd",
+        "count": 1,
+        "offsets": [
+          1017
+        ],
+        "contexts": [
+          "645599191817149, 0,........0,0,0,0 };....// get sample..currFrameSample = texRECT( scr0, TEX0);....// convert to YIQ space....currFram"
+        ]
+      }
+    ],
+    "save_0": [
+      {
+        "file": "updatefiles.exe",
+        "sha256": "e6cf01f00c2e0216ba450368b9c287a92c7023fa8bcd0fba0a4fccd24921326a",
+        "count": 1,
+        "offsets": [
+          410009
+        ],
+        "contexts": [
+          "es/textures/dds/sample.dds.gameres/textures/dds/save_0.dds.gameres/textures/dds/save_1.dds.gameres/textures/dds/sborka.dds.gameres/tex"
+        ]
+      }
+    ],
+    "save_1": [
+      {
+        "file": "updatefiles.exe",
+        "sha256": "e6cf01f00c2e0216ba450368b9c287a92c7023fa8bcd0fba0a4fccd24921326a",
+        "count": 1,
+        "offsets": [
+          410041
+        ],
+        "contexts": [
+          "es/textures/dds/save_0.dds.gameres/textures/dds/save_1.dds.gameres/textures/dds/sborka.dds.gameres/textures/dds/scheben.dds....gameres"
+        ]
+      }
+    ],
+    "setup": [
+      {
+        "file": "avcodec-63.dll",
+        "sha256": "4d5ec3096269aece65b0e4c16d568878d0cc92fce579988be9f7fd8d4157cbfd",
+        "count": 21,
+        "offsets": [
+          9510775,
+          9511048,
+          9511160,
+          9511264,
+          10333673,
+          11445160,
+          11445213,
+          11445264,
+          11445316,
+          11445782,
+          11447048,
+          11447268,
+          11447344,
+          11447408,
+          11447484,
+          11447544,
+          11447604,
+          11447664,
+          11447720,
+          11448104
+        ],
+        "contexts": [
+          "oring experimental hwaccel: %s...........Failed setup for format %s: hwaccel initialisation returned error...................n >= 1..",
+          ": %s not in possible list...............Invalid setup for format %s: does not match the format of the provided frames context........",
+          "rames context...........................Invalid setup for format %s: does not match the type of the provided device context.........."
+        ]
+      },
+      {
+        "file": "avfilter-12.dll",
+        "sha256": "c966abbe40777cd72c0799871d2cadb2524ad4fc2535032b93b3b03137364a1a",
+        "count": 7,
+        "offsets": [
+          5094539,
+          6176210,
+          6176278,
+          6176346,
+          6177058,
+          6177086,
+          6180592
+        ],
+        "contexts": [
+          "708 closed caption metadata..........Failure to setup CC FIFO queue..........chromakey.........G.............`.......P.....G.........",
+          "lX....................................Failed to setup graphics capture for monitor (0x%08lX)..............Failed to setup graphics ca",
+          "re for monitor (0x%08lX)..............Failed to setup graphics capture for window (0x%08lX)...............Failed to setup graphics ca"
+        ]
+      },
+      {
+        "file": "avformat-63.dll",
+        "sha256": "3f5ae0e82d1d75026b2bd8fbd483d0091664f5aca7081ee7b8f33dc514633a0b",
+        "count": 1,
+        "offsets": [
+          2827466
+        ],
+        "contexts": [
+          " %i.......unknown bitmap compression......short SETUP header......camera_version......firmware_version....software_version....recordi"
+        ]
+      },
+      {
+        "file": "cg.dll",
+        "sha256": "a48308703bb8b5e6fc8b3515a8f4a8c93a268b88b7a903417366610f82dd10d3",
+        "count": 1,
+        "offsets": [
+          1564018
+        ],
+        "contexts": [
+          "###############################...*** Post-ISEL-SETUP ***.................$.......................non-const index in get_const_index."
+        ]
+      },
+      {
+        "file": "FreeImage.dll",
+        "sha256": "7943f2e4631baeef1437681be98c26d7e96b1bb080543d0b82b3f88417079ffa",
+        "count": 1,
+        "offsets": [
+          680357
+        ],
+        "contexts": [
+          " can not handle image format...No \"get\" routine setup..No space for tile buffer....using bottom-left orientation...using top-left ori"
+        ]
+      },
+      {
+        "file": "SDL3.dll",
+        "sha256": "7f85f7c0fb1189050405acd39bd1e36a8f94fff5952c513497a9dcafcb86a9b0",
+        "count": 1,
+        "offsets": [
+          1815753
+        ],
+        "contexts": [
+          "er.Nintendo SEGA Genesis Controller....Couldn't setup USB mode.Couldn't load stick calibration.Couldn't start USB reports..SDL_JOYSTI"
+        ]
+      },
+      {
+        "file": "updatefiles.exe",
+        "sha256": "e6cf01f00c2e0216ba450368b9c287a92c7023fa8bcd0fba0a4fccd24921326a",
+        "count": 1,
+        "offsets": [
+          411405
+        ],
+        "contexts": [
+          "extures/dds/setklall.dds...gameres/textures/dds/setup.dds..gameres/textures/dds/seven_32b.dds..gameres/textures/dds/sh3_01_nx.dds..ga"
+        ]
+      }
+    ],
+    "skirmish_0": [
+      {
+        "file": "updatefiles.exe",
+        "sha256": "e6cf01f00c2e0216ba450368b9c287a92c7023fa8bcd0fba0a4fccd24921326a",
+        "count": 1,
+        "offsets": [
+          413381
+        ],
+        "contexts": [
+          "es/textures/dds/skill5.dds.gameres/textures/dds/skirmish_0.dds.gameres/textures/dds/skirmish_1.dds.gameres/textures/dds/skoda01.dds....gam"
+        ]
+      }
+    ],
+    "skirmish_1": [
+      {
+        "file": "updatefiles.exe",
+        "sha256": "e6cf01f00c2e0216ba450368b9c287a92c7023fa8bcd0fba0a4fccd24921326a",
+        "count": 1,
+        "offsets": [
+          413417
+        ],
+        "contexts": [
+          "extures/dds/skirmish_0.dds.gameres/textures/dds/skirmish_1.dds.gameres/textures/dds/skoda01.dds....gameres/textures/dds/skroll.dds.gameres"
+        ]
+      }
+    ]
+  }
+}

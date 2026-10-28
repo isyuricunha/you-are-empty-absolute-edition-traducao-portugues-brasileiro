@@ -1,0 +1,18 @@
+{
+  "accepted_for_build": false,
+  "artwork_reviewed": false,
+  "candidate": "translation-work/artwork/candidates/KrisiWarn-v1.png",
+  "candidate_sha256": "6791b1e61d24a393b92d54ee9b47fea0e18fcf512ef8f25ef6116160393a20aa",
+  "native_verification": {
+    "alpha": "byte-identical",
+    "height": 512,
+    "type": 2,
+    "width": 512
+  },
+  "output": "translation-work/artwork/native-candidates/gameres/textures/Zapiski/09Kinostreet/KrisiWarn.tga",
+  "output_sha256": "1955eb14e586aa3436c9a8a82532416260d5ec85b1b837aa80a114292aab3c63",
+  "remaining": "Inspect lettering, spelling, background, stains, framing and layout at native size before explicit approval.",
+  "schema": 1,
+  "source_file": "gameres/textures/Zapiski/09Kinostreet/KrisiWarn.tga",
+  "source_sha256": "47fde903cc3b3c08efda2f62d014712d2e3213b40c28feb64560a65836e1e0c0"
+}

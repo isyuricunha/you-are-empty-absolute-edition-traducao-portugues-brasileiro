@@ -1,0 +1,18 @@
+{
+  "accepted_for_build": false,
+  "artwork_reviewed": false,
+  "candidate": "translation-work/artwork/candidates/gorVoda-v1.png",
+  "candidate_sha256": "40e9d88c6491b7bd2b82a389725ce8fa8f485b9367c456e583d1db00f0cedba3",
+  "native_verification": {
+    "alpha": "byte-identical",
+    "height": 512,
+    "type": 2,
+    "width": 512
+  },
+  "output": "translation-work/artwork/native-candidates/gameres/textures/Zapiski/05gor/gorVoda.tga",
+  "output_sha256": "b8eab608edb16099df6447702c666c999bdd39d4e3be22480ef6e4dea6482ea5",
+  "remaining": "Inspect lettering, spelling, background, stains, framing and layout at native size before explicit approval.",
+  "schema": 1,
+  "source_file": "gameres/textures/Zapiski/05gor/gorVoda.tga",
+  "source_sha256": "3bf590cb547c857bd9d76b3dd9507ddfe259deb7a4e15e94c38d707595edbe19"
+}

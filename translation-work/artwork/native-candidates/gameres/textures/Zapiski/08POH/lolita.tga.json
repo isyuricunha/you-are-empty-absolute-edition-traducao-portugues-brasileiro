@@ -1,0 +1,18 @@
+{
+  "accepted_for_build": false,
+  "artwork_reviewed": false,
+  "candidate": "translation-work/artwork/candidates/lolita-v1.png",
+  "candidate_sha256": "eabf27c937225256ec9885c34b42b1125fe8c79966492d6faf15be22cf733825",
+  "native_verification": {
+    "alpha": "byte-identical",
+    "height": 512,
+    "type": 2,
+    "width": 512
+  },
+  "output": "translation-work/artwork/native-candidates/gameres/textures/Zapiski/08POH/lolita.tga",
+  "output_sha256": "37be96a2ffccbd64fcd2ec5fa68ccb4fcab01d37175bc148f0579d53c51f7f29",
+  "remaining": "Inspect lettering, spelling, background, stains, framing and layout at native size before explicit approval.",
+  "schema": 1,
+  "source_file": "gameres/textures/Zapiski/08POH/lolita.tga",
+  "source_sha256": "f66efd740e0965f4c3af9216223c80cba501a9120079e8344aae820c5ea7b4c7"
+}

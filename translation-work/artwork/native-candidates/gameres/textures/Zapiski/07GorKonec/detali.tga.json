@@ -1,0 +1,18 @@
+{
+  "accepted_for_build": false,
+  "artwork_reviewed": false,
+  "candidate": "translation-work/artwork/candidates/detali-v1.png",
+  "candidate_sha256": "7b61b0e34ab0e328757b1a4fe6590472f1025d251269b91402fcc807095b71bf",
+  "native_verification": {
+    "alpha": "byte-identical",
+    "height": 512,
+    "type": 2,
+    "width": 512
+  },
+  "output": "translation-work/artwork/native-candidates/gameres/textures/Zapiski/07GorKonec/detali.tga",
+  "output_sha256": "6b58921144ac9ccfd4e53fdfaa901cf8f99866ef7c3a9629431ba702667a7663",
+  "remaining": "Inspect lettering, spelling, background, stains, framing and layout at native size before explicit approval.",
+  "schema": 1,
+  "source_file": "gameres/textures/Zapiski/07GorKonec/detali.tga",
+  "source_sha256": "b5008334a9b4047fd3f0b1db405abc3425e5c05359756743898fab99fb0fcb60"
+}

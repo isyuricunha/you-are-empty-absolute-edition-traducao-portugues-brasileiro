@@ -1,0 +1,18 @@
+{
+  "accepted_for_build": false,
+  "artwork_reviewed": false,
+  "candidate": "translation-work/artwork/candidates/revizia-v1.png",
+  "candidate_sha256": "d7376b511d860d30515ba61e3b938e0e07e930e813d3bece62eee183f2d852c7",
+  "native_verification": {
+    "alpha": "byte-identical",
+    "height": 512,
+    "type": 2,
+    "width": 512
+  },
+  "output": "translation-work/artwork/native-candidates/gameres/textures/Zapiski/11met6/revizia.tga",
+  "output_sha256": "e21ee201464ed457efeb101f3d6a46210ae9cf38622d76b90878e984bf32b28a",
+  "remaining": "Inspect lettering, spelling, background, stains, framing and layout at native size before explicit approval.",
+  "schema": 1,
+  "source_file": "gameres/textures/Zapiski/11met6/revizia.tga",
+  "source_sha256": "77f547a02f35c97f52e98981a4e0dd335911704aaca653ceef244e5cb43914bd"
+}

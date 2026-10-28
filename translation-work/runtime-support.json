@@ -3,5 +3,5 @@
   "platform_contract": "Windows implementation; Ubuntu Server 24.04 LTS ARM64 execution pending first doctor",
   "python": ">=3.10",
   "schema": 1,
-  "toolchain_sha256": "52129999c9f4cd0ed0e5c7d6a82e77b6f2707e7419ce826c92c2da347354eab3"
+  "toolchain_sha256": "91a19223569a7028b6997f6e635de81619285a3b6cb52f5867cc1bed843ac8b9"
 }

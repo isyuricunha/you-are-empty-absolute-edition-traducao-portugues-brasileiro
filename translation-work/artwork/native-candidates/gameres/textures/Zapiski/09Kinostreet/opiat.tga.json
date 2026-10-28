@@ -1,0 +1,18 @@
+{
+  "accepted_for_build": false,
+  "artwork_reviewed": false,
+  "candidate": "translation-work/artwork/candidates/opiat-v1.png",
+  "candidate_sha256": "b0361e5ac80c5dd23b4a7233b8ebfb006e70b3677a7ec56cb14b0d7485b370ed",
+  "native_verification": {
+    "alpha": "byte-identical",
+    "height": 512,
+    "type": 2,
+    "width": 512
+  },
+  "output": "translation-work/artwork/native-candidates/gameres/textures/Zapiski/09Kinostreet/opiat.tga",
+  "output_sha256": "654b009e4f78bae7a1c88570a4ffbd77ce360f3c3d750147c0bb044ab414def1",
+  "remaining": "Inspect lettering, spelling, background, stains, framing and layout at native size before explicit approval.",
+  "schema": 1,
+  "source_file": "gameres/textures/Zapiski/09Kinostreet/opiat.tga",
+  "source_sha256": "d1eb1b6edf24a1da5852a4acce6189e0753daf6da87f0e34fe8e63421e44f1fd"
+}

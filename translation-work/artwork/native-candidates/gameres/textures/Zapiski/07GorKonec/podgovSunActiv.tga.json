@@ -1,0 +1,18 @@
+{
+  "accepted_for_build": false,
+  "artwork_reviewed": false,
+  "candidate": "translation-work/artwork/candidates/podgovSunActiv-v1.png",
+  "candidate_sha256": "c58415a13d753de0ff06c392295e89382bb8b3ac8ab2c8150f41d59f79a6b76b",
+  "native_verification": {
+    "alpha": "byte-identical",
+    "height": 512,
+    "type": 2,
+    "width": 512
+  },
+  "output": "translation-work/artwork/native-candidates/gameres/textures/Zapiski/07GorKonec/podgovSunActiv.tga",
+  "output_sha256": "a0c2ad8a6d484d51bec7137a16d6503d903421f0086cd1783eaa1267a23a52d4",
+  "remaining": "Inspect lettering, spelling, background, stains, framing and layout at native size before explicit approval.",
+  "schema": 1,
+  "source_file": "gameres/textures/Zapiski/07GorKonec/podgovSunActiv.tga",
+  "source_sha256": "b743cc236c497d244de8d62480e96491a555e637374c7c9743dad36f6c5149b4"
+}

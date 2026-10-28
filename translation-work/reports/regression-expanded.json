@@ -1,0 +1,9 @@
+{
+  "schema": 1,
+  "command": "python -m unittest discover -s translation-work/tests -q",
+  "exit_code": 0,
+  "tests": 33,
+  "seconds": 467.64,
+  "result": "OK",
+  "runtime_confirmation": "not performed; game installation remains read-only"
+}

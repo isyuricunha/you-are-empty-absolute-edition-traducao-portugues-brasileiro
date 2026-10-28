@@ -1,0 +1,18 @@
+{
+  "accepted_for_build": false,
+  "artwork_reviewed": false,
+  "candidate": "translation-work/artwork/candidates/controller-atlas-v1.png",
+  "candidate_sha256": "31792ca14ca4e2a50601f5dca6242db5cbee211cd7596b2efae57a9be46f70d8",
+  "native_verification": {
+    "alpha": "byte-identical",
+    "height": 2048,
+    "type": 10,
+    "width": 512
+  },
+  "output": "translation-work/artwork/native-candidates/gameres/textures/dds/controller_icon.tga",
+  "output_sha256": "39a181e3a6709bec70731b01b058ad11dddece713d7aedbdc1d506c19c3e7183",
+  "remaining": "Inspect lettering, spelling, background, stains, framing and layout at native size before explicit approval.",
+  "schema": 1,
+  "source_file": "gameres/textures/dds/controller_icon.tga",
+  "source_sha256": "cf01d09afad6f569f886169271ad2dda257befe6dea4b1d9bd4cffb05a957cdc"
+}

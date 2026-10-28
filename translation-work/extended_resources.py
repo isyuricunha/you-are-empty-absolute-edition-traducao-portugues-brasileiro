@@ -130,7 +130,6 @@ def artwork_bindings(root,source_rows,sources,deep=False):
         require(sha(data)==approved['sha256'],'Approved artwork bytes changed: '+path)
         require(isinstance(approved.get('review'),dict) and approved['review'].get('text'),'Missing explicit artwork review: '+path)
         if deep:
-            require(path.endswith('.tga'),'DDS native approval verification is not implemented yet: '+path)
             verify_native_art(sources[path],data)
         outputs[path]=data
         bindings[path]={k:approved[k] for k in ('source_sha256','file','sha256','translations')}

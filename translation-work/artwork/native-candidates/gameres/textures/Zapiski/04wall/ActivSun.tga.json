@@ -1,0 +1,18 @@
+{
+  "accepted_for_build": false,
+  "artwork_reviewed": false,
+  "candidate": "translation-work/artwork/candidates/ActivSun-v1.png",
+  "candidate_sha256": "debcad6db227eaacb7d8cc8b19a8dbd29d5d719dbb09d91e66bddc433b5fad30",
+  "native_verification": {
+    "alpha": "byte-identical",
+    "height": 512,
+    "type": 2,
+    "width": 512
+  },
+  "output": "translation-work/artwork/native-candidates/gameres/textures/Zapiski/04wall/ActivSun.tga",
+  "output_sha256": "fbcbbccc5e6f36b53ff7a9230efbc69226942e1102d5ecd2915825bc0a8dbcc2",
+  "remaining": "Inspect lettering, spelling, background, stains, framing and layout at native size before explicit approval.",
+  "schema": 1,
+  "source_file": "gameres/textures/Zapiski/04wall/ActivSun.tga",
+  "source_sha256": "4f4391b9d6a1dfe28ce1271091af7af64d9267f8c78a4445a0d715b628cb05e7"
+}

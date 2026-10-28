@@ -1,0 +1,18 @@
+{
+  "accepted_for_build": false,
+  "artwork_reviewed": false,
+  "candidate": "translation-work/artwork/candidates/gotovnost-v1.png",
+  "candidate_sha256": "1a0a124bc5d8849e860387170406bc10a4747815d90414c887d88e59909b28d7",
+  "native_verification": {
+    "alpha": "byte-identical",
+    "height": 512,
+    "type": 2,
+    "width": 512
+  },
+  "output": "translation-work/artwork/native-candidates/gameres/textures/Zapiski/05gor/gotovnost.tga",
+  "output_sha256": "f230aae5b7ff2437c7a24412d86162ef81e798f2375927df9622fc8500ab7058",
+  "remaining": "Inspect lettering, spelling, background, stains, framing and layout at native size before explicit approval.",
+  "schema": 1,
+  "source_file": "gameres/textures/Zapiski/05gor/gotovnost.tga",
+  "source_sha256": "d3fdc08185857881e2f55dbfa7c442dc41b5e7f44ce016620d0ab014eac03205"
+}

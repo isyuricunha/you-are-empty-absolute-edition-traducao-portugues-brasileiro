@@ -1,0 +1,18 @@
+{
+  "accepted_for_build": false,
+  "artwork_reviewed": false,
+  "candidate": "translation-work/artwork/candidates/WarnVagon-v1.png",
+  "candidate_sha256": "3faa5f7a6c328dc581bec79d14e25a4ef297cb424d13c80fd90175b55005600b",
+  "native_verification": {
+    "alpha": "byte-identical",
+    "height": 512,
+    "type": 2,
+    "width": 512
+  },
+  "output": "translation-work/artwork/native-candidates/gameres/textures/Zapiski/10Metro/WarnVagon.tga",
+  "output_sha256": "6d0dd0624372b8172e0ff4f66939e213f2fef4ded6b1aa953fb329daba5fe4c3",
+  "remaining": "Inspect lettering, spelling, background, stains, framing and layout at native size before explicit approval.",
+  "schema": 1,
+  "source_file": "gameres/textures/Zapiski/10Metro/WarnVagon.tga",
+  "source_sha256": "429ba0a65b30c6b9b4e181fa4b7a08c7ff1aa3adfc4fd2ddf6749076543eb380"
+}

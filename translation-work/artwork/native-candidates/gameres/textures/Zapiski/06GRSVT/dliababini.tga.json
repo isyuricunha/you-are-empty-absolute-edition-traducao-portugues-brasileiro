@@ -1,0 +1,18 @@
+{
+  "accepted_for_build": false,
+  "artwork_reviewed": false,
+  "candidate": "translation-work/artwork/candidates/dliababini-v1.png",
+  "candidate_sha256": "c4f739cdbd589e95bb0443db5b441052b2679f73e8cfdc62024b4146288942b2",
+  "native_verification": {
+    "alpha": "byte-identical",
+    "height": 512,
+    "type": 2,
+    "width": 512
+  },
+  "output": "translation-work/artwork/native-candidates/gameres/textures/Zapiski/06GRSVT/dliababini.tga",
+  "output_sha256": "1ced6f990ccb166a30a97857a2387c54cb99a3f47c8cf938c84d77659052e97a",
+  "remaining": "Inspect lettering, spelling, background, stains, framing and layout at native size before explicit approval.",
+  "schema": 1,
+  "source_file": "gameres/textures/Zapiski/06GRSVT/dliababini.tga",
+  "source_sha256": "c29afde038f7665b83568411989eee3fc14a373dfed53dd2eed302d700044118"
+}

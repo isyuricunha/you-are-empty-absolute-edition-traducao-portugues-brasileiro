@@ -1,0 +1,18 @@
+{
+  "accepted_for_build": false,
+  "artwork_reviewed": false,
+  "candidate": "translation-work/artwork/candidates/tramvai-v1.png",
+  "candidate_sha256": "faea1d037a4f37c739d33c9fe4d7b7861d251520756d143866f66bdec0e3c6e7",
+  "native_verification": {
+    "alpha": "byte-identical",
+    "height": 512,
+    "type": 2,
+    "width": 512
+  },
+  "output": "translation-work/artwork/native-candidates/gameres/textures/Zapiski/07GorKonec/tramvai.tga",
+  "output_sha256": "8c6ae5f3130b7dfdb17b99e1b8ce47307ee329387f279e6041c2cb0d5601e6af",
+  "remaining": "Inspect lettering, spelling, background, stains, framing and layout at native size before explicit approval.",
+  "schema": 1,
+  "source_file": "gameres/textures/Zapiski/07GorKonec/tramvai.tga",
+  "source_sha256": "a7e64922d16a0146684546e5a090b9a97bc0fbdd590de232340f06f03c6155c7"
+}

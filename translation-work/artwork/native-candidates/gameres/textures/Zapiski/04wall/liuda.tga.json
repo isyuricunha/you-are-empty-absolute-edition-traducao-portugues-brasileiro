@@ -1,0 +1,18 @@
+{
+  "accepted_for_build": false,
+  "artwork_reviewed": false,
+  "candidate": "translation-work/artwork/candidates/liuda-v1.png",
+  "candidate_sha256": "7067b4c9245c6d9b9deb120f0653210cd08785f0316e61ac5e7ab3bdb228f133",
+  "native_verification": {
+    "alpha": "byte-identical",
+    "height": 512,
+    "type": 2,
+    "width": 512
+  },
+  "output": "translation-work/artwork/native-candidates/gameres/textures/Zapiski/04wall/liuda.tga",
+  "output_sha256": "7d583ca742ee0daa0b0cbfea3f81cc320dec701a54af91f4712789c420130ad9",
+  "remaining": "Inspect lettering, spelling, background, stains, framing and layout at native size before explicit approval.",
+  "schema": 1,
+  "source_file": "gameres/textures/Zapiski/04wall/liuda.tga",
+  "source_sha256": "f509fad1b8975ebdc99c05153d0eb852cd64a7ce017720619ce85c2e4587ad24"
+}

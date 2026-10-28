@@ -1,0 +1,20 @@
+{
+  "schema": 1,
+  "source_file": "gameres/textures/dds/controller_icon.tga",
+  "panels": {
+    "1": {
+      "candidate": "controller-preset-1-v1.png",
+      "visual_review": "Text, accents, button and connector associations match source; accepted for atlas assembly."
+    },
+    "2": {
+      "candidate": "controller-preset-2-v2.png",
+      "visual_review": "Corrected fourth row has exactly one DOWN arrow. Portuguese labels, accents, button/connector associations reviewed at native resolution."
+    },
+    "3": {
+      "candidate": "controller-preset-3-v2.png",
+      "visual_review": "Corrected fourth row has exactly one DOWN arrow. Portuguese labels, accents, button/connector associations reviewed at native resolution."
+    }
+  },
+  "native_atlas_approved": true,
+  "untouched_fourth_region": "decoded RGBA byte-identical to original"
+}

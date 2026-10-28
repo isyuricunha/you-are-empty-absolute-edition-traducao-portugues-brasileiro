@@ -1,0 +1,24 @@
+{
+  "schema": 1,
+  "source_file": "gameres/textures/dds/controller_icon.tga",
+  "source_sha256": "cf01d09afad6f569f886169271ad2dda257befe6dea4b1d9bd4cffb05a957cdc",
+  "panels": [
+    {
+      "panel": 1,
+      "file": "translation-work/artwork/candidates/controller-preset-1-v1.png",
+      "sha256": "8c4401e898b8b3481a8bb2b4626d8ec77166e414badd78b0c83561e42e814e8b"
+    },
+    {
+      "panel": 2,
+      "file": "translation-work/artwork/candidates/controller-preset-2-v2.png",
+      "sha256": "853936b66803307fd567b6a1b7198d5a931dec82291273cb0543c774762397a7"
+    },
+    {
+      "panel": 3,
+      "file": "translation-work/artwork/candidates/controller-preset-3-v2.png",
+      "sha256": "7d9e435b28cded82314c77bd2efecc8e5416af6a8cc93301a15482f7c2b0acbd"
+    }
+  ],
+  "assembly": "Technical atlas packing of visually reviewed generated panels; fourth original 512x512 region retained byte-identically before native export.",
+  "review": "All labels and accents match accepted PTBR. Button/connector associations and four directional arrows checked. Duplicate fourth-row arrows corrected in panels 2 and 3."
+}

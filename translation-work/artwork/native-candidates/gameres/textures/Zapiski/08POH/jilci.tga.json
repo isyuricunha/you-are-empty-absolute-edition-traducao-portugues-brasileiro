@@ -1,0 +1,18 @@
+{
+  "accepted_for_build": false,
+  "artwork_reviewed": false,
+  "candidate": "translation-work/artwork/candidates/jilci-v1.png",
+  "candidate_sha256": "703f6d46ccbee1f0e2d7618b621e48fb065ac4d25df7e69f1fc1cc55ec78ad27",
+  "native_verification": {
+    "alpha": "byte-identical",
+    "height": 512,
+    "type": 2,
+    "width": 512
+  },
+  "output": "translation-work/artwork/native-candidates/gameres/textures/Zapiski/08POH/jilci.tga",
+  "output_sha256": "9eea99298a7c764ee692dac62d5918bdefc54e6749e412ea338b7ef55bbd11c3",
+  "remaining": "Inspect lettering, spelling, background, stains, framing and layout at native size before explicit approval.",
+  "schema": 1,
+  "source_file": "gameres/textures/Zapiski/08POH/jilci.tga",
+  "source_sha256": "3a8937c58bce398acd04a157e7078b77d6f8d039e26cf8062730c923ca8fefef"
+}
