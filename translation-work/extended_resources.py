@@ -31,7 +31,7 @@ def catalog_validate(catalog):
     for item in catalog:
         require(isinstance(item,dict),'Invalid catalog entry')
         kind=item.get('kind'); path=item.get('source_file'); identity=item.get('id')
-        require(kind in ('map-name','raster-text'),'Unsupported extended resource kind')
+        require(kind in ('map-name','raster-text','video-subtitle'),'Unsupported extended resource kind')
         require(isinstance(path,str) and path not in PATHS and not any(s in path for s in ('\\',':','..')),
                 'Unsafe extended resource path')
         require(isinstance(identity,str) and identity.startswith(path+'#') and identity not in ids,'Duplicate/invalid catalog identity')
@@ -41,7 +41,10 @@ def catalog_validate(catalog):
             require(path.startswith('gameres/maps/loc/') and path.endswith('.description') and identity==path+'#name','Only verified English map-description layout is supported')
             require(set(item)=={'kind','source_file','id'},'Map metadata comes from native bytes, not a second text copy')
         else:
-            require(path.startswith('gameres/textures/') and path.endswith(('.tga','.dds')),'Raster resource must be a native texture')
+            if kind=='video-subtitle':
+                require(path.startswith('gameres/textures/videos/') and path.endswith('.avi') and 'region' not in item,'Invalid native subtitle-video path')
+            else:
+                require(path.startswith('gameres/textures/') and path.endswith(('.tga','.dds')),'Raster resource must be a native texture')
             require(set(item)<= {'kind','source_file','id','EN','source_sha256','context','region','region_sha256'},'Unknown transcription fields')
             require(isinstance(item.get('EN'),str) and isinstance(item.get('context',{}),dict),'Missing transcription/context')
             require(re.fullmatch(r'[a-f0-9]{64}',item.get('source_sha256','')) is not None,'Missing transcription source hash')
@@ -70,7 +73,7 @@ def extract(path,data,catalog):
         return [dict(id=path+'#name',source_file=path,key='name',row=0,EN=value,PTBR='',
                      category='nomes-de-fases',format='map-name',
                      context={'kind':'map-label','plaque':plaque[1].decode('ascii').strip() if plaque else None})]
-    require(all(i['kind']=='raster-text' for i in items),'Conflicting resource ownership')
+    require(all(i['kind']==items[0]['kind'] and i['kind'] in ('raster-text','video-subtitle') for i in items),'Conflicting resource ownership')
     shape=tga_decode(data) if path.endswith('.tga') else None
     result=[]
     for row,item in enumerate(sorted(items,key=lambda i:i['id'])):
@@ -81,8 +84,8 @@ def extract(path,data,catalog):
             region_digest=region_hash(shape,item['region'])
             current=region_digest==item['region_sha256'] and bool(item['EN'])
         record=dict(id=item['id'],source_file=path,key=item['id'].split('#',1)[1],row=row,
-                    EN=item['EN'] if current else '',PTBR='',format='raster-text',
-                    category='controles-em-imagem' if 'region' in item else 'textos-em-imagem',
+                    EN=item['EN'] if current else '',PTBR='',format='video-subtitle' if item['kind']=='video-subtitle' else 'raster-text',
+                    category='legendas-em-video' if item['kind']=='video-subtitle' else 'controles-em-imagem' if 'region' in item else 'textos-em-imagem',
                     transcription_current=current,
                     context=dict(item.get('context',{})))
         record['source_region_sha256' if region_digest else 'source_image_sha256']=region_digest or sha(data)
@@ -97,7 +100,7 @@ def extract(path,data,catalog):
 
 
 def validate(record):
-    if record.get('format')!='raster-text':
+    if record.get('format') not in ('raster-text','video-subtitle'):
         return validate_ui(record)
     text=record.get('PTBR'); require(isinstance(text,str),'PTBR must be a string')
     if not text:
@@ -111,7 +114,7 @@ def artwork_bindings(root,source_rows,sources,deep=False):
     from toolkit import safe,read_json
     grouped=defaultdict(list)
     for row in source_rows:
-        if row.get('format')=='raster-text': grouped[row['source_file']].append(row)
+        if row.get('format') in ('raster-text','video-subtitle'): grouped[row['source_file']].append(row)
     if not grouped:
         return {},{}
     manifest=read_json(safe(root,'translation-work/artwork/approved.json'))

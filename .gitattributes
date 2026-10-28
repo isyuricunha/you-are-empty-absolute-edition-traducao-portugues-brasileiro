@@ -6,9 +6,11 @@
 *.yml text eol=lf
 EN/** -text
 PTBR/** -text
+PTBR/**/*.txt whitespace=cr-at-eol
 translation-work/accepted-sources/** -text
 translation-work/reference/native/** -text
 translation-work/reference/native-assets/** -text
 *.tga -text
 *.png -text
 *.zip -text
+*.avi -text

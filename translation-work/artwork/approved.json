@@ -531,6 +531,26 @@
         "gameres/textures/dds/controller_icon.tga#preset-2": "0932f77c0b42747f99f59c943898470471b7be35e0b0a0c75698471fd240e251",
         "gameres/textures/dds/controller_icon.tga#preset-3": "357a6653bdb191389d29e79c970ee7eb3bc0daa518d6286f1105ec43d9def86c"
       }
+    },
+    "gameres/textures/videos/zastavki/outro.avi": {
+      "file": "translation-work/artwork/approved/gameres/textures/videos/zastavki/outro.avi",
+      "review": {
+        "native": {
+          "frames": 4368,
+          "height": 480,
+          "timeline": "all frame timestamps identical",
+          "type": "WebM/VP9",
+          "width": 720
+        },
+        "runtime": "pending user test",
+        "style": "Background, lettering, layout and readability reviewed before approval",
+        "text": "Explicit native-size visual review declared"
+      },
+      "sha256": "b42f55ad9a8beecae9a3560f89bc480ee83f756c1ca244ae5c54a9d81b811bac",
+      "source_sha256": "7b5daefb5676825b782c8683a2fc16f08d7a2012a2015333f6e2a4ad631c139b",
+      "translations": {
+        "gameres/textures/videos/zastavki/outro.avi#speech-115800": "1f6df142e53cf1557971ae8cdf5427abe22fa32ca9c648e732c62dea081d90b0"
+      }
     }
   },
   "schema": 1

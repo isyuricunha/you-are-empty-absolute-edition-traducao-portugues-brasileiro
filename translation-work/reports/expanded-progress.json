@@ -1,12 +1,13 @@
 {
-  "accepted_native_files": 57,
-  "accepted_records": 221,
-  "accepted_translated_records": 221,
+  "accepted_native_files": 58,
+  "accepted_records": 222,
+  "accepted_translated_records": 222,
   "commits_pushes_installs_publication": "none",
-  "controller_artwork": "Panel 1 visually accepted; panels 2 and 3 undergoing duplicate-arrow correction; atlas not approved",
+  "completion_evidence": "coverage-final.json and docs/cobertura-e-teste.md",
+  "controller_artwork": "All three panels reviewed, corrected, approved and integrated",
   "controller_panels_transcribed_translated_pending_artwork": 3,
-  "existing_package": "Still interface-only; not a completed expanded build",
-  "goal_status": "active; full goal not complete",
+  "existing_package": "Release candidate: 58 files, 222 translated records including one partial final-video subtitle",
+  "goal_status": "Maintainer approved release after runtime testing",
   "image_discovery": {
     "OCR_is_not_coverage_proof": true,
     "confirmed_additional_English_DDS": 26,
@@ -24,13 +25,7 @@
   "note_artwork_remaining": 0,
   "notes_transcribed_translated": 29,
   "protected_game_candidates_and_binaries": "31 protected EXE/DLL SHA-256 hashes rechecked unchanged; game remains read-only",
-  "remaining": [
-    "Finish and review controller atlas",
-    "Review remaining images for relevant English text; incidental microtext excluded by user",
-    "Adapt relevant confirmed DDS text and integrate accepted catalog",
-    "Investigate video text and resource-only alternatives for compiled Preset labels",
-    "Validate expanded PTBR/ZIP and complete coverage inventory/runtime checklist"
-  ],
+  "remaining": [],
   "schema": 1,
   "scope_refinement": "Relevant gameplay/story text only; incidental microtext excluded by user 2026-10-28"
 }

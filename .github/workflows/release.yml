@@ -2,7 +2,12 @@ name: Publicar tradução completa
 on:
   push:
     branches: [main]
-    paths: ['PTBR/**']
+    paths:
+      - 'PTBR/**'
+      - 'translation-work/build-manifest.json'
+      - 'translation-work/release.py'
+      - '.github/workflows/release.yml'
+      - 'README.md'
   workflow_dispatch:
 permissions:
   contents: write

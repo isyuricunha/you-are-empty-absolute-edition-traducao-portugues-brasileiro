@@ -159,5 +159,73 @@
       "1003bc99 ret 0xc"
     ]
   },
-  "preset_references": []
+  "preset_references": [
+    {
+      "binary": "you_are_empty.exe",
+      "literal": "Preset 1",
+      "file_offset": "0x10a214",
+      "literal_address": "0x50b814",
+      "references": [
+        {
+          "file_offset": "0x546",
+          "virtual_address": "0x401146",
+          "kind": "direct global-pointer initialization"
+        },
+        {
+          "file_offset": "0x10f608",
+          "virtual_address": "0x510c08",
+          "kind": "compiled data pointer"
+        }
+      ]
+    },
+    {
+      "binary": "you_are_empty.exe",
+      "literal": "Preset 2",
+      "file_offset": "0x10a220",
+      "literal_address": "0x50b820",
+      "references": [
+        {
+          "file_offset": "0x550",
+          "virtual_address": "0x401150",
+          "kind": "direct global-pointer initialization"
+        },
+        {
+          "file_offset": "0x10f640",
+          "virtual_address": "0x510c40",
+          "kind": "compiled data pointer"
+        }
+      ]
+    },
+    {
+      "binary": "you_are_empty.exe",
+      "literal": "Preset 3",
+      "file_offset": "0x10a22c",
+      "literal_address": "0x50b82c",
+      "references": [
+        {
+          "file_offset": "0x55a",
+          "virtual_address": "0x40115a",
+          "kind": "direct global-pointer initialization"
+        },
+        {
+          "file_offset": "0x10f678",
+          "virtual_address": "0x510c78",
+          "kind": "compiled data pointer"
+        }
+      ]
+    }
+  ],
+  "preset_global_initialization": [
+    "00401140 mov dword ptr [0x51f93c], 0x50b814",
+    "0040114a mov dword ptr [0x51f940], 0x50b820",
+    "00401154 mov dword ptr [0x51f944], 0x50b82c",
+    "0040115e mov dword ptr [0x51f924], 0x50b850",
+    "00401168 mov dword ptr [0x51f928], 0x50b854",
+    "00401172 mov dword ptr [0x51f92c], 0x50b858"
+  ],
+  "interpretation": {
+    "verified": "The three displayed labels are ASCII literals referenced by executable data and initialized directly into a three-pointer global table. The narrow CString constructor converts/copies text and does not invoke the local-string lookup routine. Declarative Lua text loading has a separate lookup path.",
+    "resource_search": "No existing override field or script API for replacing these compiled list entries was found in the installed Lua resources. Renaming Controller Preset would change a binding identifier, not its entries.",
+    "limitation": "No supported resource-only replacement identified for these compiled values. Keep them unchanged under the no-binary-modification constraint; this does not claim that every possible new-engine implementation has been disproved."
+  }
 }

@@ -89,6 +89,12 @@ def tga_encode_like(original, rgba):
 
 
 def verify_native_art(original, translated):
+    if original.startswith(b'\x1aE\xdf\xa3'):
+        before,after=webm_video_shape(original),webm_video_shape(translated)
+        require(before==after,'Native video dimensions, codec, duration or frame timestamps changed')
+        require(original!=translated,'Video still equals original')
+        return dict(type='WebM/VP9',width=before['width'],height=before['height'],
+                    frames=len(before['timestamps']),timeline='all frame timestamps identical')
     if original.startswith(b'DDS '):
         return verify_native_dds(original,translated)
     before,after=tga_decode(original),tga_decode(translated)
@@ -140,3 +146,66 @@ def verify_native_dds(original,translated):
             'DDS top-level artwork still equals English image')
     return dict(width=before['width'],height=before['height'],type='DXT5',
                 mip_levels=len(before['levels']),alpha='compressed alpha blocks byte-identical at every mip')
+
+
+def webm_video_shape(data):
+    """Strict native single-track VP9 profile; validates every block timestamp.
+
+    This is structural validation, not a substitute for the separate full decode
+    and visual review of the prepared video. Unsupported layouts fail closed.
+    """
+    require(data.startswith(b'\x1aE\xdf\xa3'),'Expected EBML/WebM video')
+    def vint(pos,identifier=False):
+        require(pos<len(data) and data[pos]!=0,'Invalid EBML integer')
+        n=1
+        while n<=8 and not data[pos]&(1<<(8-n)): n+=1
+        require(n<=8 and pos+n<=len(data),'Truncated EBML integer')
+        value=int.from_bytes(data[pos:pos+n],'big')
+        return (value if identifier else value&((1<<(7*n))-1)),pos+n
+    def elements(pos,end):
+        while pos<end:
+            key,pos=vint(pos,True);size,pos=vint(pos);finish=pos+size
+            require(finish<=end,'Truncated/unsupported EBML element')
+            yield key,pos,finish
+            pos=finish
+    scale=1000000;duration=None;tracks=[];timestamps=[];segments=0
+    for key,a,z in elements(0,len(data)):
+        if key!=0x18538067:continue
+        segments+=1
+        for key,a,z in elements(a,z):
+            if key==0x1549a966:
+                for prop,c,d in elements(a,z):
+                    if prop==0x2ad7b1:scale=int.from_bytes(data[c:d],'big')
+                    if prop==0x4489:
+                        require(d-c in (4,8),'Invalid WebM duration')
+                        duration=struct.unpack('>f' if d-c==4 else '>d',data[c:d])[0]
+            elif key==0x1654ae6b:
+                for entry,c,d in elements(a,z):
+                    if entry!=0xae:continue
+                    track={}
+                    for prop,e,f in elements(c,d):
+                        if prop==0xd7:track['number']=int.from_bytes(data[e:f],'big')
+                        if prop==0x83:track['type']=int.from_bytes(data[e:f],'big')
+                        if prop==0x86:track['codec']=data[e:f]
+                        if prop==0xe0:
+                            for dim,g,h in elements(e,f):
+                                if dim==0xb0:track['width']=int.from_bytes(data[g:h],'big')
+                                if dim==0xba:track['height']=int.from_bytes(data[g:h],'big')
+                    tracks.append(track)
+            elif key==0x1f43b675:
+                clock=None
+                for prop,c,d in elements(a,z):
+                    if prop==0xe7:clock=int.from_bytes(data[c:d],'big')
+                    elif prop==0xa3:
+                        number,e=vint(c)
+                        require(clock is not None and e+3<d,'Invalid video block')
+                        require(number==1 and not data[e+2]&0x0e,'Unsupported track/laced/invisible block')
+                        timestamps.append((clock+int.from_bytes(data[e:e+2],'big',signed=True))*scale)
+                    elif prop==0xa0:raise ValueError('Unsupported WebM BlockGroup')
+    require(segments==1 and len(tracks)==1,'Expected one video segment and track')
+    track=tracks[0]
+    require(track.get('number')==1 and track.get('type')==1 and track.get('codec')==b'V_VP9','Unsupported native video track')
+    require(track.get('width',0)>0 and track.get('height',0)>0 and duration is not None and duration>0 and timestamps,'Incomplete video metadata')
+    require(all(b>a for a,b in zip(timestamps,timestamps[1:])),'Nonmonotonic video presentation times')
+    return dict(width=track['width'],height=track['height'],codec='V_VP9',
+                duration_ns=round(duration*scale),timestamps=timestamps)

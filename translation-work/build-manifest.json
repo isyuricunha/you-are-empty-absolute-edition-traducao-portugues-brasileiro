@@ -1,7 +1,7 @@
 {
-  "artwork_fingerprint": "eaa3021d8a09af71fe549681d96519688ad4edca825336740e24ad3b212e2f9a",
-  "completed": 221,
-  "generation": "6836e6be1f55d0c1b495315177106bae9925c45090517664b3afd7c493ab1bb3",
+  "artwork_fingerprint": "4bda9d30fe733a15feab2e41fcbf8336909661d4e2b884ee6695842cb8f91a03",
+  "completed": 222,
+  "generation": "8b944b85fb0cfba2d8e3051c7cb0d92d1026206878a5623414b7d8e0f8b07fe8",
   "native_validation": "parse-rebuild-parse-all-records",
   "outputs": {
     "gameres/maps/loc/futur.description": "12278f857e2c769cb9389e576b6c9a03a4bae9042d581f2e52d00905d06348e1",
@@ -28,7 +28,7 @@
     "gameres/maps/loc/poh.description": "a280a1290902fa6b28b034a73e1079fd3d94bc158a0dceece36e15c00f522283",
     "gameres/maps/loc/theatre.description": "9b6f71b9feab239d739dc63a2408743f77789732ed96810b9584ce83d424dcfd",
     "gameres/maps/loc/wall.description": "050313e08ade05d2db08125f82faffd484b8b57779915fe27db053350afeadd5",
-    "gameres/scripts/you_are_empty/ui/ui_strings.txt": "8d319b33b15106a79ea1814b3d8f1993e0b8c0282bd175806ccc867e27b679e5",
+    "gameres/scripts/you_are_empty/ui/ui_strings.txt": "f4191280515a75041eefa7323532179b58d8d0aa1b9265d11416d8bf876b813d",
     "gameres/textures/Zapiski/01med/masha.tga": "0175930cb62f44257a8a01c16c607bceaee9fb0492105b9db2bb20c17c195fd7",
     "gameres/textures/Zapiski/01med/mashina.tga": "75ec6ff7b1d8c85aa6fc72e68a87d2ed20eb5e99e324fbf3c5d4294267c65ca8",
     "gameres/textures/Zapiski/01med/sivorodka.tga": "9bbf6bf93e8af27f1629c20475c2bae445f3aa7ba2713f1f7d78b9ffaa2aebad",
@@ -60,12 +60,13 @@
     "gameres/textures/Zapiski/14parall/yama.tga": "08bb32fcc44c899282eb501f3e2b8a13f41f9f8d21d89e2637a2b3f1647e8390",
     "gameres/textures/dds/controller_icon.tga": "39a181e3a6709bec70731b01b058ad11dddece713d7aedbdc1d506c19c3e7183",
     "gameres/textures/fonts/RodchenkoCTT.size": "ed4df872c37426f29d0b2c6f5aac798e1914540a5e2ebfc4ce4b49ecc013b0be",
-    "gameres/textures/fonts/RodchenkoCTT.tga": "be110d7ea25d19af2a356d6fab03bc4872dc51303d08a524d034a940edeb6f9b"
+    "gameres/textures/fonts/RodchenkoCTT.tga": "be110d7ea25d19af2a356d6fab03bc4872dc51303d08a524d034a940edeb6f9b",
+    "gameres/textures/videos/zastavki/outro.avi": "b42f55ad9a8beecae9a3560f89bc480ee83f756c1ca244ae5c54a9d81b811bac"
   },
   "pending": 0,
   "producer": "yae-toolkit-build-v1",
-  "receipt_hash": "22699481251eb536d465b75e945ba578d1cc5cec32f8eb8543de32adffdf9ede",
-  "records": 221,
+  "receipt_hash": "cca402ae233073568fb4fcad150e13c88cc43435ed752a051b7df8e6a5183050",
+  "records": 222,
   "schema": 1,
   "sources": {
     "gameres/maps/loc/futur.description": "a36e69e7ba0e97e72f898a6d47901507a34b26fd12831ac0b542e8e8ed36220c",
@@ -124,8 +125,9 @@
     "gameres/textures/Zapiski/14parall/yama.tga": "4b505e3b642a6b3297f095d791e7813214861543d0ed7cf267a31f87029a817d",
     "gameres/textures/dds/controller_icon.tga": "cf01d09afad6f569f886169271ad2dda257befe6dea4b1d9bd4cffb05a957cdc",
     "gameres/textures/fonts/RodchenkoCTT.size": "f95c26808ae1883e5c109a5e095fdec59944c529311e9127fe4fdbd0edf96d50",
-    "gameres/textures/fonts/RodchenkoCTT.tga": "c0b14dab16146d3cc0ac33c4ad96a51cbeeb619467d5e05abdf225279ddb4ae8"
+    "gameres/textures/fonts/RodchenkoCTT.tga": "c0b14dab16146d3cc0ac33c4ad96a51cbeeb619467d5e05abdf225279ddb4ae8",
+    "gameres/textures/videos/zastavki/outro.avi": "7b5daefb5676825b782c8683a2fc16f08d7a2012a2015333f6e2a4ad631c139b"
   },
-  "tooling": "6e1a1943b3184fe61b40f9ecf1e419c2e81f0cd0383cf9e6921c8326e0cad2cc",
-  "translation_fingerprint": "5fafa60525164d8f394a4b94cab82aa04d9a2d0d2b3793b3bbfe178b6fefaf7c"
+  "tooling": "b436b9fa1a54f571864f4355fb074a62894ddbd590f47d01db507b3e429c58a9",
+  "translation_fingerprint": "f341854a0ae884d6c924327af2302d8aaa2e85ff394ae6697971518cba9b7e35"
 }

@@ -145,10 +145,10 @@ class Project:
         require(reviewed,'approve-art requires --reviewed after inspecting native-size text, background, style and layout')
         expected=self.state_inventory()
         _,sources,batches=self.load()
-        rows=[r for b in batches.values() for r in b if r['source_file']==resource and r.get('format')=='raster-text']
+        rows=[r for b in batches.values() for r in b if r['source_file']==resource and r.get('format') in ('raster-text','video-subtitle')]
         require(rows and resource in sources,'Resource is not an accepted raster-text asset')
         require(all(r['PTBR'] and r.get('transcription_current') for r in rows),'Translate and review the current source before approving artwork')
-        require(resource.endswith(('.tga','.dds')),'Unsupported native artwork container')
+        require(resource.endswith(('.tga','.dds','.avi')),'Unsupported native artwork container')
         candidate=self.path(artifact).read_bytes()
         proof=verify_native_art(sources[resource],candidate)
         filename=WORK+'artwork/approved/'+resource

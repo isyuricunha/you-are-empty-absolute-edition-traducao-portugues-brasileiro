@@ -32,6 +32,9 @@ def prepare():
                 item['region']=row['region']
                 item['region_sha256']=region_hash(tga_decode(source),row['region'])
             catalog.append(item)
+    video_catalog=WORK/'artwork/video-subtitles.json'
+    if video_catalog.exists():
+        catalog.extend(json.loads(video_catalog.read_text(encoding='utf-8')))
     catalog.sort(key=lambda row:row['id'])
     catalog_validate(catalog)
     target=WORK/'artwork/catalog.json'

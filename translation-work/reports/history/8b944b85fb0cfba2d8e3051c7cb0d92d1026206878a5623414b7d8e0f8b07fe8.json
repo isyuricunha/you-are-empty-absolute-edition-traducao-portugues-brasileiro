@@ -1,0 +1,40 @@
+{
+  "affected_batches": [
+    "batch-0001.jsonl"
+  ],
+  "changes": [
+    {
+      "EN": "We still need to work hard and sweat to catch up with you.",
+      "batch": "batch-0001.jsonl",
+      "id": "gameres/textures/videos/zastavki/outro.avi#speech-115800",
+      "kind": "added",
+      "previous_EN": null,
+      "previous_PTBR": "",
+      "source_file": "gameres/textures/videos/zastavki/outro.avi"
+    }
+  ],
+  "counts": {
+    "added": 1,
+    "modified": 0,
+    "moved": 0,
+    "preserved_translations": 221,
+    "removed": 0,
+    "unchanged": 221
+  },
+  "existing_pending": 0,
+  "generation": "8b944b85fb0cfba2d8e3051c7cb0d92d1026206878a5623414b7d8e0f8b07fe8",
+  "next_action": "Read briefing, review diff, translate and review pending entries.",
+  "pending": 1,
+  "previous_generation": "6836e6be1f55d0c1b495315177106bae9925c45090517664b3afd7c493ab1bb3",
+  "recovery": "translation-work/.state/transactions (local); accepted-sources and history are versioned",
+  "source_changes": {
+    "gameres/textures/videos/zastavki/outro.avi": {
+      "after": "7b5daefb5676825b782c8683a2fc16f08d7a2012a2015333f6e2a4ad631c139b",
+      "before": null
+    }
+  },
+  "status": "accepted",
+  "warnings": [
+    "Coverage is limited to the accepted source catalog; artwork requires separate native approval; runtime verification is distinct."
+  ]
+}

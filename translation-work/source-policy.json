@@ -1,20 +1,24 @@
 {
   "appid": "4760480",
   "buildid": "26256132",
-  "provenance": "Steam English installation; UI restored into repository from verified pre-test backup AA021CA0F96E466AA583088036F27ACB8C641D16A406ACF69EAF9B056D0483D1; installation remains unmodified.",
+  "provenance": "Original English resources preserved before translation; installed game is a user-approved test deployment and must not be reimported as an English baseline.",
   "rejected": [
     "5e4718fe4865213d2a61e77259a15a2e46911d27dc199e0ad655d5335f9b068d"
   ],
   "rejected_resources": {
     "gameres/scripts/you_are_empty/ui/ui_strings.txt": [
       "8ac2e86b720bb0a29fb880e575ec6ab4dc1005148f428679050eca6528d4d622",
-      "8d319b33b15106a79ea1814b3d8f1993e0b8c0282bd175806ccc867e27b679e5"
+      "8d319b33b15106a79ea1814b3d8f1993e0b8c0282bd175806ccc867e27b679e5",
+      "f4191280515a75041eefa7323532179b58d8d0aa1b9265d11416d8bf876b813d"
+    ],
+    "gameres/textures/videos/zastavki/outro.avi": [
+      "b42f55ad9a8beecae9a3560f89bc480ee83f756c1ca244ae5c54a9d81b811bac"
     ]
   },
   "schema": 1,
-  "scope": "interface-only",
+  "scope": "accepted expanded catalog: interface, notes, controller diagrams, map labels and partial final-video subtitle",
   "trusted": [
     "52afd3d198d6e1ca7c6a7b71b33265a23a23cd85c17a468ec1c686005d487ee2"
   ],
-  "unmanaged": "29 raster notes, audio/video and environmental artwork are not translated."
+  "unmanaged": "Spoken audio, loading screens and incidental/decorative text remain original."
 }

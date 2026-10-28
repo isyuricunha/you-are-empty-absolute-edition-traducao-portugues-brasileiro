@@ -32,6 +32,20 @@ class ExpansionTests(unittest.TestCase):
 
     def payload(self,rows,text='Texto'): return fixtures.Fixture.payload(self,rows,text)
 
+    def test_video_subtitle_build_and_source_invalidation(self):
+        from test_video import video
+        path='gameres/textures/videos/zastavki/outro.avi'
+        original=video();target=self.extra/path;target.parent.mkdir(parents=True,exist_ok=True);target.write_bytes(original)
+        catalog=[dict(kind='video-subtitle',source_file=path,id=path+'#speech',EN='Work hard',source_sha256=sha(original),context={'partial':True})]
+        self.p.expand(catalog,self.extra);self.translate()
+        artifact='translation-work/artwork/native-candidates/'+path
+        candidate=self.p.path(artifact);candidate.parent.mkdir(parents=True,exist_ok=True);candidate.write_bytes(video(content=b'b'))
+        self.p.approve_art(path,artifact,reviewed=True);self.p.build();self.p.verify_output();self.p.package()
+        self.assertEqual(candidate.read_bytes(),self.p.path('PTBR/'+path).read_bytes())
+        sources=self.p.load()[1];sources[path]=video(content=b'c');report=self.p.sync(sources)
+        self.assertEqual(1,report['counts']['modified']);self.assertEqual(1,self.p.status()['pending'])
+        with self.assertRaisesRegex(ValueError,'Incomplete'):self.p.build()
+
     def translate(self):
         rows=[r for batch in self.p.load()[2].values() for r in batch if not r['PTBR']]
         self.p.apply(self.payload(rows))

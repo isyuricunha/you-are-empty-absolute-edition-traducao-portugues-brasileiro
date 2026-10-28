@@ -72,6 +72,8 @@ class ReleaseIntegration(unittest.TestCase):
     def test_publish_rerun_patch_font_only_and_asset_allowlist(self):
         result=release.publish(self.root,self.api); self.assertEqual('v1.0.0',result['tag'])
         self.assertEqual('unchanged',release.publish(self.root,self.api)['status'])
+        self.assertIn('notas e cartas',self.fake.rows[-1]['body'])
+        self.assertNotIn('Notas em imagens, vozes e vídeos permanecem',self.fake.rows[-1]['body'])
         row=self.p.load()[2]['batch-0001.jsonl'][0]
         self.p.apply(self.payload([row],'Revisado'),replace=True); self.p.build(); self.commit()
         self.assertEqual('v1.0.1',release.publish(self.root,self.api)['tag'])

@@ -579,15 +579,33 @@
       "region_sha256": "fd409fb914c7aecf592c3405bea85baa2d14fb4b7d09ed08b3403d5800653457",
       "source_file": "gameres/textures/dds/controller_icon.tga",
       "source_sha256": "cf01d09afad6f569f886169271ad2dda257befe6dea4b1d9bd4cffb05a957cdc"
+    },
+    {
+      "EN": "We still need to work hard and sweat to catch up with you.",
+      "context": {
+        "EN_role": "English reference translation of the Russian spoken phrase, not a native English text track.",
+        "RU": "Ещё надо хорошенько поработать и попотеть, чтобы вас догнать.",
+        "end_seconds": 119.2,
+        "evidence": "Reviewed rendered subtitle, full video decode/timeline comparison and user-approved inclusion.",
+        "kind": "partial-video-subtitle",
+        "original_language": "Russian archival speech",
+        "partial": true,
+        "start_seconds": 115.8,
+        "untranslated_unclear_passages": 2
+      },
+      "id": "gameres/textures/videos/zastavki/outro.avi#speech-115800",
+      "kind": "video-subtitle",
+      "source_file": "gameres/textures/videos/zastavki/outro.avi",
+      "source_sha256": "7b5daefb5676825b782c8683a2fc16f08d7a2012a2015333f6e2a4ad631c139b"
     }
   ],
   "deployment": "EN/<path> -> PTBR/<path>",
   "game": "You Are Empty: Absolute Edition",
-  "generation": "6836e6be1f55d0c1b495315177106bae9925c45090517664b3afd7c493ab1bb3",
+  "generation": "8b944b85fb0cfba2d8e3051c7cb0d92d1026206878a5623414b7d8e0f8b07fe8",
   "native": "DS2-UI-map-descriptions-and-reviewed-artwork",
   "profile": "expanded-English-resource-catalog",
   "provenance": "Explicit verified original resource catalog",
-  "records": 221,
+  "records": 222,
   "schema": 1,
   "sources": {
     "gameres/maps/loc/futur.description": "a36e69e7ba0e97e72f898a6d47901507a34b26fd12831ac0b542e8e8ed36220c",
@@ -646,6 +664,7 @@
     "gameres/textures/Zapiski/14parall/yama.tga": "4b505e3b642a6b3297f095d791e7813214861543d0ed7cf267a31f87029a817d",
     "gameres/textures/dds/controller_icon.tga": "cf01d09afad6f569f886169271ad2dda257befe6dea4b1d9bd4cffb05a957cdc",
     "gameres/textures/fonts/RodchenkoCTT.size": "f95c26808ae1883e5c109a5e095fdec59944c529311e9127fe4fdbd0edf96d50",
-    "gameres/textures/fonts/RodchenkoCTT.tga": "c0b14dab16146d3cc0ac33c4ad96a51cbeeb619467d5e05abdf225279ddb4ae8"
+    "gameres/textures/fonts/RodchenkoCTT.tga": "c0b14dab16146d3cc0ac33c4ad96a51cbeeb619467d5e05abdf225279ddb4ae8",
+    "gameres/textures/videos/zastavki/outro.avi": "7b5daefb5676825b782c8683a2fc16f08d7a2012a2015333f6e2a4ad631c139b"
   }
 }

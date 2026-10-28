@@ -3,3 +3,6 @@ translation-work/preview/
 __pycache__/
 *.pyc
 PTBR.zip
+translation-work/subtitle-test/originals/
+translation-work/subtitle-test/PTBR/
+translation-work/subtitle-test/*.zip

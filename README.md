@@ -18,32 +18,23 @@ Uma Kyiv soviética alternativa, nos anos 1950: ruas vazias, criaturas grotescas
 
 ## 🇧🇷 Sobre a tradução
 
-O projeto se concentra na **interface**: menus, configurações, controles e mensagens, com adaptação da fonte para os acentos do português. As vozes e os vídeos permanecem no idioma original; as notas desenhadas em imagens também ficam fora deste pacote.
+Tradução para português brasileiro dos menus, configurações, notas e cartas de You Are Empty: Absolute Edition. Os diagramas de controle e os nomes das fases também foram adaptados. O vídeo final inclui uma frase legendada. As vozes e os demais trechos de diálogo permanecem no idioma original.
 
 ## 📦 Download
 
-Consulte a [página de Releases](https://github.com/isyuricunha/you-are-empty-absolute-edition-traducao-portugues-brasileiro/releases) e baixe **PTBR.zip** da versão compatível, quando disponível. Os pacotes são publicados automaticamente a partir de uma interface completa e validada. Os arquivos chamados **Source code** não são a tradução instalável.
-
-Leia as observações da versão: elas descrevem o conteúdo e os testes específicos daquele pacote.
+Acesse a [página de Releases](https://github.com/isyuricunha/you-are-empty-absolute-edition-traducao-portugues-brasileiro/releases) e baixe **PTBR.zip** da versão compatível, quando disponível. Os arquivos chamados **Source code** não são a tradução instalável.
 
 ## 🛠️ Instalação
 
-1. Feche o jogo. Na Steam, abra **Propriedades → Arquivos instalados → Explorar**.
-2. Faça uma cópia dos arquivos correspondentes antes de substituir qualquer um:
+1. Feche o jogo.
+2. Na Steam, abra **Propriedades → Arquivos instalados → Explorar** para encontrar a pasta do jogo.
+3. Faça uma cópia dos arquivos originais que serão substituídos.
+4. Extraia o conteúdo de **PTBR.zip** diretamente na pasta do jogo. A pasta `gameres` deve se mesclar à existente; confirme a substituição dos arquivos.
+5. Inicie o jogo com o idioma inglês selecionado na Steam. A tradução ocupa o lugar desse idioma.
 
-   ```text
-   You Are Empty Absolute Edition/
-   └── gameres/
-       ├── scripts/you_are_empty/ui/ui_strings.txt
-       └── textures/fonts/
-           ├── RodchenkoCTT.tga
-           └── RodchenkoCTT.size
-   ```
+Não coloque a pasta `PTBR` dentro do jogo: copie o conteúdo dela, começando por `gameres`.
 
-3. Extraia `PTBR.zip` diretamente na pasta do jogo. A pasta `gameres` do pacote deve se mesclar à existente; confirme a substituição dos arquivos.
-4. Inicie a edição em inglês e confira os textos do menu e os acentos. Não coloque uma pasta `PTBR` entre a raiz do jogo e `gameres`.
-
-Para remover a tradução, feche o jogo e restaure as cópias originais. A verificação de integridade da Steam também pode restaurar arquivos oficiais e substituir outras modificações.
+Para desinstalar, feche o jogo e restaure as cópias originais. A opção **Verificar integridade dos arquivos**, na Steam, também restaura os arquivos oficiais e pode remover outras modificações.
 
 ## ⚙️ Compatibilidade e ajuda
 
@@ -52,13 +43,13 @@ A referência é **You Are Empty: Absolute Edition da Steam, em inglês, no Wind
 <details>
 <summary>Os acentos aparecem como símbolos ou letras russas</summary>
 
-Confira se os dois arquivos de fonte foram copiados junto com o arquivo de textos. A fonte original usa outro mapa de caracteres. Se o problema continuar, informe a versão do pacote e envie uma captura do menu nas Issues.
+Extraia novamente todos os arquivos do pacote e confirme as substituições. Se o problema continuar, informe a versão da tradução e envie uma captura do menu nas Issues.
 </details>
 
 <details>
 <summary>Parte do jogo continua em outro idioma</summary>
 
-Este pacote cobre a interface. Vozes, vídeos e notas em imagens não fazem parte desse escopo. Se um menu ou uma opção estiver incorreto, informe o local exato e o idioma selecionado na Steam.
+As vozes e alguns elementos visuais permanecem no idioma original. Se encontrar um problema nos menus ou nas notas, informe o local exato nas Issues e, se possível, envie uma captura.
 </details>
 
 ## 💬 Comunidade

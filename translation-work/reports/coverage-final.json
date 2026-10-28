@@ -1,0 +1,29 @@
+{
+  "schema": 1,
+  "status": "release candidate validated; maintainer reports installed content working",
+  "scope": "User refined scope: notes, letters, current interface text and native dialogue text if present. Loading and incidental/decorative text excluded. User requested ending further unsuccessful searches.",
+  "records": 222,
+  "translated_records": 222,
+  "interface_records": 165,
+  "map_names": 24,
+  "note_images": 29,
+  "controller_panels": 3,
+  "native_files": 58,
+  "zip_sha256": "66578b999671ded6f4af9683fa3ca0c6e9869f5ed621598d85783813e0af5931",
+  "zip_integrity": "58 unique native paths; includes user-approved partial final-scene video",
+  "protected_binaries_unchanged": 31,
+  "tests": "33 unit/regression tests passed; doctor and verify-output passed; regional DDS export smoke passed but no DDS/loading adaptation deployed",
+  "limitations": [
+    "Preset 1/2/3: compiled literal entries, no supported resource override identified; unchanged.",
+    "No native dialogue text/sidecar track located; 69 potential voice files inventoried and 17 video stream structures checked. Audio remains original; no dubbing or new subtitle system implemented."
+  ],
+  "excluded": [
+    "loading screens and prompts",
+    "incidental microtext, prop labels, dials and decorative posters",
+    "legacy texture buttons without current gameplay use evidence"
+  ],
+  "installation": "read-only; no new deployment",
+  "commits_pushes_publications": "none",
+  "runtime": "Maintainer confirmed installed content working up to the point tested; not a claim of exhaustive campaign review.",
+  "video_subtitle_records": 1
+}

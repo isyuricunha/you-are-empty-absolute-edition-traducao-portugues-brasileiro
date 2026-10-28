@@ -1,12 +1,12 @@
 # Sincronização aceita
 
-Geração: `6836e6be1f55d0c1b495315177106bae9925c45090517664b3afd7c493ab1bb3`
+Geração: `8b944b85fb0cfba2d8e3051c7cb0d92d1026206878a5623414b7d8e0f8b07fe8`
 
-- added: 56
+- added: 1
 - modified: 0
 - removed: 0
 - moved: 0
-- unchanged: 165
-- preserved_translations: 165
+- unchanged: 221
+- preserved_translations: 221
 
 Detalhes e IDs: sync-latest.json. Revisar os registros pendentes.

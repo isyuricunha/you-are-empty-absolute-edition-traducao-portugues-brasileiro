@@ -68,7 +68,10 @@ class SourceAndPolicy(unittest.TestCase):
         for forbidden in ('Ella','Sayuri','Codex','ChatGPT','100%','JSONL','manifest','ARM64'):
             self.assertNotIn(forbidden,readme)
         workflow=(ROOT/'.github/workflows/release.yml').read_text(encoding='utf-8')
-        self.assertIn("paths: ['PTBR/**']",workflow); self.assertIn('contents: write',workflow)
+        self.assertIn("- 'PTBR/**'",workflow)
+        self.assertIn("- 'translation-work/build-manifest.json'",workflow)
+        self.assertIn("- 'translation-work/release.py'",workflow)
+        self.assertIn('contents: write',workflow)
         self.assertIn('translation-work/release.py',workflow)
 
 

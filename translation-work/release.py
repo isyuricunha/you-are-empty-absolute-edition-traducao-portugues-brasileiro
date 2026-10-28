@@ -86,14 +86,16 @@ def notes(root, tag, previous, repo):
     native=git(root,'diff','--name-only',previous,'HEAD','--','PTBR').stdout.decode().splitlines() if previous else []
     body=[f'# {TITLE} — PT-BR {tag}','','## Alterações','']
     if not previous:
-        body+=['Primeiro pacote da interface: menus, configurações, controles e mensagens.','']
+        body+=['Tradução dos menus, configurações, controles e mensagens do jogo.','']
     for group,count in sorted(groups.items()):
-        body.append(f'- {group.capitalize()}: {count} textos adicionados ou revisados.')
+        labels={'textos-em-imagem':'Notas e cartas', 'controles-em-imagem':'Diagramas de controle',
+                'nomes-de-fases':'Nomes das fases', 'legendas-em-video':'Legenda parcial do vídeo final'}
+        body.append(f'- {labels.get(group,group.capitalize())}: {count} textos adicionados ou revisados.')
     removed=set(previous_rows)-set(current)
     if removed:
         body.append(f'- {len(removed)} textos retirados conforme a fonte atualizada.')
     if native:
-        if any(x.endswith(('.tga','.size')) for x in native):
+        if any('/fonts/' in x and x.endswith(('.tga','.size')) for x in native):
             body.append('- Fontes: atualização dos recursos de caracteres e/ou métricas.')
         if not changed and not removed:
             body.append('- Recursos nativos atualizados; os textos PT-BR permanecem iguais.')
@@ -101,7 +103,7 @@ def notes(root, tag, previous, repo):
            'Baixe **PTBR.zip** nos anexos desta versão. Feche o jogo, faça backup dos arquivos correspondentes e extraia o conteúdo na pasta de You Are Empty: Absolute Edition, mesclando `gameres/`.',
            f'[Instruções e restauração](https://github.com/{repo}#-instalação) · [Releases](https://github.com/{repo}/releases)',
            '', '## Compatibilidade e escopo','',
-           'Edição Steam, AppID 4760480; referência inicial: build 26256132. O pacote cobre a interface. Notas em imagens, vozes e vídeos permanecem no idioma original. Validação de arquivos não equivale a teste desta versão em jogo.',
+           'Para You Are Empty: Absolute Edition da Steam, com o idioma inglês selecionado. Inclui menus, configurações, notas e cartas, diagramas de controle e nomes das fases. O vídeo final inclui uma frase legendada. As vozes e os demais trechos de diálogo permanecem no idioma original.',
            '', '## Comunidade','',
            '[Vai Brasil — comunidade e suporte](https://discord.gg/uFEwSMwUYb) · [Portal de traduções](https://traducao.yuricunha.com/)',
            '', 'Apoio voluntário via Pix: `pix@yuricunha.com`.']
@@ -135,6 +137,10 @@ def publish(root, api, expected_sha=None):
         require(diff.returncode in (0,1),'Could not compare PTBR')
         if diff.returncode==0:
             check_assets(published[-1][1], project.package()['sha256'])
+            latest=published[-1][1]
+            baseline=published[-2][1]['tag_name'] if len(published)>1 else None
+            api.request('PATCH',f'/releases/{latest["id"]}',
+                        {'body':notes(root,previous,baseline,api.repo)})
             return {'status':'unchanged','tag':previous}
         major,minor,patch=published[-1][0]; tag=f'v{major}.{minor}.{patch+1}'
     else:

@@ -1,0 +1,20 @@
+[
+  {
+    "kind": "video-subtitle",
+    "id": "gameres/textures/videos/zastavki/outro.avi#speech-115800",
+    "source_file": "gameres/textures/videos/zastavki/outro.avi",
+    "source_sha256": "7b5daefb5676825b782c8683a2fc16f08d7a2012a2015333f6e2a4ad631c139b",
+    "EN": "We still need to work hard and sweat to catch up with you.",
+    "context": {
+      "kind": "partial-video-subtitle",
+      "original_language": "Russian archival speech",
+      "RU": "Ещё надо хорошенько поработать и попотеть, чтобы вас догнать.",
+      "EN_role": "English reference translation of the Russian spoken phrase, not a native English text track.",
+      "start_seconds": 115.8,
+      "end_seconds": 119.2,
+      "partial": true,
+      "untranslated_unclear_passages": 2,
+      "evidence": "Reviewed rendered subtitle, full video decode/timeline comparison and user-approved inclusion."
+    }
+  }
+]

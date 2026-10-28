@@ -15,7 +15,7 @@ def write(path,value):
 
 
 def main():
-    paths=[WORK/n for n in ('engine-shapes.json','source-policy.json','native.py','toolkit.py','doctor.py','release.py','consent.py','refresh-integrity.py','audit_resources.py','resource_formats.py','export_native_art.py','texture_review_sheets.py','run_ocr_audit.py','ocr-audit.ps1','extended_resources.py','prepare_expanded_catalog.py','preserve_texture_candidates.py')]
+    paths=[WORK/n for n in ('engine-shapes.json','source-policy.json','native.py','toolkit.py','doctor.py','release.py','consent.py','refresh-integrity.py','audit_resources.py','resource_formats.py','export_native_art.py','texture_review_sheets.py','run_ocr_audit.py','ocr-audit.ps1','extended_resources.py','prepare_expanded_catalog.py','preserve_texture_candidates.py','find_texture_references.py')]
     paths += [p for p in (WORK/'reference/native').rglob('*') if p.is_file()]
     paths += [ROOT/'.gitattributes',ROOT/'.github/workflows/release.yml',ROOT/'.github/workflows/contributions.yml']
     write(WORK/'toolchain.json',{'schema':1,'files':{p.relative_to(ROOT).as_posix():canonical_hash(p) for p in paths}})
