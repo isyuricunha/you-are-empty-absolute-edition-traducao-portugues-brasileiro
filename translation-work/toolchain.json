@@ -8,20 +8,22 @@
     "translation-work/doctor.py": "68e74db8c3f92bcecb67dab4139ccfe1ff53f3b2f7312f969f9011c148362cb4",
     "translation-work/engine-shapes.json": "880f0c1d887316af6fbd49fd4149fcdfaff4f59d68fda5506276fb3690515920",
     "translation-work/export_native_art.py": "cb7176538e5153b3aeb8ded0e84c25de8de2ffce7d70db28b01fb3143a63c6f7",
+    "translation-work/extended_resources.py": "9cc48752934fef8dc5c2736dd815ccbfcc2c3969c40fb4f8b42c3cc18e807329",
     "translation-work/native.py": "4a4edc515e4f19d7537d387cc59d42bf834343e9c49b19231c5e8cced2de509d",
     "translation-work/ocr-audit.ps1": "13e70ae74e198c24323c873401e4ccfbf016d3affb9ae8d3ec2a1a11201159d6",
+    "translation-work/prepare_expanded_catalog.py": "fa6c64572f3f660b0a8f68f51f221cf8fa97de99c7fe2b8106b5c9858bb65007",
     "translation-work/reference/native/ds2base.cfg": "ff273a62cb2c95529f1b24800eedcb79ae29d3eaf0ca4c1ef3947a3112a0a6db",
     "translation-work/reference/native/gameres/scripts/you_are_empty/hud/hud.lua": "114de3d83d362ad5fa5bcc8943f2cb36d8562cbb5cdb0fdbc06be270bdb703f8",
     "translation-work/reference/native/gameres/scripts/you_are_empty/ui/fonts.lua": "3eb7ea98822aa9003dd23159cf728144a9600b3cfd58da5814c182ef05ee83ec",
     "translation-work/reference/native/gameres/scripts/you_are_empty/ui/ui_ini.lua": "afa4c367c09e928bde33415a3a93ee84a1228ccb766f1b2a05cd117833bdbc05",
     "translation-work/reference/native/gameres/scripts/you_are_empty/ui/ui_keyboard_bindings.lua": "f0eb0f300b7df90d3ca4ad74d105da48eb2647727c27b190f34c47e073dc8741",
-    "translation-work/refresh-integrity.py": "b855eba631ff292a21214d65d2cf23b1988a567a1a7003469668105bf71034fb",
+    "translation-work/refresh-integrity.py": "6f9468fd5e6aaeb0a2a55378f9ebf83474182ca6ef6d4941c8dea6f502757589",
     "translation-work/release.py": "7a3ee62819c54af29aa6a4199114ade4822c209a56c89affdcf7f5d1ebd08d93",
     "translation-work/resource_formats.py": "ed4edc85fee81ce17455b57479cf3f4bf183eeba45607a9fc4407dea9a83ae6f",
     "translation-work/run_ocr_audit.py": "389c0803350fa3e96ab873ba08fbb9b6cd71ebd3e6982d7b8325a5042294131b",
-    "translation-work/source-policy.json": "d77213249acf4eed4818eb3b9d7bf761a46dc8ef6e377516c67f6ef34d02f93a",
+    "translation-work/source-policy.json": "b4658013e8cae46a84b908d2d6cf129f9ef61ab6394732d06d9d7168c6ef7200",
     "translation-work/texture_review_sheets.py": "ea61870754cc573c4cc3cf7af389385bbab4ecb3d7193cf7609f64f7075d9f65",
-    "translation-work/toolkit.py": "94f662bea5f8735f121bda2fe7bb0f91b469c23643ff0975e382b9fd2ed9d3a0"
+    "translation-work/toolkit.py": "8468e8a29fe316785922cacf7f6a7718eff3cc45b90b54b0aa8f48ada423a06f"
   },
   "schema": 1
 }

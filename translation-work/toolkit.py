@@ -13,7 +13,8 @@ import uuid
 import zipfile
 
 sys.dont_write_bytecode = True
-from native import PATHS, UI, FONT, SIZE, records, rebuild, require, validate_translation, patch_font
+from native import PATHS, UI, FONT, SIZE, records, rebuild, require, patch_font
+from extended_resources import validate as validate_translation
 
 ROOT = Path(__file__).resolve().parent.parent
 WORK = 'translation-work/'
@@ -78,16 +79,18 @@ def inventory(root):
     return dict(sorted(found.items()))
 
 
-def read_sources(root):
+def read_sources(root, paths=PATHS):
     inv = inventory(root)
-    require(set(inv) == set(PATHS), f'Incomplete/unknown sources; expected exactly: {list(PATHS)}; found {list(inv)}')
-    return {p: safe(root, p).read_bytes() for p in PATHS}
+    require(set(inv) == set(paths), f'Incomplete/unknown sources; expected exactly: {list(paths)}; found {list(inv)}')
+    return {p: safe(root, p).read_bytes() for p in paths}
 
 
-def source_records(sources):
+def source_records(sources, catalog=()):
+    from extended_resources import extract
     result = []
-    for path, data in sources.items():
-        result.extend(records(path, data))
+    for path in sorted(sources):
+        data=sources[path]
+        result.extend(records(path, data) if path in PATHS else extract(path, data, catalog))
     require(len({r['id'] for r in result}) == len(result), 'Duplicate native identity')
     for r in result:
         r['source_fingerprint'] = fingerprint({k: v for k, v in r.items() if k not in ('PTBR', 'row')})
@@ -96,6 +99,10 @@ def source_records(sources):
 
 def source_inventory(sources):
     return {p: sha(data) for p, data in sorted(sources.items())}
+
+
+def source_generation(sources, catalog):
+    return fingerprint({'sources':sources,'catalog':catalog}) if catalog else fingerprint(sources)
 
 
 def durable(path, data):
@@ -119,12 +126,56 @@ class Project:
     def path(self, rel):
         return safe(self.root, rel)
 
+    def source_paths(self):
+        p=self.path(TRANSLATIONS+'/manifest.json')
+        return tuple(read_json(p)['sources']) if p.is_file() else PATHS
+
+    def expand(self, catalog, source_root, dry_run=False):
+        from extended_resources import paths as catalog_paths
+        expected=catalog_paths(catalog)
+        _,sources,_=self.load()
+        require(set(sources)<=expected,'Expansion cannot silently remove accepted resources')
+        for path in sorted(expected-set(sources)):
+            sources[path]=safe(Path(source_root),path).read_bytes()
+        return self.sync(sources,catalog=catalog,dry_run=dry_run)
+
+    def approve_art(self,resource,artifact,reviewed=False):
+        from extended_resources import text_hash
+        from resource_formats import verify_native_art
+        require(reviewed,'approve-art requires --reviewed after inspecting native-size text, background, style and layout')
+        expected=self.state_inventory()
+        _,sources,batches=self.load()
+        rows=[r for b in batches.values() for r in b if r['source_file']==resource and r.get('format')=='raster-text']
+        require(rows and resource in sources,'Resource is not an accepted raster-text asset')
+        require(all(r['PTBR'] and r.get('transcription_current') for r in rows),'Translate and review the current source before approving artwork')
+        require(resource.endswith('.tga'),'Native DDS approval needs its own codec verification')
+        candidate=self.path(artifact).read_bytes()
+        proof=verify_native_art(sources[resource],candidate)
+        filename=WORK+'artwork/approved/'+resource
+        manifest_path=WORK+'artwork/approved.json'
+        data=read_json(self.path(manifest_path)) if self.path(manifest_path).exists() else {'schema':1,'assets':{}}
+        require(data.get('schema')==1,'Unsupported artwork approval manifest')
+        data['assets'][resource]={'source_sha256':sha(sources[resource]),'file':filename,'sha256':sha(candidate),
+                                 'translations':{r['id']:text_hash(r['PTBR']) for r in rows},
+                                 'review':{'text':'Explicit native-size visual review declared',
+                                           'style':'Background, lettering, layout and readability reviewed before approval',
+                                           'native':proof,'runtime':'pending user test'}}
+        files={filename:candidate,manifest_path:blob(data)}
+        files={p:b for p,b in files.items() if not self.path(p).is_file() or self.path(p).read_bytes()!=b}
+        if not files:
+            return {'status':'unchanged','resource':resource}
+        transaction=self.transaction(files,sorted(files),expected)
+        return {'status':'artwork-approved','resource':resource,'transaction':transaction,'native':proof}
+
     def state_inventory(self):
         result = {}
         for rel in ('EN', TRANSLATIONS, SNAPSHOT, REPORTS, 'PTBR'):
             result[rel] = inventory(self.path(rel))
         p = self.path(BUILD)
         result[BUILD] = sha(p.read_bytes()) if p.exists() else None
+        result[WORK+'artwork/approved']=inventory(self.path(WORK+'artwork/approved'))
+        p=self.path(WORK+'artwork/approved.json')
+        result[WORK+'artwork/approved.json']=sha(p.read_bytes()) if p.exists() else None
         return result
 
     def interrupted(self):
@@ -326,12 +377,15 @@ class Project:
         require(not self.interrupted(), 'Interrupted transaction: run toolkit.py recover before reading state')
         manifest = read_json(self.path(TRANSLATIONS + '/manifest.json'))
         require(manifest['schema'] == SCHEMA, 'Unsupported manifest schema')
-        sources = read_sources(self.path(SNAPSHOT))
+        catalog=manifest.get('catalog',[])
+        from extended_resources import paths as catalog_paths
+        require(set(manifest['sources'])==catalog_paths(catalog),'Manifest/catalog resource mapping mismatch')
+        sources = read_sources(self.path(SNAPSHOT),manifest['sources'])
         require(source_inventory(sources) == manifest['sources'], 'Accepted snapshot fingerprints mismatch')
-        require(fingerprint(manifest['sources']) == manifest['generation'], 'Invalid generation')
+        require(source_generation(manifest['sources'],catalog) == manifest['generation'], 'Invalid generation')
         if not allow_en_changed:
             require(inventory(self.path('EN')) == manifest['sources'], 'EN differs from accepted generation: run sync')
-        canonical = {r['id']: r for r in source_records(sources)}
+        canonical = {r['id']: r for r in source_records(sources,catalog)}
         batches, seen = {}, set()
         expected_names = set(manifest['batches']) | {'manifest.json'}
         require(set(inventory(self.path(TRANSLATIONS))) == expected_names, 'Unexpected/missing batch files')
@@ -356,20 +410,28 @@ class Project:
         # Raw JSONL bytes include all manual edits and their exact batch membership.
         return fingerprint({p: sha(self.path(TRANSLATIONS + '/' + p).read_bytes().replace(b'\r\n', b'\n')) for p in inventory(self.path(TRANSLATIONS))})
 
-    def sync(self, sources=None, initial=False, dry_run=False):
+    def sync(self, sources=None, initial=False, dry_run=False, catalog=None):
         expected = self.state_inventory()
         exists = self.path(TRANSLATIONS + '/manifest.json').exists()
         require(not initial or not exists, 'Extraction refuses to overwrite existing progress; use sync')
         require(initial or exists, 'No accepted generation; run extract first')
         oldm, old_sources, old_batches = ({}, {}, {}) if initial else self.load(allow_en_changed=True)
-        sources = sources if sources is not None else read_sources(self.path('EN'))
-        require(set(sources) == set(PATHS), 'Incomplete source import')
-        canonical = source_records(sources)
+        from extended_resources import paths as catalog_paths
+        catalog=oldm.get('catalog',[]) if catalog is None else catalog
+        expected_paths=catalog_paths(catalog)
+        catalog=sorted(catalog,key=lambda item:item['id'])
+        sources = sources if sources is not None else read_sources(self.path('EN'),expected_paths)
+        require(set(sources) == expected_paths, 'Incomplete source import')
+        require(set(oldm.get('sources',{}))<=set(sources),'Resource-file removal requires explicit reviewed migration')
+        canonical = source_records(sources,catalog)
         sources_inv = source_inventory(sources)
-        generation = fingerprint(sources_inv)
+        generation = source_generation(sources_inv,catalog)
         policy = self.path(WORK + 'source-policy.json')
         if policy.exists():
-            require(generation not in read_json(policy).get('rejected', []), 'Known translated source; supply original English')
+            policy_data=read_json(policy)
+            require(generation not in policy_data.get('rejected', []), 'Known translated source; supply original English')
+            for path,digests in policy_data.get('rejected_resources',{}).items():
+                require(sources_inv.get(path) not in digests,'Known translated resource; supply original English: '+path)
         old_records = {r['id']: (name, r) for name, rows in old_batches.items() for r in rows}
         new_ids = {r['id'] for r in canonical}
         batches = {name: [] for name in old_batches}
@@ -421,6 +483,10 @@ class Project:
                         sources=sources_inv, generation=generation, records=len(canonical), batch_size=500,
                         batches=list(batches), deployment='EN/<path> -> PTBR/<path>',
                         profile='single-English-baseline', provenance='Explicit verified original resource catalog')
+        if catalog:
+            manifest['catalog']=catalog
+            manifest['native']='DS2-UI-map-descriptions-and-reviewed-artwork'
+            manifest['profile']='expanded-English-resource-catalog'
         assignments = {r['id']: name for name, rows in batches.items() for r in rows}
         for c in changes:
             c.setdefault('batch', assignments.get(c['id']))
@@ -431,9 +497,9 @@ class Project:
                       affected_batches=sorted({c['batch'] for c in changes}),
                       existing_pending=sum(not r['PTBR'] for _, r in old_records.values()),
                       pending=sum(not r['PTBR'] for rows in batches.values() for r in rows),
-                      warnings=['Coverage: interface only. Notes are raster textures; audio/video are not translated. Font rendering needs an in-game test.'],
+                      warnings=['Coverage is limited to the accepted source catalog; artwork requires separate native approval; runtime verification is distinct.'],
                       next_action='Read briefing, review diff, translate and review pending entries.')
-        if oldm.get('sources') == sources_inv:
+        if oldm.get('sources') == sources_inv and oldm.get('catalog',[])==catalog:
             if expected['EN'] == sources_inv:
                 return dict(status='unchanged', generation=generation, counts=counts)
         if dry_run:
@@ -510,6 +576,16 @@ class Project:
     def status(self):
         manifest, _, batches = self.load(allow_en_changed=True)
         rows = [r for batch in batches.values() for r in batch]
+        raster_files={r['source_file'] for r in rows if r.get('format')=='raster-text'}
+        artwork_ready=not raster_files; artwork_error=None
+        if raster_files:
+            try:
+                from extended_resources import artwork_bindings
+                sources=read_sources(self.path(SNAPSHOT),manifest['sources'])
+                artwork_bindings(self.root,rows,sources)
+                artwork_ready=True
+            except (ValueError,OSError,KeyError) as error:
+                artwork_error=str(error)
         try:
             self.verify_output()
             output = 'current'
@@ -522,7 +598,9 @@ class Project:
                     pending=sum(not r['PTBR'] for r in rows), output=output,
                     latest_changes=counts,
                     en_changed=inventory(self.path('EN')) != manifest['sources'],
-                    storage=self.gc(dry_run=True), scope='interface-only; 29 raster notes and audio/video outside current adapter')
+                    storage=self.gc(dry_run=True), scope='expanded accepted catalog' if manifest.get('catalog') else 'interface-only',
+                    raster_transcriptions_pending=sum(r.get('format')=='raster-text' and not r.get('transcription_current') for r in rows),
+                    raster_files=len(raster_files),artwork_ready=artwork_ready,artwork_error=artwork_error)
 
     def build(self):
         expected = self.state_inventory()
@@ -530,7 +608,16 @@ class Project:
         rows = [r for batch in batches.values() for r in batch]
         require(all(r['PTBR'] for r in rows), f'Incomplete translation: {sum(not r["PTBR"] for r in rows)} pending; PTBR unchanged')
         translations = {r['id']: r['PTBR'] for r in rows}
-        outputs = {p: rebuild(p, data, translations) for p, data in sources.items()}
+        from extended_resources import artwork_bindings,rebuild as rebuild_extended
+        bindings,artwork=artwork_bindings(self.root,rows,sources,deep=True)
+        outputs={}
+        for path,data in sources.items():
+            if path in PATHS:
+                outputs[path]=rebuild(path,data,translations)
+            elif path in artwork:
+                outputs[path]=artwork[path]
+            else:
+                outputs[path]=rebuild_extended(path,data,translations,[r for r in rows if r['source_file']==path])
         outputs[FONT], outputs[SIZE] = patch_font(sources[FONT], sources[SIZE])
         # Deep native validation is performed above, not in CI.
         output_hashes = source_inventory(outputs)
@@ -538,6 +625,8 @@ class Project:
                        sources=manifest['sources'], translation_fingerprint=self.generation_fingerprint(),
                        records=len(rows), completed=len(rows), pending=0, outputs=output_hashes,
                        native_validation='parse-rebuild-parse-all-records', tooling=self.tooling_fingerprint())
+        if manifest.get('catalog'):
+            receipt['artwork_fingerprint']=fingerprint(bindings)
         receipt['receipt_hash'] = fingerprint(receipt)
         if self.path(BUILD).exists() and read_json(self.path(BUILD)) == receipt and inventory(self.path('PTBR')) == output_hashes:
             return {'status': 'unchanged', 'outputs': output_hashes}
@@ -548,19 +637,25 @@ class Project:
         return dict(status='built', outputs=output_hashes, records=len(rows))
 
     def tooling_fingerprint(self):
-        return fingerprint({name: sha(self.path(WORK + name).read_bytes().replace(b'\r\n', b'\n')) for name in ('native.py', 'toolkit.py')})
+        names=['native.py','toolkit.py']
+        manifest=self.path(TRANSLATIONS+'/manifest.json')
+        if manifest.is_file() and read_json(manifest).get('catalog'):
+            names+=['extended_resources.py','resource_formats.py']
+        return fingerprint({name:sha(self.path(WORK+name).read_bytes().replace(b'\r\n',b'\n')) for name in names})
 
     def verify_output(self):
         require(not self.interrupted(), 'Interrupted transaction; recover first')
         require(self.path(BUILD).is_file(), 'No successful build manifest')
         receipt = read_json(self.path(BUILD))
+        manifest = read_json(self.path(TRANSLATIONS + '/manifest.json'))
         keys = {'schema', 'producer', 'generation', 'sources', 'translation_fingerprint', 'records',
                 'completed', 'pending', 'outputs', 'native_validation', 'tooling', 'receipt_hash'}
+        if manifest.get('catalog'):
+            keys.add('artwork_fingerprint')
         require(set(receipt) == keys, 'Invalid/incomplete build receipt')
         require(receipt['schema'] == SCHEMA and receipt['producer'] == 'yae-toolkit-build-v1', 'Invalid producer')
         require(receipt['receipt_hash'] == fingerprint({k: v for k, v in receipt.items() if k != 'receipt_hash'}), 'Build receipt mismatch')
-        manifest = read_json(self.path(TRANSLATIONS + '/manifest.json'))
-        require(receipt['generation'] == manifest['generation'] == fingerprint(manifest['sources']), 'Stale source generation')
+        require(receipt['generation'] == manifest['generation'] == source_generation(manifest['sources'],manifest.get('catalog',[])), 'Stale source generation')
         require(receipt['sources'] == manifest['sources'] == inventory(self.path('EN')) == inventory(self.path(SNAPSHOT)), 'Stale/missing original sources')
         require(receipt['translation_fingerprint'] == self.generation_fingerprint(), 'Stale translation generation')
         require(receipt['tooling'] == self.tooling_fingerprint(), 'Tooling changed: rebuild required')
@@ -569,7 +664,12 @@ class Project:
                 self.path(TRANSLATIONS + '/' + name).read_text(encoding='utf-8').splitlines()]
         require(len(rows) == manifest['records'] and all(isinstance(r.get('PTBR'), str) and r['PTBR'] for r in rows), 'Incomplete translation data')
         require(receipt['native_validation'] == 'parse-rebuild-parse-all-records', 'Missing native validation')
-        require(set(receipt['outputs']) == set(PATHS), 'Invalid output inventory')
+        require(set(receipt['outputs']) == set(manifest['sources']), 'Invalid output inventory')
+        if manifest.get('catalog'):
+            from extended_resources import artwork_bindings
+            sources=read_sources(self.path(SNAPSHOT),manifest['sources'])
+            bindings,_=artwork_bindings(self.root,rows,sources)
+            require(receipt['artwork_fingerprint']==fingerprint(bindings),'Artwork approval changed: rebuild required')
         require(inventory(self.path('PTBR')) == receipt['outputs'], 'Missing/extra/modified output files')
         return dict(status='verified', files=len(receipt['outputs']), generation=receipt['generation'])
 
@@ -603,13 +703,13 @@ class Project:
     def candidate(self, args):
         if args.source_file:
             require(Path(args.source_file).name == 'ui_strings.txt', 'Only ui_strings.txt is supported as --source-file')
-            sources = read_sources(self.path('EN'))
+            sources = read_sources(self.path('EN'),self.source_paths())
             sources[UI] = Path(args.source_file).read_bytes()
             return sources
         if args.source_root:
             p = Path(args.source_root).resolve()
             require(not p.is_relative_to(self.path('PTBR')), 'PTBR cannot be an original source')
-            return read_sources(p)
+            return read_sources(p,self.source_paths())
         if args.game_root or args.command == 'update-sources':
             candidates = []
             if args.game_root:
@@ -642,13 +742,16 @@ class Project:
             require(re.search(r'"appid"\s+"4760480"', metadata) and
                     re.search(r'"installdir"\s+"' + re.escape(p.name) + r'"', metadata), 'Wrong Steam identity/installation')
             # Read ONLY managed resources, not an entire installation subtree.
-            sources = {name: safe(p, name).read_bytes() for name in PATHS}
-            source_records(sources)
+            sources = {name: safe(p, name).read_bytes() for name in self.source_paths()}
+            manifest_path=self.path(TRANSLATIONS+'/manifest.json')
+            source_records(sources,read_json(manifest_path).get('catalog',[]) if manifest_path.is_file() else [])
             approved = read_json(self.path(WORK + 'source-policy.json'))
             digest = fingerprint(source_inventory(sources))
             require(digest not in approved.get('rejected', []), 'Known translated installation; use original resources')
+            for path,digests in approved.get('rejected_resources',{}).items():
+                require(source_inventory(sources).get(path) not in digests,'Known translated installation resource: '+path)
             accepted_path = self.path(TRANSLATIONS + '/manifest.json')
-            accepted = read_json(accepted_path).get('generation') if accepted_path.is_file() else None
+            accepted = fingerprint(read_json(accepted_path)['sources']) if accepted_path.is_file() else None
             require(digest in approved['trusted'] or digest == accepted or args.approve_source == digest,
                     f'Unrecognized original/modded source; cannot prove English provenance. Inspect it, then explicitly attest with --approve-source {digest}')
             if not args.dry_run:
@@ -664,7 +767,7 @@ def main(argv=None):
             stream.reconfigure(encoding='utf-8')
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('command', nargs='?', default='sync', choices=['extract', 'sync', 'update-sources', 'check', 'diff', 'status',
-                                          'apply', 'build', 'verify-output', 'package', 'recover', 'rollback', 'gc', 'doctor', 'resume', 'font-preview'])
+                                          'apply', 'build', 'verify-output', 'package', 'recover', 'rollback', 'gc', 'doctor', 'resume', 'font-preview', 'expand', 'approve-art'])
     parser.add_argument('--source-root')
     parser.add_argument('--source-file')
     parser.add_argument('--game-root')
@@ -674,21 +777,31 @@ def main(argv=None):
     parser.add_argument('--payload')
     parser.add_argument('--replace', action='store_true')
     parser.add_argument('--snapshot')
+    parser.add_argument('--catalog')
+    parser.add_argument('--resource')
+    parser.add_argument('--artifact')
+    parser.add_argument('--reviewed',action='store_true')
     args = parser.parse_args(argv)
     project = Project()
     try:
         require(sum(bool(v) for v in (args.source_root, args.source_file, args.game_root)) <= 1, 'Choose a single source input')
         require(not (args.source_root or args.source_file or args.game_root or args.approve_source)
-                or args.command in ('extract', 'sync', 'update-sources', 'diff'), 'Source flags do not apply to this command')
-        require(not args.dry_run or args.command in ('extract', 'sync', 'update-sources', 'diff', 'gc'), '--dry-run requires a source command or gc')
+                or args.command in ('extract', 'sync', 'update-sources', 'diff', 'expand'), 'Source flags do not apply to this command')
+        require(not args.catalog or args.command in ('extract','sync','diff','expand'),'Catalog is only supported for source synchronization/expansion')
+        require(not args.dry_run or args.command in ('extract', 'sync', 'update-sources', 'diff', 'gc', 'expand'), '--dry-run requires a source command or gc')
         require(not args.replace or args.command == 'apply', '--replace is only supported by apply')
         require(not args.payload or args.command == 'apply', '--payload is only supported by apply')
-        mutates = args.command in ('extract', 'sync', 'update-sources', 'apply', 'build', 'package', 'recover', 'rollback', 'gc', 'font-preview') and not args.dry_run
+        require(not (args.resource or args.artifact or args.reviewed) or args.command=='approve-art','Artwork flags only apply to approve-art')
+        mutates = args.command in ('extract', 'sync', 'update-sources', 'apply', 'build', 'package', 'recover', 'rollback', 'gc', 'font-preview', 'expand','approve-art') and not args.dry_run
         with project.lock() if mutates else contextlib.nullcontext():
             if project.interrupted() and args.command != 'recover':
                 raise ValueError('Interrupted transaction: run recover explicitly before continuing')
-            if args.command in ('extract', 'sync', 'update-sources'):
-                result = project.sync(project.candidate(args), initial=args.command == 'extract', dry_run=args.dry_run)
+            catalog=read_json(Path(args.catalog)) if args.catalog else None
+            if args.command=='expand':
+                require(args.catalog and args.source_root,'expand requires --catalog FILE and --source-root PRESERVED ORIGINAL ROOT')
+                result=project.expand(catalog,Path(args.source_root),dry_run=args.dry_run)
+            elif args.command in ('extract', 'sync', 'update-sources'):
+                result = project.sync(project.candidate(args), initial=args.command == 'extract', dry_run=args.dry_run,catalog=catalog)
                 if hasattr(project, '_verified_game_root'):
                     atomic_json(project.path(STATE + '/machine.json'), {'game_root': project._verified_game_root})
             elif args.command == 'check':
@@ -698,10 +811,13 @@ def main(argv=None):
                 result = project.status()
             elif args.command == 'diff':
                 candidate = project.candidate(args)
-                result = {'mode': 'read-only', 'report': project.sync(candidate, dry_run=True) if candidate is not None else read_json(project.path(REPORTS + '/sync-latest.json'))}
+                result = {'mode': 'read-only', 'report': project.sync(candidate, dry_run=True,catalog=catalog) if candidate is not None or catalog is not None else read_json(project.path(REPORTS + '/sync-latest.json'))}
             elif args.command == 'apply':
                 require(args.payload, 'apply requires --payload FILE.json')
                 result = project.apply(read_json(Path(args.payload)), args.replace)
+            elif args.command=='approve-art':
+                require(args.resource and args.artifact,'approve-art requires --resource PATH and --artifact REPOSITORY-RELATIVE-FILE')
+                result=project.approve_art(args.resource,args.artifact,args.reviewed)
             elif args.command == 'build':
                 result = project.build()
             elif args.command == 'font-preview':

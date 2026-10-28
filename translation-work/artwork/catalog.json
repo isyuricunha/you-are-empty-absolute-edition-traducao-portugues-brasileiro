@@ -1,0 +1,578 @@
+[
+  {
+    "id": "gameres/maps/loc/futur.description#name",
+    "kind": "map-name",
+    "source_file": "gameres/maps/loc/futur.description"
+  },
+  {
+    "id": "gameres/maps/loc/gor.description#name",
+    "kind": "map-name",
+    "source_file": "gameres/maps/loc/gor.description"
+  },
+  {
+    "id": "gameres/maps/loc/gor_part_2.description#name",
+    "kind": "map-name",
+    "source_file": "gameres/maps/loc/gor_part_2.description"
+  },
+  {
+    "id": "gameres/maps/loc/gorkonec.description#name",
+    "kind": "map-name",
+    "source_file": "gameres/maps/loc/gorkonec.description"
+  },
+  {
+    "id": "gameres/maps/loc/grsvt.description#name",
+    "kind": "map-name",
+    "source_file": "gameres/maps/loc/grsvt.description"
+  },
+  {
+    "id": "gameres/maps/loc/kinostreet.description#name",
+    "kind": "map-name",
+    "source_file": "gameres/maps/loc/kinostreet.description"
+  },
+  {
+    "id": "gameres/maps/loc/kinostreet2.description#name",
+    "kind": "map-name",
+    "source_file": "gameres/maps/loc/kinostreet2.description"
+  },
+  {
+    "id": "gameres/maps/loc/kolhoz.description#name",
+    "kind": "map-name",
+    "source_file": "gameres/maps/loc/kolhoz.description"
+  },
+  {
+    "id": "gameres/maps/loc/kolhoz_part2.description#name",
+    "kind": "map-name",
+    "source_file": "gameres/maps/loc/kolhoz_part2.description"
+  },
+  {
+    "id": "gameres/maps/loc/krovli.description#name",
+    "kind": "map-name",
+    "source_file": "gameres/maps/loc/krovli.description"
+  },
+  {
+    "id": "gameres/maps/loc/lastlevel.description#name",
+    "kind": "map-name",
+    "source_file": "gameres/maps/loc/lastlevel.description"
+  },
+  {
+    "id": "gameres/maps/loc/lastzlo.description#name",
+    "kind": "map-name",
+    "source_file": "gameres/maps/loc/lastzlo.description"
+  },
+  {
+    "id": "gameres/maps/loc/meat.description#name",
+    "kind": "map-name",
+    "source_file": "gameres/maps/loc/meat.description"
+  },
+  {
+    "id": "gameres/maps/loc/meat_part2.description#name",
+    "kind": "map-name",
+    "source_file": "gameres/maps/loc/meat_part2.description"
+  },
+  {
+    "id": "gameres/maps/loc/med1.description#name",
+    "kind": "map-name",
+    "source_file": "gameres/maps/loc/med1.description"
+  },
+  {
+    "id": "gameres/maps/loc/med2.description#name",
+    "kind": "map-name",
+    "source_file": "gameres/maps/loc/med2.description"
+  },
+  {
+    "id": "gameres/maps/loc/met6.description#name",
+    "kind": "map-name",
+    "source_file": "gameres/maps/loc/met6.description"
+  },
+  {
+    "id": "gameres/maps/loc/metro.description#name",
+    "kind": "map-name",
+    "source_file": "gameres/maps/loc/metro.description"
+  },
+  {
+    "id": "gameres/maps/loc/parall.description#name",
+    "kind": "map-name",
+    "source_file": "gameres/maps/loc/parall.description"
+  },
+  {
+    "id": "gameres/maps/loc/parall_part2.description#name",
+    "kind": "map-name",
+    "source_file": "gameres/maps/loc/parall_part2.description"
+  },
+  {
+    "id": "gameres/maps/loc/parall_part3.description#name",
+    "kind": "map-name",
+    "source_file": "gameres/maps/loc/parall_part3.description"
+  },
+  {
+    "id": "gameres/maps/loc/poh.description#name",
+    "kind": "map-name",
+    "source_file": "gameres/maps/loc/poh.description"
+  },
+  {
+    "id": "gameres/maps/loc/theatre.description#name",
+    "kind": "map-name",
+    "source_file": "gameres/maps/loc/theatre.description"
+  },
+  {
+    "id": "gameres/maps/loc/wall.description#name",
+    "kind": "map-name",
+    "source_file": "gameres/maps/loc/wall.description"
+  },
+  {
+    "EN": "Masha,\n\nThe keys for the door\nare downstairs,\nask the janitor.\n\nVilen",
+    "context": {
+      "addressee": "Masha",
+      "author": "Vilen",
+      "evidence": "Visual transcription of original texture; names alone are not gender proof.",
+      "speaker_gender": "unknown"
+    },
+    "id": "gameres/textures/Zapiski/01med/masha.tga#letter",
+    "kind": "raster-text",
+    "source_file": "gameres/textures/Zapiski/01med/masha.tga",
+    "source_sha256": "a6bd3fb2e265133c2a1733c7e5c8559ce9c0f8013ddf3347ca0e844c785a11aa"
+  },
+  {
+    "EN": "I left the car at the main entrance\n(fetch the keys from the table at the office).\nThe engine's playing pranks a little bit,\nbut the baby can still make it pretty good.\n\nEnjoy the weekend!\n\nAlexey",
+    "context": {
+      "addressee": null,
+      "author": "Alexey",
+      "evidence": "Visual transcription of original texture; names alone are not gender proof.",
+      "speaker_gender": "unknown"
+    },
+    "id": "gameres/textures/Zapiski/01med/mashina.tga#letter",
+    "kind": "raster-text",
+    "source_file": "gameres/textures/Zapiski/01med/mashina.tga",
+    "source_sha256": "73b3342131967e43dab75677976cea64f9886af4ff62666c9bc044df8c6dcc5f"
+  },
+  {
+    "EN": "Andrey, we have received a new\nvaccine in sealed metal containers.\n...No details...\nSpecifications and the\napplication guide...\nare in sealed envelopes.\n...I suppose that the serum\nwill be used for vaccination\nof the local population\nin emergency situations.",
+    "context": {
+      "addressee": "Andrey",
+      "author": null,
+      "evidence": "Visual transcription of original texture; names alone are not gender proof.",
+      "speaker_gender": "unknown"
+    },
+    "id": "gameres/textures/Zapiski/01med/sivorodka.tga#letter",
+    "kind": "raster-text",
+    "source_file": "gameres/textures/Zapiski/01med/sivorodka.tga",
+    "source_sha256": "10b6afc652e48621dbfdd9a8e887e73313b68339f784f83c6e151b1366535789"
+  },
+  {
+    "EN": "The city is expecting another batch\nof grain...\nThe deadline for the departure of\nthe loaded train is the day after\ntomorrow. We have to work\novertime. And this is the third\nexcess supply! People are so tired\nthat they can barely stand up.\n...no idea why the city stores up\nso much. It looks like they're\ngetting ready for a war...",
+    "context": {
+      "addressee": null,
+      "author": null,
+      "evidence": "Visual transcription of original texture; names alone are not gender proof.",
+      "speaker_gender": "unknown"
+    },
+    "id": "gameres/textures/Zapiski/02kolhoz/gorod.tga#letter",
+    "kind": "raster-text",
+    "source_file": "gameres/textures/Zapiski/02kolhoz/gorod.tga",
+    "source_sha256": "f47927780537b18b5f5816e7d2ba8ac3f8e91767997b9d5de7700782e71c6e15"
+  },
+  {
+    "EN": "Something has been wrong with\nthe hens the last few days.\nThey are gaining weight too quickly.\nThey're growing more and more\nby the day.\nMaybe something has\nbeen added to their feed?",
+    "context": {
+      "addressee": null,
+      "author": null,
+      "evidence": "Visual transcription of original texture; names alone are not gender proof.",
+      "speaker_gender": "unknown"
+    },
+    "id": "gameres/textures/Zapiski/02kolhoz/kuriWarn.tga#letter",
+    "kind": "raster-text",
+    "source_file": "gameres/textures/Zapiski/02kolhoz/kuriWarn.tga",
+    "source_sha256": "84a7aa0be131f0f7cf9cae0e956505a1eab94d4d2dd45e45ed886e9a1cb16440"
+  },
+  {
+    "EN": "It looks like the coal trains have just\nvanished into thin air.\n\nNot a single supply in the past three\ndays.",
+    "context": {
+      "addressee": null,
+      "author": null,
+      "evidence": "Visual transcription of original texture; names alone are not gender proof.",
+      "speaker_gender": "unknown"
+    },
+    "id": "gameres/textures/Zapiski/03MEAT/eshelon.tga#letter",
+    "kind": "raster-text",
+    "source_file": "gameres/textures/Zapiski/03MEAT/eshelon.tga",
+    "source_sha256": "28023296c8a24cc6475578d53abc247c6fd64cd49bcbe3fbc22f79900582e389"
+  },
+  {
+    "EN": "Everything's upside down here because\nof the state order for the construction of\na secret object.\nNew materials have been delivered, which are\ncapable of withstanding high temperatures and\nradiation. We hadn't dealt with them before,\nand processing methods hadn't been tested.\nQuality control is very strict.\nThe finished products are immediately packed in\ncontainers and transported from the plant\nunder guard.",
+    "context": {
+      "addressee": null,
+      "author": null,
+      "evidence": "Visual transcription of original texture; names alone are not gender proof.",
+      "speaker_gender": "unknown"
+    },
+    "id": "gameres/textures/Zapiski/03MEAT/probi.tga#letter",
+    "kind": "raster-text",
+    "source_file": "gameres/textures/Zapiski/03MEAT/probi.tga",
+    "source_sha256": "42d2a7f203e52164c2c67860be108c7d696785e2fccf73d5188f30dd4011c46e"
+  },
+  {
+    "EN": "Vladimir called on the phone, he was\nvery agitated and started telling me that\nI should give up everything and rush\nto the city at once.\n\nI didn't understand a thing\nand asked him to explain,\nand that's when the connection broke down.",
+    "context": {
+      "addressee": null,
+      "author": null,
+      "evidence": "Visual transcription of original texture; names alone are not gender proof.",
+      "speaker_gender": "unknown"
+    },
+    "id": "gameres/textures/Zapiski/03MEAT/vladimir.tga#letter",
+    "kind": "raster-text",
+    "source_file": "gameres/textures/Zapiski/03MEAT/vladimir.tga",
+    "source_sha256": "7778daf255affb9e4ec686c65be0ed2169ea5d370ab8dc819fc9081863f3fcfe"
+  },
+  {
+    "EN": "ATTENTION!\nToday Soviet astronomers registered a solar flare of enormous power.\nThis phenomenon may have an influence on people.\nTheir behavior may become unusual, sometimes unpredictable.\nPeople may enter a state of excessive lassitude or become hyperactive.\nWe strongly request your utmost attention to this matter.\nReport any emergency situation immediately!",
+    "context": {
+      "addressee": null,
+      "author": null,
+      "evidence": "Manual visual reading of original texture; names alone do not establish gender.",
+      "speaker_gender": "unknown"
+    },
+    "id": "gameres/textures/Zapiski/04wall/ActivSun.tga#letter",
+    "kind": "raster-text",
+    "source_file": "gameres/textures/Zapiski/04wall/ActivSun.tga",
+    "source_sha256": "4f4391b9d6a1dfe28ce1271091af7af64d9267f8c78a4445a0d715b628cb05e7"
+  },
+  {
+    "EN": "Lyudmila, I have no idea what to say to you.\nMy husband's been away round the clock too.\nHe says the damned bosses\nare trying to finish\neverything up before\nthe next Soviet holiday.\nHe doesn't say what they're working on, though.\nIt's been banned.\nThere have been\nstrange rumors going round the town,\nthey make me ill at ease.\nAnd Zina is leaving for\na kolhoz next week. Their\ninstitute has been ordered to help harvest potatoes.",
+    "context": {
+      "addressee": "Lyudmila",
+      "author": null,
+      "evidence": "Manual visual reading of original texture; names alone do not establish gender.",
+      "referents": [
+        {
+          "evidence": "My husband; He in source text",
+          "gender": "male",
+          "role": "narrator spouse"
+        },
+        {
+          "evidence": "Name and they/their do not independently confirm gender.",
+          "gender": "unknown",
+          "name": "Zina"
+        }
+      ],
+      "speaker_gender": "unknown"
+    },
+    "id": "gameres/textures/Zapiski/04wall/liuda.tga#letter",
+    "kind": "raster-text",
+    "source_file": "gameres/textures/Zapiski/04wall/liuda.tga",
+    "source_sha256": "f509fad1b8975ebdc99c05153d0eb852cd64a7ce017720619ce85c2e4587ad24"
+  },
+  {
+    "EN": "In a world where the workday is short, where no one goes hungry,\nwhere every person lives in a house with a bath and a fridge, owns a car or\neven an airplane, the most obvious and maybe the most important\nform of inequality has already disappeared. Having become common,\nwealth ceases to engender class distinctions",
+    "context": {
+      "addressee": null,
+      "author": null,
+      "evidence": "Manual visual reading of original texture; names alone do not establish gender.",
+      "speaker_gender": "unknown"
+    },
+    "id": "gameres/textures/Zapiski/05gor/gorOW.tga#letter",
+    "kind": "raster-text",
+    "source_file": "gameres/textures/Zapiski/05gor/gorOW.tga",
+    "source_sha256": "6683cd1191f977b990097afd272b69c022fb07d9286c86205d92f4580cf3d3aa"
+  },
+  {
+    "EN": "Curious, isn't it?\nYesterday I felt that the taste of\nthe water has changed...\nI refreshed myself with a glass\nof fizzy water and felt a second\nwind come on.\nMy spirits went high,\nI wanted to work. Aren't these\nthe miraculous transformations\nthat have been talked about so\nmuch lately?",
+    "context": {
+      "addressee": null,
+      "author": null,
+      "evidence": "Manual visual reading of original texture; names alone do not establish gender.",
+      "speaker_gender": "unknown"
+    },
+    "id": "gameres/textures/Zapiski/05gor/gorVoda.tga#letter",
+    "kind": "raster-text",
+    "source_file": "gameres/textures/Zapiski/05gor/gorVoda.tga",
+    "source_sha256": "3bf590cb547c857bd9d76b3dd9507ddfe259deb7a4e15e94c38d707595edbe19"
+  },
+  {
+    "EN": "Report\n\nI hereby report that the law-enforcement\nauthorities have been put on red alert.\nThe city's healthcare and social services\nhave received all the necessary instructions.\nThe possibility of using the civil\ndefense system has been taken into account.\n\nE.E. Filonov",
+    "context": {
+      "addressee": null,
+      "author": "E.E. Filonov",
+      "evidence": "Manual visual reading of original texture; names alone do not establish gender.",
+      "speaker_gender": "unknown"
+    },
+    "id": "gameres/textures/Zapiski/05gor/gotovnost.tga#letter",
+    "kind": "raster-text",
+    "source_file": "gameres/textures/Zapiski/05gor/gotovnost.tga",
+    "source_sha256": "d3fdc08185857881e2f55dbfa7c442dc41b5e7f44ce016620d0ab014eac03205"
+  },
+  {
+    "EN": "Act No. 043  Date: 04.06.55\n\nCLASSIFIED\n\nMaterials for the Project 00.56-2:\n\n- newsreel No. 17. General operating\nprinciples of the facility. Goals of\nthe experiment;\n- video record of the completion of the\nfacility construction;\n- report of the chief designer (excerpt).\n\nSignature:",
+    "context": {
+      "addressee": null,
+      "author": null,
+      "evidence": "Manual visual reading of original texture; names alone do not establish gender.",
+      "speaker_gender": "unknown"
+    },
+    "id": "gameres/textures/Zapiski/06GRSVT/dliababini.tga#letter",
+    "kind": "raster-text",
+    "source_file": "gameres/textures/Zapiski/06GRSVT/dliababini.tga",
+    "source_sha256": "c29afde038f7665b83568411989eee3fc14a373dfed53dd2eed302d700044118"
+  },
+  {
+    "EN": "They are trying to boost the capacity\nso that the emission will cover\nthe largest area possible...\nIn fact, the facility is working in\ncritical mode, so breakdowns\nare inevitable...\nIt is urgently necessary to launch\nthe production of the elements that break\ndown most often.",
+    "context": {
+      "addressee": null,
+      "author": null,
+      "evidence": "Manual visual reading of original texture; names alone do not establish gender.",
+      "speaker_gender": "unknown"
+    },
+    "id": "gameres/textures/Zapiski/07GorKonec/detali.tga#letter",
+    "kind": "raster-text",
+    "source_file": "gameres/textures/Zapiski/07GorKonec/detali.tga",
+    "source_sha256": "b5008334a9b4047fd3f0b1db405abc3425e5c05359756743898fab99fb0fcb60"
+  },
+  {
+    "EN": "INSTRUCTION\n\nDue to the start of the preparation tests,\nunforeseen changes in human behavior are\npossible. Increased aggression or the\nreverse, sudden apathy, may be observed.\nIt is necessary to come up with a simple\nand comprehensive explanation for this\nbeforehand. For instance, magnetic storms\nor solar activity may be to blame.\nThis information must be circulated\nas widely as possible.",
+    "context": {
+      "addressee": null,
+      "author": null,
+      "evidence": "Manual visual reading of original texture; names alone do not establish gender.",
+      "speaker_gender": "unknown"
+    },
+    "id": "gameres/textures/Zapiski/07GorKonec/podgovSunActiv.tga#letter",
+    "kind": "raster-text",
+    "source_file": "gameres/textures/Zapiski/07GorKonec/podgovSunActiv.tga",
+    "source_sha256": "b743cc236c497d244de8d62480e96491a555e637374c7c9743dad36f6c5149b4"
+  },
+  {
+    "EN": "That shrieking...\nThe sound of the tram rails is\ndriving me out of my mind.\n\nI'm gonna complain to the city\nexecs committee",
+    "context": {
+      "addressee": null,
+      "author": null,
+      "evidence": "Manual visual reading of original texture; names alone do not establish gender.",
+      "speaker_gender": "unknown"
+    },
+    "id": "gameres/textures/Zapiski/07GorKonec/tramvai.tga#letter",
+    "kind": "raster-text",
+    "source_file": "gameres/textures/Zapiski/07GorKonec/tramvai.tga",
+    "source_sha256": "a7e64922d16a0146684546e5a090b9a97bc0fbdd590de232340f06f03c6155c7"
+  },
+  {
+    "EN": "Gone to the\nlower yard.\n\nBack in an\nhour.\n\nYard-keeper",
+    "context": {
+      "addressee": null,
+      "author": null,
+      "evidence": "Manual visual reading of original texture; names alone do not establish gender.",
+      "speaker_gender": "unknown"
+    },
+    "id": "gameres/textures/Zapiski/08POH/dvornik.tga#letter",
+    "kind": "raster-text",
+    "source_file": "gameres/textures/Zapiski/08POH/dvornik.tga",
+    "source_sha256": "41cc57f21465339c5545514423eb224866e77b3eaf67364b96cd6a41ccb59a30"
+  },
+  {
+    "EN": "Comrades,\n\nThe yard gate\nis closed for the night!\nContact the yard-keeper\nin case of need.\n\nHousing Dept",
+    "context": {
+      "addressee": null,
+      "author": null,
+      "evidence": "Manual visual reading of original texture; names alone do not establish gender.",
+      "speaker_gender": "unknown"
+    },
+    "id": "gameres/textures/Zapiski/08POH/jilci.tga#letter",
+    "kind": "raster-text",
+    "source_file": "gameres/textures/Zapiski/08POH/jilci.tga",
+    "source_sha256": "3a8937c58bce398acd04a157e7078b77d6f8d039e26cf8062730c923ca8fefef"
+  },
+  {
+    "EN": "What a wonderful day today!\nVladilen finally made up his mind\nand invited me to the cinema!\nI haven't given him my 'yes' yet.\nWell... At least\nthe way back isn't long.\nThe cinema's just round the corner.",
+    "context": {
+      "addressee": null,
+      "author": null,
+      "evidence": "Manual visual reading of original texture; names alone do not establish gender.",
+      "referents": [
+        {
+          "evidence": "him in source; first-person narrator gender remains unknown",
+          "gender": "male",
+          "name": "Vladilen"
+        }
+      ],
+      "speaker_gender": "unknown"
+    },
+    "id": "gameres/textures/Zapiski/08POH/lolita.tga#letter",
+    "kind": "raster-text",
+    "source_file": "gameres/textures/Zapiski/08POH/lolita.tga",
+    "source_sha256": "f66efd740e0965f4c3af9216223c80cba501a9120079e8344aae820c5ea7b4c7"
+  },
+  {
+    "EN": "I wonder why there've been these\nspeculations about giant rats again.\nThey say a brigade\nwas attacked in Sector 4\nwhen they were working in a tunnel.",
+    "context": {
+      "addressee": null,
+      "author": null,
+      "evidence": "Manual visual reading of original texture; names alone do not establish gender.",
+      "speaker_gender": "unknown"
+    },
+    "id": "gameres/textures/Zapiski/09Kinostreet/KrisiWarn.tga#letter",
+    "kind": "raster-text",
+    "source_file": "gameres/textures/Zapiski/09Kinostreet/KrisiWarn.tga",
+    "source_sha256": "47fde903cc3b3c08efda2f62d014712d2e3213b40c28feb64560a65836e1e0c0"
+  },
+  {
+    "EN": "Ask the\nprojectionist\nfor the basement keys!",
+    "context": {
+      "addressee": null,
+      "author": null,
+      "evidence": "Manual visual reading of original texture; names alone do not establish gender.",
+      "speaker_gender": "unknown"
+    },
+    "id": "gameres/textures/Zapiski/09Kinostreet/kinoKey.tga#letter",
+    "kind": "raster-text",
+    "source_file": "gameres/textures/Zapiski/09Kinostreet/kinoKey.tga",
+    "source_sha256": "b3e947f44730780d7af52ae90344b841efa648c0eb5a6611e1f248bbf520aecd"
+  },
+  {
+    "EN": "You are coming late again!\nDon't forget to replace the lamp\nbefore the performance.\n\nFetch it from the storehouse\nin the basement.\nThe key to the basement is on the table.\n\nKolya",
+    "context": {
+      "addressee": null,
+      "author": "Kolya",
+      "evidence": "Manual visual reading of original texture; names alone do not establish gender.",
+      "speaker_gender": "unknown"
+    },
+    "id": "gameres/textures/Zapiski/09Kinostreet/opiat.tga#letter",
+    "kind": "raster-text",
+    "source_file": "gameres/textures/Zapiski/09Kinostreet/opiat.tga",
+    "source_sha256": "d1eb1b6edf24a1da5852a4acce6189e0753daf6da87f0e34fe8e63421e44f1fd"
+  },
+  {
+    "EN": "Instruction No. 8   Date: 21.X-7\n\nTO THE STATION PERSONNEL\n\nEscalator power supply can be\nturned off at the auxiliary\nsubstation.\nAccess the substation from the\nleft platform.",
+    "context": {
+      "addressee": null,
+      "author": null,
+      "evidence": "Manual visual reading of original texture; names alone do not establish gender.",
+      "source_fragment": {
+        "kind": "right-edge-date",
+        "uncertainty": "Date visible as 21.X-7; preserve visible characters, do not invent a year."
+      },
+      "speaker_gender": "unknown"
+    },
+    "id": "gameres/textures/Zapiski/10Metro/Eskalator.tga#letter",
+    "kind": "raster-text",
+    "source_file": "gameres/textures/Zapiski/10Metro/Eskalator.tga",
+    "source_sha256": "723162b4c392718f41314bf341a79bd73743355624a0201fe3dd05339244bac3"
+  },
+  {
+    "EN": "Order No. 19\nTime: 1:07 p.m.\nDate: Septmeber 19, ___.\n\nRef: Passage of Train P-1\n\nORDER ABOUT THE TRAIN PASSAGE\n\nI hereby order flawless passage of\nthe train through the stations of\nKomsomolskaya, Universitet and\nStalinskaya.\nThe speed of the train is at least\n40 km/h on main and station tracks and\nat least 15 km/h on track switches.\nManeuvers at the stations are to be\nexecuted using semi-automatic signals.\nShould these fail, signals of the\npersonnel on-duty are to be used.\nThe movement of the train is controlled\nby Department Two\nof the State Security Service.\n\nMajor Tarasenko\nResponsible Official",
+    "context": {
+      "addressee": null,
+      "author": "Major Tarasenko",
+      "evidence": "Manual visual reading of original texture; names alone do not establish gender.",
+      "speaker_gender": "unknown"
+    },
+    "id": "gameres/textures/Zapiski/10Metro/WarnVagon.tga#letter",
+    "kind": "raster-text",
+    "source_file": "gameres/textures/Zapiski/10Metro/WarnVagon.tga",
+    "source_sha256": "429ba0a65b30c6b9b4e181fa4b7a08c7ff1aa3adfc4fd2ddf6749076543eb380"
+  },
+  {
+    "EN": "A military inspection\nsurprised us yesterday.\nThey checked shelters intended for\na nuclear war. We had abandoned and\nforgotten about them, and you could\nsee this from the condition they were in.\nOur command got a roasting.\nWe were ordered to put everything\nto rights as soon as possible\nand renew the supplies of water, food\nand other necessary provisions.\n\nI don't even dare to think\nwhat this may all mean.",
+    "context": {
+      "addressee": null,
+      "author": null,
+      "evidence": "Manual visual reading of original texture; names alone do not establish gender.",
+      "speaker_gender": "unknown"
+    },
+    "id": "gameres/textures/Zapiski/11met6/revizia.tga#letter",
+    "kind": "raster-text",
+    "source_file": "gameres/textures/Zapiski/11met6/revizia.tga",
+    "source_sha256": "77f547a02f35c97f52e98981a4e0dd335911704aaca653ceef244e5cb43914bd"
+  },
+  {
+    "EN": "Sometimes I think that the world around us\nis just an illusion. And the quality of this illusion,\nits vibe, depends only on ourselves.\nIf your views are not sophisticated,\nthe world around you will be simple and unelaborate.\nIf you're depraved and lost, if you're walking\nblind in the dark, the world will be\nempty and senseless. The reality around us\nis nothing more than a reflection of\nour own essence. If you\nwant to change the world, start with yourself.",
+    "context": {
+      "addressee": null,
+      "author": null,
+      "evidence": "Manual visual reading of original texture; names alone do not establish gender.",
+      "speaker_gender": "unknown"
+    },
+    "id": "gameres/textures/Zapiski/12opera/eliuzia.tga#letter",
+    "kind": "raster-text",
+    "source_file": "gameres/textures/Zapiski/12opera/eliuzia.tga",
+    "source_sha256": "5c705416d865f0c54d9878fbd57a9ba54e35a49f31e5b519c6dff37ed585f73f"
+  },
+  {
+    "EN": "The new receiver is working fine.\nFollowing advice, I went up to the roofs trying to find\na place with minimal jamming, and I occasionally\nintercepted a message. It dealt with the launch\nof an underground power plant.\nThey said about unforeseen difficulties,\nregardless of which some experiment\nwould still take",
+    "context": {
+      "addressee": null,
+      "author": null,
+      "evidence": "Manual visual reading of original texture; names alone do not establish gender.",
+      "source_fragment": {
+        "kind": "torn-page",
+        "missing_end": true,
+        "policy": "Do not invent the missing completion; render the translated fragment as visibly incomplete."
+      },
+      "speaker_gender": "unknown"
+    },
+    "id": "gameres/textures/Zapiski/13krovli/radioLiubitel.tga#letter",
+    "kind": "raster-text",
+    "source_file": "gameres/textures/Zapiski/13krovli/radioLiubitel.tga",
+    "source_sha256": "7388e95506f7150a35e79a8590e4674bed98a6732299a86a3c49fb1367422ea5"
+  },
+  {
+    "EN": "Before\nrolling the\ntransport out\n\nCheck the\nturntable pit.\n\nChief Mech",
+    "context": {
+      "addressee": null,
+      "author": null,
+      "evidence": "Manual visual reading of original texture; names alone do not establish gender.",
+      "speaker_gender": "unknown"
+    },
+    "id": "gameres/textures/Zapiski/14parall/yama.tga#letter",
+    "kind": "raster-text",
+    "source_file": "gameres/textures/Zapiski/14parall/yama.tga",
+    "source_sha256": "4b505e3b642a6b3297f095d791e7813214861543d0ed7cf267a31f87029a817d"
+  },
+  {
+    "EN": "AIM / SECONDARY\nPREVIOUS WEAPON\nFIRE\nNEXT WEAPON\nTOGGLE HUD\nPAUSE\nRELOAD\nCROUCH\nJUMP\nUSE\nWALK\nSPRINT\nLOOK\nTOGGLE NOTES\nPREVIOUS NOTE\nNEXT NOTE\nTOGGLE NOTES\nPRESET 1",
+    "context": {
+      "evidence": "Labels correspond to the source diagram only; no input mapping or game logic changed."
+    },
+    "id": "gameres/textures/dds/controller_icon.tga#preset-1",
+    "kind": "raster-text",
+    "region": [
+      0,
+      0,
+      512,
+      512
+    ],
+    "region_sha256": "e35b840517a5c74575ef90410003df7083468d70393a0df760e571254faa2bd5",
+    "source_file": "gameres/textures/dds/controller_icon.tga",
+    "source_sha256": "cf01d09afad6f569f886169271ad2dda257befe6dea4b1d9bd4cffb05a957cdc"
+  },
+  {
+    "EN": "AIM / SECONDARY\nTOGGLE NOTES\nFIRE\nSPRINT\nTOGGLE HUD\nPAUSE\nUSE\nCROUCH\nJUMP\nRELOAD\nWALK\nLOOK\nNEXT WEAPON\nPREVIOUS NOTE\nNEXT NOTE\nPREVIOUS WEAPON\nPRESET 2",
+    "context": {
+      "evidence": "Labels correspond to the source diagram only; no input mapping or game logic changed."
+    },
+    "id": "gameres/textures/dds/controller_icon.tga#preset-2",
+    "kind": "raster-text",
+    "region": [
+      0,
+      512,
+      512,
+      1024
+    ],
+    "region_sha256": "bbeca96c87b1d59a6639188854de1cafc8f9a4f0239cd60177385d036dd76da6",
+    "source_file": "gameres/textures/dds/controller_icon.tga",
+    "source_sha256": "cf01d09afad6f569f886169271ad2dda257befe6dea4b1d9bd4cffb05a957cdc"
+  },
+  {
+    "EN": "TOGGLE NOTES\nAIM / SECONDARY\nSPRINT\nFIRE\nTOGGLE HUD\nPAUSE\nRELOAD\nJUMP\nUSE\nCROUCH\nWALK\nLOOK\nNEXT WEAPON\nPREVIOUS NOTE\nNEXT NOTE\nPREVIOUS WEAPON\nPRESET 3",
+    "context": {
+      "evidence": "Labels correspond to the source diagram only; no input mapping or game logic changed."
+    },
+    "id": "gameres/textures/dds/controller_icon.tga#preset-3",
+    "kind": "raster-text",
+    "region": [
+      0,
+      1024,
+      512,
+      1536
+    ],
+    "region_sha256": "fd409fb914c7aecf592c3405bea85baa2d14fb4b7d09ed08b3403d5800653457",
+    "source_file": "gameres/textures/dds/controller_icon.tga",
+    "source_sha256": "cf01d09afad6f569f886169271ad2dda257befe6dea4b1d9bd4cffb05a957cdc"
+  }
+]

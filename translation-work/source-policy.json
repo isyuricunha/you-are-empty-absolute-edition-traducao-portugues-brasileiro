@@ -5,6 +5,12 @@
   "rejected": [
     "5e4718fe4865213d2a61e77259a15a2e46911d27dc199e0ad655d5335f9b068d"
   ],
+  "rejected_resources": {
+    "gameres/scripts/you_are_empty/ui/ui_strings.txt": [
+      "8ac2e86b720bb0a29fb880e575ec6ab4dc1005148f428679050eca6528d4d622",
+      "8d319b33b15106a79ea1814b3d8f1993e0b8c0282bd175806ccc867e27b679e5"
+    ]
+  },
   "schema": 1,
   "scope": "interface-only",
   "trusted": [
