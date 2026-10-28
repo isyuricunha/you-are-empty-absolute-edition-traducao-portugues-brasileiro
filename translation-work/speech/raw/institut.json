@@ -1,0 +1,54 @@
+{
+  "schema": 1,
+  "source_file": "gameres/sounds/videozast/institut.wav",
+  "source_sha256": "66d0d28b9345682df543037d1ad87557441a5579289c8e9bd38581ff85631256",
+  "settings": {
+    "model": "small",
+    "device": "cpu",
+    "compute_type": "int8",
+    "cpu_threads": 6,
+    "batch_size": 8,
+    "beam_size": 5,
+    "temperature": 0,
+    "condition_on_previous_text": false,
+    "vad_filter": true,
+    "vad_parameters": {
+      "threshold": 0.6,
+      "min_speech_duration_ms": 250,
+      "min_silence_duration_ms": 500
+    }
+  },
+  "engine_version": "1.2.1",
+  "detected_language": "ko",
+  "language_probability": 0.30935466289520264,
+  "duration": 123.72,
+  "duration_after_vad": 4.256,
+  "classification": "speech-candidate-needs-review",
+  "human_reviewed": false,
+  "seconds": 4.037,
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 7.18,
+      "end": 11.44,
+      "text": " 수고하셨습니다.",
+      "tokens": [
+        4446,
+        1313,
+        2240,
+        15650,
+        3115,
+        13
+      ],
+      "avg_logprob": -1.1897313594818115,
+      "compression_ratio": 0.6764705882352942,
+      "no_speech_prob": 0.39482545852661133,
+      "words": null,
+      "temperature": 0,
+      "review_flags": [
+        "low-recognition-confidence"
+      ]
+    }
+  ]
+}

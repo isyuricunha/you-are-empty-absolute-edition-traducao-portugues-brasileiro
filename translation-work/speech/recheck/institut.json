@@ -1,0 +1,45 @@
+{
+  "schema": 1,
+  "source_file": "gameres/sounds/videozast/institut.wav",
+  "source_sha256": "66d0d28b9345682df543037d1ad87557441a5579289c8e9bd38581ff85631256",
+  "method": "Independent non-batched second pass, Russian decoding, word timestamps; candidate only, not human-reviewed",
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 7.18,
+      "end": 9.7,
+      "text": " СПОКОЙНАЯ МУЗЫКА",
+      "tokens": [
+        50364,
+        2933,
+        9223,
+        7876,
+        8169,
+        7876,
+        37123,
+        28729,
+        25007,
+        50574
+      ],
+      "avg_logprob": -0.7252149690281261,
+      "compression_ratio": 0.775,
+      "no_speech_prob": 0.39482545852661133,
+      "words": [
+        {
+          "start": 7.18,
+          "end": 8.26,
+          "word": " СПОКОЙНАЯ",
+          "probability": 0.7047954803066594
+        },
+        {
+          "start": 8.26,
+          "end": 9.7,
+          "word": " МУЗЫКА",
+          "probability": 0.9509509205818176
+        }
+      ],
+      "temperature": 0
+    }
+  ]
+}

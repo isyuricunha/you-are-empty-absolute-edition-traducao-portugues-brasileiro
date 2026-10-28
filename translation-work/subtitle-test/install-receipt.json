@@ -1,0 +1,16 @@
+{
+  "schema": 1,
+  "status": "installed; runtime test pending",
+  "authorized_by_user": "s, following explicit request to install only subtitle-test video with backup",
+  "installed_file": "G:\\SteamLibrary\\steamapps\\common\\You Are Empty Absolute Edition\\gameres\\textures\\videos\\zastavki\\outro.avi",
+  "installed_sha256": "b42f55ad9a8beecae9a3560f89bc480ee83f756c1ca244ae5c54a9d81b811bac",
+  "backup_file": "F:\\Users\\ysi\\Documents\\Git\\you-are-empty-absolute-edition-traducao-portugues-brasileiro\\translation-work\\.state\\game-backups\\subtitle-test-20261028-120434\\gameres\\textures\\videos\\zastavki\\outro.avi",
+  "backup_sha256": "7b5daefb5676825b782c8683a2fc16f08d7a2012a2015333f6e2a4ad631c139b",
+  "audio": "unchanged",
+  "executables_and_dlls": "not modified",
+  "subtitle_interval_seconds": [
+    115.8,
+    119.2
+  ],
+  "partial": true
+}

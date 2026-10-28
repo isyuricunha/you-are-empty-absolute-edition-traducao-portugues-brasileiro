@@ -1,0 +1,59 @@
+{
+  "schema": 1,
+  "source_file": "gameres/sounds/videozast/vstrecha5.wav",
+  "source_sha256": "9e5fdcbf2d35d60d1ca9d8772e85b92999ef0a6210dd96b7340fee44007abb6a",
+  "settings": {
+    "model": "small",
+    "device": "cpu",
+    "compute_type": "int8",
+    "cpu_threads": 6,
+    "batch_size": 8,
+    "beam_size": 5,
+    "temperature": 0,
+    "condition_on_previous_text": false,
+    "vad_filter": true,
+    "vad_parameters": {
+      "threshold": 0.6,
+      "min_speech_duration_ms": 250,
+      "min_silence_duration_ms": 500
+    }
+  },
+  "engine_version": "1.2.1",
+  "detected_language": "pt",
+  "language_probability": 0.3643898069858551,
+  "duration": 179.76,
+  "duration_after_vad": 4.8,
+  "classification": "speech-candidate-needs-review",
+  "human_reviewed": false,
+  "seconds": 4.17,
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 6.13,
+      "end": 134.16,
+      "text": " Eu me admiro, eu admiro!",
+      "tokens": [
+        2186,
+        385,
+        614,
+        3057,
+        340,
+        11,
+        2228,
+        614,
+        3057,
+        340,
+        0
+      ],
+      "avg_logprob": -1.2494562566280365,
+      "compression_ratio": 0.9259259259259259,
+      "no_speech_prob": 0.3824094533920288,
+      "words": null,
+      "temperature": 0,
+      "review_flags": [
+        "low-recognition-confidence"
+      ]
+    }
+  ]
+}

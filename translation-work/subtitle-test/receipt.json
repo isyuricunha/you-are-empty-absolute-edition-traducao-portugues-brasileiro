@@ -1,0 +1,42 @@
+{
+  "schema": 1,
+  "status": "partial subtitle test prepared; runtime not verified",
+  "original_file": "gameres/textures/videos/zastavki/outro.avi",
+  "original_sha256": "7b5daefb5676825b782c8683a2fc16f08d7a2012a2015333f6e2a4ad631c139b",
+  "subtitle_file": "translation-work/speech/review/outro.partial.pt-BR.ass",
+  "subtitle_sha256": "efcac9cb398d048c8f99f942c766a847303b07e9622fb910121849b93b11852b",
+  "output_file": "translation-work/subtitle-test/PTBR/gameres/textures/videos/zastavki/outro.avi",
+  "output_sha256": "b42f55ad9a8beecae9a3560f89bc480ee83f756c1ca244ae5c54a9d81b811bac",
+  "unchanged_external_audio": {
+    "file": "gameres/sounds/videozast/outro_cutscene.ogg",
+    "sha256": "50aa30ba530ec200b10ab901f36661b3f2ee54a5be25182950e4d16fa57ce030"
+  },
+  "timing": {
+    "start": 115.8,
+    "end": 119.2
+  },
+  "container": "WebM/VP9, preserving the original misleading .avi filename",
+  "partial": true,
+  "untranslated_uncertain_passages": 2,
+  "installation": "not performed; explicit authorization required",
+  "validation": {
+    "decoded_frames": 4368,
+    "all_frame_timestamps": "identical to original",
+    "original": {
+      "codec": "vp9",
+      "width": 720,
+      "height": 480,
+      "rate": "30000/1001",
+      "duration": 145.745
+    },
+    "translated": {
+      "codec": "vp9",
+      "width": 720,
+      "height": 480,
+      "rate": "30000/1001",
+      "duration": 145.745
+    },
+    "zip": "single correct native path; CRC and SHA-256 passed",
+    "visual": "Subtitle frame rendered and inspected; runtime gameplay test pending"
+  }
+}

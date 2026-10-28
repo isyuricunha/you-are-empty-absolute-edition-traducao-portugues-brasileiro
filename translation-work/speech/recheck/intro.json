@@ -1,0 +1,45 @@
+{
+  "schema": 1,
+  "source_file": "gameres/sounds/videozast/intro.wav",
+  "source_sha256": "006415736f460355f1764555172fc404f6d89a2df2a918776db1149ee07d42a0",
+  "method": "Independent non-batched second pass, Russian decoding, word timestamps; candidate only, not human-reviewed",
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 113.39,
+      "end": 114.51,
+      "text": " ДИНАМИЧНАЯ МУЗЫКА",
+      "tokens": [
+        50364,
+        3401,
+        10276,
+        23413,
+        10626,
+        10276,
+        17519,
+        28729,
+        25007,
+        50464
+      ],
+      "avg_logprob": -0.8384545824744485,
+      "compression_ratio": 0.8048780487804879,
+      "no_speech_prob": 0.4031520187854767,
+      "words": [
+        {
+          "start": 113.39,
+          "end": 114.51,
+          "word": " ДИНАМИЧНАЯ",
+          "probability": 0.6585856508463621
+        },
+        {
+          "start": 114.51,
+          "end": 114.51,
+          "word": " МУЗЫКА",
+          "probability": 0.9371780157089233
+        }
+      ],
+      "temperature": 0
+    }
+  ]
+}

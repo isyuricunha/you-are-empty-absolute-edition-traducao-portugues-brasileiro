@@ -1,0 +1,30 @@
+{
+  "schema": 1,
+  "source_file": "gameres/sounds/videozast/outro_credits.ogg",
+  "source_sha256": "301ecdd66f8346fef20c94e4554a6ea3c27dc901cc053a10f4df0d91937b9009",
+  "settings": {
+    "model": "small",
+    "device": "cpu",
+    "compute_type": "int8",
+    "cpu_threads": 6,
+    "batch_size": 8,
+    "beam_size": 5,
+    "temperature": 0,
+    "condition_on_previous_text": false,
+    "vad_filter": true,
+    "vad_parameters": {
+      "threshold": 0.6,
+      "min_speech_duration_ms": 250,
+      "min_silence_duration_ms": 500
+    }
+  },
+  "engine_version": "1.2.1",
+  "detected_language": "en",
+  "language_probability": 0.36841294169425964,
+  "duration": 100.5,
+  "duration_after_vad": 0.0,
+  "classification": "no-speech-detected-by-model",
+  "human_reviewed": false,
+  "seconds": 2.138,
+  "segments": []
+}

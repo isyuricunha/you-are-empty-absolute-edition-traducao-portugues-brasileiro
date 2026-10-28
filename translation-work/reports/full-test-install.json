@@ -1,0 +1,358 @@
+{
+  "schema": 1,
+  "status": "installed; expanded runtime test pending",
+  "authorization": "coloca tudo né pra gente testar kk",
+  "game_root": "G:\\SteamLibrary\\steamapps\\common\\You Are Empty Absolute Edition",
+  "backup_root": "F:\\Users\\ysi\\Documents\\Git\\you-are-empty-absolute-edition-traducao-portugues-brasileiro\\translation-work\\.state\\game-backups\\full-test-20261028-122149",
+  "installed_files": 57,
+  "notes": 29,
+  "controller_panels": 3,
+  "map_names": 24,
+  "interface_records": 165,
+  "existing_subtitled_video": "preserved unchanged",
+  "protected_binaries": "31 SHA-256 unchanged",
+  "entries": [
+    {
+      "path": "gameres/maps/loc/futur.description",
+      "before_sha256": "a36e69e7ba0e97e72f898a6d47901507a34b26fd12831ac0b542e8e8ed36220c",
+      "after_sha256": "12278f857e2c769cb9389e576b6c9a03a4bae9042d581f2e52d00905d06348e1",
+      "backup": "F:\\Users\\ysi\\Documents\\Git\\you-are-empty-absolute-edition-traducao-portugues-brasileiro\\translation-work\\.state\\game-backups\\full-test-20261028-122149\\gameres\\maps\\loc\\futur.description"
+    },
+    {
+      "path": "gameres/maps/loc/gor.description",
+      "before_sha256": "b16ddc3aef772ae3d73a40af9f449996dd5026e2daba34e96abd98bf20c4795f",
+      "after_sha256": "3c8f150ad2af42f7d8e026f139c30de0552071d305c6978e8bac34606ada4c04",
+      "backup": "F:\\Users\\ysi\\Documents\\Git\\you-are-empty-absolute-edition-traducao-portugues-brasileiro\\translation-work\\.state\\game-backups\\full-test-20261028-122149\\gameres\\maps\\loc\\gor.description"
+    },
+    {
+      "path": "gameres/maps/loc/gor_part_2.description",
+      "before_sha256": "8f99a8a192024c76d6e28ad2b601b624b0afe03d4e8dff98c2309d9e211cf718",
+      "after_sha256": "e580aa07c22ee040fef77116d83c2977597bb1314093194a067aac8bd79cd699",
+      "backup": "F:\\Users\\ysi\\Documents\\Git\\you-are-empty-absolute-edition-traducao-portugues-brasileiro\\translation-work\\.state\\game-backups\\full-test-20261028-122149\\gameres\\maps\\loc\\gor_part_2.description"
+    },
+    {
+      "path": "gameres/maps/loc/gorkonec.description",
+      "before_sha256": "47c3e7937c194c088297589f4a298c0a32d5f2e4cfd60581fbb18e4f301bd426",
+      "after_sha256": "fa18632382fcd0254fe7f6166cdd01af0ed4afa5ffb1fee979a460b0369fa24d",
+      "backup": "F:\\Users\\ysi\\Documents\\Git\\you-are-empty-absolute-edition-traducao-portugues-brasileiro\\translation-work\\.state\\game-backups\\full-test-20261028-122149\\gameres\\maps\\loc\\gorkonec.description"
+    },
+    {
+      "path": "gameres/maps/loc/grsvt.description",
+      "before_sha256": "d9e4223f0fe8eb76160347ec046f467a9b783bd74b0a48d9a3acaf285682e869",
+      "after_sha256": "ce4df6f9837793b8cb7c2d86bad1bc1502dda0aa60f261b45a109b6bdd1022c4",
+      "backup": "F:\\Users\\ysi\\Documents\\Git\\you-are-empty-absolute-edition-traducao-portugues-brasileiro\\translation-work\\.state\\game-backups\\full-test-20261028-122149\\gameres\\maps\\loc\\grsvt.description"
+    },
+    {
+      "path": "gameres/maps/loc/kinostreet.description",
+      "before_sha256": "b72bf094b109782c41341aa2124e5932437afaad5be4a4463aaf0f9fcbcedddc",
+      "after_sha256": "b72bf094b109782c41341aa2124e5932437afaad5be4a4463aaf0f9fcbcedddc",
+      "backup": "F:\\Users\\ysi\\Documents\\Git\\you-are-empty-absolute-edition-traducao-portugues-brasileiro\\translation-work\\.state\\game-backups\\full-test-20261028-122149\\gameres\\maps\\loc\\kinostreet.description"
+    },
+    {
+      "path": "gameres/maps/loc/kinostreet2.description",
+      "before_sha256": "dc8c89c02068268203e0ce81d58f4b16b66ff2eac76a4b1f4ec284b8d83da011",
+      "after_sha256": "dc8c89c02068268203e0ce81d58f4b16b66ff2eac76a4b1f4ec284b8d83da011",
+      "backup": "F:\\Users\\ysi\\Documents\\Git\\you-are-empty-absolute-edition-traducao-portugues-brasileiro\\translation-work\\.state\\game-backups\\full-test-20261028-122149\\gameres\\maps\\loc\\kinostreet2.description"
+    },
+    {
+      "path": "gameres/maps/loc/kolhoz.description",
+      "before_sha256": "b3f224ba3f2959df811a6d7b4eeb4c1ec33f60a5a8c857494c22d0efb4405f62",
+      "after_sha256": "c5fc05a92465e55814c40b829ed9f03394db66446fb167fec7149777b7ee8014",
+      "backup": "F:\\Users\\ysi\\Documents\\Git\\you-are-empty-absolute-edition-traducao-portugues-brasileiro\\translation-work\\.state\\game-backups\\full-test-20261028-122149\\gameres\\maps\\loc\\kolhoz.description"
+    },
+    {
+      "path": "gameres/maps/loc/kolhoz_part2.description",
+      "before_sha256": "c3b8e88f9b6ee7b56163015167dd89b3d5657a390d3c6f7d87b73ce4f39af409",
+      "after_sha256": "f03ef961999edc180ce1b9046dbaec3c3f5136ac9771a55a3a0deb89b3406d41",
+      "backup": "F:\\Users\\ysi\\Documents\\Git\\you-are-empty-absolute-edition-traducao-portugues-brasileiro\\translation-work\\.state\\game-backups\\full-test-20261028-122149\\gameres\\maps\\loc\\kolhoz_part2.description"
+    },
+    {
+      "path": "gameres/maps/loc/krovli.description",
+      "before_sha256": "cafc6c3a91ed7f8532880d9177804c25e8d60dea4f3295e455ec325d11b6401e",
+      "after_sha256": "bcf8628f325002cb46a7d716b42d6a0f85a70f038c131b3cf86dfed6e1635f90",
+      "backup": "F:\\Users\\ysi\\Documents\\Git\\you-are-empty-absolute-edition-traducao-portugues-brasileiro\\translation-work\\.state\\game-backups\\full-test-20261028-122149\\gameres\\maps\\loc\\krovli.description"
+    },
+    {
+      "path": "gameres/maps/loc/lastlevel.description",
+      "before_sha256": "36e788fc4da9eba634fc2be64d9db234b6177a2c81230b1117e955e01c414057",
+      "after_sha256": "36e788fc4da9eba634fc2be64d9db234b6177a2c81230b1117e955e01c414057",
+      "backup": "F:\\Users\\ysi\\Documents\\Git\\you-are-empty-absolute-edition-traducao-portugues-brasileiro\\translation-work\\.state\\game-backups\\full-test-20261028-122149\\gameres\\maps\\loc\\lastlevel.description"
+    },
+    {
+      "path": "gameres/maps/loc/lastzlo.description",
+      "before_sha256": "e74e0c2dc999374fa8d4a8b90c80aa6f53c56b046ca18de149f2f39b8dabc44e",
+      "after_sha256": "e74e0c2dc999374fa8d4a8b90c80aa6f53c56b046ca18de149f2f39b8dabc44e",
+      "backup": "F:\\Users\\ysi\\Documents\\Git\\you-are-empty-absolute-edition-traducao-portugues-brasileiro\\translation-work\\.state\\game-backups\\full-test-20261028-122149\\gameres\\maps\\loc\\lastzlo.description"
+    },
+    {
+      "path": "gameres/maps/loc/meat.description",
+      "before_sha256": "e0251efb2c139e6f91995065e40689f7188cb5166114a7af9c5269efcfb2cb78",
+      "after_sha256": "8c0e18fa9e3cf31cbfa8cf8790b23570e943a4b58ab3131ee00dc48fbeb0e4d4",
+      "backup": "F:\\Users\\ysi\\Documents\\Git\\you-are-empty-absolute-edition-traducao-portugues-brasileiro\\translation-work\\.state\\game-backups\\full-test-20261028-122149\\gameres\\maps\\loc\\meat.description"
+    },
+    {
+      "path": "gameres/maps/loc/meat_part2.description",
+      "before_sha256": "e0251efb2c139e6f91995065e40689f7188cb5166114a7af9c5269efcfb2cb78",
+      "after_sha256": "8c0e18fa9e3cf31cbfa8cf8790b23570e943a4b58ab3131ee00dc48fbeb0e4d4",
+      "backup": "F:\\Users\\ysi\\Documents\\Git\\you-are-empty-absolute-edition-traducao-portugues-brasileiro\\translation-work\\.state\\game-backups\\full-test-20261028-122149\\gameres\\maps\\loc\\meat_part2.description"
+    },
+    {
+      "path": "gameres/maps/loc/med1.description",
+      "before_sha256": "37482fd3253dd0da889c3c924c050af40d07ce7cb7b7ba24e5e3667d2b262dfc",
+      "after_sha256": "37482fd3253dd0da889c3c924c050af40d07ce7cb7b7ba24e5e3667d2b262dfc",
+      "backup": "F:\\Users\\ysi\\Documents\\Git\\you-are-empty-absolute-edition-traducao-portugues-brasileiro\\translation-work\\.state\\game-backups\\full-test-20261028-122149\\gameres\\maps\\loc\\med1.description"
+    },
+    {
+      "path": "gameres/maps/loc/med2.description",
+      "before_sha256": "f8829812df9c3382ec99cf0ebbddf9b67beba8734e3978187592db844a565e5e",
+      "after_sha256": "f8829812df9c3382ec99cf0ebbddf9b67beba8734e3978187592db844a565e5e",
+      "backup": "F:\\Users\\ysi\\Documents\\Git\\you-are-empty-absolute-edition-traducao-portugues-brasileiro\\translation-work\\.state\\game-backups\\full-test-20261028-122149\\gameres\\maps\\loc\\med2.description"
+    },
+    {
+      "path": "gameres/maps/loc/met6.description",
+      "before_sha256": "57cef904b5855620c1aef9d2b1b4d2d364556d58065d131b83d546e01f987fb9",
+      "after_sha256": "dd9cab293f459225c1b466f515a27be5de928949aa71a81a01f4401f9669e24c",
+      "backup": "F:\\Users\\ysi\\Documents\\Git\\you-are-empty-absolute-edition-traducao-portugues-brasileiro\\translation-work\\.state\\game-backups\\full-test-20261028-122149\\gameres\\maps\\loc\\met6.description"
+    },
+    {
+      "path": "gameres/maps/loc/metro.description",
+      "before_sha256": "cda0a10928ea8f2fffc8e9d45a5da49f930faba92bbe4044a72fde47ce606fe5",
+      "after_sha256": "2d301abc5bc9a4579831fd3cb97cd5010ae3e40629a5a15089a510bceb3f3009",
+      "backup": "F:\\Users\\ysi\\Documents\\Git\\you-are-empty-absolute-edition-traducao-portugues-brasileiro\\translation-work\\.state\\game-backups\\full-test-20261028-122149\\gameres\\maps\\loc\\metro.description"
+    },
+    {
+      "path": "gameres/maps/loc/parall.description",
+      "before_sha256": "498641d5418406d3f27e3b407448dba795a414f34cc27c27941735d96ffeb473",
+      "after_sha256": "4fe4b01a15788d7091e14ddc70d3154ff41e6817be09b038c3ba78221246348a",
+      "backup": "F:\\Users\\ysi\\Documents\\Git\\you-are-empty-absolute-edition-traducao-portugues-brasileiro\\translation-work\\.state\\game-backups\\full-test-20261028-122149\\gameres\\maps\\loc\\parall.description"
+    },
+    {
+      "path": "gameres/maps/loc/parall_part2.description",
+      "before_sha256": "fe0be971f1951ca87d994023cf54814702511fba4d6b260af2c01042ac9d81c4",
+      "after_sha256": "078ca85abbad3854222c75b8590ee6cde2b9bb398483a4cd503dd418aed1253c",
+      "backup": "F:\\Users\\ysi\\Documents\\Git\\you-are-empty-absolute-edition-traducao-portugues-brasileiro\\translation-work\\.state\\game-backups\\full-test-20261028-122149\\gameres\\maps\\loc\\parall_part2.description"
+    },
+    {
+      "path": "gameres/maps/loc/parall_part3.description",
+      "before_sha256": "e463510cfca0e4eecc874d6855af8f10bede1642702f62f005d0c7271557ab88",
+      "after_sha256": "3a517b6fa9ec45add5cdf6159ff4319a3da4f8fb70c279970d67a9be6884e737",
+      "backup": "F:\\Users\\ysi\\Documents\\Git\\you-are-empty-absolute-edition-traducao-portugues-brasileiro\\translation-work\\.state\\game-backups\\full-test-20261028-122149\\gameres\\maps\\loc\\parall_part3.description"
+    },
+    {
+      "path": "gameres/maps/loc/poh.description",
+      "before_sha256": "2f3d763b3c3f51a1aa2e212628b8eb38afdc44593ff640ff4b66c37bfbf5aee0",
+      "after_sha256": "a280a1290902fa6b28b034a73e1079fd3d94bc158a0dceece36e15c00f522283",
+      "backup": "F:\\Users\\ysi\\Documents\\Git\\you-are-empty-absolute-edition-traducao-portugues-brasileiro\\translation-work\\.state\\game-backups\\full-test-20261028-122149\\gameres\\maps\\loc\\poh.description"
+    },
+    {
+      "path": "gameres/maps/loc/theatre.description",
+      "before_sha256": "fe0134535ad436427b042b6a8190303a455755adc570d447edbf304cd053e81f",
+      "after_sha256": "9b6f71b9feab239d739dc63a2408743f77789732ed96810b9584ce83d424dcfd",
+      "backup": "F:\\Users\\ysi\\Documents\\Git\\you-are-empty-absolute-edition-traducao-portugues-brasileiro\\translation-work\\.state\\game-backups\\full-test-20261028-122149\\gameres\\maps\\loc\\theatre.description"
+    },
+    {
+      "path": "gameres/maps/loc/wall.description",
+      "before_sha256": "d0039dd0c01fe38616713b4970474e84545725175b5b72022112e83d3ed2c57e",
+      "after_sha256": "050313e08ade05d2db08125f82faffd484b8b57779915fe27db053350afeadd5",
+      "backup": "F:\\Users\\ysi\\Documents\\Git\\you-are-empty-absolute-edition-traducao-portugues-brasileiro\\translation-work\\.state\\game-backups\\full-test-20261028-122149\\gameres\\maps\\loc\\wall.description"
+    },
+    {
+      "path": "gameres/scripts/you_are_empty/ui/ui_strings.txt",
+      "before_sha256": "8d319b33b15106a79ea1814b3d8f1993e0b8c0282bd175806ccc867e27b679e5",
+      "after_sha256": "8d319b33b15106a79ea1814b3d8f1993e0b8c0282bd175806ccc867e27b679e5",
+      "backup": "F:\\Users\\ysi\\Documents\\Git\\you-are-empty-absolute-edition-traducao-portugues-brasileiro\\translation-work\\.state\\game-backups\\full-test-20261028-122149\\gameres\\scripts\\you_are_empty\\ui\\ui_strings.txt"
+    },
+    {
+      "path": "gameres/textures/dds/controller_icon.tga",
+      "before_sha256": "cf01d09afad6f569f886169271ad2dda257befe6dea4b1d9bd4cffb05a957cdc",
+      "after_sha256": "39a181e3a6709bec70731b01b058ad11dddece713d7aedbdc1d506c19c3e7183",
+      "backup": "F:\\Users\\ysi\\Documents\\Git\\you-are-empty-absolute-edition-traducao-portugues-brasileiro\\translation-work\\.state\\game-backups\\full-test-20261028-122149\\gameres\\textures\\dds\\controller_icon.tga"
+    },
+    {
+      "path": "gameres/textures/fonts/RodchenkoCTT.size",
+      "before_sha256": "ed4df872c37426f29d0b2c6f5aac798e1914540a5e2ebfc4ce4b49ecc013b0be",
+      "after_sha256": "ed4df872c37426f29d0b2c6f5aac798e1914540a5e2ebfc4ce4b49ecc013b0be",
+      "backup": "F:\\Users\\ysi\\Documents\\Git\\you-are-empty-absolute-edition-traducao-portugues-brasileiro\\translation-work\\.state\\game-backups\\full-test-20261028-122149\\gameres\\textures\\fonts\\RodchenkoCTT.size"
+    },
+    {
+      "path": "gameres/textures/fonts/RodchenkoCTT.tga",
+      "before_sha256": "be110d7ea25d19af2a356d6fab03bc4872dc51303d08a524d034a940edeb6f9b",
+      "after_sha256": "be110d7ea25d19af2a356d6fab03bc4872dc51303d08a524d034a940edeb6f9b",
+      "backup": "F:\\Users\\ysi\\Documents\\Git\\you-are-empty-absolute-edition-traducao-portugues-brasileiro\\translation-work\\.state\\game-backups\\full-test-20261028-122149\\gameres\\textures\\fonts\\RodchenkoCTT.tga"
+    },
+    {
+      "path": "gameres/textures/Zapiski/01med/masha.tga",
+      "before_sha256": "a6bd3fb2e265133c2a1733c7e5c8559ce9c0f8013ddf3347ca0e844c785a11aa",
+      "after_sha256": "0175930cb62f44257a8a01c16c607bceaee9fb0492105b9db2bb20c17c195fd7",
+      "backup": "F:\\Users\\ysi\\Documents\\Git\\you-are-empty-absolute-edition-traducao-portugues-brasileiro\\translation-work\\.state\\game-backups\\full-test-20261028-122149\\gameres\\textures\\Zapiski\\01med\\masha.tga"
+    },
+    {
+      "path": "gameres/textures/Zapiski/01med/mashina.tga",
+      "before_sha256": "73b3342131967e43dab75677976cea64f9886af4ff62666c9bc044df8c6dcc5f",
+      "after_sha256": "75ec6ff7b1d8c85aa6fc72e68a87d2ed20eb5e99e324fbf3c5d4294267c65ca8",
+      "backup": "F:\\Users\\ysi\\Documents\\Git\\you-are-empty-absolute-edition-traducao-portugues-brasileiro\\translation-work\\.state\\game-backups\\full-test-20261028-122149\\gameres\\textures\\Zapiski\\01med\\mashina.tga"
+    },
+    {
+      "path": "gameres/textures/Zapiski/01med/sivorodka.tga",
+      "before_sha256": "10b6afc652e48621dbfdd9a8e887e73313b68339f784f83c6e151b1366535789",
+      "after_sha256": "9bbf6bf93e8af27f1629c20475c2bae445f3aa7ba2713f1f7d78b9ffaa2aebad",
+      "backup": "F:\\Users\\ysi\\Documents\\Git\\you-are-empty-absolute-edition-traducao-portugues-brasileiro\\translation-work\\.state\\game-backups\\full-test-20261028-122149\\gameres\\textures\\Zapiski\\01med\\sivorodka.tga"
+    },
+    {
+      "path": "gameres/textures/Zapiski/02kolhoz/gorod.tga",
+      "before_sha256": "f47927780537b18b5f5816e7d2ba8ac3f8e91767997b9d5de7700782e71c6e15",
+      "after_sha256": "111f0b038df2c6b13680e50c1eccb595ef2aa1ce55e25e60945ce5dcd5f26cbc",
+      "backup": "F:\\Users\\ysi\\Documents\\Git\\you-are-empty-absolute-edition-traducao-portugues-brasileiro\\translation-work\\.state\\game-backups\\full-test-20261028-122149\\gameres\\textures\\Zapiski\\02kolhoz\\gorod.tga"
+    },
+    {
+      "path": "gameres/textures/Zapiski/02kolhoz/kuriWarn.tga",
+      "before_sha256": "84a7aa0be131f0f7cf9cae0e956505a1eab94d4d2dd45e45ed886e9a1cb16440",
+      "after_sha256": "0f75a39679bf35397a92f7140cd4e683895d00fb154ff9d0a965fd0ad210a119",
+      "backup": "F:\\Users\\ysi\\Documents\\Git\\you-are-empty-absolute-edition-traducao-portugues-brasileiro\\translation-work\\.state\\game-backups\\full-test-20261028-122149\\gameres\\textures\\Zapiski\\02kolhoz\\kuriWarn.tga"
+    },
+    {
+      "path": "gameres/textures/Zapiski/03MEAT/eshelon.tga",
+      "before_sha256": "28023296c8a24cc6475578d53abc247c6fd64cd49bcbe3fbc22f79900582e389",
+      "after_sha256": "f67e4fd8470e8ca49e5245e7179b84cec3800326a7ca58aa629fd5cd4630b10d",
+      "backup": "F:\\Users\\ysi\\Documents\\Git\\you-are-empty-absolute-edition-traducao-portugues-brasileiro\\translation-work\\.state\\game-backups\\full-test-20261028-122149\\gameres\\textures\\Zapiski\\03MEAT\\eshelon.tga"
+    },
+    {
+      "path": "gameres/textures/Zapiski/03MEAT/probi.tga",
+      "before_sha256": "42d2a7f203e52164c2c67860be108c7d696785e2fccf73d5188f30dd4011c46e",
+      "after_sha256": "750f8a9ea504df3a7e01e6d200dc829c7dc57a9b6ed31ff80caffab5bab99e98",
+      "backup": "F:\\Users\\ysi\\Documents\\Git\\you-are-empty-absolute-edition-traducao-portugues-brasileiro\\translation-work\\.state\\game-backups\\full-test-20261028-122149\\gameres\\textures\\Zapiski\\03MEAT\\probi.tga"
+    },
+    {
+      "path": "gameres/textures/Zapiski/03MEAT/vladimir.tga",
+      "before_sha256": "7778daf255affb9e4ec686c65be0ed2169ea5d370ab8dc819fc9081863f3fcfe",
+      "after_sha256": "3f5daf48434fb3c634f547db41ff345fbf779c5ca7ad1f477d4ba6338bf03be2",
+      "backup": "F:\\Users\\ysi\\Documents\\Git\\you-are-empty-absolute-edition-traducao-portugues-brasileiro\\translation-work\\.state\\game-backups\\full-test-20261028-122149\\gameres\\textures\\Zapiski\\03MEAT\\vladimir.tga"
+    },
+    {
+      "path": "gameres/textures/Zapiski/04wall/ActivSun.tga",
+      "before_sha256": "4f4391b9d6a1dfe28ce1271091af7af64d9267f8c78a4445a0d715b628cb05e7",
+      "after_sha256": "fbcbbccc5e6f36b53ff7a9230efbc69226942e1102d5ecd2915825bc0a8dbcc2",
+      "backup": "F:\\Users\\ysi\\Documents\\Git\\you-are-empty-absolute-edition-traducao-portugues-brasileiro\\translation-work\\.state\\game-backups\\full-test-20261028-122149\\gameres\\textures\\Zapiski\\04wall\\ActivSun.tga"
+    },
+    {
+      "path": "gameres/textures/Zapiski/04wall/liuda.tga",
+      "before_sha256": "f509fad1b8975ebdc99c05153d0eb852cd64a7ce017720619ce85c2e4587ad24",
+      "after_sha256": "7d583ca742ee0daa0b0cbfea3f81cc320dec701a54af91f4712789c420130ad9",
+      "backup": "F:\\Users\\ysi\\Documents\\Git\\you-are-empty-absolute-edition-traducao-portugues-brasileiro\\translation-work\\.state\\game-backups\\full-test-20261028-122149\\gameres\\textures\\Zapiski\\04wall\\liuda.tga"
+    },
+    {
+      "path": "gameres/textures/Zapiski/05gor/gorOW.tga",
+      "before_sha256": "6683cd1191f977b990097afd272b69c022fb07d9286c86205d92f4580cf3d3aa",
+      "after_sha256": "bca4a7bd8f7564e339c8c46adcd1f5fa3549056e4ff2ffe0aa851c08dd5e9cf8",
+      "backup": "F:\\Users\\ysi\\Documents\\Git\\you-are-empty-absolute-edition-traducao-portugues-brasileiro\\translation-work\\.state\\game-backups\\full-test-20261028-122149\\gameres\\textures\\Zapiski\\05gor\\gorOW.tga"
+    },
+    {
+      "path": "gameres/textures/Zapiski/05gor/gorVoda.tga",
+      "before_sha256": "3bf590cb547c857bd9d76b3dd9507ddfe259deb7a4e15e94c38d707595edbe19",
+      "after_sha256": "b8eab608edb16099df6447702c666c999bdd39d4e3be22480ef6e4dea6482ea5",
+      "backup": "F:\\Users\\ysi\\Documents\\Git\\you-are-empty-absolute-edition-traducao-portugues-brasileiro\\translation-work\\.state\\game-backups\\full-test-20261028-122149\\gameres\\textures\\Zapiski\\05gor\\gorVoda.tga"
+    },
+    {
+      "path": "gameres/textures/Zapiski/05gor/gotovnost.tga",
+      "before_sha256": "d3fdc08185857881e2f55dbfa7c442dc41b5e7f44ce016620d0ab014eac03205",
+      "after_sha256": "f230aae5b7ff2437c7a24412d86162ef81e798f2375927df9622fc8500ab7058",
+      "backup": "F:\\Users\\ysi\\Documents\\Git\\you-are-empty-absolute-edition-traducao-portugues-brasileiro\\translation-work\\.state\\game-backups\\full-test-20261028-122149\\gameres\\textures\\Zapiski\\05gor\\gotovnost.tga"
+    },
+    {
+      "path": "gameres/textures/Zapiski/06GRSVT/dliababini.tga",
+      "before_sha256": "c29afde038f7665b83568411989eee3fc14a373dfed53dd2eed302d700044118",
+      "after_sha256": "1ced6f990ccb166a30a97857a2387c54cb99a3f47c8cf938c84d77659052e97a",
+      "backup": "F:\\Users\\ysi\\Documents\\Git\\you-are-empty-absolute-edition-traducao-portugues-brasileiro\\translation-work\\.state\\game-backups\\full-test-20261028-122149\\gameres\\textures\\Zapiski\\06GRSVT\\dliababini.tga"
+    },
+    {
+      "path": "gameres/textures/Zapiski/07GorKonec/detali.tga",
+      "before_sha256": "b5008334a9b4047fd3f0b1db405abc3425e5c05359756743898fab99fb0fcb60",
+      "after_sha256": "6b58921144ac9ccfd4e53fdfaa901cf8f99866ef7c3a9629431ba702667a7663",
+      "backup": "F:\\Users\\ysi\\Documents\\Git\\you-are-empty-absolute-edition-traducao-portugues-brasileiro\\translation-work\\.state\\game-backups\\full-test-20261028-122149\\gameres\\textures\\Zapiski\\07GorKonec\\detali.tga"
+    },
+    {
+      "path": "gameres/textures/Zapiski/07GorKonec/podgovSunActiv.tga",
+      "before_sha256": "b743cc236c497d244de8d62480e96491a555e637374c7c9743dad36f6c5149b4",
+      "after_sha256": "a0c2ad8a6d484d51bec7137a16d6503d903421f0086cd1783eaa1267a23a52d4",
+      "backup": "F:\\Users\\ysi\\Documents\\Git\\you-are-empty-absolute-edition-traducao-portugues-brasileiro\\translation-work\\.state\\game-backups\\full-test-20261028-122149\\gameres\\textures\\Zapiski\\07GorKonec\\podgovSunActiv.tga"
+    },
+    {
+      "path": "gameres/textures/Zapiski/07GorKonec/tramvai.tga",
+      "before_sha256": "a7e64922d16a0146684546e5a090b9a97bc0fbdd590de232340f06f03c6155c7",
+      "after_sha256": "8c6ae5f3130b7dfdb17b99e1b8ce47307ee329387f279e6041c2cb0d5601e6af",
+      "backup": "F:\\Users\\ysi\\Documents\\Git\\you-are-empty-absolute-edition-traducao-portugues-brasileiro\\translation-work\\.state\\game-backups\\full-test-20261028-122149\\gameres\\textures\\Zapiski\\07GorKonec\\tramvai.tga"
+    },
+    {
+      "path": "gameres/textures/Zapiski/08POH/dvornik.tga",
+      "before_sha256": "41cc57f21465339c5545514423eb224866e77b3eaf67364b96cd6a41ccb59a30",
+      "after_sha256": "9742f9ef394a9a04fe5573fba4d4176f2e9c7c6a07ebd678b49716ecf36ec2bf",
+      "backup": "F:\\Users\\ysi\\Documents\\Git\\you-are-empty-absolute-edition-traducao-portugues-brasileiro\\translation-work\\.state\\game-backups\\full-test-20261028-122149\\gameres\\textures\\Zapiski\\08POH\\dvornik.tga"
+    },
+    {
+      "path": "gameres/textures/Zapiski/08POH/jilci.tga",
+      "before_sha256": "3a8937c58bce398acd04a157e7078b77d6f8d039e26cf8062730c923ca8fefef",
+      "after_sha256": "9eea99298a7c764ee692dac62d5918bdefc54e6749e412ea338b7ef55bbd11c3",
+      "backup": "F:\\Users\\ysi\\Documents\\Git\\you-are-empty-absolute-edition-traducao-portugues-brasileiro\\translation-work\\.state\\game-backups\\full-test-20261028-122149\\gameres\\textures\\Zapiski\\08POH\\jilci.tga"
+    },
+    {
+      "path": "gameres/textures/Zapiski/08POH/lolita.tga",
+      "before_sha256": "f66efd740e0965f4c3af9216223c80cba501a9120079e8344aae820c5ea7b4c7",
+      "after_sha256": "37be96a2ffccbd64fcd2ec5fa68ccb4fcab01d37175bc148f0579d53c51f7f29",
+      "backup": "F:\\Users\\ysi\\Documents\\Git\\you-are-empty-absolute-edition-traducao-portugues-brasileiro\\translation-work\\.state\\game-backups\\full-test-20261028-122149\\gameres\\textures\\Zapiski\\08POH\\lolita.tga"
+    },
+    {
+      "path": "gameres/textures/Zapiski/09Kinostreet/kinoKey.tga",
+      "before_sha256": "b3e947f44730780d7af52ae90344b841efa648c0eb5a6611e1f248bbf520aecd",
+      "after_sha256": "cde812b946ab81d58d60bdf9213e3c2df9595e0ba4995c37b6c17a55ac3a7332",
+      "backup": "F:\\Users\\ysi\\Documents\\Git\\you-are-empty-absolute-edition-traducao-portugues-brasileiro\\translation-work\\.state\\game-backups\\full-test-20261028-122149\\gameres\\textures\\Zapiski\\09Kinostreet\\kinoKey.tga"
+    },
+    {
+      "path": "gameres/textures/Zapiski/09Kinostreet/KrisiWarn.tga",
+      "before_sha256": "47fde903cc3b3c08efda2f62d014712d2e3213b40c28feb64560a65836e1e0c0",
+      "after_sha256": "1955eb14e586aa3436c9a8a82532416260d5ec85b1b837aa80a114292aab3c63",
+      "backup": "F:\\Users\\ysi\\Documents\\Git\\you-are-empty-absolute-edition-traducao-portugues-brasileiro\\translation-work\\.state\\game-backups\\full-test-20261028-122149\\gameres\\textures\\Zapiski\\09Kinostreet\\KrisiWarn.tga"
+    },
+    {
+      "path": "gameres/textures/Zapiski/09Kinostreet/opiat.tga",
+      "before_sha256": "d1eb1b6edf24a1da5852a4acce6189e0753daf6da87f0e34fe8e63421e44f1fd",
+      "after_sha256": "654b009e4f78bae7a1c88570a4ffbd77ce360f3c3d750147c0bb044ab414def1",
+      "backup": "F:\\Users\\ysi\\Documents\\Git\\you-are-empty-absolute-edition-traducao-portugues-brasileiro\\translation-work\\.state\\game-backups\\full-test-20261028-122149\\gameres\\textures\\Zapiski\\09Kinostreet\\opiat.tga"
+    },
+    {
+      "path": "gameres/textures/Zapiski/10Metro/Eskalator.tga",
+      "before_sha256": "723162b4c392718f41314bf341a79bd73743355624a0201fe3dd05339244bac3",
+      "after_sha256": "f90350cd5a4411a5b55c64c812cd097e7898c39c2790ceeb04ff0f233a5adbdf",
+      "backup": "F:\\Users\\ysi\\Documents\\Git\\you-are-empty-absolute-edition-traducao-portugues-brasileiro\\translation-work\\.state\\game-backups\\full-test-20261028-122149\\gameres\\textures\\Zapiski\\10Metro\\Eskalator.tga"
+    },
+    {
+      "path": "gameres/textures/Zapiski/10Metro/WarnVagon.tga",
+      "before_sha256": "429ba0a65b30c6b9b4e181fa4b7a08c7ff1aa3adfc4fd2ddf6749076543eb380",
+      "after_sha256": "6d0dd0624372b8172e0ff4f66939e213f2fef4ded6b1aa953fb329daba5fe4c3",
+      "backup": "F:\\Users\\ysi\\Documents\\Git\\you-are-empty-absolute-edition-traducao-portugues-brasileiro\\translation-work\\.state\\game-backups\\full-test-20261028-122149\\gameres\\textures\\Zapiski\\10Metro\\WarnVagon.tga"
+    },
+    {
+      "path": "gameres/textures/Zapiski/11met6/revizia.tga",
+      "before_sha256": "77f547a02f35c97f52e98981a4e0dd335911704aaca653ceef244e5cb43914bd",
+      "after_sha256": "e21ee201464ed457efeb101f3d6a46210ae9cf38622d76b90878e984bf32b28a",
+      "backup": "F:\\Users\\ysi\\Documents\\Git\\you-are-empty-absolute-edition-traducao-portugues-brasileiro\\translation-work\\.state\\game-backups\\full-test-20261028-122149\\gameres\\textures\\Zapiski\\11met6\\revizia.tga"
+    },
+    {
+      "path": "gameres/textures/Zapiski/12opera/eliuzia.tga",
+      "before_sha256": "5c705416d865f0c54d9878fbd57a9ba54e35a49f31e5b519c6dff37ed585f73f",
+      "after_sha256": "adb41f0eff71f1b48867a73f2cc08d17746f09338d720dbff894b0412f8900e4",
+      "backup": "F:\\Users\\ysi\\Documents\\Git\\you-are-empty-absolute-edition-traducao-portugues-brasileiro\\translation-work\\.state\\game-backups\\full-test-20261028-122149\\gameres\\textures\\Zapiski\\12opera\\eliuzia.tga"
+    },
+    {
+      "path": "gameres/textures/Zapiski/13krovli/radioLiubitel.tga",
+      "before_sha256": "7388e95506f7150a35e79a8590e4674bed98a6732299a86a3c49fb1367422ea5",
+      "after_sha256": "25f6ff496ae8ed7a2d70eda73547cce1ab4424104a780fb97104287a90c0e850",
+      "backup": "F:\\Users\\ysi\\Documents\\Git\\you-are-empty-absolute-edition-traducao-portugues-brasileiro\\translation-work\\.state\\game-backups\\full-test-20261028-122149\\gameres\\textures\\Zapiski\\13krovli\\radioLiubitel.tga"
+    },
+    {
+      "path": "gameres/textures/Zapiski/14parall/yama.tga",
+      "before_sha256": "4b505e3b642a6b3297f095d791e7813214861543d0ed7cf267a31f87029a817d",
+      "after_sha256": "08bb32fcc44c899282eb501f3e2b8a13f41f9f8d21d89e2637a2b3f1647e8390",
+      "backup": "F:\\Users\\ysi\\Documents\\Git\\you-are-empty-absolute-edition-traducao-portugues-brasileiro\\translation-work\\.state\\game-backups\\full-test-20261028-122149\\gameres\\textures\\Zapiski\\14parall\\yama.tga"
+    }
+  ]
+}

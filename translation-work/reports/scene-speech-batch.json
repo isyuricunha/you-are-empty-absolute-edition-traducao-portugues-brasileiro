@@ -1,0 +1,89 @@
+{
+  "schema": 1,
+  "status": "automatic-pass-complete; review-required",
+  "completed": 10,
+  "total": 10,
+  "installation": "read-only",
+  "results": [
+    {
+      "source_file": "gameres/sounds/videozast/credits.ogg",
+      "classification": "no-speech-detected-by-model",
+      "detected_language": "en",
+      "duration": 100.5,
+      "duration_after_vad": 0.0,
+      "human_reviewed": false
+    },
+    {
+      "source_file": "gameres/sounds/videozast/detstvo.wav",
+      "classification": "no-speech-detected-by-model",
+      "detected_language": "en",
+      "duration": 84.68,
+      "duration_after_vad": 0.0,
+      "human_reviewed": false
+    },
+    {
+      "source_file": "gameres/sounds/videozast/institut.wav",
+      "classification": "speech-candidate-needs-review",
+      "detected_language": "ko",
+      "duration": 123.72,
+      "duration_after_vad": 4.256,
+      "human_reviewed": false
+    },
+    {
+      "source_file": "gameres/sounds/videozast/intro.wav",
+      "classification": "speech-candidate-needs-review",
+      "detected_language": "ru",
+      "duration": 139.88,
+      "duration_after_vad": 1.152,
+      "human_reviewed": false
+    },
+    {
+      "source_file": "gameres/sounds/videozast/logo.ogg",
+      "classification": "no-speech-detected-by-model",
+      "detected_language": "en",
+      "duration": 7.1053125,
+      "duration_after_vad": 0.0,
+      "human_reviewed": false
+    },
+    {
+      "source_file": "gameres/sounds/videozast/outro_credits.ogg",
+      "classification": "no-speech-detected-by-model",
+      "detected_language": "en",
+      "duration": 100.5,
+      "duration_after_vad": 0.0,
+      "human_reviewed": false
+    },
+    {
+      "source_file": "gameres/sounds/videozast/outro_cutscene.ogg",
+      "classification": "speech-candidate-needs-review",
+      "detected_language": "ru",
+      "duration": 145.7493125,
+      "duration_after_vad": 9.952,
+      "human_reviewed": false
+    },
+    {
+      "source_file": "gameres/sounds/videozast/skola2.wav",
+      "classification": "no-speech-detected-by-model",
+      "detected_language": "en",
+      "duration": 127.28,
+      "duration_after_vad": 0.0,
+      "human_reviewed": false
+    },
+    {
+      "source_file": "gameres/sounds/videozast/vstrecha5.wav",
+      "classification": "speech-candidate-needs-review",
+      "detected_language": "pt",
+      "duration": 179.76,
+      "duration_after_vad": 4.8,
+      "human_reviewed": false
+    },
+    {
+      "source_file": "gameres/sounds/videozast/zavod.wav",
+      "classification": "no-speech-detected-by-model",
+      "detected_language": "en",
+      "duration": 172.4,
+      "duration_after_vad": 0.0,
+      "human_reviewed": false
+    }
+  ]
+}

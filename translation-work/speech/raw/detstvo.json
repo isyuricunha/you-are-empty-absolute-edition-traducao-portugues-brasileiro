@@ -1,0 +1,30 @@
+{
+  "schema": 1,
+  "source_file": "gameres/sounds/videozast/detstvo.wav",
+  "source_sha256": "c1b9aeb1957ac7130ce773aceb43993edc1f5cf5b8a64cd69eb87c3f642b3d23",
+  "settings": {
+    "model": "small",
+    "device": "cpu",
+    "compute_type": "int8",
+    "cpu_threads": 6,
+    "batch_size": 8,
+    "beam_size": 5,
+    "temperature": 0,
+    "condition_on_previous_text": false,
+    "vad_filter": true,
+    "vad_parameters": {
+      "threshold": 0.6,
+      "min_speech_duration_ms": 250,
+      "min_silence_duration_ms": 500
+    }
+  },
+  "engine_version": "1.2.1",
+  "detected_language": "en",
+  "language_probability": 0.36841294169425964,
+  "duration": 84.68,
+  "duration_after_vad": 0.0,
+  "classification": "no-speech-detected-by-model",
+  "human_reviewed": false,
+  "seconds": 2.098,
+  "segments": []
+}

@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "request": "Analyze NPC dialogue subtitle feasibility; no implementation or installation authorized in this analysis",
+  "sources": {
+    "gameres/scripts/engine/prototypes/coroutines/coroutines_prototypes.lua": "6b9edc9dbf656c32dbcdb6d3ed65b87e250465ff947cd8eeca8fc9666015fb62",
+    "gameres/scripts/you_are_empty/prototypes/actors/design/actor_kulibin_design.lua": "6bff811e50741800a07a0b6bdd967270643e42cedac32522f1f1bac900eb47a8",
+    "gameres/levels/grsvt/grsvt02.ds2edf": "5290efa4fdbe75dbb2ac9ed7180fd633bd8210ef762ef2a43a8ae47b80b30694",
+    "gameres/scripts/you_are_empty/hud/hud.lua": "114de3d83d362ad5fa5bcc8943f2cb36d8562cbb5cdb0fdbc06be270bdb703f8",
+    "gameres/scripts/engine/prototypes/actors/actor_player.lua": "bb88824ad39302302944e868ec7b4751d80edf8926e4893dded6b172407fc8d0",
+    "gameres/executables/cl_game.dll": "00058b3c9163a86effab8b9030bbd4790916d410c79294b74ac3785586ea9ca8",
+    "gameres/executables/sv_game.dll": "348b1708784aeb4904919429a7a2c39d7ee42607fe56af07ad2fb71af4411b41"
+  },
+  "verified_findings": [
+    "The animation_scene coroutine spawns AnimationScene and a separate SoundSource, rather than calling play_video.",
+    "actor_kulibin.states_design.begin_talk associates an in-world progon1 animation with Kulib_Progon1 sound.",
+    "grsvt02.ds2edf defines SND_Gman as SoundSource with filename0 Operatciya GenSek2, in-world coordinates, head_mode false, looping false.",
+    "HUD configuration contains HudText/msg_string; cl_game.dll includes HUD_EVENT_SET_TEXT enum-generation and msg_string_show_time property strings.",
+    "The observed get_hud_element/hud_event Lua usage and engine.show_msg_string examples are commented out. No successful runtime subtitle display is demonstrated.",
+    "Animation-scene prototype explicitly disables hud_render during its scene, so merely placing text into the normal HUD would not prove visibility there."
+  ],
+  "conclusion": "NPC dialogue is not uniformly prerecorded video. Existing burned-in AVI subtitle test cannot cover these world conversations. A new resource/script caption mechanism is only a hypothesis and must be demonstrated in an isolated runtime prototype before transcription/localization of all NPC speech is justified. No claim of universal impossibility.",
+  "web_sources": [
+    {
+      "url": "https://w.atwiki.jp/my_page/pages/13.html",
+      "finding": "Creator describes translating letters/text and video, explicitly leaving audio unlocalized."
+    },
+    {
+      "url": "https://kuli.com.ua/you-are-empty",
+      "finding": "Ukrainian localization describes text/notes/textures and voice dubbing, for old 1C edition; not evidence of a native NPC subtitle system."
+    }
+  ],
+  "changes_to_game": "none during this analysis",
+  "public_README": "unchanged"
+}

@@ -1,0 +1,74 @@
+{
+  "schema": 1,
+  "batch_files": 10,
+  "method": "Automatic VAD/transcription plus consistency review; not claimed human listening",
+  "installation": "read-only",
+  "results": [
+    {
+      "source_file": "gameres/sounds/videozast/credits.ogg",
+      "source_sha256": "58d05542421ef3beac760a3ddfb891658f0948a985d699f92174ef2e53a01df0",
+      "decision": "no-speech-detected",
+      "note": "No speech spans survived the configured VAD; not a manual listening guarantee."
+    },
+    {
+      "source_file": "gameres/sounds/videozast/detstvo.wav",
+      "source_sha256": "c1b9aeb1957ac7130ce773aceb43993edc1f5cf5b8a64cd69eb87c3f642b3d23",
+      "decision": "no-speech-detected",
+      "note": "No speech spans survived the configured VAD; not a manual listening guarantee."
+    },
+    {
+      "source_file": "gameres/sounds/videozast/institut.wav",
+      "source_sha256": "66d0d28b9345682df543037d1ad87557441a5579289c8e9bd38581ff85631256",
+      "decision": "reject-as-dialogue",
+      "note": "Second pass returned a music description, not spoken dialogue; intro also matches user report of no speech."
+    },
+    {
+      "source_file": "gameres/sounds/videozast/intro.wav",
+      "source_sha256": "006415736f460355f1764555172fc404f6d89a2df2a918776db1149ee07d42a0",
+      "decision": "reject-as-dialogue",
+      "note": "Second pass returned a music description, not spoken dialogue; intro also matches user report of no speech."
+    },
+    {
+      "source_file": "gameres/sounds/videozast/logo.ogg",
+      "source_sha256": "0b3c58310f5966d01fa0897d6104ea19646edbf682d710c32b3c1fa286f6ebd7",
+      "decision": "no-speech-detected",
+      "note": "No speech spans survived the configured VAD; not a manual listening guarantee."
+    },
+    {
+      "source_file": "gameres/sounds/videozast/outro_credits.ogg",
+      "source_sha256": "301ecdd66f8346fef20c94e4554a6ea3c27dc901cc053a10f4df0d91937b9009",
+      "decision": "no-speech-detected",
+      "note": "No speech spans survived the configured VAD; not a manual listening guarantee."
+    },
+    {
+      "source_file": "gameres/sounds/videozast/outro_cutscene.ogg",
+      "source_sha256": "50aa30ba530ec200b10ab901f36661b3f2ee54a5be25182950e4d16fa57ce030",
+      "decision": "russian-speech-confirmed-by-consistent-recognition",
+      "note": "Three recognition passes agree on presence of Russian speech and the final phrase. Two preceding clauses remain unclear. Partial PTBR draft only; human listening/sync not claimed."
+    },
+    {
+      "source_file": "gameres/sounds/videozast/skola2.wav",
+      "source_sha256": "0bb6a84e66766fb6b941b5435e51d4cad0209aeb399c746201fc847684b313a2",
+      "decision": "no-speech-detected",
+      "note": "No speech spans survived the configured VAD; not a manual listening guarantee."
+    },
+    {
+      "source_file": "gameres/sounds/videozast/vstrecha5.wav",
+      "source_sha256": "9e5fdcbf2d35d60d1ca9d8772e85b92999ef0a6210dd96b7340fee44007abb6a",
+      "decision": "inconclusive-do-not-subtitle",
+      "note": "Low-confidence, inconsistent languages/text across passes; no reliable dialogue transcription."
+    },
+    {
+      "source_file": "gameres/sounds/videozast/zavod.wav",
+      "source_sha256": "66c85a41b95ea3857122fdf34d02510fa2257ee7cd92dbc47e007cfe0fc5a1ee",
+      "decision": "no-speech-detected",
+      "note": "No speech spans survived the configured VAD; not a manual listening guarantee."
+    }
+  ],
+  "status": "batch-complete; drafts-not-deployable",
+  "summary": {
+    "no_identifiable_dialogue": 8,
+    "inconclusive": 1,
+    "russian_speech_in_final_scene": 1
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "schema": 1,
+  "source_file": "gameres/sounds/videozast/vstrecha5.wav",
+  "source_sha256": "9e5fdcbf2d35d60d1ca9d8772e85b92999ef0a6210dd96b7340fee44007abb6a",
+  "method": "Independent non-batched second pass, Russian decoding, word timestamps; candidate only, not human-reviewed",
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 6.13,
+      "end": 8.29,
+      "text": " Ни один и вовсю!",
+      "tokens": [
+        50364,
+        2410,
+        435,
+        13319,
+        1006,
+        740,
+        1055,
+        461,
+        1148,
+        0,
+        50464
+      ],
+      "avg_logprob": -0.9459951277132388,
+      "compression_ratio": 0.984375,
+      "no_speech_prob": 0.38240957260131836,
+      "words": [
+        {
+          "start": 6.13,
+          "end": 6.41,
+          "word": " Ни",
+          "probability": 0.3883736561983824
+        },
+        {
+          "start": 6.41,
+          "end": 6.61,
+          "word": " один",
+          "probability": 0.7659066319465637
+        },
+        {
+          "start": 6.61,
+          "end": 6.87,
+          "word": " и",
+          "probability": 0.24845902621746063
+        },
+        {
+          "start": 6.87,
+          "end": 8.29,
+          "word": " вовсю!",
+          "probability": 0.5583064183592796
+        }
+      ],
+      "temperature": 0
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 11.16,
+      "end": 11.72,
+      "text": " Адю!",
+      "tokens": [
+        50464,
+        3450,
+        856,
+        1148,
+        0,
+        50514
+      ],
+      "avg_logprob": -0.9459951277132388,
+      "compression_ratio": 0.984375,
+      "no_speech_prob": 0.38240957260131836,
+      "words": [
+        {
+          "start": 11.16,
+          "end": 11.72,
+          "word": " Адю!",
+          "probability": 0.28266188502311707
+        }
+      ],
+      "temperature": 0
+    },
+    {
+      "id": 3,
+      "seek": 0,
+      "start": 132.88,
+      "end": 133.96,
+      "text": " В этом не ищем!",
+      "tokens": [
+        50514,
+        2348,
+        10755,
+        1725,
+        1006,
+        2000,
+        1504,
+        0,
+        50614
+      ],
+      "avg_logprob": -0.9459951277132388,
+      "compression_ratio": 0.984375,
+      "no_speech_prob": 0.38240957260131836,
+      "words": [
+        {
+          "start": 132.88,
+          "end": 133.08,
+          "word": " В",
+          "probability": 0.7401754856109619
+        },
+        {
+          "start": 133.08,
+          "end": 133.3,
+          "word": " этом",
+          "probability": 0.9830889105796814
+        },
+        {
+          "start": 133.3,
+          "end": 133.6,
+          "word": " не",
+          "probability": 0.16597740352153778
+        },
+        {
+          "start": 133.6,
+          "end": 133.96,
+          "word": " ищем!",
+          "probability": 0.47588633745908737
+        }
+      ],
+      "temperature": 0
+    }
+  ]
+}
